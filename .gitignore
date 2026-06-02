@@ -1,10 +1,9 @@
 # Dependencies
 node_modules/
-web/node_modules/
 
 # Next.js build output
-web/.next/
-web/out/
+.next/
+out/
 
 # Logs
 *.log

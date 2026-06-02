@@ -1,8 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 
-// clients/ lives one level up from the web/ app.
-const CLIENTS = path.join(process.cwd(), "..", "clients");
+// clients/ lives at the repo root alongside the Next.js app.
+const CLIENTS = path.join(process.cwd(), "clients");
 
 export type EmailSpec = {
   id: string;

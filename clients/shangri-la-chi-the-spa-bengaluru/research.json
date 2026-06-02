@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "CHI, The Spa at Shangri-La Bengaluru",
+    "url": "https://www.shangri-la.com/bengaluru/shangrila/health-leisure/chi-the-spa/",
+    "slug": "shangri-la-chi-the-spa-bengaluru",
+    "vertical": "Luxury hospitality / wellness spa",
+    "tagline": "A global approach to wellness",
+    "colors": {
+      "primary": "#8C1C3A",
+      "accent": "#C4A265",
+      "background": "#F5F0EB",
+      "text": "#1C1C1C"
+    }
+  },
+  "offer": {
+    "what": "Luxury appointment-based spa treatments at a 5-star hotel: CHI Signature Massages (Swedish/Shiatsu/Reflexology blend), Ayurvedic therapies (Abhyanga, Shirodhara, Pinda Sweda, Udwartana), facials, body treatments, head/foot massages, and access to hydrothermal facilities (steam, sauna, Jacuzzi). Pre-purchase bundle vouchers also available.",
+    "coreOutcome": "Deep, lasting relaxation and holistic healing — not a quick fix, but a full mental and physical reset rooted in Asian wellness traditions.",
+    "pricePoint": "Premium — INR 7,316 for a 60-min treatment; INR 6,200–9,200+ taxes for Shankara collaboration packages; INR 56,050 for a 7-treatment bundle (sold as 5+2 free). Shirodhara at INR 14,333. All one-off or pre-purchase; no subscription.",
+    "commitment": "One-off bookings (no recurring contract). Bundle vouchers (7 treatments for price of 5) are the main pre-commitment product. Requires 24+ hour advance booking.",
+    "leadMagnets": [
+      "Downloadable spa menu",
+      "Seasonal/festive spa packages (e.g. Festive Spa Getaway)",
+      "Exclusive brand collaborations (e.g. Shankara Sandalwood experience)",
+      "Gift vouchers / e-vouchers via SKChase platform"
+    ]
+  },
+  "audience": {
+    "icp": "Affluent Bengaluru professional, 28–55, time-poor and stressed, values genuine quality over novelty. Chooses CHI because it promises authentic healing over a trend-driven spa. Also includes hotel guests (domestic + international business/leisure travelers) staying at Shangri-La.",
+    "painPoints": [
+      "Chronic work-related stress and muscle tension from desk/travel lifestyle",
+      "Skepticism about whether a hotel spa will feel transactional vs. truly restorative",
+      "Guilt or hesitation around spending INR 7K+ on a single treatment",
+      "Difficulty scheduling — time-poor, so a cancelled/no-show visit feels like a loss",
+      "Wanting a social/couples experience, not just solo wellness"
+    ],
+    "segments": [
+      "In-stay hotel guests (business + leisure travelers — highest-intent, lowest friction to book)",
+      "Local affluent residents / Bengaluru professionals (non-guests, must arrive by 10pm)",
+      "Couples seeking a shared luxury wellness experience",
+      "Corporate wellness / gifting (HR, incentive buyers, event planners)",
+      "Shangri-La Circle loyalty members (returning guests with brand affinity)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day to 2–3 days — guests decide quickly once they are at/near the hotel or browse online. Local non-guests may research a week ahead for a planned treat.",
+    "trial": "No formal free trial. First-booking friction is reduced by gift vouchers and seasonal bundle offers that pre-commit at a lower per-treatment price. Online booking (SpaTime) enables self-serve.",
+    "closeMechanism": "Self-serve online booking (SpaTime platform), phone (+91 80 4512 6385 / 6480), or direct email. Hotel concierge is also a key referral channel for in-stay guests.",
+    "topObjection": "Price justification — INR 7K+ per session is a deliberate, considered spend. Secondary objection: 'Is this worth it vs. a standalone spa?' — brand authority and authentic Asian heritage copy directly overcomes this."
+  },
+  "ahaMoment": "The moment the guest finishes their first treatment and walks out feeling genuinely different — unhurried, restored, not just oiled-up. The pre-treatment ritual (arriving early, health consultation, stepping into the zen environment on the 3rd floor) begins the experience before a single hand is laid on them. First booking = activation event.",
+  "retention": {
+    "recurring": "Repeat bookings driven by habit and occasion (birthdays, anniversaries, quarterly self-care). No formal subscription, but Shangri-La Circle loyalty program rewards repeat hotel engagement and can surface spa offers.",
+    "expansion": "Upsell to longer sessions (60 → 90 min); add-on services (body scrub + massage combo); buy a bundle (7-for-5 voucher pack); gift vouchers for friends/family; couples' room bookings; seasonal/exclusive collaboration packages (e.g., Shankara).",
+    "churnRisk": "Lapsing between visits with no re-engagement trigger. No-show risk is high (100% charge policy can create resentment if guests forget). Competition from premium standalone spas and hotel spas (Taj, ITC, Hyatt in Bengaluru). Local guests have no loyalty loop if not enrolled in Shangri-La Circle."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no confirmed post-booking nurture sequence before the appointment",
+    "Booking Reminders & No-Show Prevention — critical given strict 100% no-show charge; reminder + prep email would reduce friction and resentment",
+    "Trial/Consult Conversion — no mechanism to convert inquiry-stage leads (people who checked the spa menu or called but didn't book)",
+    "Value Newsletter — spa education, seasonal wellness tips, new treatment announcements to stay top of mind between visits",
+    "Renewal / Anniversary & Expansion — no observed re-booking nudge or 'it's been 90 days' trigger; birthday/anniversary occasion emails missing",
+    "Win-Back / Re-Engagement — no confirmed lapsed-guest reactivation for local non-hotel visitors",
+    "Referral / Advocacy — gift vouchers exist but no structured referral ask post-experience"
+  ],
+  "toneVoice": "Sophisticated, serene, and sensory-rich. Draws on the CHI philosophy of universal life force and ancient Asian healing wisdom. Copy should feel unhurried — like the spa itself. Never salesy or urgent. Aspirational but grounded: evoke scent, touch, stillness. Think: 'an invitation to arrive' rather than 'book now.' Closest analogy: Aesop or Banyan Tree brand voice.",
+  "compliance": "Standard CAN-SPAM / GDPR / DPDPA (India) compliance required. No HIPAA equivalents, but health consultation data collected at check-in is sensitive — avoid referencing specific health conditions in emails. Cancellation policy (4-hour notice, 100% no-show charge) must be communicated clearly and non-aggressively in transactional emails. Adult-only facility — no child-targeted messaging."
+}
