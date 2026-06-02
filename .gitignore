@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+web/node_modules/
+
+# Next.js build output
+web/.next/
+web/out/
+
+# Logs
+*.log
+web-dev.log
+pipeline.log
+
+# Screenshots / playwright artifacts
+*.png
+*.jpg
+*.jpeg
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.production.local
+.env.development.local
+
+# Smoke test artifacts
+.smoke/
+
+# --- what IS committed ---
+# clients/          <- generated brand data (campaigns.json + email HTML) — needed for Vercel
+# pipeline/*.mjs    <- orchestrator source
+# web/app/**        <- Next.js viewer source
+# *.md              <- playbooks + worksheets
+# brands.csv        <- input brand list

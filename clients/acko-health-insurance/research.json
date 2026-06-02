@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Acko Health Insurance",
+    "url": "https://www.acko.com/gi/p/health/buy-base",
+    "slug": "acko-health-insurance",
+    "vertical": "Insurance / Fintech",
+    "tagline": "Save 18% instantly with ZERO GST health plans",
+    "colors": {
+      "primary": "#582CDB",
+      "accent": "#0BCF00",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Direct-to-consumer health insurance (Standard and Platinum plans) with cashless treatment at 11,500+ hospitals, sold entirely online without agents or paperwork",
+    "coreOutcome": "Complete peace of mind that a medical emergency won't devastate your finances — 100% of hospital bills covered, zero co-pay, zero waiting period",
+    "pricePoint": "Starting at ₹18/day (~₹540/month); annual subscription; sum insured from ₹10 lakh to unlimited",
+    "commitment": "Annual renewable subscription; no lock-in beyond the policy year",
+    "leadMagnets": [
+      "Premium calculator (instant quote, no commitment)",
+      "Free medical check-up for eligible applicants",
+      "Instant digital policy issuance (no paperwork, no agent)"
+    ]
+  },
+  "audience": {
+    "icp": "Urban Indian professional, age 25–45, tech-savvy, currently underinsured or frustrated with traditional insurer bureaucracy and opaque claims processes",
+    "painPoints": [
+      "Fear that claims will be denied or only partially paid at hospital discharge",
+      "Hidden co-pays and room rent sub-limits that erode real coverage",
+      "Long disease-specific waiting periods making new policies feel useless",
+      "Agent middlemen adding cost, confusion, and commission",
+      "Paperwork-heavy reimbursement processes during a medical crisis"
+    ],
+    "segments": [
+      "Young urban professionals (individual plans, age 22–35)",
+      "Young families with children (family floater plans)",
+      "Mid-career adults (age 35–50) upgrading after a health scare or life event",
+      "Senior citizens (60+) seeking cashless hospital coverage",
+      "NRIs needing India-based health cover for themselves or parents"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 2–3 weeks (considered purchase, but accelerated by fully digital self-serve flow)",
+    "trial": "No free trial; premium calculator provides an instant no-commitment quote; free medical check-up offered to eligible applicants post-application",
+    "closeMechanism": "Self-serve digital signup; instant online policy issuance; no salesperson or agent in the loop",
+    "topObjection": "Can I trust a newer insurer to actually pay my claim? Will the 98% settlement rate hold when it is my claim?"
+  },
+  "ahaMoment": "Receiving an instant digital policy document minutes after payment — and later, having a cashless claim approved within hours at a network hospital with zero paperwork",
+  "retention": {
+    "recurring": "Annual premium renewal; policy lapses if not renewed on time",
+    "expansion": "Upgrade Standard to Platinum plan; add family members to floater; increase sum insured; add top-up or OPD riders",
+    "churnRisk": "Annual renewal window — customers with no claims may question value; competitors actively target Acko policyholders at renewal with cheaper base quotes"
+  },
+  "lifecycleGaps": [
+    "Post-purchase onboarding: customers likely don't know how to use the cashless network, initiate pre-authorisation, or file a claim before they need to",
+    "Mid-year value reinforcement: little or no touchpoint between policy issuance and renewal reminder",
+    "Pre-renewal nurture: renewal outreach likely price-only with no claims story or value narrative",
+    "Lead-magnet nurture: quote-calculator visitors who don't convert likely receive no structured follow-up sequence",
+    "Referral and advocacy: 8 crore customers are an underutilised referral engine",
+    "Win-back: lapsed policyholders (non-renewals) likely not systematically re-engaged with updated offers"
+  ],
+  "toneVoice": "Direct, empowering, anti-jargon; conversational but confident; 'people before paperwork' ethos; no fear-mongering — leads with simplicity, zero-hassle, and transparency rather than catastrophe scenarios",
+  "compliance": "IRDAI regulated (License #157); all claims statistics and product statements must comply with IRDAI advertising guidelines; India DPDP Act governs data privacy; TRAI DLT registration required for commercial email/SMS; avoid absolute claim guarantees beyond stated settlement statistics; no medical advice"
+}
