@@ -82,12 +82,14 @@ export async function getCampaigns(slug: string): Promise<CampaignsFile | null> 
   try {
     const c: CampaignsFile = JSON.parse(await fs.readFile(path.join(CLIENTS, slug, "campaigns.json"), "utf8"));
 
-    // Sort + cap at 5 campaigns
+    // Sort + cap at 5 campaigns; take only 1 email per campaign (the first by order)
     c.campaigns = (c.campaigns || [])
       .sort((a, b) => (a.priority || 99) - (b.priority || 99))
       .slice(0, 5);
-    for (const camp of c.campaigns)
-      camp.emails = (camp.emails || []).sort((a, b) => (a.order || 0) - (b.order || 0));
+    for (const camp of c.campaigns) {
+      const sorted = (camp.emails || []).sort((a, b) => (a.order || 0) - (b.order || 0));
+      camp.emails = sorted.slice(0, 1);
+    }
 
     // Build summary from research.json if not already in campaigns.json
     if (!c.summary) {

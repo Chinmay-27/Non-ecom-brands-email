@@ -210,7 +210,7 @@ Write ONE file: campaigns.json — VALID JSON, no comments, no trailing commas, 
 
 RULES:
 - EXACTLY 5 campaigns, ordered by priority (1 = build first), using the playbook's "where to start" logic.
-- 3 to 5 emails per campaign.
+- EXACTLY 1 email per campaign — the single most important email for that campaign (the hero send).
 - Subjects and previews must be SPECIFIC to this brand and its audience — never generic placeholders.
 - Pull brand colors from research.json.
 Reply with only DONE when campaigns.json is written.`;
