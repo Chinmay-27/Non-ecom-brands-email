@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CHI, The Spa at Shangri-La Bengaluru",
+    "slug": "shangri-la-chi-the-spa-bengaluru",
+    "url": "https://www.shangri-la.com/bengaluru/shangrila/health-leisure/chi-the-spa/",
+    "vertical": "Luxury hospitality / wellness spa",
+    "colors": {
+      "primary": "#8C1C3A",
+      "accent": "#C4A265",
+      "background": "#F5F0EB",
+      "text": "#1C1C1C"
+    }
+  },
+  "campaigns": [
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Booking Confirmation, Reminders & No-Show Recovery",
+      "priority": 1,
+      "stage": "Conversion / Retention",
+      "objective": "Maximise attended appointments, prime the sensory experience before arrival, and warmly recover the bookings that slip — protecting revenue against the strict 100% no-show charge.",
+      "trigger": "Booking confirmed via SpaTime; 24h-before and morning-of timers; no-show event; treatment completed.",
+      "segment": "Anyone with a scheduled CHI treatment — in-stay guests and local residents alike.",
+      "rationale": "This is the single highest-urgency gap. A 100% no-show charge with a 4-hour cancellation window creates real resentment when a time-poor guest simply forgets; reminders cut no-shows ~35% on average and let CHI communicate the policy warmly instead of as a threat. The pre-arrival emails also begin the 'aha' — arriving early, the 3rd-floor zen environment, the aromatic oils — before a single hand is laid, which is exactly where this brand's experience starts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0 (instant on booking)",
+          "purpose": "Confirm the appointment, set sensory expectations, ask the guest to arrive 30 minutes early for the consultation and hydrothermal facilities, and state the cancellation window gently.",
+          "subject": "Your sanctuary on the 3rd floor is reserved",
+          "preview": "A few quiet notes to help you arrive ready to let go.",
+          "cta": "Add your treatment to your calendar",
+          "keyPoints": [
+            "Confirm treatment name, date, time, duration and therapist where known",
+            "Invite the guest to arrive 30 minutes early for the health consultation, steam, sauna and Jacuzzi",
+            "Suggest leaving phone and schedule behind; the experience begins on arrival",
+            "State the 4-hour cancellation window warmly, framed as 'so we can offer your time to another guest'"
+          ]
+        },
+        {
+          "id": "email-2",
+          "order": 2,
+          "day": "appointment − 24h",
+          "purpose": "Remind the guest the day before, offer a frictionless reschedule path, and deepen anticipation with prep guidance.",
+          "subject": "Tomorrow, the city stays at the door",
+          "preview": "What to expect from your CHI ritual — and how to make the most of it.",
+          "cta": "Confirm or reschedule your time",
+          "keyPoints": [
+            "Restate date and time and the recommended early arrival",
+            "Light prep: hydrate, eat lightly beforehand, wear something easy to change from",
+            "One-tap reschedule link so a clash never becomes a no-show",
+            "A line on the aromatic oils and unhurried pace awaiting them"
+          ]
+        },
+        {
+          "id": "email-3",
+          "order": 3,
+          "day": "appointment morning-of",
+          "purpose": "Final gentle reminder with directions, the 3rd-floor location and arrival logistics for both hotel guests and local visitors.",
+          "subject": "Today at {time} — your stillness awaits",
+          "preview": "Directions to CHI and a note for arriving guests.",
+          "cta": "View directions to CHI",
+          "keyPoints": [
+            "Time, treatment and the 3rd-floor location of CHI at Shangri-La Bengaluru",
+            "Parking and entry guidance for local non-staying guests (arrive before 10pm)",
+            "Reminder to arrive early so nothing about the day feels rushed",
+            "Spa contact numbers should anything change last minute"
+          ]
+        },
+        {
+          "id": "email-4",
+          "order": 4,
+          "day": "no-show + 2h",
+          "purpose": "Recover a missed appointment with warmth and zero penalty in tone, inviting an easy rebooking.",
+          "subject": "We held your space — shall we find a new time?",
+          "preview": "No rush. Your reset is still waiting whenever you are.",
+          "cta": "Choose a new time",
+          "keyPoints": [
+            "Acknowledge the day got away from them without judgement",
+            "Reassure that rebooking is simple and they remain welcome",
+            "One-click link to pick a fresh slot",
+            "Offer to call the spa directly if they would prefer a human"
+          ]
+        },
+        {
+          "id": "email-5",
+          "order": 5,
+          "day": "treatment completed (same day)",
+          "purpose": "Close the loop after the visit, extend the feeling of restoration, and open the door to the next booking without pressure.",
+          "subject": "We hope you left a little lighter",
+          "preview": "A few ways to carry the calm home with you.",
+          "cta": "Plan your next visit",
+          "keyPoints": [
+            "Thank them and gently encourage hydration and rest to extend the benefit",
+            "Suggest pre-booking the next treatment while the feeling is fresh",
+            "Mention the 7-for-5 bundle for those who want to make it a ritual",
+            "Invite a reply with any feedback — a real person reads it"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding for New Subscribers and First-Time Guests",
+      "priority": 2,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a new subscriber or curious first-timer into a booked first appointment — the activation event — by building trust in CHI's authenticity and easing the price hesitation.",
+      "trigger": "Newsletter signup, spa-menu download, gift-voucher interest, or Shangri-La Circle enrolment.",
+      "segment": "New contacts who have not yet completed a treatment; branch by hotel guest vs local resident where known.",
+      "rationale": "There is no pre-booking nurture today, yet the large local non-guest audience researches deliberately and hesitates on a considered INR 7K+ spend. A welcome sequence is the fastest way to show CHI's authentic Asian-healing heritage, answer the 'is a hotel spa really as good as a specialist?' objection, and convert intent into a first booking — the moment that activates everything else.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome that sets the unhurried tone and frames CHI as an invitation to arrive, with a single easy first step.",
+          "subject": "Welcome — consider this an invitation to slow down",
+          "preview": "The CHI philosophy, and how to find your way to stillness.",
+          "cta": "Explore the CHI treatment menu",
+          "keyPoints": [
+            "Introduce CHI's roots in the universal life force and ancient Asian healing wisdom",
+            "Set expectations: short, occasional notes, never noise",
+            "First action — browse the menu to sense which ritual calls to them",
+            "Reassure a real person is always a reply away"
+          ]
+        },
+        {
+          "id": "email-2",
+          "order": 2,
+          "day": "1",
+          "purpose": "Lead with the core 'aha' — what a CHI Signature treatment actually feels like, from arrival ritual to emergence.",
+          "subject": "What it feels like to walk out a different person",
+          "preview": "Inside a CHI Signature ritual — from the first breath to the last.",
+          "cta": "Discover the CHI Signature Massage",
+          "keyPoints": [
+            "Walk through the sensory arc: consultation, aromatic oils, the Swedish-Shiatsu-Reflexology blend",
+            "Emphasise lasting restoration, not a quick rub-down",
+            "Paint the moment of emergence — grounded, unhurried, restored",
+            "Soft CTA to read more or book when ready"
+          ]
+        },
+        {
+          "id": "email-3",
+          "order": 3,
+          "day": "3",
+          "purpose": "Handle the trust and price objection with heritage and proof — why CHI is worth it versus a standalone spa.",
+          "subject": "Why a single treatment is worth the considered choice",
+          "preview": "On authenticity, and what the price truly holds.",
+          "cta": "See the full experience",
+          "keyPoints": [
+            "Address the 'hotel spa vs specialist' doubt with CHI's global standard and trained therapists",
+            "Frame the price as the full ritual — facilities, consultation, time that is truly yours",
+            "Echo how guests describe it: 'worth every rupee', 'we didn't want to leave'",
+            "Reassure without urgency"
+          ]
+        },
+        {
+          "id": "email-4",
+          "order": 4,
+          "day": "7",
+          "purpose": "Educate so the guest can choose with confidence — demystify the Ayurvedic therapies and help match a treatment to their need.",
+          "subject": "Abhyanga, Shirodhara, Shiatsu — which calm is yours?",
+          "preview": "A gentle guide to choosing your first CHI ritual.",
+          "cta": "Find the ritual that suits you",
+          "keyPoints": [
+            "Plain-language explanation of the signature and Ayurvedic therapies",
+            "Help match intent — tension, sleeplessness, fatigue — to a treatment, without referencing health data",
+            "Note the option to arrive early and use the hydrothermal facilities",
+            "Invite a reply for a recommendation from the team"
+          ]
+        },
+        {
+          "id": "email-5",
+          "order": 5,
+          "day": "12",
+          "purpose": "Soft nudge toward the first booking with a real offer of help and a low-friction path.",
+          "subject": "Whenever you're ready, we'll be here",
+          "preview": "A quiet nudge, and an easy way to begin.",
+          "cta": "Reserve your first treatment",
+          "keyPoints": [
+            "No pressure — acknowledge the right time is theirs to choose",
+            "Mention the gift voucher as a way to gift the experience or ease in",
+            "Direct, simple booking link and the spa phone numbers",
+            "Reiterate that a reply reaches a real person who can advise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-anniversary-expansion",
+      "name": "Re-Booking, Occasion & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Drive repeat bookings, raise inter-visit frequency, and grow the value of each guest through longer sessions, bundles, couples' rooms and occasion gifting.",
+      "trigger": "Last visit + ~60 days; birthday/anniversary on file; post-visit upsell readiness; ~90 days dormant.",
+      "segment": "Past guests who have completed at least one treatment; branch by recency and by occasion data where Shangri-La Circle holds it.",
+      "rationale": "With no subscription and no observed re-booking trigger, the happiest existing guests quietly lapse. This is the highest-ROI gap for an established base: occasion emails (birthday, anniversary) and a gentle ~60-day re-booking nudge turn one-off visits into a ritual, while the 90-min upgrade, the 7-for-5 bundle and couples' rooms lift spend per guest.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "last visit + 60",
+          "purpose": "Re-booking nudge that recalls how they felt and invites them to renew the reset.",
+          "subject": "It may be time to feel that way again",
+          "preview": "Two months on — your next stillness is a moment away.",
+          "cta": "Book your return",
+          "keyPoints": [
+            "Recall the feeling of their last visit without referencing health details",
+            "Position regular care as a ritual, not an indulgence",
+            "Easy booking link with a nod to early arrival for the facilities",
+            "Gentle, unhurried tone throughout"
+          ]
+        },
+        {
+          "id": "email-2",
+          "order": 2,
+          "day": "birthday / anniversary − 7",
+          "purpose": "Occasion email inviting them to mark the moment with a treatment — for themselves or as a couple.",
+          "subject": "A quiet way to mark the occasion",
+          "preview": "Some moments deserve more than a candle and a cake.",
+          "cta": "Reserve your occasion treatment",
+          "keyPoints": [
+            "Warm acknowledgement of the upcoming birthday or anniversary",
+            "Offer the couples' room for shared celebrations",
+            "Suggest the Shankara Sandalwood or seasonal package as a special-occasion choice",
+            "No discount language — frame as a fitting way to celebrate"
+          ]
+        },
+        {
+          "id": "email-3",
+          "order": 3,
+          "day": "post-visit + 14 (expansion)",
+          "purpose": "Introduce ways to deepen the experience — longer sessions, add-ons and the bundle — to high-affinity returning guests.",
+          "subject": "More time on the table, less on the clock",
+          "preview": "Ninety minutes, add-on rituals, and a bundle worth keeping.",
+          "cta": "Explore longer rituals and bundles",
+          "keyPoints": [
+            "Invite upgrading 60 to 90 minutes for a deeper reset",
+            "Suggest add-ons such as a body scrub before a massage, or a Shirodhara",
+            "Present the 7-treatments-for-5 bundle as a way to commit to the ritual at better value",
+            "Keep it as an invitation, never a hard sell"
+          ]
+        },
+        {
+          "id": "email-4",
+          "order": 4,
+          "day": "last visit + 90",
+          "purpose": "A gentle save-style note before the guest fully lapses, with an easy door back in.",
+          "subject": "The 3rd floor has been quiet without you",
+          "preview": "Whenever the city gets too loud, we're still here.",
+          "cta": "Find a time that suits",
+          "keyPoints": [
+            "Soft acknowledgement that it has been a while",
+            "Re-affirm the value of returning for a genuine reset",
+            "Offer to help find a time or answer questions by reply or phone",
+            "Mention what's new or seasonal to give a fresh reason to return"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back & Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed local guests and dormant subscribers, and respectfully sunset those who don't respond to protect deliverability.",
+      "trigger": "No bookings, opens or clicks for 90+ days.",
+      "segment": "Dormant subscribers and lapsed local non-guests who have no Shangri-La Circle loyalty loop; separate message from never-booked subscribers.",
+      "rationale": "Local non-hotel visitors have no loyalty mechanism, so once they drift they are simply gone. A short win-back recovers 5–15% of inactive contacts and cleans the list. For a serene luxury brand the tone matters most — these emails re-extend the invitation with fresh value, never a desperate plea or a discount blast.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "A warm 'we miss you' that reminds them of the core feeling CHI offers.",
+          "subject": "Has the city kept you too long?",
+          "preview": "Your space for stillness hasn't gone anywhere.",
+          "cta": "Return to CHI",
+          "keyPoints": [
+            "Gently note it's been a while since their last visit",
+            "Re-evoke the restorative feeling without health references",
+            "Low-friction link back to booking",
+            "Keep it calm and unhurried, not urgent"
+          ]
+        },
+        {
+          "id": "email-2",
+          "order": 2,
+          "day": "7",
+          "purpose": "Pattern-interrupt with what's new — fresh treatments, seasonal rituals or collaborations since they left.",
+          "subject": "What's new on the 3rd floor since you last visited",
+          "preview": "New rituals and a seasonal collaboration worth knowing about.",
+          "cta": "See what's new",
+          "keyPoints": [
+            "Introduce new or seasonal treatments and the Shankara Sandalwood collaboration",
+            "Frame as a fresh reason to come back, not a guilt trip",
+            "Single clear CTA to explore",
+            "Maintain the sensory, aspirational voice"
+          ]
+        },
+        {
+          "id": "email-3",
+          "order": 3,
+          "day": "14",
+          "purpose": "Offer a thoughtful reason to return — a curated recommendation or gift-voucher value framing.",
+          "subject": "A little something to welcome you back",
+          "preview": "A ritual we think you'll love, chosen with care.",
+          "cta": "Choose your welcome-back ritual",
+          "keyPoints": [
+            "Suggest a specific treatment matched to a common need like tension or sleep",
+            "Mention the gift voucher as a way to treat themselves or someone dear",
+            "Reassure that the experience remains everything they remember",
+            "Keep value framing elegant, never bargain-led"
+          ]
+        },
+        {
+          "id": "email-4",
+          "order": 4,
+          "day": "21",
+          "purpose": "Respectful sunset — confirm whether they'd like to keep hearing from CHI.",
+          "subject": "Shall we keep in touch?",
+          "preview": "Only if our notes still bring you something worth keeping.",
+          "cta": "Stay on the list",
+          "keyPoints": [
+            "Politely ask if they'd like to continue receiving CHI's notes",
+            "Make staying a single click; make leaving graceful",
+            "Thank them sincerely regardless of choice",
+            "Suppress non-responders after this send to protect sender reputation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The CHI Journal — Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top of mind between visits and build authority in authentic Asian wellness, with one useful idea per send and a light, occasional invitation to book.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress those in active onboarding and route the recently dormant into Win-Back instead.",
+      "rationale": "There is no regular content email today, leaving long gaps between occasional visits where CHI fades from mind. A monthly journal — seasonal wellness, therapist craft, treatment education — keeps the brand present and reinforces the authenticity that justifies the price, all in an 80% value / 20% soft-offer balance that suits a brand that must never feel salesy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "monthly — edition 1",
+          "purpose": "Seasonal wellness edition tying Bengaluru's season to a relevant ritual.",
+          "subject": "Monsoon in the city, stillness on the 3rd floor",
+          "preview": "A seasonal note on warmth, breath and letting the rains slow you down.",
+          "cta": "Read the seasonal ritual guide",
+          "keyPoints": [
+            "One useful seasonal wellness idea suited to the Bengaluru monsoon",
+            "Tie it to a fitting CHI treatment such as a warming Pinda Sweda",
+            "Recurring 'This season at CHI' habit section",
+            "Single soft CTA to read or book"
+          ]
+        },
+        {
+          "id": "email-2",
+          "order": 2,
+          "day": "monthly — edition 2",
+          "purpose": "Therapist craft spotlight — humanise the expertise behind the treatments.",
+          "subject": "The hands behind the calm",
+          "preview": "Meet a CHI therapist on the art of an unhurried touch.",
+          "cta": "Read the therapist's story",
+          "keyPoints": [
+            "Profile a therapist's training and philosophy of touch",
+            "Reinforce authenticity and the global standard versus a generic spa",
+            "Behind-the-scenes of the ritual and the environment",
+            "Gentle invitation to experience it firsthand"
+          ]
+        },
+        {
+          "id": "email-3",
+          "order": 3,
+          "day": "monthly — edition 3",
+          "purpose": "Treatment education — demystify an Ayurvedic therapy in depth.",
+          "subject": "Shirodhara: the quiet stream that resets the mind",
+          "preview": "What this ancient ritual does, and who it's for.",
+          "cta": "Learn about Shirodhara",
+          "keyPoints": [
+            "Explain the origins and experience of Shirodhara in evocative, plain language",
+            "Describe the kind of stillness it offers, without medical claims",
+            "Connect to CHI's broader Ayurvedic menu",
+            "Soft CTA to explore or book the treatment"
+          ]
+        },
+        {
+          "id": "email-4",
+          "order": 4,
+          "day": "monthly — edition 4",
+          "purpose": "Occasion and gifting edition around a festive or celebratory season.",
+          "subject": "The most considered gift you can give this season",
+          "preview": "On gifting stillness — to someone you love, or to yourself.",
+          "cta": "Explore gift vouchers and packages",
+          "keyPoints": [
+            "Frame the gift of a CHI experience around the festive season",
+            "Present gift vouchers and seasonal packages like the Festive Spa Getaway",
+            "Note couples' rooms and bundles for shared or generous gifting",
+            "Keep it warm and tasteful, with one clear CTA"
+          ]
+        }
+      ]
+    }
+  ]
+}

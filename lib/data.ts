@@ -36,6 +36,7 @@ export type BrandColors = {
 
 export type CampaignsFile = {
   brand: { name: string; slug: string; url: string; vertical?: string; colors?: BrandColors };
+  summary?: string;   // short overview of what the company does — from research.json or campaigns.json
   campaigns: Campaign[];
 };
 
@@ -80,8 +81,26 @@ export async function getCampaigns(slug: string): Promise<CampaignsFile | null> 
   if (!safe(slug)) return null;
   try {
     const c: CampaignsFile = JSON.parse(await fs.readFile(path.join(CLIENTS, slug, "campaigns.json"), "utf8"));
-    c.campaigns = (c.campaigns || []).sort((a, b) => (a.priority || 99) - (b.priority || 99));
-    for (const camp of c.campaigns) camp.emails = (camp.emails || []).sort((a, b) => (a.order || 0) - (b.order || 0));
+
+    // Sort + cap at 5 campaigns
+    c.campaigns = (c.campaigns || [])
+      .sort((a, b) => (a.priority || 99) - (b.priority || 99))
+      .slice(0, 5);
+    for (const camp of c.campaigns)
+      camp.emails = (camp.emails || []).sort((a, b) => (a.order || 0) - (b.order || 0));
+
+    // Build summary from research.json if not already in campaigns.json
+    if (!c.summary) {
+      try {
+        const r = JSON.parse(await fs.readFile(path.join(CLIENTS, slug, "research.json"), "utf8"));
+        const parts: string[] = [];
+        if (r.offer?.what)          parts.push(r.offer.what);
+        if (r.offer?.coreOutcome)   parts.push(r.offer.coreOutcome + ".");
+        if (r.audience?.icp)        parts.push(`Audience: ${r.audience.icp}.`);
+        if (parts.length) c.summary = parts.join(" ");
+      } catch { /* research.json not yet generated — summary stays undefined */ }
+    }
+
     return c;
   } catch { return null; }
 }

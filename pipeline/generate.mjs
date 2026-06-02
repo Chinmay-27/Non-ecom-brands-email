@@ -190,6 +190,7 @@ Write ONE file: campaigns.json — VALID JSON, no comments, no trailing commas, 
 {
   "brand": {"name":"","slug":"${b.slug}","url":"${b.url}","vertical":"",
             "colors":{"primary":"#hex","accent":"#hex","background":"#hex","text":"#hex"}},
+  "summary": "2–3 sentence plain-English description of what this company does and who it serves. No marketing fluff — just factual.",
   "campaigns": [
     {
       "id": "kebab-case-id",
@@ -199,7 +200,7 @@ Write ONE file: campaigns.json — VALID JSON, no comments, no trailing commas, 
       "objective": "",
       "trigger": "",
       "segment": "",
-      "rationale": "why this campaign matters for THIS brand",
+      "rationale": "1–2 sentences: why THIS campaign matters specifically for this brand right now",
       "emails": [
         {"id":"email-1","order":1,"day":"0","purpose":"","subject":"","preview":"","cta":"","keyPoints":["",""]}
       ]
@@ -208,9 +209,9 @@ Write ONE file: campaigns.json — VALID JSON, no comments, no trailing commas, 
 }
 
 RULES:
-- 4 to 6 campaigns, ordered by priority (1 = build first), using the playbook's "where to start" logic.
-- 3 to 6 emails per campaign.
-- Subjects and previews must be SPECIFIC to this brand and its audience — never placeholders.
+- EXACTLY 5 campaigns, ordered by priority (1 = build first), using the playbook's "where to start" logic.
+- 3 to 5 emails per campaign.
+- Subjects and previews must be SPECIFIC to this brand and its audience — never generic placeholders.
 - Pull brand colors from research.json.
 Reply with only DONE when campaigns.json is written.`;
 
