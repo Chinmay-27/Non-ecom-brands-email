@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+  <title>You never saw who's on your site — let's fix that in 2 minutes</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    /* Reset */
+    * { box-sizing: border-box; }
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    a { color: #6C47FF; }
+
+    /* Responsive */
+    @media only screen and (max-width: 620px) {
+      .email-wrapper { width: 100% !important; }
+      .email-content { padding: 24px 16px !important; }
+      .hero-padding { padding: 36px 16px 32px !important; }
+      .gap-block { height: 24px !important; }
+      .stat-block { display: block !important; width: 100% !important; padding: 16px !important; margin-bottom: 8px !important; }
+      .stat-table td { display: block !important; width: 100% !important; }
+      .step-row td { display: block !important; width: 100% !important; padding-left: 0 !important; }
+      .step-num { margin-bottom: 4px !important; }
+      h1 { font-size: 26px !important; line-height: 34px !important; }
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      .email-body { background-color: #0f0f0f !important; }
+      .email-outer { background-color: #0f0f0f !important; }
+      .card-bg { background-color: #1a1a2e !important; }
+      .main-bg { background-color: #111827 !important; }
+      .hero-bg { background-color: #1c1c3a !important; }
+      .body-text { color: #e5e7eb !important; }
+      .muted-text { color: #9ca3af !important; }
+      .footer-text { color: #6b7280 !important; }
+      .divider-line { border-color: #374151 !important; }
+      .stat-card { background-color: #1f2937 !important; border-color: #374151 !important; }
+      .step-icon-bg { background-color: #1f2937 !important; }
+    }
+  </style>
+</head>
+<body class="email-body" style="margin: 0; padding: 0; background-color: #f3f4f6; font-family: Arial, Helvetica, sans-serif; -webkit-font-smoothing: antialiased;">
+
+  <!-- Preheader (hidden) -->
+  <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all; font-size: 1px; color: #f3f4f6; line-height: 1px;">
+    Your snippet's still waiting. Identified visitors are one paste away.&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;&nbsp;&#8203;
+  </div>
+
+  <!-- Outer wrapper -->
+  <table class="email-outer" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f3f4f6;">
+    <tr>
+      <td align="center" valign="top" style="padding: 24px 12px;">
+
+        <!-- Email container -->
+        <table class="email-wrapper" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%;">
+
+          <!-- ── HEADER / LOGO BAR ── -->
+          <tr>
+            <td style="background-color: #111827; border-radius: 8px 8px 0 0; padding: 20px 40px;" align="left">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td>
+                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; color: #ffffff; letter-spacing: -0.5px;">Ninja<span style="color: #6C47FF;">Click</span></span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ── HERO ── -->
+          <tr>
+            <td class="hero-bg" style="background-color: #1a1133; padding: 48px 40px 40px; border-left: 1px solid #1f1044; border-right: 1px solid #1f1044;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td>
+                    <!-- Eyebrow -->
+                    <p style="margin: 0 0 16px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #6C47FF;">
+                      Your account is still waiting
+                    </p>
+                    <!-- H1 -->
+                    <h1 style="margin: 0 0 20px; font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 800; line-height: 38px; color: #ffffff; letter-spacing: -0.5px;">
+                      {{first_name}}, you signed up — but you never saw who was on your site.
+                    </h1>
+                    <!-- Subhead -->
+                    <p style="margin: 0 0 32px; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 26px; color: #c4b5fd;">
+                      Every day the snippet isn't running, real buyers visit your site and leave without a trace. That's pipeline you'll never get back. Let's fix it in the next two minutes.
+                    </p>
+
+                    <!-- CTA Button (bulletproof VML) -->
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://app.ninjaclick.com/install" style="height:52px;v-text-anchor:middle;width:280px;" arcsize="10%" stroke="f" fillcolor="#6C47FF">
+                      <w:anchorlock/>
+                      <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;">Reinstall &amp; see your visitors →</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="border-radius: 6px; background-color: #6C47FF;">
+                          <a href="https://app.ninjaclick.com/install" style="display: inline-block; padding: 16px 32px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #ffffff; text-decoration: none; border-radius: 6px; background-color: #6C47FF; letter-spacing: 0.2px;">Reinstall &amp; see your visitors →</a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--<![endif]-->
+
+                    <!-- Trust note -->
+                    <p style="margin: 16px 0 0; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #8b7fc7;">
+                      Takes ~2 minutes &nbsp;·&nbsp; Free tier stays free &nbsp;·&nbsp; GDPR-compliant
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ── BODY CARD ── -->
+          <tr>
+            <td class="main-bg" style="background-color: #ffffff; padding: 40px 40px 32px; border-left: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+
+                <!-- Intro -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <p class="body-text" style="margin: 0 0 16px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25px; color: #111827;">
+                      Here's the gap: you created your NinjaClick account, but the one-line snippet never made it onto your site. So the dashboard that was supposed to show you <em>who's visiting, which companies, and which decision-makers</em> — it's been empty.
+                    </p>
+                    <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 25px; color: #111827;">
+                      Meanwhile, your site has had traffic. Some of those visitors were exactly the accounts you want. And every single one left anonymous.
+                    </p>
+                  </td>
+                </tr>
+
+                <!-- Stat highlight -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-radius: 8px; border-left: 4px solid #6C47FF;">
+                      <tr>
+                        <td style="padding: 20px 24px;">
+                          <p style="margin: 0 0 4px; font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 800; color: #6C47FF; line-height: 1;">95%+</p>
+                          <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 22px; color: #374151;">
+                            of your site visitors are leaving anonymous <strong>every single day</strong> the snippet isn't running. NinjaClick identifies up to 80% of them — but only after the snippet is live.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Section header -->
+                <tr>
+                  <td style="padding-bottom: 20px;">
+                    <h2 style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; color: #111827; letter-spacing: -0.3px;">
+                      Here's what you'll see the moment it's running
+                    </h2>
+                  </td>
+                </tr>
+
+                <!-- Feature bullets -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+
+                      <!-- Row 1 -->
+                      <tr>
+                        <td style="padding: 0 0 14px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                              <td width="36" valign="top" style="padding-top: 1px;">
+                                <div style="width: 28px; height: 28px; background-color: #ede9fe; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">👤</div>
+                              </td>
+                              <td>
+                                <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #111827;">
+                                  <strong>Real names and companies</strong> — not traffic stats. Actual people, actual businesses, visiting your pages right now.
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Row 2 -->
+                      <tr>
+                        <td style="padding: 0 0 14px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                              <td width="36" valign="top" style="padding-top: 1px;">
+                                <div style="width: 28px; height: 28px; background-color: #ede9fe; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">📋</div>
+                              </td>
+                              <td>
+                                <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #111827;">
+                                  <strong>Decision-maker contact info</strong> — job title, LinkedIn, email. The people you'd want in your pipeline, handed to you.
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Row 3 -->
+                      <tr>
+                        <td>
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                              <td width="36" valign="top" style="padding-top: 1px;">
+                                <div style="width: 28px; height: 28px; background-color: #ede9fe; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 14px;">⚡</div>
+                              </td>
+                              <td>
+                                <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #111827;">
+                                  <strong>Results within hours</strong> — install the snippet today, see your first identified visitors in your dashboard before end of day.
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Divider -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <hr class="divider-line" style="border: none; border-top: 1px solid #e5e7eb; margin: 0;">
+                  </td>
+                </tr>
+
+                <!-- How-to steps -->
+                <tr>
+                  <td style="padding-bottom: 20px;">
+                    <h2 style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; color: #111827; letter-spacing: -0.3px;">
+                      Get live in 3 steps (2 minutes, tops)
+                    </h2>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+
+                      <!-- Step 1 -->
+                      <tr>
+                        <td style="padding-bottom: 16px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f9fafb; border-radius: 6px; border: 1px solid #e5e7eb;">
+                            <tr>
+                              <td style="padding: 16px 20px;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                  <tr>
+                                    <td width="36" valign="top">
+                                      <div style="width: 28px; height: 28px; background-color: #6C47FF; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">1</div>
+                                    </td>
+                                    <td>
+                                      <p style="margin: 0 0 2px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; color: #111827;">Log in and grab your snippet</p>
+                                      <p class="muted-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; color: #6b7280;">Your unique tracking code is pre-filled in your account — one click to copy it.</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Step 2 -->
+                      <tr>
+                        <td style="padding-bottom: 16px;">
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f9fafb; border-radius: 6px; border: 1px solid #e5e7eb;">
+                            <tr>
+                              <td style="padding: 16px 20px;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                  <tr>
+                                    <td width="36" valign="top">
+                                      <div style="width: 28px; height: 28px; background-color: #6C47FF; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">2</div>
+                                    </td>
+                                    <td>
+                                      <p style="margin: 0 0 2px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; color: #111827;">Paste it before your <code style="font-family: 'Courier New', Courier, monospace; font-size: 13px; background-color: #e5e7eb; padding: 1px 5px; border-radius: 3px;">&lt;/head&gt;</code> tag</p>
+                                      <p class="muted-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; color: #6b7280;">Works with any CMS, tag manager, or direct HTML. Not technical? Forward the install guide to your developer — it's one line.</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                      <!-- Step 3 -->
+                      <tr>
+                        <td>
+                          <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f9fafb; border-radius: 6px; border: 1px solid #e5e7eb;">
+                            <tr>
+                              <td style="padding: 16px 20px;">
+                                <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                                  <tr>
+                                    <td width="36" valign="top">
+                                      <div style="width: 28px; height: 28px; background-color: #6C47FF; border-radius: 50%; text-align: center; line-height: 28px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">3</div>
+                                    </td>
+                                    <td>
+                                      <p style="margin: 0 0 2px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; color: #111827;">Watch your dashboard fill in</p>
+                                      <p class="muted-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 21px; color: #6b7280;">Within hours of your first visitors, you'll see real names, companies, and contacts — not just traffic numbers.</p>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- CTA repeat -->
+                <tr>
+                  <td align="center" style="padding-bottom: 32px;">
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://app.ninjaclick.com/install" style="height:52px;v-text-anchor:middle;width:280px;" arcsize="10%" stroke="f" fillcolor="#6C47FF">
+                      <w:anchorlock/>
+                      <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;">Reinstall &amp; see your visitors →</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="border-radius: 6px; background-color: #6C47FF;">
+                          <a href="https://app.ninjaclick.com/install" style="display: inline-block; padding: 16px 40px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #ffffff; text-decoration: none; border-radius: 6px; background-color: #6C47FF; letter-spacing: 0.2px;">Reinstall &amp; see your visitors →</a>
+                        </td>
+                      </tr>
+                    </table>
+                    <!--<![endif]-->
+                  </td>
+                </tr>
+
+                <!-- Divider -->
+                <tr>
+                  <td style="padding-bottom: 32px;">
+                    <hr class="divider-line" style="border: none; border-top: 1px solid #e5e7eb; margin: 0;">
+                  </td>
+                </tr>
+
+                <!-- Human offer -->
+                <tr>
+                  <td style="padding-bottom: 8px;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; border-left: 4px solid #22c55e;">
+                      <tr>
+                        <td style="padding: 20px 24px;">
+                          <p style="margin: 0 0 8px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; color: #166534;">
+                            Prefer a hand? Just reply to this email.
+                          </p>
+                          <p class="body-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #15803d;">
+                            Tell me what got in the way — technical blocker, wasn't sure it would work, too busy — and I'll help you get live, or point you to the right next step. A real person reads every reply.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+
+          <!-- ── SIGN-OFF ── -->
+          <tr>
+            <td style="background-color: #ffffff; padding: 0 40px 32px; border-left: 1px solid #e5e7eb; border-right: 1px solid #e5e7eb;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td>
+                    <p class="body-text" style="margin: 0 0 4px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 23px; color: #111827;">— The NinjaClick team</p>
+                    <p class="muted-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #6b7280;"><em>P.S. Your free tier is still active — 100 identified visitors/month, no credit card needed. The only thing standing between you and a live dashboard is one line of code.</em></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- ── FOOTER ── -->
+          <tr>
+            <td style="background-color: #111827; padding: 28px 40px; border-radius: 0 0 8px 8px;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                  <td align="center">
+                    <p class="footer-text" style="margin: 0 0 8px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #9ca3af; text-align: center;">
+                      NinjaClick · 123 Main Street, Suite 100 · San Francisco, CA 94105
+                    </p>
+                    <p class="footer-text" style="margin: 0 0 8px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #9ca3af; text-align: center;">
+                      You're receiving this because you created a NinjaClick account.
+                    </p>
+                    <p class="footer-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #9ca3af; text-align: center;">
+                      <a href="https://app.ninjaclick.com/unsubscribe" style="color: #6C47FF; text-decoration: underline;">Unsubscribe</a>
+                      &nbsp;·&nbsp;
+                      <a href="https://www.ninjaclick.com/privacy" style="color: #6C47FF; text-decoration: underline;">Privacy Policy</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /Email container -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

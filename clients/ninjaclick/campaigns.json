@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "NinjaClick",
+    "slug": "ninjaclick",
+    "url": "https://www.ninjaclick.com",
+    "vertical": "SaaS/tech — visitor intelligence",
+    "colors": {
+      "primary": "#111827",
+      "accent": "#6C47FF",
+      "background": "#FFFFFF",
+      "text": "#111827"
+    }
+  },
+  "summary": "NinjaClick is a SaaS visitor-intelligence platform: a single line of JavaScript identifies up to 80% of a website's anonymous visitors — surfacing company details and decision-maker contact info without forms or cookies. It serves B2B marketing, demand-gen, and sales teams (plus DTC brands) who want to turn anonymous, high-intent traffic into a contactable pipeline. Sold as a self-serve monthly subscription with a permanent free tier and a 14-day no-card trial, tiered by monthly identity volume.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get the new trial user to install the JS snippet and see their first batch of identified visitors (the aha moment) inside the 14-day window.",
+      "trigger": "Trial signup / account created — send within seconds.",
+      "segment": "New trial signups who have not yet installed the snippet; branch by role/use-case if captured at signup (sales vs. demand-gen vs. ecommerce).",
+      "rationale": "NinjaClick's entire value is visceral and instant — but only after the snippet is live. Users who never install never see identified visitors and churn immediately, so the highest-leverage email moves them to install on day 0.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the one goal of the trial, and deliver the single fastest first win: paste the snippet so identified visitors start appearing.",
+          "subject": "Your snippet's ready — see who's on your site today",
+          "preview": "One line of JavaScript. First identified visitors in minutes.",
+          "cta": "Install your tracking snippet",
+          "keyPoints": [
+            "One job for today: paste your unique JS snippet into your site — copy/paste or send the 2-line guide to your developer",
+            "What happens next: real names, companies, and job titles of your visitors start landing in your dashboard within minutes to a few hours",
+            "Reassure on the #1 objection up front — GDPR-compliant, consent-based identification, no covert tracking",
+            "Human reply-to: stuck on install? Reply and a real person helps you get live before the trial clock runs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trial-conversion",
+      "name": "Trial-to-Paid Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert activated trial users into a paid Growth/Scale plan before the 14-day window closes, and prevent loss of the leads they've already identified.",
+      "trigger": "Trial expiry − 3 days, running in parallel with usage milestones; branch on whether they activated (saw identified visitors) or stalled.",
+      "segment": "Active trials approaching expiry; high-intent branch = users with identified visitors in the dashboard, save branch = installed-but-stalled.",
+      "rationale": "Trial-to-paid is the core revenue metric for a self-serve SaaS with a hard 14-day window. The expiry email tied to the user's own identified-visitor count is the most persuasive send NinjaClick can make.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "11",
+          "purpose": "Expiry warning anchored to the user's real results — quantify the visitors they identified and frame upgrading as keeping that pipeline alive.",
+          "subject": "Your trial ends Friday — keep the {count} leads you identified",
+          "preview": "Don't lose access to the companies already on your site.",
+          "cta": "Pick your plan & keep your data",
+          "keyPoints": [
+            "Lead with their own numbers: '{count} visitors identified across {company_count} companies in 14 days' — proof the match rate is real for their traffic",
+            "Make the loss concrete — when the trial ends, identification pauses and new high-intent visitors go back to anonymous",
+            "Right-size the plan: Growth $97/mo to start, Scale $497/mo at 10,000 identities; no contract, cancel anytime",
+            "Offer a human path for Enterprise volume or integration questions — book a call instead of guessing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-tier-nurture",
+      "name": "Free-Tier Upgrade Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move permanent free-tier users (100 identities/mo) toward sales-readiness and a paid upgrade over a longer cycle by proving ROI use cases.",
+      "trigger": "Free-tier signup / free-tier user below the upgrade-intent threshold; branch by primary use case (ABM, outbound sales, ecommerce recovery).",
+      "segment": "Active free-tier accounts not yet on a paid plan; lead-score on identity-cap hits, dashboard logins, and pricing-page visits.",
+      "rationale": "The permanent free tier is NinjaClick's top-of-funnel — a large pool of installed-but-unpaid users who need stage-matched education to see why 100 identities/mo isn't enough and how peers turn identities into pipeline.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Frame the real problem behind their free-tier usage — they're identifying intent they can't fully act on — and teach the workflow that turns identified visitors into booked meetings.",
+          "subject": "You're identifying visitors — here's how to turn them into pipeline",
+          "preview": "The 3-step play SDR teams run on NinjaClick data every morning.",
+          "cta": "See the prospecting playbook",
+          "keyPoints": [
+            "Reframe: identifying visitors is step one — the ROI comes from routing them into outbound/ABM workflows fast",
+            "Teach the framework: every morning, prioritize the accounts that visited high-intent pages, enrich, and reach out before they go cold",
+            "Show the ceiling gently — at 100 identities/mo most teams hit the cap by mid-month and miss real buyers",
+            "Soft path to value: a short case angle ('how a demand-gen team turned 3x more traffic into conversations') with a link, not a hard sell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed free-tier users and churned subscribers — especially those who signed up but never installed the snippet — and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold (60–90 days no logins/installs) or subscription cancellation; branch dormant-never-activated vs. churned-paid.",
+      "segment": "Dormant accounts that never saw an identified visitor (re-onboard), and churned paying customers (what's changed since you left).",
+      "rationale": "A large share of NinjaClick's drop-off is install-and-abandon — users who never reached the aha moment. A targeted win-back that removes the install blocker recovers accounts cheaply and keeps sender reputation healthy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt for never-activated users: remind them they're still leaving money on the table and make re-installing frictionless.",
+          "subject": "You never saw who's on your site — let's fix that in 2 minutes",
+          "preview": "Your snippet's still waiting. Identified visitors are one paste away.",
+          "cta": "Reinstall & see your visitors",
+          "keyPoints": [
+            "Name the gap plainly — they signed up but never installed, so they never saw the names, companies, and contacts they could be reaching",
+            "Remove the blocker: pre-filled snippet, a copy-paste guide, and a 'send to my developer' option",
+            "Restate the stakes — 95%+ of their traffic is still leaving anonymous every day it's not running",
+            "Low-pressure human offer: reply and we'll get you live, or tell us what stopped you"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long cycle — deepen engagement and create natural expansion conversations without discounting.",
+      "trigger": "Scheduled cadence (biweekly); suppress active onboarding and dormant accounts (routed to win-back).",
+      "segment": "All engaged free and paid contacts; segment editions by persona — sales/SDR, demand-gen/ABM, ecommerce/DTC.",
+      "rationale": "NinjaClick's audience lives on intent data and prospecting tactics. A use-case-led newsletter keeps installed users active, reinforces ROI to reduce churn, and surfaces the heavier plans as identity needs grow.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Hero edition establishing the recurring value format — one sharp, actionable idea on turning visitor intelligence into pipeline.",
+          "subject": "The intent signal most teams ignore (it's already in your dashboard)",
+          "preview": "3 ways to act on identified visitors this week.",
+          "cta": "Read the breakdown",
+          "keyPoints": [
+            "One useful idea per send: this edition = the highest-intent page visits to watch and how to route them to sales same-day",
+            "80/20 value-to-offer — teach the play, then a single soft pointer to the relevant feature or plan",
+            "Recurring habit section ('This week's intent play') so readers know what to expect each edition",
+            "Reinforce privacy/compliance positioning so the data-sensitive audience stays confident using the product"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "NinjaClick",
+    "url": "https://www.ninjaclick.com",
+    "slug": "ninjaclick",
+    "vertical": "SaaS/tech",
+    "tagline": "Turn Anonymous Visitors Into Known Customers",
+    "colors": {
+      "primary": "#111827",
+      "accent": "#6C47FF",
+      "background": "#FFFFFF",
+      "text": "#111827"
+    }
+  },
+  "offer": {
+    "what": "Visitor intelligence SaaS platform: one JS snippet identifies up to 80% of anonymous website visitors, revealing company info and decision-maker contact details without forms or cookies",
+    "coreOutcome": "Turn anonymous website traffic into identified, contactable leads so sales and marketing teams can engage high-intent prospects in real time",
+    "pricePoint": "Free tier (100 identities/mo); Growth $97/mo; Scale $497/mo (10,000 identities); Enterprise $997/mo (50,000 identities)",
+    "commitment": "Monthly subscription; no long-term contract; 14-day free trial, no credit card required",
+    "leadMagnets": [
+      "14-day free trial — no credit card required",
+      "Permanent free tier up to 100 identities/month"
+    ]
+  },
+  "audience": {
+    "icp": "Digital marketers, demand-gen managers, and B2B sales teams at companies with meaningful website traffic who are frustrated that most visitors leave without ever identifying themselves",
+    "painPoints": [
+      "95%+ of website visitors leave without filling out a form",
+      "Ad and SEO spend goes unaccounted — traffic arrives but leads never materialize",
+      "Sales teams have no visibility into which target accounts are actively researching",
+      "Marketing cannot measure true campaign effectiveness beyond click rates",
+      "CRM stays sparse because top-of-funnel identification is broken"
+    ],
+    "segments": [
+      "B2B sales teams seeking intent-based prospecting signals",
+      "E-commerce and DTC brands wanting to recover and re-engage anonymous shoppers",
+      "Demand-gen and ABM marketing teams",
+      "Growth teams at SaaS companies tracking product-led or content-driven traffic"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 1–2 weeks (self-serve trial → conversion)",
+    "trial": "14-day free trial, no credit card required; permanent free tier available (up to 100 identities)",
+    "closeMechanism": "Self-serve signup with free trial; Enterprise plans close via 'Contact Sales' call",
+    "topObjection": "Privacy and GDPR concerns about identifying visitors without explicit consent; skepticism about real-world match rates vs. advertised figures"
+  },
+  "ahaMoment": "Seeing the first batch of identified visitors — real names, company, and contact info — appear in the dashboard within minutes of installing the JS snippet",
+  "retention": {
+    "recurring": "Monthly subscription (MRR); tiered by identity volume per month",
+    "expansion": "Upgrade from Growth → Scale → Enterprise as identity volume needs grow; potential team-seat expansion",
+    "churnRisk": "Low perceived ROI if identify-to-pipeline conversion is poor; CRM/integration friction; privacy regulation changes eroding match rates"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — critical: new users must install the snippet and see first identified visitors within the 14-day trial window to activate",
+    "Trial/Consult Conversion — converting free-tier or expiring trial users to a paid plan before the window closes",
+    "Value Newsletter — educating subscribers on use cases (ABM, e-commerce recovery, intent data) to deepen engagement and drive expansion",
+    "Renewal & Expansion — proactive upsell when users approach monthly identity limits; annual plan conversion",
+    "Win-Back / Re-Engagement — re-engaging lapsed free-tier users or churned subscribers who installed but never activated"
+  ],
+  "toneVoice": "Confident and results-driven; direct, data-forward language; professional but not stuffy; leads with measurable business outcomes over technical jargon; action-oriented ('identify', 'convert', 'engage')",
+  "compliance": "GDPR compliant per site claims; CAN-SPAM applies for email outreach; privacy-sensitive vertical — email copy should reinforce data-privacy credentials and avoid implying surveillance; no HIPAA or financial-services constraints identified"
+}
