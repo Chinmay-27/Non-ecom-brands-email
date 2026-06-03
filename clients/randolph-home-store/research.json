@@ -1,0 +1,60 @@
+{
+  "brand": {
+    "name": "Randolph Home Store",
+    "url": "https://www.randolphhomestore.com",
+    "slug": "randolph-home-store",
+    "vertical": "Local & service",
+    "tagline": "Bringing Atlanta the latest in new and unique gifts and home decor products!",
+    "colors": {
+      "primary": "#3B5441",
+      "accent": "#C9A96E",
+      "background": "#FDFAF6",
+      "text": "#1E1E1E"
+    }
+  },
+  "offer": {
+    "what": "Curated gift and home decor boutique selling candles, jewelry, home accessories, fine barware, gourmet food, baby gifts, kitchenware, personal care, fashion accessories, and collegiate items — with a deliberate focus on American artisan, Georgia-based, and Southern-made brands",
+    "coreOutcome": "Finding a genuinely unique, thoughtful gift or home accent without settling for mass-produced alternatives — buying feels personal, locally meaningful, and occasion-ready",
+    "pricePoint": "Unknown exact; estimated $20–$200 typical gift/home decor retail range for an Atlanta boutique at this positioning tier",
+    "commitment": "One-off retail purchases (no subscription or membership discovered); sold in-store and via online catalog",
+    "leadMagnets": [
+      "Newsletter signup for sales notifications, new arrivals, and store updates"
+    ]
+  },
+  "audience": {
+    "icp": "Atlanta-area adults (primarily women, 30–65) who buy gifts for life occasions — housewarming, Mother's Day, Christmas, hostess gifts — and care about supporting local artisans and American makers over mass-retail alternatives",
+    "painPoints": [
+      "Generic, mass-produced gifts that feel impersonal or forgettable",
+      "Difficulty finding truly unique items without visiting multiple stores",
+      "Time pressure around gift-giving occasions (need something good, fast)",
+      "Uncertainty about what to buy for a specific person or occasion",
+      "Guilt about buying from big-box retailers when they'd prefer to shop local"
+    ],
+    "segments": [
+      "Gift-givers: occasion-driven shoppers buying for others (birthdays, housewarmings, holidays, showers)",
+      "Home nesters: shoppers refreshing or decorating their own space with curated accents",
+      "Local/conscious buyers: customers who actively seek Georgia/Southern/American artisan goods and shop with values"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — impulse or occasion-driven retail decision",
+    "trial": "None — open browse in-store or free online catalog; no formal trial or consultation offer discovered",
+    "closeMechanism": "Walk-in purchase with knowledgeable staff assistance; online order; staff gift-wraps in-store while customer continues shopping",
+    "topObjection": "Price (can I find something similar cheaper at a big-box store?) or product uncertainty (do they carry the right thing for this specific occasion or recipient?)"
+  },
+  "ahaMoment": "Walking in and immediately spotting something unexpected that is exactly right for the recipient — or opening a newsletter email that surfaces a new artisan product that solves the upcoming gift occasion they were dreading",
+  "retention": {
+    "recurring": "Seasonal repeat purchasing around holidays, Mother's Day, Father's Day, housewarmings, graduations — no formal subscription or loyalty program discovered",
+    "expansion": "Higher-ticket home decor items; multi-item gift baskets; buying for multiple occasions per season; recommending the store to friends and family",
+    "churnRisk": "One-occasion buyers who never receive a reason to return; out-of-Atlanta customers who discovered the brand online but have no physical proximity; lapsed subscribers who were only signed up for a one-time sale"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: no evidence of an automated welcome sequence for new email subscribers — biggest immediate gap",
+    "Lead-Magnet Nurture: newsletter exists but likely ad hoc and not segmented by occasion type, recipient type, or purchase history",
+    "Seasonal Campaigns: likely missing structured pre-holiday (Thanksgiving/Christmas), Mother's Day, and back-to-school gift-guide email pushes timed to buying windows",
+    "Win-Back / Re-Engagement: no known lapsed-buyer or lapsed-subscriber reactivation flow",
+    "Referral / Advocacy: strong curated/local story is ideal for referral but no program discovered"
+  ],
+  "toneVoice": "Warm, sophisticated, and locally proud — conversational but tasteful; celebrates the makers behind products and the stories behind occasions; never discounty, never pushy; reads like a trusted friend who knows great shops",
+  "compliance": "Standard retail CAN-SPAM compliance; no HIPAA, finance, or legal vertical constraints identified"
+}

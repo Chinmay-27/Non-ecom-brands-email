@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Randolph Home Store",
+    "slug": "randolph-home-store",
+    "url": "https://www.randolphhomestore.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#3B5441",
+      "accent": "#C9A96E",
+      "background": "#FDFAF6",
+      "text": "#1E1E1E"
+    }
+  },
+  "summary": "Randolph Home Store (operating as Randolph's Fine Gifts) is a curated gift and home decor boutique in Atlanta's Peachtree Battle Shopping Center, selling candles, jewelry, fine barware, gourmet food, baby gifts, kitchenware, and home accessories with a deliberate focus on American artisan, Georgia-based, and Southern-made brands. It serves Atlanta-area gift-givers and home decorators — primarily women 30–65 — who want unique, thoughtful items for life occasions over mass-produced alternatives. Revenue is one-off in-store and online retail, with seasonal repeat peaks around the holidays, Mother's Day, Valentine's Day, and graduations.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate a new subscriber toward a first store visit or purchase by reproducing the 'walking in and discovering' feeling that defines the brand.",
+      "trigger": "Newsletter signup / list join — send email 1 within seconds (welcome emails are the most-opened a brand sends; opens drop ~50% if delayed).",
+      "segment": "New subscribers; branch by occasion type or recipient type if captured at signup, otherwise route to the general edition.",
+      "rationale": "This is the single biggest gap — new subscribers currently get nothing until the next ad-hoc newsletter blast, so the warmest moment of the relationship is wasted. A welcome email is the fastest way to turn a sale-curious signup into a first-purchase customer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, tell the brand story, set expectations, and deliver one quick win — a look at this week's new arrivals.",
+          "subject": "Welcome to Randolph's — your front-row seat to Atlanta's best makers",
+          "preview": "The candles, barware, and finds we can't keep on the shelf — and the people behind them.",
+          "cta": "See what just arrived",
+          "keyPoints": [
+            "Warm welcome and the Randolph's story: a Peachtree Battle boutique curating American artisan, Georgia-made, and Southern-made gifts",
+            "Set expectations — occasional emails with new arrivals, maker stories, and occasion ideas; never discounty, never pushy",
+            "One quick win: a link to this week's new arrivals so they feel the 'walking in and discovering' moment online",
+            "Human close — invite a reply about the occasions they shop for, and note that staff gift-wrap in-store while you keep browsing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter (structured)",
+      "priority": 2,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and drive repeat visits by building authority around makers and occasions — 80% value, 20% soft offer, never discounting.",
+      "trigger": "Scheduled recurring cadence (biweekly or monthly).",
+      "segment": "All engaged subscribers; suppress contacts still in the welcome flow and route recently-dormant contacts to win-back instead.",
+      "rationale": "With no trial, consult, or booking motion, the newsletter is this boutique's core retention engine — but today it's ad hoc and unstructured. A repeatable maker-story + occasion-spotlight format turns it from a sale blast into the reason one-occasion buyers come back.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "ongoing",
+          "purpose": "Flagship recurring edition: lead with one maker story, tie a product cluster to a current occasion, and surface new arrivals with a single soft CTA.",
+          "subject": "The Georgia candlemaker behind our best-selling scent",
+          "preview": "Plus three new finds that make an effortless summer hostess gift.",
+          "cta": "Read her story",
+          "keyPoints": [
+            "Lead with one maker story — the person and craft behind a featured product (the value-first 80%)",
+            "Occasion spotlight: tie a small product cluster to a timely need (summer hostess gifts, housewarmings)",
+            "New arrivals block — 3 curated finds, each with the recipient or occasion it suits",
+            "One primary CTA (visit or shop online) and a recurring 'Meet the Maker' section that builds reading habit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal-occasion-repeat",
+      "name": "Seasonal Occasion & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Turn one-occasion buyers into year-round gift-occasion customers with curated gift guides timed to the brand's biggest buying windows.",
+      "trigger": "Seasonal buying window opens (e.g., holiday window ~6 weeks out); or anniversary of a prior-occasion purchase (last year's Mother's Day buyer).",
+      "segment": "Past buyers and engaged subscribers; branch by recipient type (hostess, host, kids, hard-to-buy-for) and by prior occasion purchased.",
+      "rationale": "Repeat revenue here is entirely occasion- and season-driven, so the renewal/expansion play becomes timed seasonal gift guides. The holiday window is the single largest revenue peak and the highest-leverage send of the year.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Holiday gift-guide kickoff: hand shoppers a pre-curated list organized by recipient to remove decision fatigue and beat the big-box price objection.",
+          "subject": "Your Atlanta holiday gift list, already curated",
+          "preview": "Hostess, host, the kids, the one who has everything — we picked the perfect thing for each.",
+          "cta": "Shop the holiday gift guide",
+          "keyPoints": [
+            "Time the send to the early-November holiday window to capture the largest seasonal revenue peak",
+            "Organize by recipient type — hostess, host, kids, hard-to-buy-for — to remove decision fatigue",
+            "Spotlight Georgia and Southern makers as the 'thoughtful, not big-box' angle that answers the price objection",
+            "Remind them of in-store gift wrapping and that early shoppers get the best of limited artisan stock"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed one-occasion buyers and sale-only subscribers, and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold — ~90 days with no opens, clicks, or purchases; or a buyer who has not returned since a single past occasion.",
+      "segment": "Dormant subscribers; separately, churned one-occasion buyers who get a message referencing what they bought before.",
+      "rationale": "The core churn risk named in the intake is one-occasion buyers and sale-only signups who never get a reason to return. A win-back flow recovers 5–15% of these and sunsets the rest before they drag down sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm, no-pressure re-open: acknowledge the gap, remind them of the core value, and pattern-interrupt with fresh artisan arrivals.",
+          "subject": "It's been a while — here's what's new at Randolph's",
+          "preview": "New makers, new finds, and the same thoughtful gifts you came for.",
+          "cta": "See what you've missed",
+          "keyPoints": [
+            "Open warm and low-pressure — acknowledge it's been a while since their last visit or open",
+            "Remind them of core value: unique, locally made gifts they won't find at a big-box store",
+            "Pattern interrupt with fresh artisan arrivals added since their last engagement",
+            "One easy next step to visit or shop; sets up the later sunset email for non-responders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 5,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert cold contacts — Instagram followers and sale-only signups — toward a first purchase using a downloadable Atlanta gift guide.",
+      "trigger": "Download of the 'Atlanta Gift Guide' (a new lead magnet to be built) or an occasion-specific guide.",
+      "segment": "Contacts who have downloaded but not yet purchased; branch the middle emails by the occasion topic of the guide they chose.",
+      "rationale": "Lowest fit of the five because retail here is impulse, not a long consideration cycle — and no real lead magnet exists yet. Building a simple gift-guide magnet gives the modest-but-engaged Instagram audience and sale-only subscribers a value-first on-ramp to a first purchase.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the downloaded gift guide and frame the real problem it solves — generic gifts that feel forgettable.",
+          "subject": "Your Atlanta Gift Guide is here — and the trap most gift-givers fall into",
+          "preview": "Why the 'safe' big-box gift is the one nobody remembers.",
+          "cta": "Open your gift guide",
+          "keyPoints": [
+            "Deliver the downloaded asset (the curated Atlanta gift guide) immediately",
+            "Frame the real problem: generic, mass-produced gifts feel impersonal and forgettable",
+            "Position Randolph's curation as the fix — thoughtful, artisan, occasion-ready finds without an hour on Amazon",
+            "Low-friction next step: browse the guide's picks online or visit the Peachtree Battle store"
+          ]
+        }
+      ]
+    }
+  ]
+}
