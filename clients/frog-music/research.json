@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Frog Music Press",
+    "url": "https://www.frogmusic.com",
+    "slug": "frog-music",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Music for Catholic Organists & Choirs",
+    "colors": {
+      "primary": "#1B5E20",
+      "accent": "#9C7C38",
+      "background": "#FFF8E7",
+      "text": "#212121"
+    }
+  },
+  "offer": {
+    "what": "Sheet music books, Gregorian chant guides, MIDI organ files, and the PTCO series (Practical Tools for Church Organists) for Rodgers/Roland digital organs — available as free downloads, Amazon paperbacks, and Kindle editions. Also a 14-week Free Chant School video curriculum.",
+    "coreOutcome": "Catholic church organists and choir directors can confidently lead liturgical music — reading Gregorian chant, registering a digital organ, and building a parish music library — without expensive materials or specialized training.",
+    "pricePoint": "Mostly free (download + donation requested); physical books on Amazon ~$10–$25; Kindle editions ~$5–$10. No subscription.",
+    "commitment": "One-off purchase or free download; no recurring contract.",
+    "leadMagnets": [
+      "Free Chant School (14-week video curriculum for Gregorian chant)",
+      "Free Downloads page (PDFs of organ and choral books)",
+      "Free Music Shelf (curated free sheet music)",
+      "Free sample pages for PTCO organ series"
+    ]
+  },
+  "audience": {
+    "icp": "Amateur or semi-professional Catholic church organist (often a volunteer or part-time parish musician) who plays a Rodgers or Roland digital organ and needs accessible, liturgically correct music at little or no cost.",
+    "painPoints": [
+      "Gregorian chant notation is unfamiliar and intimidating",
+      "Transitioning from piano/keyboard to pipe or digital organ",
+      "Parish music budgets are extremely tight — free materials are essential",
+      "Hard to find Catholic-specific (not generic Protestant) liturgical repertoire",
+      "Isolated role with few peers — limited professional development resources"
+    ],
+    "segments": [
+      "Parish organists (Rodgers/Roland digital organ owners — PTCO series audience)",
+      "Choir directors in Catholic parishes seeking choral & chant repertoire",
+      "Gregorian chant learners / beginners (chant school audience)",
+      "Catholic music teachers and catechists"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — free download or one-click Amazon purchase; no approval or consultation needed.",
+    "trial": "Yes — essentially everything is free to start. The free download library and Free Chant School serve as a zero-friction trial of the full catalog.",
+    "closeMechanism": "Self-serve: visitor downloads a free PDF or buys on Amazon. Donation page nudges free users to contribute. No salesperson.",
+    "topObjection": "\"I can get this for free, so why donate or buy the print edition?\" — the free model undercuts its own upsell. Secondary objection: \"Is this quality/authoritative enough for our parish?\""
+  },
+  "ahaMoment": "The moment a musician successfully sings or plays through a Gregorian chant piece (or organ hymn) using the free resources and realizes they can now lead their choir or congregation — typically after completing the first few lessons of the Free Chant School or playing through one of the PTCO organ books.",
+  "retention": {
+    "recurring": "No formal subscription. Retention is community- and mission-driven: continued downloads of new publications, engagement with The Catholic Organist's Quarterly volumes, and ongoing reference use of the MIDI library.",
+    "expansion": "Buying additional seasonal volumes of The Catholic Organist's Quarterly (multiple volumes: Fall, Winter, Spring, Summer, Manuals Only editions), purchasing other books in the chant or organ series, or donating after sustained free use.",
+    "churnRisk": "Silent disengagement — free users download once and never return. No subscription means no renewal trigger. New publication releases are the main re-engagement hook."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: No apparent nurture sequence for new free-download subscribers; people receive a PDF and disappear.",
+    "Lead-Magnet Nurture: Free Chant School generates leads but likely no automated email sequence guiding learners through the curriculum and into paid books.",
+    "Value Newsletter: Content exists (quarterly volumes, MIDI library updates) but likely not distributed via a consistent email newsletter.",
+    "Renewal/Anniversary/Expansion: No trigger to promote new seasonal volumes to past buyers or re-engage dormant downloaders.",
+    "Win-Back/Re-Engagement: Likely entirely absent — no mechanism to re-activate subscribers who stopped opening emails.",
+    "Referral/Advocacy: No structured referral or parish-share program despite strong word-of-mouth potential among Catholic musicians."
+  ],
+  "toneVoice": "Warm, scholarly, and mission-driven. Educational without being condescending — Noel Jones writes for beginners but holds an AAGO credential, so the voice balances accessibility with quiet authority. Devotional undertone (sacred music as ministry). Not commercial; price is almost never the lead. Think: a trusted colleague in the choir loft, not a marketer.",
+  "compliance": "CAN-SPAM / CASL standard email compliance. Religious/faith-based content — no HIPAA, financial, or legal compliance requirements. Should be sensitive to the pastoral context (volunteers, small parishes, clergy) and avoid aggressive sales language."
+}

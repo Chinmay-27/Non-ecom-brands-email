@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Frog Music Press",
+    "slug": "frog-music",
+    "url": "https://www.frogmusic.com",
+    "vertical": "Education/nonprofit/membership",
+    "colors": {
+      "primary": "#1B5E20",
+      "accent": "#9C7C38",
+      "background": "#FFF8E7",
+      "text": "#212121"
+    }
+  },
+  "summary": "Frog Music Press, led by organist Noel Jones (AAGO) out of Augusta, KY, publishes Catholic liturgical music resources: organ and choir books, Gregorian chant guides, MIDI organ files, the PTCO series for Rodgers and Roland digital organs, and a 14-week Free Chant School. Materials are distributed mostly as free PDF downloads (with a donation ask) plus low-cost Amazon paperbacks and Kindle editions. It serves amateur and part-time Catholic parish organists and choir directors who need affordable, liturgically accurate music without formal training.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new free-download subscriber to their first 'aha' — successfully singing or playing one chant or hymn — within the first week, then frame future donations and books around the mission.",
+      "trigger": "New subscriber: free PDF downloaded, Free Chant School signup, or list join. Send email 1 within seconds.",
+      "segment": "All new contacts; branch by entry point (chant learner vs. organ/PTCO player vs. choir director).",
+      "rationale": "The brand's biggest leak is that free users grab one PDF and vanish with no follow-up; an instant welcome that delivers a quick win is the single highest-leverage flow to convert anonymous downloaders into engaged, eventually-donating parish musicians.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver one immediate win — the first chant lesson or first playable organ page — so the new subscriber experiences value the same day they sign up.",
+          "subject": "Welcome to Frog Music Press — your first chant is inside",
+          "preview": "Two minutes to sing your first line of Gregorian chant. No degree required.",
+          "cta": "Start Lesson 1 of the Free Chant School",
+          "keyPoints": [
+            "Warm, devotional welcome from Noel Jones, AAGO — a fellow musician in the choir loft, not a marketer",
+            "Point them to one specific first action: open Lesson 1 (or, for organists, the opening pages of a PTCO book) and play/sing through it today",
+            "Set the expectation that a few short, useful emails are coming — and invite a real reply if they get stuck",
+            "Frame the work as ministry: 'everything here exists so you can lead music at Mass, whatever your parish budget'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chant-school-nurture",
+      "name": "Free Chant School Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a Free Chant School enrollee from problem-recognition ('I can't read chant notation') through the 14-week curriculum toward leading chant at Mass and, ultimately, buying a print chant title or donating.",
+      "trigger": "Free Chant School enrollment or download of a chant lead magnet (Free Music Shelf, chant sample pages).",
+      "segment": "Chant learners below the engaged/buyer threshold; branch by progress through the curriculum and by role (organist vs. choir director vs. teacher).",
+      "rationale": "The Free Chant School is the brand's strongest lead magnet but almost certainly has no email follow-through, so learners stall mid-curriculum; a stage-matched nurture mirrors the 14 weeks, keeps them progressing to the aha moment, and creates the natural moment to offer a print edition or next book.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the curriculum and frame the real problem it solves — turning unfamiliar four-line chant notation into music you can confidently lead — and commit the learner to a weekly rhythm.",
+          "subject": "Your Free Chant School starts now — Lesson 1 of 14",
+          "preview": "By Sunday you'll read your first line of square-note notation.",
+          "cta": "Open Lesson 1 now",
+          "keyPoints": [
+            "Confirm enrollment and deliver the Lesson 1 link plus the full 14-week roadmap so they know exactly where this leads",
+            "Name the pain directly: square-note chant notation looks intimidating, but it's actually simpler than modern staff notation — and you'll prove it this week",
+            "Set a gentle weekly cadence ('one lesson a week gets your choir singing chant before the next liturgical season')",
+            "Reassure on authority: taught on video by Noel Jones, AAGO, written for true beginners with no pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back & Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant subscribers who downloaded once and went silent, and clean the list to protect deliverability for the small sending operation.",
+      "trigger": "No opens or clicks for 90 days (or downloaded a single PDF and never returned).",
+      "segment": "Dormant subscribers and one-time downloaders; lean on new-publication releases as the re-engagement hook since there is no renewal signal.",
+      "rationale": "Silent disengagement is explicitly the brand's core churn problem — there's no subscription to trigger a renewal — so a win-back is the only mechanism to recover the large pool of one-time free downloaders, and re-engagement typically recovers 5–15% of inactive contacts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a warm, no-guilt 'we miss you in the choir loft', remind them of the core value, and use a fresh publication or MIDI release as the reason to come back.",
+          "subject": "Still leading music at your parish?",
+          "preview": "It's been a while — here's what's new in the choir loft since you left.",
+          "cta": "See the latest free downloads",
+          "keyPoints": [
+            "Open warmly and pastorally — acknowledge that parish musicians are busy and volunteer time is scarce, no guilt",
+            "Remind them of what they came for: free, liturgically correct chant and organ music for Catholic worship",
+            "Lead with a concrete new hook — a newly released volume, chant title, or MIDI library addition added since they last visited",
+            "Make returning a single low-friction click, and signal email 4 will quietly ask whether to stop emailing (sunset) if there's no response"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The Choir Loft Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long, non-recurring cycle and reinforce Noel Jones's authority by delivering one genuinely useful teaching idea per issue, tied to the liturgical calendar.",
+      "trigger": "Scheduled monthly cadence, timed to the liturgical season (Advent, Lent, Easter, Ordinary Time).",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route 90-day dormant contacts to Win-Back instead.",
+      "rationale": "The brand already produces newsletter-worthy content (new Quarterly volumes, MIDI updates, teaching insight) but likely doesn't distribute it consistently, so an always-on newsletter is the retention engine that keeps free downloaders engaged between releases and primes them to donate or buy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the flagship issue format — one practical teaching tip, a seasonal repertoire suggestion, and a new resource — using the upcoming fall liturgical season as the timely hook.",
+          "subject": "3 chant settings to prepare before the fall season",
+          "preview": "Plus a new Salve Regina MIDI file and one organ registration tip.",
+          "cta": "Read this month's teaching tip",
+          "keyPoints": [
+            "One useful idea per send: a single practical teaching tip (e.g., registering soft foundation stops for accompanying chant)",
+            "Seasonal repertoire block: 3 specific chant or hymn settings to rehearse now so the choir is ready for the fall liturgical calendar",
+            "Recurring 'New on the shelf' section spotlighting a fresh free download or MIDI library addition, with an 80/20 value-to-soft-ask balance",
+            "Single primary CTA (read/listen), warm scholarly voice, and a soft mission-framed donation line in the footer rather than the lead"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-volume-expansion",
+      "name": "New Volume & Series Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Drive repeat engagement and revenue from past buyers and donors by promoting newly released seasonal volumes and encouraging completion of The Catholic Organist's Quarterly series.",
+      "trigger": "New publication release (seasonal Quarterly volume or new chant/organ title); past purchase of an earlier volume in a series.",
+      "segment": "Past Amazon buyers and donors; branch by what they already own (series-completion gap) and by instrument (organ/PTCO vs. choral/chant).",
+      "rationale": "With 9+ Quarterly volumes (Fall, Winter, Spring, Summer, Manuals-Only) there's a built-in series-completion upsell, but no trigger currently promotes new releases to past buyers — making this the brand's clearest expansion play in the absence of any subscription renewal.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Announce a new seasonal volume to past buyers, recap the value of the volumes they already have, and frame completing the seasonal set as the natural next step.",
+          "subject": "The new Catholic Organist's Quarterly (Fall) is here",
+          "preview": "You have Summer — the Fall volume completes your seasonal set.",
+          "cta": "Get the Fall volume on Amazon",
+          "keyPoints": [
+            "Lead with the new release and what's inside (organ settings, choral pieces, and chant for the fall liturgical season)",
+            "Acknowledge the volume(s) they already own and position Fall as completing the four-season set on the music rack",
+            "Reinforce authority and consistency: same trusted editing and liturgical accuracy from Noel Jones across the series",
+            "Offer both paths respectfully — buy the print/Kindle edition, or grab the free PDF and donate if it serves their parish"
+          ]
+        }
+      ]
+    }
+  ]
+}
