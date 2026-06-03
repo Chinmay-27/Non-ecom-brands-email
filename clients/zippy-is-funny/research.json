@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Zippy Entertainment",
+    "url": "https://www.zippyisfunny.com",
+    "slug": "zippy-is-funny",
+    "vertical": "Local & service (mobile event entertainment)",
+    "tagline": "Arizona's Most Fun Foam Party Experience",
+    "colors": {
+      "primary": "#1BAEEA",
+      "accent": "#FF4500",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Mobile event entertainment services: foam/bubble/gender-reveal parties, balloon artistry (arches, columns, special effects, drops), face painting, airbrush tattoos, character appearances (Santa, Easter Bunny, superheroes, princesses), magic shows, and balloon creation classes. All services are brought directly to the client's event location across the Phoenix metro area.",
+    "coreOutcome": "A memorable, stress-free party experience that leaves kids and guests amazed — parents become the hero of the event without lifting a finger.",
+    "pricePoint": "One-off per-event bookings. Foam parties $395–$475; balloon arches from $450; special-effect balloons from $525. Setup/strike fee $75 (standard) or $150 (after hours). 50% non-refundable retainer secures the date; balloon décor and character experiences require 100% upfront.",
+    "commitment": "One-off per event; no subscription. Repeat bookings are common (annual birthdays, recurring corporate events). Discounts offered for extended or recurring bookings.",
+    "leadMagnets": [
+      "Free availability check via contact form",
+      "FAQ page (detailed pre-sale education)",
+      "Photo gallery / video testimonials",
+      "100% satisfaction guarantee (event free up to 15 guests if Zippy misses a confirmed booking)"
+    ]
+  },
+  "audience": {
+    "icp": "Parents aged 25–45 in Phoenix metro suburbs (Scottsdale, Mesa, Gilbert, Chandler, Tempe, Queen Creek) planning children's birthday parties or family celebrations. Middle-to-upper-middle income households willing to spend $400–$600+ to make the event special without the DIY headache.",
+    "painPoints": [
+      "Fear of a boring, forgettable party — pressure to create a 'wow' moment for their child",
+      "Planning overwhelm — coordinating multiple vendors is stressful",
+      "Reliability anxiety — will the entertainer actually show up and be professional?",
+      "Price-value uncertainty — is paying $400+ for an hour of foam worth it vs. bounce house rental?",
+      "Last-minute scramble — not knowing how far in advance to book a popular vendor"
+    ],
+    "segments": [
+      "Birthday party parents (primary — kids ages 2–12)",
+      "Corporate event planners (team celebrations, holiday parties, company picnics)",
+      "Schools and daycares (field days, end-of-year parties)",
+      "Community organizations and charities (fundraisers, block parties, community events)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — site recommends booking 4–6 weeks to up to 1 year in advance; last-minute bookings possible if availability exists",
+    "trial": "No free trial. Free availability check and informal consultation via phone/email/contact form is the entry point.",
+    "closeMechanism": "Contact form or phone call → Zippy confirms availability and sends a quote → client pays 50% retainer (Venmo/Zelle preferred) to lock in date → event occurs → balance settled.",
+    "topObjection": "Price — is the premium over a cheaper DIY or rental option justified? Secondary: availability ('Is my date open this late?')"
+  },
+  "ahaMoment": "The live event itself — specifically the first 5 minutes when foam engulfs the yard or the balloon artist produces a character balloon in front of a child's eyes. Pre-event: receiving the booking confirmation and countdown communications gives parents early confidence that the vendor is reliable.",
+  "retention": {
+    "recurring": "Repeat bookings — annual birthday parties, recurring corporate or holiday events. Discounts available for repeat clients. Retainer can be rolled over within 12 months if rescheduled.",
+    "expansion": "Upsell to premium packages (Glow-in-the-Dark foam +$50–$80), add a second service type to the same event (e.g., foam party + face painting + balloon arch), longer duration add-ons ($200–$250/hour), or upgrade to character appearances.",
+    "churnRisk": "Kids aging out (families stop booking kids' entertainment as children grow up); one-and-done corporate event budget cuts; price sensitivity causing clients to try cheaper competitors."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no confirmed post-booking email sequence to build excitement, reduce no-shows, and set expectations (prep checklist, what-to-expect)",
+    "Lead-Magnet Nurture — form submissions or availability inquiries that don't convert immediately receive no follow-up sequence",
+    "Booking Reminders & Event-Day Prep — no automated reminder cadence (T-7 days, T-48 hrs, day-of) with logistics checklist for hosts",
+    "Post-Event Follow-Up — no automated review request, photo-share prompt, or referral ask after the event",
+    "Renewal / Anniversary — no birthday-anniversary re-engagement (e.g., 'Your child's party was a year ago — ready to book again?')",
+    "Win-Back / Re-Engagement — no sequence for past clients who haven't booked in 12+ months",
+    "Referral / Advocacy — strong word-of-mouth brand but no structured referral incentive or email campaign to activate advocates"
+  ],
+  "toneVoice": "Enthusiastic, warm, and playful — the voice of a fun uncle who also happens to be a licensed professional. Casual and approachable but not sloppy; military-veteran reliability underpins the friendliness. Uses exclamation points freely. Emphasizes joy ('mind-blowing,' 'happy memories') and trust ('licensed, insured, bonded, FBI-cleared, 100% guaranteed').",
+  "compliance": "Standard CAN-SPAM / general B2C. No HIPAA, GDPR special concern (US-local service business). Cancellation and retainer terms should not be misrepresented in emails. No specific industry regulatory constraints."
+}

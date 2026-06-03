@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Zippy Entertainment",
+    "slug": "zippy-is-funny",
+    "url": "https://www.zippyisfunny.com",
+    "vertical": "Local & service (mobile event entertainment)",
+    "colors": {
+      "primary": "#1BAEEA",
+      "accent": "#FF4500",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Zippy Entertainment is a Phoenix-metro mobile event-entertainment company that brings foam, bubble, and gender-reveal parties, balloon artistry, face painting, character appearances, and magic shows directly to a client's event location. It serves parents (ages 25-45) planning kids' birthdays and family celebrations, plus corporate, school, and community clients, on a one-off per-event booking secured by a 50% non-refundable retainer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding-post-booking",
+      "name": "Welcome & Onboarding (Post-Booking Confirmation)",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Confirm the booking instantly, manufacture an early 'aha' by reassuring the host they chose right, and set expectations so the event runs flawlessly.",
+      "trigger": "50% retainer received / booking confirmed for an event date.",
+      "segment": "Newly booked clients; branch by service type (foam party, balloon décor, character appearance, multi-service).",
+      "rationale": "Everything is greenfield and a confirmed booking is Zippy's highest-trust moment — a professional confirmation is the pre-event 'aha' that calms reliability anxiety, locks in excitement, and reduces last-minute cancellations on a non-refundable retainer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly confirm the date is locked, reassure the host they picked a licensed/insured/guaranteed pro, and tell them exactly what happens next.",
+          "subject": "🎉 You're officially booked — foam day is locked in!",
+          "preview": "Your date's secured. Here's what happens next (and the one thing we'll need from you).",
+          "cta": "Add your event to your calendar",
+          "keyPoints": [
+            "Confirm the exact date, time, service, and location back to them so they know it's real and correct",
+            "Reassure: licensed, insured, bonded, FBI-cleared, and backed by the 100% satisfaction guarantee — they chose right",
+            "Set expectations: Zippy handles all setup, operation, and cleanup — zero effort for the host",
+            "Preview the prep checklist coming closer to the date (water hookup, clear space) so there are no surprises",
+            "Warm, real reply-to invite: 'Have a question before the big day? Just hit reply.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inquiry-to-booking-conversion",
+      "name": "Inquiry-to-Booking Conversion",
+      "priority": 2,
+      "stage": "Conversion / Booking",
+      "objective": "Turn an availability-check / contact-form submission into a paid 50% retainer by confirming the date is open, answering the price objection, and creating calendar urgency.",
+      "trigger": "Contact form / availability check submitted but no retainer paid.",
+      "segment": "Inquiries that haven't booked; branch by service type and how far out the event date is.",
+      "rationale": "The brand's #1 goal this quarter is converting inquiries into bookings, and right now non-converting form submissions get zero follow-up — this is lost revenue sitting idle, and the top objection (price) plus availability fear are both fixable in one well-timed send.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Confirm availability for their date, deliver the quote, justify the premium with proof, and make locking the date one easy step.",
+          "subject": "Good news — your date is still open! 🙌",
+          "preview": "Here's your quote, what's included, and how to lock it in before someone grabs the slot.",
+          "cta": "Lock in my date with a 50% retainer",
+          "keyPoints": [
+            "Lead with the relief: 'Yes, [event date] is available!' — kills the availability objection immediately",
+            "Reframe price as value: a stress-free, mind-blowing experience the kids will talk about for months vs. a DIY headache or a bounce-house rental",
+            "Stack the proof: video testimonials, photo gallery, and the 100% satisfaction guarantee (free event up to 15 guests if Zippy ever misses a confirmed booking)",
+            "Create real urgency: popular Phoenix-metro dates book 4-6 weeks to a year out — a 50% retainer (Venmo/Zelle) holds the date now",
+            "Offer a quick call/reply for any questions on package options or add-ons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-event-prep",
+      "name": "Booking Reminders & Event-Day Prep",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Make sure the event goes off without a hitch and prevent last-minute cancellations by delivering logistics prep and building excitement as the date approaches.",
+      "trigger": "Upcoming confirmed event (T-7 days, T-48 hours, morning-of cadence).",
+      "segment": "All clients with a scheduled event; reference the specific service booked and the host's name.",
+      "rationale": "This is a logistics-heavy live service where a missed water hookup or unclear space can wreck the experience — reminders cut no-shows ~35% and the prep checklist turns a nervous host into a prepared, hyped one, protecting the event and the review that follows.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-2",
+          "purpose": "The make-or-break prep email: give the host the short logistics checklist and final what-to-expect so setup is flawless, while ramping excitement.",
+          "subject": "2 days till foam day! 🫧 Your quick prep checklist",
+          "preview": "A garden hose, a clear space, and excited kids — that's all we need from you.",
+          "cta": "Review your day-of checklist",
+          "keyPoints": [
+            "Countdown excitement: 'The kids have no idea what's about to hit them — in the best way!'",
+            "Simple host checklist: accessible water spigot/garden hose, a clear flat area of the right size, and a power outlet if needed",
+            "What to expect on the day: arrival/setup window, run-of-show, and that Zippy handles all teardown and cleanup",
+            "Confirm the locked details (date, time, address) and include the reschedule/contact link to remove any friction",
+            "Reminder of the guarantee + a direct phone/reply line for any last-minute questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-renewal-rebooking",
+      "name": "Anniversary & Renewal (Annual Re-Booking)",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Drive repeat bookings by reaching past clients before the next annual celebration and prompting them to lock the date again — ideally with an upgrade.",
+      "trigger": "~11 months after a past event (birthday/celebration anniversary approaching).",
+      "segment": "Past clients with a naturally recurring occasion; branch families (kids' birthdays) vs. corporate/community (annual events).",
+      "rationale": "Birthdays recur every year and corporate clients book annually, but one-and-done customers don't realize they can rebook — a timed anniversary nudge captures the highest-intent repeat moment Zippy has and beats price-shopping competitors to the calendar slot.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "330",
+          "purpose": "Trigger the rebooking with nostalgia from last year's event plus early-bird urgency to secure the date before it fills.",
+          "subject": "Can you believe it's almost party time again?! 🎂",
+          "preview": "Last year's foam party was epic — let's lock this year's date before it books up.",
+          "cta": "Check availability for this year",
+          "keyPoints": [
+            "Lead with the memory: 'About a year ago we turned your yard into a foam wonderland — and we'd love to do it again!'",
+            "Make rebooking effortless: 'Reply with your date and we'll check availability today'",
+            "Early-bird urgency: popular dates book months out — secure it now to avoid the last-minute scramble",
+            "Soft expansion nudge: add Glow-in-the-Dark foam, a balloon arch, face painting, or a character appearance to level up this year",
+            "Returning-client appreciation: mention the repeat/extended-booking discount as a thank-you for coming back"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-event-referral-advocacy",
+      "name": "Post-Event Review & Referral",
+      "priority": 5,
+      "stage": "Advocacy / Referral",
+      "objective": "Capture a review and photos while the joy is fresh, and turn delighted hosts into a referral channel.",
+      "trigger": "1-2 days after a completed event (peak value moment).",
+      "segment": "Clients whose event just happened; branch families vs. corporate/community for the referral framing.",
+      "rationale": "Zippy already runs on word-of-mouth but has zero structured way to capture or amplify it — asking right after the 'wow moment' converts genuine delight into reviews, shareable photos, and warm referrals that feed the top of the funnel for free.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Ride the post-party high to request a review, prompt a photo share, and plant the referral ask with a clear reward for both sides.",
+          "subject": "Did the kids have a blast?? 🎉 (one quick favor)",
+          "preview": "Share the photos, leave a quick review — and grab a thank-you for your next party.",
+          "cta": "Leave a 30-second review",
+          "keyPoints": [
+            "Open with shared joy: 'Those first 5 minutes when the foam hit — pure magic, right?'",
+            "Single primary ask: a quick Google review with a direct link (lowest-friction advocacy)",
+            "Photo-share prompt: 'Got pics or video? Tag us — we love reliving the chaos'",
+            "Referral offer framed for both sides: a perk for them and a treat for the friend they send Zippy's way",
+            "Warm close reminding them rebooking is easy whenever the next celebration comes around"
+          ]
+        }
+      ]
+    }
+  ]
+}
