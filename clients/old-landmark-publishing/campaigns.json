@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Old Landmark Publishing",
+    "slug": "old-landmark-publishing",
+    "url": "https://www.oldlandmarkpublishing.com",
+    "vertical": "Independent ebook publishing — retail ebook store (religious, AI/business, cozy fantasy) plus end-to-end author publishing & marketing services",
+    "colors": {
+      "primary": "#1a2b4a",
+      "accent": "#c8922a",
+      "background": "#f9f7f4",
+      "text": "#1c1c1c"
+    }
+  },
+  "summary": "Old Landmark Publishing runs two businesses from one site: a retail store selling affordable niche ebooks (religious/Christian, AI & business, and cozy fantasy titles, free to $17), and a done-for-you publishing service that turns self-publishing authors' manuscripts into designed, distributed, and marketed ebooks. It serves two audiences: budget-conscious readers seeking niche titles, and independent or first-time authors who want professional publishing support without a traditional publisher.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate every new free-ebook downloader and first-time buyer — get them reading the book they just claimed and aware that Old Landmark is both a store and a publishing partner.",
+      "trigger": "Free ebook download (AI-Proof Your Life or The Opal and the Rose excerpt) or first paid ebook purchase. Send within seconds of the download/checkout event.",
+      "segment": "New contacts; branch on which lead magnet/title they claimed (AI/business vs. cozy fantasy vs. religious) to set the genre voice and the relevant next read.",
+      "rationale": "Today every free-ebook downloader is left completely cold — the single biggest gap on the site. A welcome email is the most-opened send a brand makes and is the only thing turning anonymous free-download traffic into a known, re-marketable audience.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the free book instantly, welcome warmly, set expectations, and plant the dual identity (great reads + a publishing team for authors) without hard-selling.",
+          "subject": "Your free book is ready — start reading in one tap",
+          "preview": "Plus a quick hello from the team behind Old Landmark Publishing.",
+          "cta": "Download & start reading",
+          "keyPoints": [
+            "One-tap link to the exact title they claimed; confirm it's theirs to keep, free, forever",
+            "Branch the welcome line by genre — reverent for religious readers, practical for AI/business, cozy for fantasy",
+            "Set expectations: a few short emails with reading picks and ideas, reply-to is a real person",
+            "Soft one-line note for authors: 'Writing a book of your own? We help authors publish, distribute, and market — just reply.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Author Consultation-to-Client Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert author publishing-service inquiries into a booked conversation and a signed engagement — the highest-LTV revenue play on the site.",
+      "trigger": "Contact form submitted or live-chat inquiry about publishing services. Send the hero email within minutes while intent is hot.",
+      "segment": "Authors who expressed interest in publishing/marketing services; branch by stated stage (finished manuscript vs. idea/in-progress).",
+      "rationale": "Author services are custom-quoted and far higher value than $2.50–$17 ebooks, yet nothing moves an inquiry from 'contact form submitted' to signed client. A fast, confidence-building first reply directly attacks the #1 objection — 'can a small indie publisher actually get my book seen?'",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Respond fast, frame the end-to-end outcome, dissolve the credibility objection with proof, and drive to a single low-friction next step — a real conversation.",
+          "subject": "Let's turn your manuscript into a published book",
+          "preview": "Here's exactly how we get your book onto Kindle, B&N — and in front of readers.",
+          "cta": "Book your free publishing conversation",
+          "keyPoints": [
+            "Acknowledge their inquiry by name and restate their goal: a professionally published, distributed, sold book",
+            "Walk the managed path in three plain steps — design & formatting, multi-platform distribution, post-launch marketing",
+            "Defuse the reach objection with the 4.8/5 from 150+ reviews and concrete distribution channels (Amazon Kindle, Barnes & Noble)",
+            "One CTA: book a no-pressure conversation where the team builds their custom publishing plan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Free-Reader Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free-ebook downloaders toward a paid purchase, and surface the publishing service to readers who are secretly authors.",
+      "trigger": "Free ebook downloaded; contact has not yet purchased. Runs after the welcome, ~every 10 days.",
+      "segment": "Free-download subscribers below a 'buyer' threshold; branch by the genre they downloaded (religious, AI/business, cozy fantasy).",
+      "rationale": "Two strong lead magnets feed the top of the funnel but nothing converts a free reader into a $2.50–$17 buyer or a publishing lead. A genre-matched nurture is the engine that monetizes the existing free-download traffic.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "The evaluation/proof beat — bridge from the free book to the paid catalog in the same genre, using reviews and a clear value framing to earn the first purchase.",
+          "subject": "If you liked your free read, you'll love these three",
+          "preview": "Hand-picked titles in your genre — most under the price of a coffee.",
+          "cta": "Browse your genre",
+          "keyPoints": [
+            "Open by referencing the specific free book they read and the theme it explored",
+            "Recommend 3 paid titles in the same niche, each with a one-line hook and a review snippet (4.8/5)",
+            "Anchor the affordability — niche titles from $2.50, not $25 from a big publisher",
+            "Footer note for authors: 'Loved a book and thinking of writing one? See how we publish authors.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Reader Win-Back",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed one-time buyers and dormant free subscribers with personalized genre recommendations, and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens, clicks, or purchases.",
+      "segment": "Dormant subscribers and past one-time ebook buyers; personalize on the genre of their last download/purchase.",
+      "rationale": "One-time buyers vanish after a single purchase with no path back, and there's no loyalty mechanism. Genre-personalized win-back is proven for niche-catalog brands (a streaming case hit 38% open / 2.53% CTR / 500% ROI) and recovers 5–15% of inactive contacts cheaply.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "A 'we miss you' opener that leads with a personalized new-release pick in their favorite genre to give a concrete reason to come back.",
+          "subject": "New cozy fantasy you haven't read yet",
+          "preview": "We saved a few fresh titles in your favorite genre — take a look?",
+          "cta": "See what's new in your genre",
+          "keyPoints": [
+            "Dynamic subject/body swaps the genre to match their history (religious, AI/business, or cozy fantasy)",
+            "Lead with 2–3 new or popular titles they haven't bought, not a discount",
+            "Warm, low-pressure 'we've added new reads since you last visited' framing",
+            "Quiet sunset signal for non-responders downstream to keep sender reputation clean"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The Old Landmark Reading Room (Value Newsletter)",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across a catalog with no subscription, build authority in each niche, and drive repeat purchases plus author leads without discounting.",
+      "trigger": "Scheduled cadence (every 2 weeks), editioned by reader interest.",
+      "segment": "All engaged contacts; suppress active onboarding and route the recently-dormant to Win-Back instead.",
+      "rationale": "With no subscription or membership, repeat revenue depends entirely on staying memorable between releases — and there's currently no newsletter at all. A recurring value email is the always-on engine that drives repeat ebook sales and steady author inquiries.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "The flagship recurring edition that establishes the habit: one useful idea or story per send, a single featured read, and a soft author CTA.",
+          "subject": "3 quiet new releases worth your weekend",
+          "preview": "This issue: one idea, one featured book, and a peek behind a launch.",
+          "cta": "Read this week's pick",
+          "keyPoints": [
+            "Recurring structure: one idea/tip in the reader's niche + one featured title (80% value / 20% offer)",
+            "Edition the lead block by interest tag — faith, AI & income, or fantasy",
+            "Single primary CTA (read the featured book); secondary author CTA in the footer",
+            "Build the habit with a named recurring section so readers learn to expect it"
+          ]
+        }
+      ]
+    }
+  ]
+}

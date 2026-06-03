@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Old Landmark Publishing",
+    "url": "https://www.oldlandmarkpublishing.com",
+    "slug": "old-landmark-publishing",
+    "vertical": "Education/nonprofit/membership — specifically independent ebook publishing (retail + author services)",
+    "tagline": "Your trusted partner in ebook publishing and advertising services",
+    "colors": {
+      "primary": "#1a2b4a",
+      "accent": "#c8922a",
+      "background": "#f9f7f4",
+      "text": "#1c1c1c"
+    }
+  },
+  "offer": {
+    "what": "Two revenue streams: (1) Ebook retail store — genre-specific ebooks across religious, AI/business, and cozy fantasy niches priced $2.50–$17, with two free entry titles; (2) Author publishing services — ebook creation & design, platform distribution, and marketing/promotion for self-publishing authors.",
+    "coreOutcome": "Readers get affordable, niche digital books. Authors get their manuscript transformed into a published, distributed, and marketed ebook without navigating the process alone.",
+    "pricePoint": "Ebooks: free – $17 (standard), one outlier at $47 sale-priced to $17. Publishing services: unknown/custom quote (no public pricing found).",
+    "commitment": "Ebooks: one-off purchase. Publishing services: project-based, likely a multi-week engagement; possible ongoing marketing retainer.",
+    "leadMagnets": [
+      "AI-Proof Your Life (free ebook — originally $17)",
+      "The Opal and the Rose: A Cozy Fantasy Excerpt (free ebook — originally $17)"
+    ]
+  },
+  "audience": {
+    "icp": "Independent or first-time authors — especially in religious/Christian, AI/business, and niche fiction categories — who want professional end-to-end publishing support without a traditional publisher.",
+    "painPoints": [
+      "Overwhelmed by the self-publishing process (formatting, ISBNs, platform submissions)",
+      "No distribution reach on Amazon Kindle, Barnes & Noble, etc.",
+      "No post-launch marketing plan for their book",
+      "Can't afford or don't qualify for a traditional publishing deal",
+      "Ebook readers seeking affordable, niche titles not stocked in mainstream stores"
+    ],
+    "segments": [
+      "Self-publishing authors (primary — higher LTV)",
+      "Christian / religious nonfiction readers",
+      "AI, productivity, and side-hustle seekers",
+      "Cozy fantasy / light fiction readers"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day for ebook purchases (self-serve). Days to weeks for publishing services (requires contact and consultation).",
+    "trial": "Two free ebooks serve as de-facto lead magnets/samples. No free trial or free consult for publishing services is explicitly advertised.",
+    "closeMechanism": "Ebooks: self-serve add-to-cart checkout (Apple Pay, Google Pay, Visa, Mastercard). Publishing services: contact form and live chat; team crafts a 'captivating plan' after the initial conversation.",
+    "topObjection": "For authors: 'Will my book actually reach readers / sell?' and 'Can a smaller indie publisher deliver professional results?' For ebook buyers: price sensitivity at the low end."
+  },
+  "ahaMoment": "For ebook readers: finishing the free download and finding genuine value in the content. For authors: receiving a concrete publishing plan that makes their vision feel achievable and the process feel managed.",
+  "retention": {
+    "recurring": "No visible subscription or membership model. Revenue depends on repeat ebook purchases and potential ongoing marketing retainers for authors.",
+    "expansion": "Upsell ebook buyers into publishing services; upsell publishing clients into ongoing marketing retainers or the 'Business in a Box' package; AI Literacy Series mentioned as a buyer email upsell.",
+    "churnRisk": "Single-purchase ebook buyers with no email nurture fall silent. No visible community, newsletter, or loyalty mechanism to bring readers back. Authors who don't see sales results after launch have no retention path."
+  },
+  "lifecycleGaps": [
+    "No visible email list-building mechanism (no newsletter signup, no pop-up) beyond the two free ebook downloads",
+    "No welcome or onboarding sequence for new ebook buyers or free-download subscribers",
+    "No lead-magnet nurture campaign converting free ebook readers into buyers or publishing clients",
+    "No consultation/conversion email sequence for authors who inquire about publishing services",
+    "No booking or project-kickoff reminder flow for publishing service clients",
+    "No value newsletter to re-engage past buyers and build authority in the niches served",
+    "No win-back campaign for lapsed buyers",
+    "No referral or advocacy campaign despite a strong 4.8/5 rating from 150+ reviews"
+  ],
+  "toneVoice": "Professional yet warm and encouraging. Collaborative ('partner,' 'let's have a conversation') rather than transactional. Inspirational and empowering for authors. Accessible across audience types — reverent for religious content, practical and punchy for AI/business titles.",
+  "compliance": "CAN-SPAM / standard commercial email compliance required. No HIPAA, FINRA, or legal-services restrictions. Standard e-commerce and digital publishing norms apply."
+}
