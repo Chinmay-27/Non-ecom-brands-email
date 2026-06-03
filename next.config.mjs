@@ -1,11 +1,17 @@
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Tell Vercel's bundler to include the generated clients/ data
-  // alongside every serverless function (fs reads dynamic paths so
-  // the tracer can't discover them automatically).
+  // Ensure the repo root is the tracing root so relative paths resolve correctly.
+  outputFileTracingRoot: __dirname,
+  // Explicitly bundle clients/ with every route that reads it via fs.
   outputFileTracingIncludes: {
-    "/**": ["./clients/**/*"],
+    "/": ["./clients/**/*"],
+    "/api/email/[slug]/[campaign]/[email]": ["./clients/**/*"],
   },
 };
 
