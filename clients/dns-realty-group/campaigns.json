@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "DNS Realty Group",
+    "slug": "dns-realty-group",
+    "url": "https://www.dnsrealtygroup.com",
+    "vertical": "Local & service — residential real estate brokerage",
+    "colors": {
+      "primary": "#1B3A6B",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "DNS Realty Group is a full-service residential real estate brokerage based in Waldorf, MD (Maryland license #603140), serving homebuyers and sellers across Southern Maryland and the greater DC metro area. It provides buyer and seller/listing representation, free home valuations and CMAs, relocation services, and short sale/foreclosure expertise. Revenue is transaction-based (commission at closing), so its growth depends on converting site registrants into booked agent consultations and earning referrals and repeat business across a multi-year homeownership cycle.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate new registrants by delivering an immediate first value and pointing them toward a no-obligation consultation with a DNS agent.",
+      "trigger": "New registration — property-search sign-up, 'What's My Home Worth?' valuation submission, or contact-form fill. Email 1 sends within seconds.",
+      "segment": "All new contacts; branch by intent signal — seller (valuation/CMA) vs. buyer (property search).",
+      "rationale": "Site registrants currently receive zero follow-up — the single biggest lifecycle gap. A welcome send is the most-opened email DNS can send and sets up every later conversion in the funnel.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome from the DNS team, set expectations for the emails to come, deliver one quick first win, and invite the first agent touchpoint.",
+          "subject": "Welcome to DNS Realty — your first move in the DC metro starts here",
+          "preview": "One quick step to get going, plus a local expert who actually answers.",
+          "cta": "Tell us your goal — buying or selling",
+          "keyPoints": [
+            "Warm, plain-English welcome from the DNS Realty team in Waldorf, MD — set the 'knowledgeable neighbor' tone",
+            "Set expectations: a few short, useful emails on the Southern Maryland / DC metro market — no spam, real reply-to address",
+            "Deliver one quick win now (free home valuation for sellers, or a saved local search for buyers)",
+            "Single primary CTA inviting a no-obligation consultation; reassure no commitment until they're ready",
+            "CAN-SPAM physical address, unsubscribe, MD License #603140, and Fair Housing language in footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Valuation & Consultation Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert free-valuation and property-search registrants into a booked, no-obligation consultation with a DNS agent.",
+      "trigger": "Free home valuation completed, repeat property-search activity, or consult request — plus a parallel follow-up cadence for those who don't book.",
+      "segment": "Warm leads who used a free tool but haven't booked; branch seller (valuation/CMA) vs. buyer (active search).",
+      "rationale": "Converting registrants into booked consultations is DNS's stated #1 goal and its biggest revenue leak — the self-serve valuation tool is shallow until an agent follows up with a real CMA.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Turn the shallow automated estimate into a booked strategy call by exposing the gap between an online number and true local market value.",
+          "subject": "Your online estimate vs. what your home would actually sell for",
+          "preview": "Automated estimates miss DC-metro neighborhood value — let's find your real number.",
+          "cta": "Book your free CMA with a DNS agent",
+          "keyPoints": [
+            "Online estimates can be off by tens of thousands in a fast-moving DC-metro market",
+            "A real CMA uses recent neighborhood comps, home condition, and current local trends — not an algorithm",
+            "Lead with value to defuse the post-NAR commission objection: the goal is the best price, not paying a fee",
+            "No obligation, no pressure — a 20-minute call with a local Southern Maryland expert",
+            "Single clear CTA to book; human agent name and reply-to"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Home Valuation & Buyer Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold valuation and property-search leads toward sales-readiness over a long cycle with market education, so DNS stays the agent they call when they're ready.",
+      "trigger": "Home valuation tool use or property-search registration; lead remains below the sales-ready threshold.",
+      "segment": "Leads who used a free tool but aren't yet ready to act; branch by topic — seller (pricing/timing) vs. buyer (financing/assistance programs).",
+      "rationale": "With 30–180 day search cycles, most registrants aren't ready on day one; a value-led drip keeps DNS top-of-mind so warm leads don't drift quietly to a competing agent.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the asset (their valuation / search) and frame the real problem behind it, opening a longer educational relationship without a hard sell.",
+          "subject": "What's my home worth? The honest answer Zillow won't give you",
+          "preview": "Your estimate inside — plus why the listing-site number isn't the whole story.",
+          "cta": "See your local comparable sales",
+          "keyPoints": [
+            "Recap the valuation result / saved search they requested so the email delivers on the opt-in",
+            "Frame the real problem: pricing right (sellers) or buying smart (buyers) in a competitive Southern Maryland / DC metro market",
+            "Educational and pressure-free — establish DNS as the trustworthy local guide, not a salesperson",
+            "Tease the upcoming emails: comps, market timing, financing, and down-payment assistance programs many don't know exist",
+            "Soft single CTA; reply-to invites questions to a real agent"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultations and showings and recover the ones that slip, protecting commissions at the revenue moment.",
+      "trigger": "Consultation, listing appointment, or showing booked; upcoming appointment window; no-show event.",
+      "segment": "Anyone with a scheduled consult, listing appointment, or property showing.",
+      "rationale": "Consultations and showings are the actual revenue event for a brokerage; automated reminders cut no-shows by ~35%, recovering pipeline immediately as soon as bookings start flowing from Campaigns 1–3.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1 (24h before)",
+          "purpose": "Confirm and prep the client the day before so they actually show up, with a frictionless reschedule path instead of a silent no-show.",
+          "subject": "See you tomorrow — your DNS Realty consultation at [time]",
+          "preview": "Quick prep so we make the most of your 30 minutes together.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate date, time, and location (Waldorf office, virtual link, or showing address)",
+            "Tell them what to bring/expect: pre-approval and must-haves for buyers; recent updates and goals for sellers",
+            "Name the specific DNS agent they'll meet to build rapport before the call",
+            "One-tap reschedule link to convert would-be no-shows into a kept appointment",
+            "Add-to-calendar button and a direct reply-to for last-minute questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Southern Maryland Market Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the multi-year homeownership cycle and fuel referrals and repeat business without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route recently-dormant leads to a win-back flow instead.",
+      "rationale": "With 5–10 years between transactions, sustained visibility is how DNS earns repeat deals and referrals — its highest-LTV lever — and turns its existing blog content into an owned channel.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "recurring (monthly)",
+          "purpose": "Deliver one genuinely useful local market read each month plus a single soft CTA, building a habit that keeps DNS in mind between transactions.",
+          "subject": "Southern Maryland market update: what your home is doing this month",
+          "preview": "Median prices, days on market, and what it means if you're thinking of a move.",
+          "cta": "Read the full local market report",
+          "keyPoints": [
+            "One useful idea per send: current DC-metro / Southern Maryland stats — median price, days on market, inventory",
+            "Plain-English 'what this means for you' for both buyers and sellers — no jargon",
+            "80% value / 20% soft offer; one primary CTA (read the report or reply with a question)",
+            "Recurring habit-building section (e.g., 'This month in [neighborhood]') and a light referral ask in the footer",
+            "Fair Housing language, MD License #603140, physical address, and unsubscribe for compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

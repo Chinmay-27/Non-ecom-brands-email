@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "DNS Realty Group",
+    "url": "https://www.dnsrealtygroup.com",
+    "slug": "dns-realty-group",
+    "vertical": "Local & service — residential real estate brokerage",
+    "tagline": "Your Trusted Real Estate Company",
+    "colors": {
+      "primary": "#1B3A6B",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "Full-service residential real estate brokerage — buyer representation, home listings/seller representation, free home valuations, relocation services, and short sale/foreclosure expertise across the DC metro area (Maryland, Virginia, DC)",
+    "coreOutcome": "Buying or selling a home confidently at the best possible price, with expert local guidance and a stress-free transaction from first contact to closing",
+    "pricePoint": "Commission-based (no upfront cost to buyers; seller commission typically 5–6% split at closing); free home valuation and seller CMA available as entry offers",
+    "commitment": "Transaction-based (single deal per engagement); relationship-oriented for repeat and referral business over a 3–7 year homeownership cycle",
+    "leadMagnets": [
+      "Free home valuation — 'What's My Home Worth?' tool (address entry)",
+      "Free comparative market analysis (CMA) for prospective sellers on request",
+      "Educational blog covering buying, selling, investing, and financing"
+    ]
+  },
+  "audience": {
+    "icp": "First-time and move-up homebuyers and residential sellers in Southern Maryland and the greater DC metro area (MD, VA, DC); skews toward millennials, families, and relocating professionals",
+    "painPoints": [
+      "Fear of overpaying (buyers) or underpricing (sellers) in a fast-moving market",
+      "Overwhelm navigating mortgages, inspections, contingencies, and closing without guidance",
+      "Uncertainty about market timing and neighborhood values",
+      "Difficulty finding a trustworthy agent with deep local/community knowledge",
+      "Confusion about down-payment assistance programs, short sales, and foreclosure processes"
+    ],
+    "segments": [
+      "First-time homebuyers needing education, hand-holding, and financing navigation",
+      "Move-up or downsizing sellers needing accurate pricing strategy and listing exposure",
+      "Relocating professionals moving into the DC metro region",
+      "Residential real estate investors seeking buy-and-hold or value-add properties",
+      "Millennials entering homeownership for the first time"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months — active property search typically 30–90+ days; transaction close 30–60 days after contract",
+    "trial": "Yes — free home valuation for sellers; no-cost initial buyer consultation; no obligation to sign until ready",
+    "closeMechanism": "Agent consultation → signed buyer or listing agreement → full transaction management through closing",
+    "topObjection": "Belief they can search independently on Zillow/Realtor.com without an agent, or reluctance to pay commission — especially post-NAR settlement news"
+  },
+  "ahaMoment": "Sellers: receiving a data-backed CMA that reveals their home's true market value and a clear pricing strategy. Buyers: being matched with a shortlist of properties that fit their real needs plus learning about down-payment assistance programs they didn't know existed.",
+  "retention": {
+    "recurring": "Low direct recurring revenue per client — revenue is transaction-based. Long-term retention value comes from repeat purchases (move-up, downsize, investment) and word-of-mouth referrals across a multi-year homeownership cycle.",
+    "expansion": "Referrals to friends/family, investment property transactions, commercial inquiries, relocation introductions, repeated transactions as life circumstances change",
+    "churnRisk": "One-and-done clients who close and never refer; warm leads who go cold during a long search and quietly switch to a competing agent"
+  },
+  "lifecycleGaps": [
+    "No visible welcome or onboarding email sequence for new site registrants or lead form submissions",
+    "No lead-magnet nurture drip for home valuation tool users or property-search sign-ups",
+    "No consultation-conversion sequence to move warm/cold leads to a booked agent call",
+    "No post-close relationship sequence to generate referrals and stay top-of-mind",
+    "No value newsletter to maintain visibility during the long homeownership cycle between transactions",
+    "No win-back or re-engagement sequence for dormant leads who went cold"
+  ],
+  "toneVoice": "Approachable and trustworthy with a professional demeanor; locally rooted, educational, and community-focused. Conversational but credible — positioned to demystify real estate for everyday buyers and sellers, not to impress with industry jargon.",
+  "compliance": "CAN-SPAM compliant required; Maryland real estate license disclosures (MD License #603140); Fair Housing Act language mandatory in all property-related communications; standard real estate advertising rules apply (no discriminatory language, accurate representations)."
+}
