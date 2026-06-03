@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Michael Roach Creative",
+    "url": "https://www.michaelroachcreative.com",
+    "slug": "michael-roach-creative",
+    "vertical": "B2B/professional services — creative & marketing agency",
+    "tagline": "Solutions to your creative and marketing needs",
+    "colors": {
+      "primary": "#1e3a50",
+      "accent": "#00b5b5",
+      "background": "#0d1f30",
+      "text": "#ffffff"
+    }
+  },
+  "offer": {
+    "what": "Full-service creative and digital marketing agency offering content marketing, social media management, branding strategy, video/audio production, copywriting, digital advertising, WordPress consulting, digital signage, career development coaching, and workforce/training programs",
+    "coreOutcome": "Businesses become more visible and heard — gaining audience engagement and competitive differentiation — without the owner having to do the marketing themselves",
+    "pricePoint": "Custom/undisclosed; contact for pricing on all services. No publicly listed rates. DesignRush lists minimum budget and hourly rate as 'Inquire.'",
+    "commitment": "Mix of project-based and retainer; digital marketing packages imply ongoing engagements; training programs may be one-off",
+    "leadMagnets": [
+      "Free consultation (marketing and creative firm)",
+      "Personal branding audio course",
+      "WordPress 1-hour video course"
+    ]
+  },
+  "audience": {
+    "icp": "Small to medium-sized business owners and entrepreneurs (primarily Albany, NY region) who need marketing help but lack in-house expertise or bandwidth — typically 1–50 employees, service or retail businesses",
+    "painPoints": [
+      "Struggle to create high-quality content consistently while running the business",
+      "Invisible online — not ranking, not posting, not engaging",
+      "Unclear brand story or value proposition",
+      "No time or skill for video, social, or digital ads",
+      "Career changers/executives needing personal brand clarity for job search or promotion"
+    ],
+    "segments": [
+      "SMB owners needing ongoing digital marketing (social, SEO, ads, content)",
+      "Entrepreneurs and executives wanting personal branding and career positioning",
+      "Nonprofits and organizations needing workforce/career readiness training",
+      "Local businesses needing digital signage or one-off creative projects"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks — discovery call → proposal → engagement letter",
+    "trial": "Free consultation available; no formal free trial or first-session offer",
+    "closeMechanism": "Contact form submission → free consultation call → custom proposal",
+    "topObjection": "Cost/budget uncertainty — pricing is opaque and SMBs are often price-sensitive; second objection is whether an outside agency can really understand their specific business"
+  },
+  "ahaMoment": "The first delivered content piece, campaign, or strategy deck that makes the client feel professionally represented — typically a polished social post, video, or brand document they couldn't have produced themselves",
+  "retention": {
+    "recurring": "Digital marketing retainer packages (social media management, ongoing content creation); repeat bookings for training programs",
+    "expansion": "Adding service lines (e.g., client starts with social → adds video production, email marketing, or digital ads); upsell to speaking engagements or workforce training contracts",
+    "churnRisk": "SMBs cutting marketing spend during slow seasons; single-person shop creates key-person dependency; no visible self-serve or community to maintain engagement between projects"
+  },
+  "lifecycleGaps": [
+    "No visible welcome or onboarding email sequence for new leads or clients",
+    "Lead magnets (audio course, WP video) exist but no nurture sequence is apparent",
+    "No consultation-conversion follow-up sequence (post-consultation drip)",
+    "No booking confirmation / reminder / no-show recovery system visible",
+    "No value newsletter to stay top-of-mind with past clients and warm leads",
+    "No renewal or re-engagement campaign for lapsed clients",
+    "No referral or advocacy program surfaced"
+  ],
+  "toneVoice": "Professional and approachable with understated confidence. Educational and accessible — explains concepts without jargon. Collaborative and encouraging ('Let's explore what you need'). Avoids hype; leans on credentials (PCM, Google Analytics Certified, AMA member, Citibank/NYSE/PBS experience) to build trust quietly.",
+  "compliance": "Standard CAN-SPAM and GDPR requirements apply. No healthcare, finance, or legal services. Albany, NY–based so NY state consumer protection norms. No special compliance flags identified."
+}

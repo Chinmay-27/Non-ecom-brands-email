@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Michael Roach Creative",
+    "slug": "michael-roach-creative",
+    "url": "https://www.michaelroachcreative.com",
+    "vertical": "B2B/professional services — creative & marketing agency",
+    "colors": {
+      "primary": "#1e3a50",
+      "accent": "#00b5b5",
+      "background": "#0d1f30",
+      "text": "#ffffff"
+    }
+  },
+  "summary": "Michael Roach Creative is a boutique, owner-led creative and digital marketing agency in Albany, NY offering content marketing, social media management, branding, video/audio production, WordPress consulting, and career/personal-branding coaching. It serves small-to-medium business owners and entrepreneurs who need professional marketing but lack the in-house time or skills, plus executives and career changers needing personal-brand clarity. Engagements are high-touch and custom-priced, sold via a free consultation that leads to a proposal and either a project or a monthly retainer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new lead or freshly-signed client to first value fast — set expectations, build trust on Michael's credentials, and drive toward the first polished deliverable that makes them feel professionally represented.",
+      "trigger": "Consultation request submitted via the contact form, or a new client agreement signed. Send email 1 within seconds.",
+      "segment": "New contacts and new clients; branch on stated need (SMB ongoing marketing vs. personal-branding/career vs. one-off creative project).",
+      "rationale": "The brand has zero onboarding today and runs a fully manual, high-touch process, so an instant, warm welcome that confirms next steps prevents new leads from going cold between the form submission and Michael's personal reply — the single fastest engagement win.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, confirm what happens next, reduce the 'will a busy one-person shop respond?' anxiety, and quietly establish credibility — while giving one immediate value action.",
+          "subject": "Welcome to Michael Roach Creative — let's make you impossible to ignore",
+          "preview": "Here's exactly what happens next (and one thing you can do today).",
+          "cta": "Tell Michael about your business — reply or book your free consultation time",
+          "keyPoints": [
+            "Thank them and set clear expectations: Michael personally reviews every request and will follow up to schedule the free consultation within one business day",
+            "Build quiet trust with credentials (PCM, Google Analytics Certified, AMA member; background with Citibank, NYSE, PBS) rather than hype",
+            "Give one quick win now: a short prompt to jot their #1 marketing goal so the consultation is productive",
+            "One human, low-friction CTA with a real reply-to address — reinforce this is a conversation, not a sales funnel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Client Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a completed free consultation into a signed project or retainer by delivering the custom proposal, neutralizing the budget/pricing objection, and giving a clear, low-friction yes.",
+      "trigger": "Free consultation call completed; lead has not yet signed. Same-day follow-up, then behavior-based nudges if no response.",
+      "segment": "Post-consult leads; branch by service discussed (social/content retainer vs. branding/video project vs. personal-branding coaching).",
+      "rationale": "This is the core revenue play and the brand's biggest leak: pricing is opaque and SMBs are price-sensitive, so a same-day recap that frames cost against outcomes — and addresses 'will an outside agency get my business?' — is what actually closes the deal Michael already worked to earn on the call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Recap the consultation, deliver the custom proposal, and directly defuse the cost objection by tying price to the visibility/credibility outcome they came for — making the next step a single easy decision.",
+          "subject": "Your custom marketing plan — and what it'll actually cost",
+          "preview": "Recapping what we discussed, plus the proposal and clear next step.",
+          "cta": "Review your proposal & approve to get started",
+          "keyPoints": [
+            "Recap their specific goal and the plan discussed on the call to prove Michael understood their business — directly answering the 'will an agency get my niche?' objection",
+            "Present pricing transparently and frame it against the outcome (consistent professional content, getting found, looking credible) rather than as a line-item cost",
+            "Offer flexibility — project vs. monthly retainer, start small and expand — to lower budget pressure for a price-sensitive SMB",
+            "Make saying yes effortless: one CTA to approve, plus an open invitation to reply with any question before deciding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Consultation Booking & Reminders",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Maximize attended free consultations and recover the ones that slip, so Michael's high-touch sales calls actually happen and aren't lost to no-shows.",
+      "trigger": "Consultation time confirmed; reminder cadence runs up to the call, with a no-show re-book branch.",
+      "segment": "Anyone with a scheduled free consultation.",
+      "rationale": "The entire sales motion hinges on the free consultation actually happening, yet there's no confirmation or reminder system today — and reminders cut no-shows ~35%, directly protecting the top of the revenue funnel for a solo operator whose time is the bottleneck.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Reduce no-shows with a 24-hour-before reminder that re-confirms the time, primes them to come prepared, and removes friction to reschedule rather than ghost.",
+          "subject": "Your free consultation with Michael is tomorrow at [time]",
+          "preview": "Quick confirmation, plus how to make the most of our 30 minutes.",
+          "cta": "Add to calendar — or reschedule in one click",
+          "keyPoints": [
+            "Re-confirm date, time, and how the call happens (phone/video link) so nothing is ambiguous",
+            "Prime them to get value: suggest having their #1 marketing challenge and current website/socials in mind so Michael can give tailored advice on the call",
+            "Offer a frictionless reschedule link to recover would-be no-shows instead of losing them entirely",
+            "Reassure it's a no-pressure conversation about their needs, reinforcing the collaborative 'let's explore what you need' tone"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Turn lead-magnet downloaders into consultation requests by delivering the asset, teaching real value, and positioning Michael as the trusted expert over a multi-week cycle.",
+      "trigger": "Download of the Personal Branding audio course or the WordPress 1-hour video course.",
+      "segment": "Leads below the sales-ready threshold; branch by magnet topic (personal branding/career vs. WordPress/SMB marketing).",
+      "rationale": "Two lead magnets already exist but feed into nothing — capturing those downloaders into a nurture sequence converts otherwise-wasted top-of-funnel interest into booked consultations, and the educational format fits Michael's teach-don't-hype voice perfectly.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested course immediately and frame the bigger problem it points to, so the download becomes the start of a relationship rather than a dead end.",
+          "subject": "Your Personal Branding course is inside — start with Lesson 1",
+          "preview": "Plus the mistake most people make before they ever fix their brand.",
+          "cta": "Access your course now",
+          "keyPoints": [
+            "Deliver the asset instantly with a clear link and a one-line 'start here' to drive immediate consumption",
+            "Frame the real problem behind the topic — a strong personal brand (or site) only works when message, visuals, and consistency line up — setting up future emails",
+            "Establish authority lightly with Michael's credentials and the kinds of clients/outcomes he's delivered",
+            "Plant the soft next step: when they're ready to go beyond the course, a free consultation is one reply away"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind with warm leads, past clients, and Michael's referral network — building authority and assisting conversions without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding and route the long-dormant to a future win-back flow.",
+      "rationale": "This boutique runs on referrals and repeat/expansion work, so a steady, useful newsletter is the always-on engine that keeps Michael front-of-mind between projects — the cheapest insurance against the brand's top churn risk of being forgotten during slow seasons.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship issue establishing the recurring value habit — one genuinely useful, locally-relevant marketing idea SMB owners can act on, with a single soft CTA.",
+          "subject": "The one thing most Albany business owners get wrong on social media",
+          "preview": "A 5-minute fix that makes your posts actually get seen.",
+          "cta": "Read the full breakdown on the blog",
+          "keyPoints": [
+            "Lead with one concrete, actionable tip relevant to Capital Region SMBs — 80% value, no pitch",
+            "Use a recurring named section (e.g., 'This Month's Visibility Tip') to build reader habit and brand recognition",
+            "Soft 20% offer: a one-line reminder that Michael can handle this for them, with a free-consultation link",
+            "Keep the voice educational and jargon-free, and invite replies to surface client questions for future issues"
+          ]
+        }
+      ]
+    }
+  ]
+}
