@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no">
+  <title>Why most healthcare AI projects stall before go-live</title>
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <style>
+    /* Reset */
+    * { box-sizing: border-box; }
+    body, table, td, p, a, li, blockquote { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      .email-body { background-color: #1a1a1a !important; }
+      .email-wrapper { background-color: #1a1a1a !important; }
+      .email-container { background-color: #222222 !important; }
+      .dark-text { color: #e0e0e0 !important; }
+      .dark-heading { color: #ffffff !important; }
+      .dark-muted { color: #aaaaaa !important; }
+      .dark-divider { border-color: #333333 !important; }
+      .dark-box { background-color: #2a2a2a !important; border-color: #00B4D8 !important; }
+      .dark-footer { background-color: #1a1a1a !important; }
+      .dark-footer-text { color: #888888 !important; }
+    }
+
+    /* Responsive */
+    @media only screen and (max-width: 620px) {
+      .email-container { width: 100% !important; }
+      .mobile-pad { padding-left: 24px !important; padding-right: 24px !important; }
+      .mobile-stack { display: block !important; width: 100% !important; }
+      .mobile-text-center { text-align: center !important; }
+      .cta-btn { width: 100% !important; display: block !important; }
+      h1 { font-size: 26px !important; line-height: 34px !important; }
+      h2 { font-size: 19px !important; line-height: 27px !important; }
+    }
+  </style>
+</head>
+<body class="email-body" style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, Helvetica, sans-serif;">
+
+  <!-- Preheader (hidden) -->
+  <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all; font-size: 1px; line-height: 1px; color: #f4f4f4;">
+    It's rarely the model. It's the data that can't move between systems.&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+  </div>
+
+  <!-- Wrapper -->
+  <table class="email-wrapper" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f4f4f4;">
+    <tr>
+      <td align="center" style="padding: 32px 16px;">
+
+        <!-- Email container -->
+        <table class="email-container" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; background-color: #ffffff;">
+
+          <!-- Header / Logo bar -->
+          <tr>
+            <td style="background-color: #111111; padding: 24px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; color: #ffffff; letter-spacing: -0.3px;">Paradigm</span><span style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; color: #00B4D8; letter-spacing: -0.3px;">.</span>
+                  </td>
+                  <td align="right">
+                    <span style="font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 600; color: #888888; letter-spacing: 1.2px; text-transform: uppercase;">The Interoperability Brief</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Hero section -->
+          <tr>
+            <td class="mobile-pad" style="padding: 48px 40px 32px 40px;">
+
+              <!-- Issue label -->
+              <p style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700; color: #00B4D8; letter-spacing: 1.5px; text-transform: uppercase;">Issue No. 1 &mdash; Healthcare AI</p>
+
+              <!-- Headline -->
+              <h1 class="dark-heading" style="margin: 0 0 20px 0; font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; line-height: 38px; color: #111111; letter-spacing: -0.5px;">
+                Why most healthcare AI projects stall before go-live
+              </h1>
+
+              <!-- Deck -->
+              <p class="dark-text" style="margin: 0 0 28px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 27px; color: #444444; font-weight: 400;">
+                Hi {{first_name}}, welcome to <em>The Interoperability Brief</em> — a monthly dispatch on the operational ideas that make enterprise AI actually work. No product pitches. One useful idea per send.
+              </p>
+
+              <!-- Divider -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="border-top: 2px solid #00B4D8; padding-bottom: 32px;"></td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Body: The idea -->
+          <tr>
+            <td class="mobile-pad" style="padding: 0 40px 32px 40px;">
+
+              <h2 class="dark-heading" style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-weight: 700; line-height: 29px; color: #111111;">
+                The real reason AI initiatives stall: it's not the model
+              </h2>
+
+              <p class="dark-text" style="margin: 0 0 18px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                Last quarter, a health system's technology leadership team brought in a large language model to automate prior-authorization workflows. The model was excellent. The pilot was promising. And then&mdash;six weeks before go-live&mdash;the project stalled.
+              </p>
+
+              <p class="dark-text" style="margin: 0 0 18px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                The culprit wasn't the AI. It was that the EHR, the prior-auth platform, and the billing system each held a different version of the same patient record. When the model tried to pull a real-time data feed to make a decision, it got three conflicting answers. The team spent the next six weeks not tuning the AI&mdash;but manually reconciling data across systems that were never designed to talk to each other.
+              </p>
+
+              <p class="dark-text" style="margin: 0 0 28px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                This pattern repeats in almost every healthcare AI rollout we see. The technology investment stalls at the data layer, not the model layer.
+              </p>
+
+              <!-- Pull quote / callout box -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 28px;">
+                <tr>
+                  <td class="dark-box" style="background-color: #f0fbfe; border-left: 4px solid #00B4D8; padding: 20px 24px;">
+                    <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #111111; font-weight: 600; font-style: italic;">
+                      &ldquo;We didn't have an AI problem. We had a data problem we'd been living with for years&mdash;the AI just made it impossible to ignore.&rdquo;
+                    </p>
+                    <p style="margin: 10px 0 0 0; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #888888;">
+                      &mdash; VP of Revenue Cycle, regional health system
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <h2 class="dark-heading" style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-weight: 700; line-height: 29px; color: #111111;">
+                Three operational failure modes (and what fixes them)
+              </h2>
+
+              <p class="dark-text" style="margin: 0 0 18px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                Based on what we see across healthcare and enterprise systems, AI initiatives stall for three predictable reasons:
+              </p>
+
+              <!-- Failure mode 1 -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td style="padding: 0 0 0 0;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 14px; padding-top: 2px;">
+                          <div style="width: 28px; height: 28px; background-color: #00B4D8; border-radius: 50%; text-align: center; line-height: 28px;">
+                            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">1</span>
+                          </div>
+                        </td>
+                        <td style="vertical-align: top;">
+                          <p style="margin: 0 0 6px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #111111; line-height: 24px;">Fragmented data with no single source of truth</p>
+                          <p class="dark-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #444444;">When your EHR says one thing, your billing platform says another, and your ERP is silent, the AI has to choose which version of reality to act on. It can't. The fix isn't better AI&mdash;it's a semantic data layer that unifies records across systems in real time, giving every downstream application one authoritative answer.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Failure mode 2 -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 14px; padding-top: 2px;">
+                          <div style="width: 28px; height: 28px; background-color: #00B4D8; border-radius: 50%; text-align: center; line-height: 28px;">
+                            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">2</span>
+                          </div>
+                        </td>
+                        <td style="vertical-align: top;">
+                          <p style="margin: 0 0 6px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #111111; line-height: 24px;">Manual hand-offs that the AI can't bridge</p>
+                          <p class="dark-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #444444;">Most healthcare workflows have a human-in-the-middle not by design but by necessity&mdash;because systems don't pass information cleanly to the next step. AI automation hits a wall wherever those hand-offs exist. Until the underlying workflow is connected end-to-end, the AI can only automate the parts on either side of the gap.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Failure mode 3 -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 32px;">
+                <tr>
+                  <td>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 14px; padding-top: 2px;">
+                          <div style="width: 28px; height: 28px; background-color: #00B4D8; border-radius: 50%; text-align: center; line-height: 28px;">
+                            <span style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 700; color: #ffffff;">3</span>
+                          </div>
+                        </td>
+                        <td style="vertical-align: top;">
+                          <p style="margin: 0 0 6px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 700; color: #111111; line-height: 24px;">Governance built around the old stack</p>
+                          <p class="dark-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #444444;">Access controls, audit trails, and data ownership policies were designed for a world where data lived in one system. When AI needs to read across five systems and write outputs back to three, legacy governance structures slow or block the implementation entirely&mdash;not for compliance reasons, but because nobody mapped the new data flows before go-live.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Mini case study -->
+          <tr>
+            <td style="background-color: #111111; padding: 36px 40px;">
+              <p style="margin: 0 0 12px 0; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 700; color: #00B4D8; letter-spacing: 1.5px; text-transform: uppercase;">In Practice</p>
+              <h2 style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 700; line-height: 28px; color: #ffffff;">
+                What it looks like when two siloed systems actually talk
+              </h2>
+              <p style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 25px; color: #cccccc;">
+                A mid-size IDN's supply chain and revenue cycle teams were running on separate platforms with no live connection. Every week, staff spent roughly 14 hours manually cross-referencing surgical supply costs in the ERP against the charge codes logged in the EHR&mdash;looking for billing discrepancies before claims went out.
+              </p>
+              <p style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 25px; color: #cccccc;">
+                We deployed a semantic interoperability layer between the two systems&mdash;not replacing either platform, but building a real-time bridge that mapped supply records to charge codes automatically. Within three weeks of go-live:
+              </p>
+              <!-- Outcomes list -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 16px;">
+                <tr>
+                  <td style="padding: 0 0 10px 0;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 10px; color: #00B4D8; font-size: 18px; line-height: 22px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">&#10003;</td>
+                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #cccccc;">The 14-hour weekly reconciliation process dropped to under 40 minutes&mdash;automated</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 0 0 10px 0;">
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 10px; color: #00B4D8; font-size: 18px; line-height: 22px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">&#10003;</td>
+                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #cccccc;">Billing accuracy on surgical cases improved by 23% in the first billing cycle</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="vertical-align: top; padding-right: 10px; color: #00B4D8; font-size: 18px; line-height: 22px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">&#10003;</td>
+                        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #cccccc;">Leadership now has a live dashboard that surfaces cost-vs-charge variance in real time&mdash;no spreadsheets</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #888888; font-style: italic;">
+                Neither legacy system was replaced. Both are now part of a unified, AI-ready data layer.
+              </p>
+            </td>
+          </tr>
+
+          <!-- The takeaway -->
+          <tr>
+            <td class="mobile-pad" style="padding: 36px 40px 32px 40px;">
+              <h2 class="dark-heading" style="margin: 0 0 16px 0; font-family: Arial, Helvetica, sans-serif; font-size: 21px; font-weight: 700; line-height: 29px; color: #111111;">
+                The takeaway
+              </h2>
+              <p class="dark-text" style="margin: 0 0 18px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                Before your next AI initiative goes into procurement, do one diagnostic: map every system that needs to read or write data for this workflow to function. If any two of those systems currently require a human hand-off to exchange information, you have an interoperability problem that will surface at go-live&mdash;not before.
+              </p>
+              <p class="dark-text" style="margin: 0 0 28px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                The good news: it's solvable without a rip-and-replace. A semantic data layer sits between your existing platforms and translates data in real time. Your EHR doesn't need to know how your ERP speaks. The layer handles it.
+              </p>
+
+              <!-- Divider -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 32px;">
+                <tr>
+                  <td class="dark-divider" style="border-top: 1px solid #eeeeee;"></td>
+                </tr>
+              </table>
+
+              <!-- Soft CTA block -->
+              <p class="dark-text" style="margin: 0 0 12px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                We put together a deeper breakdown of this&mdash;the full diagnostic framework, the five integration patterns that reliably unblock AI go-lives, and a one-page pre-launch checklist your team can run through before the next initiative kicks off.
+              </p>
+              <p class="dark-text" style="margin: 0 0 28px 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #444444;">
+                Or if you'd rather just reply and tell us the integration challenge that's keeping your team stuck right now&mdash;we read every reply and usually respond same day.
+              </p>
+
+              <!-- Bulletproof CTA button (VML + HTML fallback) -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="left">
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.pvgus.com/interoperability-brief" style="height:50px;v-text-anchor:middle;width:220px;" arcsize="8%" stroke="f" fillcolor="#00B4D8">
+                      <w:anchorlock/>
+                      <center style="color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:700;">Read the breakdown &rarr;</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <a href="https://www.pvgus.com/interoperability-brief" class="cta-btn" style="display: inline-block; background-color: #00B4D8; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; text-decoration: none; padding: 14px 28px; border-radius: 4px; letter-spacing: 0.2px; mso-hide: all;">Read the breakdown &rarr;</a>
+                    <!--<![endif]-->
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Sign-off -->
+          <tr>
+            <td class="mobile-pad" style="padding: 0 40px 40px 40px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="dark-divider" style="border-top: 1px solid #eeeeee; padding-top: 28px;">
+                    <p class="dark-text" style="margin: 0 0 4px 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #444444;">Until next month,</p>
+                    <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: 700; color: #111111;">The Paradigm Team</p>
+                    <p style="margin: 4px 0 0 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #00B4D8;">Paradigm Venture Group &mdash; pvgus.com</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="dark-footer" style="background-color: #f8f8f8; padding: 28px 40px; border-top: 1px solid #eeeeee;">
+
+              <!-- Compliance disclaimer -->
+              <p class="dark-footer-text" style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 19px; color: #888888; text-align: center;">
+                <em>This communication is for informational purposes only. Nothing in this email constitutes clinical, legal, or regulatory advice. Any referenced outcomes reflect individual client results and are not guarantees of future performance. PVG services do not constitute HIPAA-covered services unless separately agreed in writing.</em>
+              </p>
+
+              <!-- Divider -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 14px;">
+                <tr>
+                  <td style="border-top: 1px solid #e0e0e0;"></td>
+                </tr>
+              </table>
+
+              <!-- Address + unsubscribe -->
+              <p class="dark-footer-text" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; color: #aaaaaa; text-align: center;">
+                Paradigm Venture Group &bull; 100 Wolcott Rd, Wolcott, CT 06716<br>
+                You're receiving this because you signed up for <em>The Interoperability Brief</em> or connected with us at an event.<br>
+                <a href="{{unsubscribe_url}}" style="color: #888888; text-decoration: underline;">Unsubscribe</a> &bull; <a href="{{preferences_url}}" style="color: #888888; text-decoration: underline;">Manage preferences</a>
+              </p>
+
+            </td>
+          </tr>
+
+        </table>
+        <!-- /Email container -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- /Wrapper -->
+
+</body>
+</html>

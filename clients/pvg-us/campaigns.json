@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "Paradigm Venture Group",
+    "slug": "pvg-us",
+    "url": "https://www.pvgus.com",
+    "vertical": "B2B/professional — enterprise tech consulting with healthcare specialization",
+    "colors": {
+      "primary": "#00B4D8",
+      "accent": "#111111",
+      "background": "#FFFFFF",
+      "text": "#444444"
+    }
+  },
+  "summary": "Paradigm Venture Group is an enterprise interoperability consultancy that connects disconnected legacy systems (EHR, ERP, CRM, billing) into a single real-time source of truth and layers AI-powered workflow automation (Friday_OS / Krista AI) on top. It serves healthcare operations and technology leaders — COOs, CIOs, VPs of Supply Chain, and Revenue Cycle Directors at hospitals, IDNs, and health systems — plus enterprise operations and sales-led organizations. Engagements are high-ticket, project- or retainer-based, and always begin with a discovery call rather than self-serve signup.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Convert a brand-new contact or inquiry into a booked discovery call by setting expectations, establishing authority, and defusing integration-risk anxiety from the first touch.",
+      "trigger": "New contact created — contact-form submission, 'Get Started' inquiry, or GPT-5 Readiness Audit request.",
+      "segment": "All new contacts; branch by stated pain point (revenue cycle / billing vs. supply chain & contracts vs. AI/sales ecosystem) when the intake form captures it.",
+      "rationale": "Every backbone campaign is missing and no nurture exists between first touch and a sales conversation — the fastest, highest-engagement win is a welcome that immediately routes a fresh lead toward the one revenue event that matters: a booked discovery call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome: confirm we received them, set expectations for what a Paradigm engagement looks like, and deliver one quick win by pointing them to the free GPT-5 Readiness Audit as a low-risk first step.",
+          "subject": "Welcome to Paradigm — your first step to one source of truth",
+          "preview": "What happens next, and a free GPT-5 Readiness Audit to start.",
+          "cta": "Book your discovery call",
+          "keyPoints": [
+            "Thank them and set expectations: a short discovery call, then a scoped plan — no rip-and-replace, no obligation",
+            "Defuse the #1 objection up front: we integrate with your existing EHR/ERP/CRM rather than replacing it",
+            "Offer the free GPT-5 Readiness Audit as the easiest first action, and invite a direct reply to a real person"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Move a contact who has shown interest but not yet booked from stalled to a scheduled discovery call by pairing peer proof with a direct answer to the integration-risk objection.",
+      "trigger": "Contact-form submission or audit request with no discovery call booked within ~3 days; behavioral milestone (pricing/solutions page revisit).",
+      "segment": "Active leads who haven't booked a call; branch by vertical (healthcare revenue cycle vs. enterprise operations vs. sales-led).",
+      "rationale": "PVG's entire revenue motion hinges on the discovery call, yet there's no nurture bridging the gap between an inquiry and a booked conversation — this is the core revenue play for a consult-close business.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Re-engage a stalled lead with a concrete peer outcome and a head-on answer to 'will this break what we already have?', then make booking a call the single frictionless next step.",
+          "subject": "Will it break what you already have? (the honest answer)",
+          "preview": "How health systems unify EHR, ERP, and billing without ripping anything out.",
+          "cta": "Grab a 30-minute discovery slot",
+          "keyPoints": [
+            "Name the real hesitation — integration risk — and explain the semantic data layer that connects systems without replacing them",
+            "Show peer proof: an operations leader who killed manual billing reconciliation and got a single source of truth in weeks",
+            "Lower the stakes: the discovery call is a scoping conversation, not a sales pitch — bring your messiest workflow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gpt5-audit-nurture",
+      "name": "GPT-5 Readiness Audit Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Educate audit downloaders over the long enterprise cycle, moving them from 'curious about AI readiness' toward a scoped interoperability conversation.",
+      "trigger": "GPT-5 Readiness Audit completed or requested.",
+      "segment": "Audit leads below the sales-ready threshold; branch by the primary system gap surfaced in their audit (data unification vs. workflow automation vs. revenue cycle).",
+      "rationale": "The GPT-5 Readiness Audit is PVG's only live top-of-funnel magnet and currently has zero follow-up — a stage-matched nurture turns a one-time download into pipeline instead of a dead end.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the audit results and reframe the finding: AI readiness isn't a model problem, it's a data-unification problem — the real blocker is disconnected systems.",
+          "subject": "Your GPT-5 Readiness Audit — and the gap it really reveals",
+          "preview": "Most 'AI readiness' problems are actually interoperability problems.",
+          "cta": "See where your data silos are costing you",
+          "keyPoints": [
+            "Deliver the audit and frame the core insight: AI can't act on data that's trapped in siloed EHR/ERP/billing systems",
+            "Explain that a unified source of truth is the prerequisite to any reliable AI workflow — not a nice-to-have",
+            "Tease the path forward — a 4–6 week AI Enterprise Ecosystem deployment — and invite a low-pressure scoping call"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discovery-call-reminders",
+      "name": "Discovery Call Booking & Reminders",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended discovery calls by confirming, preparing, and reminding booked prospects so high-value sales conversations actually happen.",
+      "trigger": "Discovery call booked; upcoming scheduled call; no-show event.",
+      "segment": "Anyone with a scheduled discovery call or consultation.",
+      "rationale": "Discovery calls are the gateway to every PVG engagement, and reminders cut no-shows by ~35% on average — protecting calls already on the calendar is the cheapest revenue win available.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Send 24 hours before the call: reduce no-shows, prime the prospect to come prepared so the conversation is productive, and offer a one-click reschedule instead of a silent drop.",
+          "subject": "See you tomorrow — a quick prep so we make it count",
+          "preview": "Bring your top workflow headache; we'll map the fix live.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Confirm the time and add-to-calendar; reduce no-show risk with a clear, friendly reminder",
+            "Tell them how to prep: come with the one system or workflow causing the most manual pain so we can scope it on the call",
+            "Remove friction with a one-click reschedule link — a moved call beats a missed one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interoperability-newsletter",
+      "name": "The Interoperability Brief (Value Newsletter)",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across PVG's long enterprise sales cycle without discounting, keeping non-ready leads and post-project clients warm.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding and recently-dormant contacts (route those to a win-back track instead).",
+      "rationale": "Enterprise interoperability deals close on trust earned over weeks to months, and PVG has no thought-leadership program — a recurring value newsletter is the always-on engine that nurtures slow-moving leads and protects against one-and-done client drop-off.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship edition establishing PVG's authority: one sharp, useful idea on why healthcare AI initiatives stall, with an 80% value / 20% soft-offer balance and a single read-or-reply CTA.",
+          "subject": "Why most healthcare AI projects stall before go-live",
+          "preview": "It's rarely the model. It's the data that can't move between systems.",
+          "cta": "Read the breakdown",
+          "keyPoints": [
+            "One useful idea per send: the operational reasons AI initiatives stall — fragmented data, manual hand-offs, no single source of truth",
+            "Demonstrate authority with a concrete mini-case of two siloed systems made to talk, framed around outcomes not features",
+            "Single soft CTA: read the full breakdown or reply with the integration challenge keeping your team stuck"
+          ]
+        }
+      ]
+    }
+  ]
+}

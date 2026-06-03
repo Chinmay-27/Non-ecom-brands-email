@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Paradigm Venture Group",
+    "url": "https://www.pvgus.com",
+    "slug": "pvg-us",
+    "vertical": "B2B/professional — enterprise tech consulting with healthcare specialization",
+    "tagline": "Interoperability as a service.",
+    "colors": {
+      "primary": "#00B4D8",
+      "accent": "#111111",
+      "background": "#FFFFFF",
+      "text": "#444444"
+    }
+  },
+  "offer": {
+    "what": "Enterprise interoperability consulting + AI-powered workflow automation platform (Friday_OS / Krista AI) + custom low-code app building. Core solutions: Enterprise System Interoperability, AI Enterprise Ecosystem, AI-Powered Sales Ecosystem, Conversational AI phone agents, Data Cleaning, Contract Management, Revenue Cycle Management, Rebate & Compliance Management, Advisory Services.",
+    "coreOutcome": "Eliminate data silos and create a single source of truth across all enterprise systems — automating clinical documentation, billing cycles, supply chain workflows, and sales motions so senior staff stop doing administrative work and start driving revenue.",
+    "pricePoint": "Not publicly listed. Enterprise B2B project/retainer pricing. 4–6 week deployment timeline cited for AI Enterprise Ecosystem. Likely $25K–$250K+ per engagement depending on scope.",
+    "commitment": "Project-based engagements with potential for ongoing retainer/managed service. No self-serve; all engagements initiated via contact/discovery call.",
+    "leadMagnets": ["GPT-5 Readiness Audit (free audit — promoted via homepage banner)"]
+  },
+  "audience": {
+    "icp": "Healthcare operations leaders (COO, CIO, VP Supply Chain, Revenue Cycle Directors) at hospitals, IDNs, and health systems who are drowning in disconnected legacy platforms and manual billing/documentation workflows.",
+    "painPoints": [
+      "Disconnected legacy systems creating data silos across ERP, CRM, EHR, and billing",
+      "Manual clinical documentation and billing cycles causing revenue leakage",
+      "Senior staff burdened with administrative complexity instead of strategic work",
+      "No single source of truth — decisions made on stale or fragmented data",
+      "Supply chain and contract management inefficiencies driving up costs",
+      "Inability to leverage AI because data isn't unified or accessible"
+    ],
+    "segments": [
+      "Healthcare providers (hospitals, IDNs) — clinical documentation, billing, revenue cycle, rebate & compliance",
+      "Enterprise operations teams — supply chain, contract management, ERP/CRM integration",
+      "Sales-led businesses — AI sales ecosystem, conversational AI phone agents, CRM automation"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months (enterprise B2B consulting)",
+    "trial": "Free GPT-5 Readiness Audit as top-of-funnel entry point. No self-serve trial; all entry via 'Contact Us' or 'Get Started' leading to a discovery call.",
+    "closeMechanism": "Booked discovery call → scoped proposal → signed engagement",
+    "topObjection": "Integration risk with existing systems (will this break what we already have?) and ROI justification for enterprise-level spend"
+  },
+  "ahaMoment": "The first automated workflow goes live — data flows in real-time between two previously siloed systems (e.g., EHR feeds billing, or CRM syncs ERP) with zero manual intervention. For healthcare clients: first clean billing cycle or first AI-generated clinical report.",
+  "retention": {
+    "recurring": "Expansion from initial engagement into additional modules, integrations, or AI capabilities. Potential ongoing retainer for managed interoperability services.",
+    "expansion": "Add more solutions from their stack (e.g., client starts with Data Cleaning, then adds Revenue Cycle, then AI Enterprise Ecosystem). More departments, more integrations, more AI agents.",
+    "churnRisk": "Project-mentality clients who treat engagement as one-and-done. No named managed service or SLA model visible on site — risk of 'we're done, thanks' after initial deployment."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no automated onboarding sequence evident for new inquiry/contact",
+    "Lead-Magnet Nurture — GPT-5 Readiness Audit has no visible follow-up nurture sequence",
+    "Trial/Consult Conversion — no nurture between contact form submission and first discovery call",
+    "Booking & Reminders — no automated consultation reminder/confirmation flow visible",
+    "Value Newsletter — no thought leadership email program evident",
+    "Renewal / Expansion — no triggered expansion or upsell campaign after project completion",
+    "Win-Back / Re-Engagement — no re-engagement flow for cold leads or past clients"
+  ],
+  "toneVoice": "Professional, forward-thinking, tech-confident. Uses bold enterprise language ('JARVIS-like command layer,' 'semantic interoperability,' 'Single Source of Truth') alongside outcome-focused business copy. Authoritative without being stuffy. Direct, results-first, ambitious.",
+  "compliance": "Healthcare-adjacent: likely HIPAA considerations given clinical documentation and billing data handling. Standard CAN-SPAM required. Possibly GDPR if serving global enterprise clients. Avoid specific medical/clinical outcome claims in email."
+}
