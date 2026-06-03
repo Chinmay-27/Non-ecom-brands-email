@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "The Kleaning Kompany",
+    "slug": "the-kleaning-kompany",
+    "url": "https://www.thekleaningkompany.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#0B6EC5",
+      "accent": "#3DBE6B",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "The Kleaning Kompany provides B2B commercial cleaning on recurring janitorial contracts — offices, medical facilities, commercial kitchens, HOAs, schools, retail centers, and specialty floor care — in South Florida and select multi-state markets. Every engagement is custom-scoped after a free site inspection, then billed on a daily, weekly, or monthly cadence. It serves facilities directors, property managers, and business owners who select and oversee vendors for their commercial spaces.",
+  "campaigns": [
+    {
+      "id": "post-inspection-proposal-conversion",
+      "name": "Proposal-to-Contract Conversion",
+      "priority": 1,
+      "stage": "Conversion / Booking",
+      "objective": "Turn delivered custom proposals into signed contracts by neutralizing the trust-and-reliability objection and removing friction from signing.",
+      "trigger": "Site inspection completed and custom proposal delivered; proposal not yet signed.",
+      "segment": "Prospects with a delivered proposal awaiting signature; branch by service type from the contact-form dropdown (office, medical, kitchen, HOA, school, retail, specialty floor care).",
+      "rationale": "Closing inspected prospects is the brand's stated #1 goal and its single biggest revenue leak — the deal lives or dies on this send, and trust is the dominant blocker that this email is built to dissolve.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the custom proposal, directly answer the trust objection, and make signing the path of least resistance.",
+          "subject": "Your custom cleaning proposal is ready — here's how we earn your trust",
+          "preview": "Walk through the scope line by line, see why 500+ South Florida facilities switched, and sign only when you're ready.",
+          "cta": "Review your proposal & approve",
+          "keyPoints": [
+            "Deliver the proposal scoped to exactly what was seen during the site walkthrough — frequency, square footage, and the specific service type they requested",
+            "Meet the trust objection head-on: vetted, insured, background-checked crews; supervised work; secure key handling; and a 98% client retention rate",
+            "Anchor credibility with 500+ satisfied clients and 10+ years serving commercial facilities, leaning on the 'I wish I'd switched sooner' switching narrative",
+            "Lower the stakes — no long lock-in surprises, custom terms, and a real person who replies within ~2 hours to answer any line item before signing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-client-welcome-onboarding",
+      "name": "New-Client Welcome & First-Clean Onboarding",
+      "priority": 2,
+      "stage": "Onboarding / Activation",
+      "objective": "Set expectations for a freshly signed contract and prime the client to notice and celebrate the first immaculate morning — protecting retention from day one.",
+      "trigger": "New contract signed / account created.",
+      "segment": "Newly contracted clients; branch by facility type to tailor what to expect (medical, kitchen, office, HOA, school, retail).",
+      "rationale": "The 98% retention rate is won or lost on the first impression, and there is no onboarding today; this email confirms cadence and contact so a new client feels confident before the crew ever shows up.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warmly welcome the new client, confirm the service schedule and point of contact, and set up the first-clean 'aha' moment.",
+          "subject": "Welcome to The Kleaning Kompany — what to expect before your first clean",
+          "preview": "Your schedule, your dedicated contact, and the morning you'll walk in to a spotless facility.",
+          "cta": "Confirm your first service date",
+          "keyPoints": [
+            "Confirm the agreed cleaning cadence (daily / weekly / monthly) and the date of the first scheduled service so there are zero surprises",
+            "Introduce a named account manager and the ~2-hour response promise, so the client knows exactly who to reach and how fast",
+            "Prime the 'aha' — tell them to notice that first morning walking in to an immaculate facility, the moment 500+ clients say confirmed their switch",
+            "Reassure on security and supervision: vetted, insured crews, careful key/alarm handling, and (for medical/kitchen) adherence to OSHA/CDC sanitation standards"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-inspection-booking-reminders",
+      "name": "Free Site Inspection Confirmation & Reminders",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Maximize attended site inspections and cut no-shows so the proposal-to-contract engine stays fed.",
+      "trigger": "Free site inspection booked via form or phone.",
+      "segment": "Anyone with a scheduled site walkthrough; branch by service type to tailor what the inspector will assess.",
+      "rationale": "Every contract starts with an attended inspection, so a missed walkthrough is lost pipeline; confirmation-plus-reminders recover roughly a third of would-be no-shows at almost no cost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly confirm the booked walkthrough, reduce appointment anxiety, and set expectations so the prospect shows up prepared (and reassured).",
+          "subject": "You're confirmed — your free site walkthrough is set",
+          "preview": "Here's who's stopping by, what we'll look at, and how to prep (you really don't need to).",
+          "cta": "Add to calendar",
+          "keyPoints": [
+            "Confirm the date, time, and that the walkthrough is genuinely free with no obligation to sign",
+            "Name the inspector who's coming and frame the visit as quick and low-effort — they just walk us through the space",
+            "Set the payoff: they'll receive a custom, line-by-line proposal scoped to their facility, not a generic quote",
+            "Include an easy reschedule link and a contact for questions, with the ~2-hour response promise to build trust before the first meeting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-inquiry-nurture",
+      "name": "Unconverted Quote-Inquiry Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move quote inquiries that didn't book or sign immediately back toward a free site inspection by dissolving the switching-vendor fear with proof.",
+      "trigger": "Contact-form inquiry with no inspection booked or proposal signed after first touch.",
+      "segment": "Cold/stalled inquiries below sales-ready threshold; branch by the service-type dropdown they selected.",
+      "rationale": "Inbound inquiries that go cold are a recoverable, no-extra-acquisition-cost source of contracts, and the only thing usually standing between them and a booking is trust — exactly what social proof fixes.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Name the switching-vendor anxiety, prove reliability with social proof, and re-invite to the zero-risk free inspection.",
+          "subject": "Switching cleaning vendors feels risky — here's how 500+ facilities did it without a hiccup",
+          "preview": "Vetted, insured crews, a 98% retention rate, and a free walkthrough before you commit to anything.",
+          "cta": "Book your free site inspection",
+          "keyPoints": [
+            "Lead with the real hesitation: the fear of repeating a bad experience with an unreliable prior cleaning company",
+            "Counter it with hard proof — 500+ satisfied South Florida clients, 98% retention, and 10+ years across offices, medical, kitchens, and HOAs",
+            "Reframe the inspection as completely risk-free: see the proposal first, commit only if it's right for the facility",
+            "Reassure on the unsupervised-access worry with vetted, insured, background-checked, and supervised crews"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-anniversary-expansion",
+      "name": "Anniversary Recap & Service Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect recurring contract revenue and grow accounts by reaffirming the value delivered and introducing specialty add-on services.",
+      "trigger": "Contract anniversary, or a usage/footprint milestone signaling expansion readiness.",
+      "segment": "Active contracted clients approaching their anniversary; branch by health — high-satisfaction accounts get the expansion offer, at-risk accounts get a service review.",
+      "rationale": "With 98% retention already strong, the bigger lever is account growth — moving base janitorial clients into specialty floor care, kitchen cleaning, or added days — and the anniversary is the natural, non-salesy moment to ask.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "365",
+          "purpose": "Recap a year of reliable service, thank the client, and surface the highest-fit expansion services plus a referral ask.",
+          "subject": "One year of spotless mornings — here's what we can take off your plate next",
+          "preview": "A quick recap of your year with us, plus three ways to do even more for your facility.",
+          "cta": "Book a free service review",
+          "keyPoints": [
+            "Quantify the year — number of completed cleans, consistency maintained, and special requests handled — to make the value tangible",
+            "Thank them for trusting us with their facility and reaffirm the reliability that earned the contract",
+            "Introduce best-fit expansion services: specialty floor stripping/waxing, carpet extraction, commercial kitchen cleaning, or additional service days",
+            "Embed a warm referral ask — if their mornings have been spotless, invite them to introduce a fellow facilities manager"
+          ]
+        }
+      ]
+    }
+  ]
+}

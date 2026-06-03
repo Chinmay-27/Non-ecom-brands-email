@@ -1,0 +1,68 @@
+{
+  "brand": {
+    "name": "The Kleaning Kompany",
+    "url": "https://www.thekleaningkompany.com",
+    "slug": "the-kleaning-kompany",
+    "vertical": "Local & service",
+    "tagline": "Keep a Clean & Healthy Environment",
+    "colors": {
+      "primary": "#0B6EC5",
+      "accent": "#3DBE6B",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "B2B commercial cleaning services on recurring janitorial contracts — offices, medical facilities, commercial kitchens, HOAs, shopping centers, schools, and specialty floor care. Custom proposals after a free site inspection.",
+    "coreOutcome": "A consistently clean, professional facility every single time — so facilities managers and business owners can stop worrying about their vendor and focus on running their business.",
+    "pricePoint": "Custom-quoted; no published pricing. Mid-to-high ticket commercial retainer billed on contract terms (daily / weekly / monthly service frequency).",
+    "commitment": "Recurring janitorial contract; cleaning operations run 24/7 by contract",
+    "leadMagnets": [
+      "Free site inspection and custom cleaning proposal",
+      "10% off first service (referenced in directory listings)"
+    ]
+  },
+  "audience": {
+    "icp": "Facilities directors, property managers, and business owners operating commercial spaces in South Florida (Boca Raton / Miami area) and select multi-state markets (TX, DC, MD, VA, AR). Typically responsible for vendor selection and day-to-day operations of their facility.",
+    "painPoints": [
+      "Prior cleaning company was unreliable or inconsistent — the 'switching from a bad vendor' narrative",
+      "Distrust of cleaning staff entering the facility unsupervised",
+      "Disruption to business hours from cleaning schedules",
+      "Compliance anxiety for medical/food-service environments (OSHA, CDC)",
+      "Specialty floor or kitchen equipment not handled correctly by generalist cleaners"
+    ],
+    "segments": [
+      "Office & general commercial buildings",
+      "Medical facilities & healthcare practices",
+      "Restaurants & commercial kitchens",
+      "HOA & multi-tenant residential communities",
+      "Schools & day cares",
+      "Shopping centers & retail",
+      "Special events & post-construction"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — contact form or phone call → site inspection → custom proposal → signed contract",
+    "trial": "Free site inspection and custom proposal (no paid trial; first engagement is the contract itself)",
+    "closeMechanism": "Custom written proposal delivered after in-person or virtual site inspection; deal closes when contract is signed",
+    "topObjection": "Trust and reliability — decision-makers are nervous about letting a new vendor into their facility and worried about repeating a bad experience with a prior cleaning company"
+  },
+  "ahaMoment": "The first morning a new client walks into their facility and finds it immaculate — the visceral before/after that confirms switching vendors was the right call (echoed in multiple testimonials: 'every morning when I walk in my facility looks phenomenal').",
+  "retention": {
+    "recurring": "Recurring janitorial contracts are the core revenue model — daily, weekly, or monthly schedules. 98% client retention rate cited on the testimonials page.",
+    "expansion": "Upsell from base janitorial to specialty floor care (stripping, waxing, carpet extraction), commercial kitchen cleaning, or ad-hoc special services",
+    "churnRisk": "Quality or consistency slip — a single bad service or missed visit erodes the trust that won the contract; secondary risk is a competitor undercutting on price"
+  },
+  "lifecycleGaps": [
+    "No welcome / onboarding email sequence for newly signed contract clients",
+    "No lead-magnet nurture for quote inquiries that don't convert immediately",
+    "No post-inspection follow-up / proposal conversion sequence",
+    "No pre-service reminders or booking confirmation emails",
+    "No educational value newsletter for prospects and clients",
+    "No renewal, anniversary, or expansion campaign for long-term clients",
+    "No win-back / re-engagement campaign for lapsed inquiries or churned clients",
+    "No referral or advocacy program"
+  ],
+  "toneVoice": "Professional, trustworthy, and warm. Confident without being salesy. Copy leans on reliability and tailored service ('every contract is tailored to your specific requirements'). Accessible and responsive — 'we typically reply within 2 hours'. Avoids jargon; speaks plainly to busy operations-minded buyers.",
+  "compliance": "OSHA and CDC sanitation standards apply for medical facility clients. Standard CAN-SPAM / GDPR email compliance required. No explicit HIPAA language on site but healthcare client segment warrants careful data handling in email copy. No financial or legal sector constraints noted."
+}
