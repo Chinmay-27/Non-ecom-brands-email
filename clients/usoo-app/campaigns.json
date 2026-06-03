@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "USOO",
+    "slug": "usoo-app",
+    "url": "https://usooapp.com",
+    "vertical": "SaaS/tech — B2C consumer dating app (video speed dating, 18+)",
+    "colors": {
+      "primary": "#8A4FCA",
+      "accent": "#3DC8E2",
+      "background": "#09090B",
+      "text": "#FFFFFF"
+    }
+  },
+  "summary": "USOO is a video speed-dating app where singles join live, structured 5-minute face-to-face video calls with compatible matches, then independently Like or Pass — mutual likes unlock messaging, icebreaker games, and social chat rooms. It serves swipe-fatigued daters aged ~22–38 who want to feel real chemistry on camera before investing time in someone. The model is freemium (1 date/day free) converting to monthly Pro ($30) and Premium ($50) subscriptions.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get the new signup past video anxiety and into their first live 5-minute speed date, racing toward the 'It's a Match!' aha moment.",
+      "trigger": "Account created / signup completed (age gate passed). Send instantly — welcome opens drop ~50% if delayed.",
+      "segment": "All new signups; branch by whether a profile photo/bio has been added vs. account is bare.",
+      "rationale": "USOO is a novel format in beta — the single biggest risk is a signup who never joins a session because being on camera with a stranger feels scary. The welcome email has to convert curiosity into one brave click before the nerves win.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, normalize the camera nerves in one line, and drive the single most important first action: join one live 5-minute date today.",
+          "subject": "You're in. Your first 5 minutes could change everything.",
+          "preview": "No swiping, no 'hey' that goes nowhere — just one real conversation.",
+          "cta": "Start my first speed date",
+          "keyPoints": [
+            "Reassure: it's only 5 minutes, both people opted in, and you can Pass with zero awkwardness — frame the nerves as the normal price of something real",
+            "Set the expectation that chemistry is felt fast on video, and the aha is the mutual match — most people get there within their first 1–3 sessions",
+            "One button, one action: join a live date now (free tier, 1/day); reply-to is a real human if they're nervous",
+            "Soft nudge to finish profile photo + bio first if missing, so they show up as their real self"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "freemium-to-pro-conversion",
+      "name": "Freemium-to-Pro Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert engaged free users into paying Pro/Premium subscribers at the moment the 1-date/day cap frustrates them.",
+      "trigger": "Free user hits the daily 1-date cap (primary milestone); parallel expiry-style nudge for users who matched but can't message on free tier.",
+      "segment": "Active free users; branch by depth — capped-and-engaged (push more dates) vs. matched-but-blocked (push messaging unlock).",
+      "rationale": "The freemium cap is USOO's entire revenue engine — the paywall fires exactly when desire peaks. A capped user who just felt a spark and wants 'one more date' or wants to message a match is the warmest possible upgrade moment, and right now nothing catches them.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Catch the user the moment they hit the daily cap, validate the momentum they're feeling, and make upgrading to Pro the obvious way to keep going today.",
+          "subject": "That was your last free date today. Want 24 more?",
+          "preview": "You're clearly into this. Pro unlocks 25 dates a day + messaging your matches.",
+          "cta": "Unlock Pro — keep dating",
+          "keyPoints": [
+            "Acknowledge the win: you came back, you're feeling it — don't let the clock kill the momentum",
+            "Pro = 25 speed dates/day + message your matches + icebreaker games for $30/mo, cancel anytime; tease Premium (unlimited, social rooms) for the all-in",
+            "Frame against swipe apps: the cost of one bad first date vs. a month of real, fast connections",
+            "Reference cancel-anytime and the refund policy to lower commitment fear; no guarantees of romantic outcomes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "session-reminders-no-show",
+      "name": "Session Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize the share of registered users who actually show up to their scheduled speed-date session, and re-book the ones who don't.",
+      "trigger": "User registers/reserves a session slot; upcoming-session window; no-show event after a missed slot.",
+      "segment": "Anyone with a scheduled or reserved speed-date session; separate no-penalty branch for no-shows.",
+      "rationale": "Showing up IS the revenue event for a video app — a registered user who ghosts their own session never reaches the match aha and is the likeliest to churn. Reminders cut no-shows ~35% on average, and a warm nudge directly counters the camera anxiety that makes people bail at the last second.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pre-session reminder that lowers video anxiety and gets the user to actually click into their live date at the scheduled time.",
+          "subject": "Your speed date starts soon — deep breath, you've got this",
+          "preview": "5 minutes, good lighting, just be you. Singles are queuing up now.",
+          "cta": "Join my session",
+          "keyPoints": [
+            "Confirm the exact time and a one-tap join link; remind it's only 5 minutes and they control Like/Pass",
+            "Quick anti-anxiety prep: face a window or light, decent wifi, smile — and a reminder that the other person is just as nervous",
+            "Reinforce stakes are low and upside is high: this could be the 2 minutes you finally feel a spark",
+            "If now's bad, one-click reschedule so a wobble becomes a re-book instead of a no-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant free users and lapsed subscribers, and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold (e.g., no session joined in 30–60 days) or subscription cancellation.",
+      "segment": "Dormant free users vs. churned paid subscribers (different message); lean on real, waiting-match signals where available.",
+      "rationale": "Dating is uniquely win-back-friendly — a single concrete signal ('someone Liked you', 'new singles in your area') is a far stronger pull than any generic 'we miss you'. It's fast to ship and recovers 5–15% of inactive contacts while protecting the young beta list's sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reignite a dormant user with a specific, true reason to come back — a waiting match or fresh activity — rather than guilt.",
+          "subject": "Someone's been hoping you'd come back",
+          "preview": "New singles are joining USOO every day — your next 5 minutes is waiting.",
+          "cta": "See who's waiting",
+          "keyPoints": [
+            "Lead with a concrete pull: unread match / new compatible singles since you left (use real data; never fabricate a person)",
+            "Remind them why they joined — they were done with swiping and wanted something real; that's still here",
+            "Make returning frictionless: one tap back into a live date, free tier still active",
+            "Tone is warm and no-pressure, not needy; sets up a later sunset email for true non-responders to protect deliverability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter — The USOO Spark",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind, build the brand-love that makes USOO a habit, and keep free users warm for conversion — without discounting.",
+      "trigger": "Scheduled biweekly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route recently-dormant users to Win-Back instead.",
+      "rationale": "A beta dating brand lives or dies on belief that the format actually works — recurring success stories and confidence-building dating tips are the cheapest, most authentic proof, and they quietly keep low-engagement free users on the list until their conversion moment arrives.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship edition built around a real USOO match story (social proof) plus one practical tip, proving the 5-minute format delivers and nudging readers back into a session.",
+          "subject": "They matched in 5 minutes. Here's exactly how.",
+          "preview": "A real USOO spark story + one tip to make your next date land.",
+          "cta": "Try it on your next date",
+          "keyPoints": [
+            "Lead story: a real (consented, anonymized) member match — what those first 2 minutes on camera actually felt like",
+            "One actionable tip: how to open a 5-minute date so the conversation clicks (e.g., skip 'hey', ask one real question)",
+            "Recurring 'This week's spark' section to build a reading habit; 80% value, 20% soft nudge to join a date",
+            "Single primary CTA back into the app; no outcome guarantees, inclusive and warm voice throughout"
+          ]
+        }
+      ]
+    }
+  ]
+}
