@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Get Car Finance Here",
+    "slug": "getfinancehere",
+    "url": "https://www.getfinancehere.com",
+    "vertical": "Automotive finance / used-car dealership (consumer lending)",
+    "colors": {
+      "primary": "#0E4D8B",
+      "accent": "#8DC63F",
+      "background": "#FFFFFF",
+      "text": "#222222"
+    }
+  },
+  "summary": "Get Car Finance Here is a UK used-car dealership based in Kelbrook, Lancashire that specialises in arranging car finance and selling the car alongside it. Prospective buyers run a quick 'finance check' that does not affect their credit rating, or apply online, then get matched to used cars within their budget and collect from the dealership. Its core audience is everyday UK car buyers — including people with poor, limited, or no credit history who are often turned down by mainstream lenders.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate a new lead by getting them from a no-impact finance check to seeing the actual cars they can afford to drive away in.",
+      "trigger": "Soft finance check completed / online enquiry submitted / account created.",
+      "segment": "New leads, branched by indicative budget band and whether they flagged a credit concern in the check.",
+      "rationale": "The soft 'finance check that won't affect your credit rating' is this brand's front door, but a quote on its own doesn't sell a car — the win moment is seeing affordable cars in stock, so the welcome must carry them straight to that.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant welcome: confirm the check left their credit untouched, show their indicative monthly budget, and route them to the cars they're matched to.",
+          "subject": "You're pre-qualified — here are cars you can drive away in",
+          "preview": "Your finance check didn't touch your credit score. Now see what fits your budget.",
+          "cta": "Browse your matched cars",
+          "keyPoints": [
+            "Reassure: the soft check had zero impact on their credit rating",
+            "Show their indicative monthly payment / budget band",
+            "Link straight to in-stock used cars within that budget at Kelbrook",
+            "Invite a reply or call — a real adviser will help, no pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "application-to-approval-conversion",
+      "name": "Application-to-Approval Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a soft-check / pre-approval into a completed finance application and a booked collection — the core revenue event.",
+      "trigger": "Pre-approval / soft check done but full application not completed; runs in parallel with an indicative-quote expiry countdown.",
+      "segment": "Active pre-approved leads, branched by stalled vs progressing and by deposit/no-deposit eligibility.",
+      "rationale": "Most lost revenue here is people who got an indicative yes but never finished the formal application — the single highest-leverage send is the one that turns 'approved in principle' into a firm decision and a car this week.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Push completion: reinforce they're approved in principle, lower friction on the paperwork, and create momentum toward driving away this week.",
+          "subject": "Approved in principle — let's get you driving this week",
+          "preview": "Finish your application in under 5 minutes. Many cars need no deposit.",
+          "cta": "Complete my application",
+          "keyPoints": [
+            "Confirm the approval-in-principle and how close they are to driving away",
+            "List exactly what's needed: driving licence, proof of address, proof of income",
+            "Highlight no-deposit / low-deposit options on eligible cars",
+            "Offer a direct adviser phone line to finish it together if they're stuck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Viewing, Collection & Reminders",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximise attended dealership visits — test drives, viewings, and car collections — and recover the ones that slip.",
+      "trigger": "Viewing / test-drive / collection appointment booked at the Kelbrook dealership.",
+      "segment": "Anyone with a scheduled visit; branch into no-show recovery if they don't attend.",
+      "rationale": "Because the sale completes in person at Kelbrook, a missed appointment is lost revenue — and reminders cut no-shows by roughly 35%, so this protects deals already in motion.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Day-before reminder: lock in attendance, tell them what to bring, and remove friction with directions and a reschedule option.",
+          "subject": "See you tomorrow at Kelbrook — your car's ready to view",
+          "preview": "Bring your driving licence + proof of address. Here's how to find us.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate the appointment time and the Kelbrook address with directions",
+            "What to bring: driving licence, proof of address, proof of income",
+            "Confirm the specific car is ready for a test drive",
+            "One-tap confirm, reschedule link, and a phone number for questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Car-Buying & Credit Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move not-yet-ready leads toward applying by removing the #1 barrier — fear of rejection over poor or limited credit.",
+      "trigger": "Downloaded a car-buying guide / used the budget calculator / ran a soft check but hasn't applied.",
+      "segment": "Leads below readiness, branched by stated credit concern (CCJ, low score, first-time buyer) and budget.",
+      "rationale": "This brand's real differentiator is approving drivers the banks turn down, so the nurture that converts is proof they'll be accepted — addressing the credit objection head-on is what unsticks this audience.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Evaluation-stage proof: handle the credit objection with a real example and steer them back to the no-impact check.",
+          "subject": "Worried about your credit? Most of our drivers were too",
+          "preview": "CCJs, a low score, first-time buyer — we finance people the banks turn down.",
+          "cta": "Check what you'd be offered",
+          "keyPoints": [
+            "Name the fear directly: poor credit, CCJs, no history, past refusals",
+            "Show a real customer who got approved and drove away anyway",
+            "Reassure: checking your options is a soft search with no credit impact",
+            "Give a realistic monthly-payment range to make it feel attainable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate leads who abandoned an application or went quiet, and clean the list to protect deliverability.",
+      "trigger": "60–90 days with no opens/clicks, or an abandoned application that was never completed.",
+      "segment": "Dormant leads and abandoned applicants; separate message from past purchasers.",
+      "rationale": "Quotes, rates, and stock move fast in used-car finance, so a stale lead has a genuine new reason to come back — and a fresh no-impact check is a low-risk reason to re-engage.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the conversation: remind them of the goal (a car they can afford) and offer a fresh, no-impact quote on current stock.",
+          "subject": "Still thinking about that car? Your quote may have changed",
+          "preview": "Rates and stock move fast — here's a fresh check, with no credit impact.",
+          "cta": "Get an updated quote",
+          "keyPoints": [
+            "Acknowledge the gap and remind them what they came for",
+            "New stock and updated rates since they last looked",
+            "Reassure: a refreshed soft check still won't affect their credit score",
+            "One-click to restart, or reply to speak with an adviser"
+          ]
+        }
+      ]
+    }
+  ]
+}
