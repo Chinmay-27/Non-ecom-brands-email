@@ -1,0 +1,60 @@
+{
+  "brand": {
+    "name": "Best Headshots In Atlanta",
+    "url": "https://bestheadshotsinatlanta.com",
+    "slug": "best-headshots-in-atlanta",
+    "vertical": "Local & Service – Professional Photography",
+    "tagline": "What we all want is to be photogenic",
+    "colors": {
+      "primary": "#2C2C2C",
+      "accent": "#BFA980",
+      "background": "#F9F8F6",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "On-location professional headshot photography sessions in the Atlanta metro area (also operates as 2BePhotogenic / Richard Greenwood Photography)",
+    "coreOutcome": "A polished, confidence-inspiring professional image that makes clients look their best on LinkedIn, resumes, company websites, and casting portfolios",
+    "pricePoint": "~$250 per session (basic package: up to 200 proofs, 5 fully retouched images); additional retouched images available",
+    "commitment": "One-off per session; no subscription or retainer",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Business professionals, job seekers, and corporate employees in the Atlanta metro area seeking updated LinkedIn and corporate headshots",
+    "painPoints": [
+      "Looking unphotogenic or stiff in photos",
+      "Outdated or amateur-looking LinkedIn and company profile photos",
+      "Not knowing how to pose or present themselves professionally",
+      "Feeling self-conscious or awkward in front of a camera",
+      "Unsure if a professional headshot is worth the investment"
+    ],
+    "segments": [
+      "Corporate professionals and executives needing company directory or LinkedIn photos",
+      "Job seekers and career changers updating their professional brand",
+      "Actors, models, and performers needing casting headshots",
+      "Entrepreneurs and small business owners building personal brands"
+    ]
+  },
+  "salesCycle": {
+    "length": "same day to a few days (inquiry → book → shoot → deliver)",
+    "trial": "None; booking is direct with no free trial or consult",
+    "closeMechanism": "Inquiry via Thumbtack, Zenfolio contact form, or phone; session booked and paid per appointment; payment via Cash, Check, PayPal, Venmo, or Zelle",
+    "topObjection": "Price sensitivity — unsure if a professional headshot justifies the cost vs. a smartphone photo"
+  },
+  "ahaMoment": "Receiving the final retouched images and seeing how professional and polished you look — typically delivered within days of the session",
+  "retention": {
+    "recurring": "Low by default — sessions are one-off; repeat bookings happen only when the client changes jobs, updates their look, or needs new material",
+    "expansion": "Additional retouched images beyond the base package; other portrait services (family, events, weddings)",
+    "churnRisk": "High — single-session model with no built-in follow-up cadence; past clients easily forget the brand when they next need headshots"
+  },
+  "lifecycleGaps": [
+    "No welcome or onboarding email sequence after inquiry/booking",
+    "No lead-magnet or nurture sequence to convert cold prospects",
+    "No pre-session booking reminders or preparation tips",
+    "No post-session follow-up to deliver value, request reviews, or upsell",
+    "No win-back campaign for past clients (career milestones, annual update prompts)",
+    "No referral or advocacy program despite strong 5-star review base"
+  ],
+  "toneVoice": "Warm, encouraging, and confidence-building; conversational yet professional; speaks to everyday professionals (not just models or executives); emphasizes value, ease, and the guarantee of a great result",
+  "compliance": "Standard CAN-SPAM compliance required; no special regulatory constraints (not healthcare, finance, or legal vertical)"
+}

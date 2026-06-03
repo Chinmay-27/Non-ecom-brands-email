@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "Best Headshots In Atlanta",
+    "slug": "best-headshots-in-atlanta",
+    "url": "https://bestheadshotsinatlanta.com",
+    "vertical": "Local & Service – Professional Photography",
+    "colors": {
+      "primary": "#2C2C2C",
+      "accent": "#BFA980",
+      "background": "#F9F8F6",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Best Headshots In Atlanta (also operating as 2BePhotogenic / Richard Greenwood Photography) is a one-person professional photography studio in the Atlanta metro offering on-location headshot sessions at around $250 each. It serves business professionals, job seekers, actors, and entrepreneurs who need polished LinkedIn, corporate, and casting images, with photographer Rich Greenwood coaching clients through posing and expression so they look confident and photogenic.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a fresh booking into an excited, well-prepared client and set up the 'aha' moment of seeing their finished images.",
+      "trigger": "Inquiry confirmed or session booked (via Thumbtack, Zenfolio contact form, or phone).",
+      "segment": "All newly booked clients; branch by session type (corporate/LinkedIn, acting/casting, personal brand).",
+      "rationale": "Rich's differentiator is coaching nervous people to look confident — but that starts before the shutter clicks. A warm welcome that sets expectations and calms camera nerves protects the session and primes the high-value image delivery.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome that confirms the booking, sets expectations for the coached session, and removes camera-day anxiety with one simple prep win.",
+          "subject": "You're booked — let's make you look unmistakably you",
+          "preview": "A few easy things before your Atlanta session — no camera nerves required.",
+          "cta": "Read your 2-minute session prep guide",
+          "keyPoints": [
+            "Confirm the booking and reassure them: Rich coaches every pose and expression, so feeling awkward on camera is completely normal and fully handled",
+            "Set the one quick win — book mentally for the day and pick 1-2 outfits in solid colors; promise full wardrobe tips in the reminder email",
+            "Frame the payoff: a polished, confidence-inspiring image they'll be proud to put on LinkedIn, and invite a direct reply with any questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-noshow",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 2,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended sessions and recover the few that slip, since every kept appointment is the revenue event in a one-off booking model.",
+      "trigger": "Confirmed session approaching; no-show event.",
+      "segment": "Anyone with a scheduled headshot session; separate branch for no-shows.",
+      "rationale": "This is a 100% appointment-driven business with no ESP safety net today, so missed or unprepared sessions are pure lost revenue. Reminders cut no-shows ~35% and a wardrobe-prep nudge directly improves the photos clients walk away with.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that locks in attendance and tees up better images with concrete what-to-wear guidance.",
+          "subject": "See you tomorrow — quick wardrobe tips so your shots turn out great",
+          "preview": "What to wear (and what to skip) for headshots that look like the best version of you.",
+          "cta": "Confirm or reschedule your session",
+          "keyPoints": [
+            "Restate the date, time, and location (Norcross / on-location) and a one-tap link to confirm or reschedule with no penalty",
+            "Give 3-4 specific wardrobe and grooming tips: solid colors over busy patterns, bring a backup top, avoid logos, get a good night's sleep",
+            "Reassure again that Rich will direct every pose, so they can arrive relaxed and just follow along"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inquiry-to-booking-conversion",
+      "name": "Inquiry-to-Booking Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert prospects who inquired but never booked into paid sessions by handling the price-vs-smartphone objection head-on.",
+      "trigger": "Inquiry received (Thumbtack/contact form/phone) with no booking after a short window.",
+      "segment": "Inquired-not-booked leads; branch by stated purpose (new job, LinkedIn refresh, casting).",
+      "rationale": "With no free trial or consult, the inquiry-not-booked pool is the single biggest pile of warm, lost revenue. The #1 objection is 'is $250 worth it vs my phone?' — so the hero email must answer that with proof and Rich's value guarantee.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Objection-handling send that justifies the investment with social proof and a low-friction path back to booking.",
+          "subject": "Still thinking it over? Here's what $250 of headshots actually gets you",
+          "preview": "Why a coached session beats a cropped selfie — and why people book Rich back.",
+          "cta": "Grab your session date",
+          "keyPoints": [
+            "Address the price objection directly: 200+ proofs, 5 fully retouched finals, and a marketing-trained eye that knows what reads as 'hireable' on LinkedIn — for the cost of one nice dinner out",
+            "Lead with proof: link the 5-star Thumbtack reviews and portfolio gallery; quote a real client line like 'I got compliments on my LinkedIn photo'",
+            "Reinforce Rich's best-value guarantee and 17 years of experience, then make booking one click with a clear, reassuring CTA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "annual-update-winback",
+      "name": "Annual Update & Win-Back",
+      "priority": 4,
+      "stage": "Re-engagement / Retention",
+      "objective": "Reactivate past clients for a refreshed headshot when their career or look has changed — the clearest recurring-revenue lever in a one-off business.",
+      "trigger": "12+ months since last session; or a career-milestone cue (new role / promotion).",
+      "segment": "Past clients with no booking in 1-3 years; branch by original session type.",
+      "rationale": "Headshots get stale every 1-3 years but there's zero structural reason for past clients to return — without a nudge they forget the brand entirely. A timely 'is your photo still you?' prompt turns a dormant list into repeat bookings.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-engagement send that reminds dormant clients their image is dated and gives them an easy reason to rebook now.",
+          "subject": "Is your LinkedIn photo still… you?",
+          "preview": "It's been a while. New role, new look, or just overdue — let's refresh your headshot.",
+          "cta": "Book your refresh session",
+          "keyPoints": [
+            "Open with a friendly nudge: it's been a year or two, and a lot can change — new job, new title, a different look",
+            "Make the case that an outdated or off-brand photo quietly undercuts how professional they look to recruiters, clients, and connections",
+            "Offer an effortless rebook and remind them how comfortable the coached session felt last time, so saying yes is low-risk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-advocacy",
+      "name": "Referral & Advocacy",
+      "priority": 5,
+      "stage": "Advocacy / Referral",
+      "objective": "Turn delighted clients into an acquisition channel by asking for referrals and reviews right at the peak-happiness moment.",
+      "trigger": "Final retouched images delivered (the 'aha' moment).",
+      "segment": "Recently delivered clients who expressed satisfaction; suppress anyone who raised an issue.",
+      "rationale": "Rich already has a strong 5-star Thumbtack base, but those advocates are never systematically activated. Asking at the exact moment a client sees how good they look converts genuine delight into new inquiries and more reviews.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Post-delivery advocacy ask that rides the excitement of the finished images to drive referrals and a fresh review.",
+          "subject": "Know someone whose LinkedIn photo needs rescuing?",
+          "preview": "If your new headshots made you smile, send a colleague my way — they'll thank you.",
+          "cta": "Refer a colleague (or leave a quick review)",
+          "keyPoints": [
+            "Celebrate the delivery and the result they were after: a polished, confident image they're proud to share",
+            "Make the referral natural and specific — nearly every professional has a dated photo, so forwarding this to one colleague or team is an easy favor",
+            "Offer a one-tap way to leave a Thumbtack/Google review for clients who'd rather endorse publicly, reinforcing the advocate flywheel"
+          ]
+        }
+      ]
+    }
+  ]
+}
