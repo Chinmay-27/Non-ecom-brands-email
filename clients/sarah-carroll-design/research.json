@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Sarah Carroll Design",
+    "url": "https://www.sarahcarrolldesign.com",
+    "slug": "sarah-carroll-design",
+    "vertical": "B2B/professional — freelance graphic design studio",
+    "tagline": "Design is as much a matter of finding problems as it is solving them.",
+    "colors": {
+      "primary": "#2B3044",
+      "accent": "#F4845F",
+      "background": "#FFFFFF",
+      "text": "#2B3044"
+    }
+  },
+  "offer": {
+    "what": "Freelance graphic design services: logo & brand identity, web design, brochures & collateral, infographics, educational publishing design, business cards, event materials",
+    "coreOutcome": "A polished, professional visual identity or marketing asset that makes the client look credible and gets noticed — without the client having to figure out design themselves",
+    "pricePoint": "Unknown — custom quotes, no public pricing; typical freelance project-based fees likely $500–$5,000+ depending on scope",
+    "commitment": "One-off project basis; no subscription or retainer model detected",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Small business owners, nonprofits, and sports clubs within the greater Boston area who need professional design work but don't have an in-house designer",
+    "painPoints": [
+      "Looking unprofessional or inconsistent with DIY design",
+      "Too busy to learn design tools or manage a large agency",
+      "Unsure how to brief a designer or what to expect from the process",
+      "Worried about cost and not knowing if they're getting value"
+    ],
+    "segments": [
+      "Nonprofits needing event collateral and brochures",
+      "Small businesses needing logo/brand identity from scratch",
+      "Corporations needing infographics and marketing materials",
+      "Sports clubs needing team branding and promotional materials",
+      "Educational publishers needing instructional design and infographics"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks — contact form inquiry → scoping conversation → proposal → project kickoff",
+    "trial": "None detected; no free consult or discovery call advertised",
+    "closeMechanism": "Inbound contact form inquiry followed by a proposal/quote conversation",
+    "topObjection": "Cost uncertainty (no public pricing creates hesitation) and trust/fit (can she handle my specific industry or project type?)"
+  },
+  "ahaMoment": "Receiving the first design concept or logo draft — the moment the client sees their brand come to life visually and feels the creative energy Sarah brings to the collaboration",
+  "retention": {
+    "recurring": "None — purely project-based with no subscription, retainer, or membership model",
+    "expansion": "Return projects (additional collateral, website updates, rebrand phases), referrals to peers in similar organizations",
+    "churnRisk": "High single-project drop-off; no mechanism to re-engage past clients for follow-on work or keep them warm between projects"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no sequence to set expectations and build excitement after inquiry",
+    "Lead-Magnet Nurture — no lead magnet exists and no nurture sequence for cold contacts",
+    "Trial/Consult Conversion — no free consult offer and no email sequence to convert inquiries to paying projects",
+    "Booking & Reminders — no automated follow-up or project-start reminders after proposal stage",
+    "Value Newsletter — blog is sporadic (last post ~mid-2022); no ongoing educational email for audience",
+    "Referral / Advocacy — no structured ask for referrals or testimonials from happy clients",
+    "Win-Back / Re-Engagement — no mechanism to re-engage past clients who haven't returned"
+  ],
+  "toneVoice": "Warm, collaborative, and creatively passionate. Conversational yet polished — like a thoughtful professional who loves what she does and wants clients to feel genuinely excited about their project. Leans into the emotional and relational side of design, not just deliverables.",
+  "compliance": "Standard CAN-SPAM/GDPR compliance required. No industry-specific compliance constraints (no healthcare, finance, or legal vertical)."
+}

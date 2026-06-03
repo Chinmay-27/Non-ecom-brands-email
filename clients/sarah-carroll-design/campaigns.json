@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Sarah Carroll Design",
+    "slug": "sarah-carroll-design",
+    "url": "https://www.sarahcarrolldesign.com",
+    "vertical": "B2B/professional — freelance graphic design studio",
+    "colors": {
+      "primary": "#2B3044",
+      "accent": "#F4845F",
+      "background": "#FFFFFF",
+      "text": "#2B3044"
+    }
+  },
+  "summary": "Sarah Carroll Design is a Boston-area freelance graphic design studio, founded in 2021, that delivers logo and brand identity, web design, infographics, brochures, event collateral, and educational publishing design on a project-by-project basis. It serves small business owners, nonprofits, sports clubs, and educational publishers who need professional-quality design but have no in-house designer. Work is custom-quoted with no public pricing, sold almost entirely through inbound contact-form inquiries followed by a scoping conversation and proposal.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a cold contact-form inquiry into a warm, prepared lead by setting expectations, reducing process anxiety, and building anticipation for the first-concept 'aha' moment.",
+      "trigger": "Contact form submitted on sarahcarrolldesign.com (first name, last name, email, subject, message).",
+      "segment": "New inquiries; light branch by stated project type (logo/brand, web, collateral, infographics) pulled from the form subject/message.",
+      "rationale": "Right now inquiries go silent after the form submit — leads cool off before Sarah even replies. An instant, personal welcome captures the moment of highest interest and frames the collaborative process so prospects arrive at the scoping call excited rather than hesitant.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant, personal welcome from Sarah that confirms the inquiry landed, sets expectations for the simple process ahead, and gives one quick win: a short prompt to gather their ideas so the scoping call is productive.",
+          "subject": "Got your message — let's bring your brand to life",
+          "preview": "A quick note from Sarah on how we'll work together (and what to expect next).",
+          "cta": "Reply with a few brands or designs you love",
+          "keyPoints": [
+            "Personal hello from Sarah confirming her note arrived and that a real person (her) replies to every inquiry within one business day",
+            "Reassure them no design experience is needed — she's the 'thoughtful host' who guides the whole process from first chat to polished final files",
+            "Walk through the simple path: a quick scoping conversation, a clear custom proposal, then the exciting first concepts where their brand comes to life",
+            "Quick win: invite them to reply with a few logos, sites, or brands they admire so the first review is sharper and faster"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Inquiry-to-Project Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert an interested-but-unsigned inquiry into a booked discovery call and signed project by dismantling the two top objections: cost uncertainty and 'can she do work like mine?'",
+      "trigger": "Inquiry received but no scoping call booked / proposal accepted within ~3 days; runs in parallel with a soft expiry nudge.",
+      "segment": "Warm inquiries that haven't yet booked or signed; branch by industry (small business, nonprofit, sports club, education) to mirror the most relevant proof.",
+      "rationale": "This is the core revenue play and the studio's biggest leak: no public pricing makes prospects hesitate to commit, and there's no sequence to move them from 'interested' to 'signed.' Naming the cost question directly and showing same-industry proof removes both objections at once.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "The hero objection-handler: name the cost-and-fit fear out loud, give enough pricing context to self-qualify, prove fit with named Boston-area client work, and offer a zero-risk free discovery call as the next step.",
+          "subject": "Wondering what design will cost? Let's figure it out — free",
+          "preview": "No surprises and no pressure — just a clear plan, real examples, and a quote.",
+          "cta": "Book a free 20-minute discovery call",
+          "keyPoints": [
+            "Address the #1 hesitation head-on: every project is custom-quoted, and a quick call gives a clear, no-obligation number before you commit a dollar",
+            "Prove fit with real, relatable Boston work — logos and brand identity for small businesses like Boston Eyeworks, team branding for Youk's Kids, and event collateral for local nonprofits",
+            "Reframe the spend as credibility: clients end up hearing 'people keep asking who designed this' — design that makes them look legit",
+            "Low-friction close: a 20-minute discovery call, no pressure to buy, just a plan and a price"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Discovery Call & Proposal Follow-Through",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended scoping calls and keep the deal moving by following every call with a same-day recap, scope, and proposal so warm inquiries don't go cold.",
+      "trigger": "Discovery/scoping call booked (confirmation + reminder); call completed (post-call recap + proposal); no-show (warm rebook).",
+      "segment": "Anyone with a scheduled or just-completed discovery call.",
+      "rationale": "For a solo studio the scoping call is the revenue gate, but the moment that actually closes is the follow-up — sending the proposal while enthusiasm is fresh. Without it, a great conversation quietly stalls and the lead drifts away.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day post-call recap that restates their goals, lays out the proposed scope, timeline to first concepts, and quote, then makes the kickoff step obvious — the single email that turns a conversation into a signed project.",
+          "subject": "Loved talking through your project — here's the recap + your proposal",
+          "preview": "Everything we discussed, plus a simple next step to get started.",
+          "cta": "Review your proposal & kick off",
+          "keyPoints": [
+            "Warm recap referencing their specific goals and the brand vision discussed on the call",
+            "Clear scope, timeline to the first concepts, and the custom quote — laid out with no surprises",
+            "One obvious next step to approve and kick off, with a note that the exciting part (first concepts) starts right after",
+            "Personal close inviting a reply with any questions — keep the momentum and the human touch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-advocacy",
+      "name": "Referral & Testimonial",
+      "priority": 4,
+      "stage": "Advocacy / Referral",
+      "objective": "Turn a delighted, just-delivered client into the studio's strongest acquisition channel — referrals to peer organizations plus a testimonial that deepens proof for future prospects.",
+      "trigger": "Project delivered / final files sent (peak-delight value moment).",
+      "segment": "Clients whose project just wrapped successfully; light branch by segment so the referral ask points to similar peers (other nonprofits, clubs, or small businesses).",
+      "rationale": "Word-of-mouth and the Boston community already drive much of this studio's pipeline, but the ask is never made systematically. Capturing the post-delivery glow for a referral and a testimonial is the highest-leverage growth move for a solo studio with no list — and the testimonials directly fix the 'can she do work like mine?' objection upstream.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm post-delivery thank-you that celebrates the finished work, then makes one easy two-part ask: a quick testimonial for the portfolio and an introduction to a peer who needs design.",
+          "subject": "It's been such a joy designing for you — one small favor?",
+          "preview": "Loved bringing your brand to life. Mind sharing a few words (and a friend)?",
+          "cta": "Share a quick testimonial or intro a friend",
+          "keyPoints": [
+            "Genuine, warm celebration of the finished project and the fun of collaborating — matching Sarah's creative, relational voice",
+            "Easy testimonial ask: a sentence or two on how the work landed, used to help future clients trust the fit",
+            "Make the referral effortless: 'know another nonprofit, club, or small business that could use this?' — just forward this email or make an intro",
+            "No pressure, pure gratitude; the door is always open for their next project too"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Past-Client Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate past clients who haven't returned, surfacing follow-on work — rebrands, new collateral, website refreshes — before they go searching for a fresh designer.",
+      "trigger": "No new project from a past client in ~9–12 months (or other inactivity threshold once a list exists).",
+      "segment": "Lapsed past clients; branch by what they last commissioned (logo-only vs. full brand vs. web) to pitch the natural next phase.",
+      "rationale": "The intake names high single-project drop-off as the #1 retention problem — past clients forget about Sarah until a need arises, then start fresh. A periodic, warm check-in keeps her top-of-mind and reframes the client's own growth as the reason to design again.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Friendly reconnect that references their past project, gently points out that growth usually outpaces a brand's first design, and offers a no-cost brand check-in to spark the next engagement.",
+          "subject": "It's been a while — how's your brand holding up?",
+          "preview": "Outgrown your old look? Let's see if it's time for a refresh.",
+          "cta": "Tell me what's next for your brand",
+          "keyPoints": [
+            "Warm, personal reconnect that recalls the project Sarah designed for them and how good it was to work together",
+            "Reframe the return: as you grow, you often need new collateral, a website update, or a refreshed look that keeps pace",
+            "Offer a quick, free brand check-in — a low-commitment reason to re-open the conversation",
+            "Easy, pressure-free reply or booking, with a reminder she'd love to design for them again"
+          ]
+        }
+      ]
+    }
+  ]
+}
