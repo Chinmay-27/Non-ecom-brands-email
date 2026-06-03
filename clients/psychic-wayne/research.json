@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "Psychic Wayne",
+    "url": "https://www.psychicwayne1.com",
+    "slug": "psychic-wayne",
+    "vertical": "Local & service — spiritual/metaphysical readings (tarot, astrology)",
+    "tagline": "Professional Astrology & Tarot Reader in Southern California",
+    "colors": {
+      "primary": "#4A148C",
+      "accent": "#C9A227",
+      "background": "#0D0D1A",
+      "text": "#F5F0E8"
+    }
+  },
+  "offer": {
+    "what": "Phone/online tarot card readings (10, 15, 20, 30, 60 min sessions), natal-chart astrology reports, numerology reports, compatibility reports, transit reports, daily horoscopes, and tarot products (planners, e-books)",
+    "coreOutcome": "Clarity and confident direction on love, career, and life decisions",
+    "pricePoint": "Session-based one-off bookings; exact prices not publicly listed — typical market range $25–$150+ per session by length",
+    "commitment": "No mandatory recurring commitment; clients rebook at will",
+    "leadMagnets": [
+      "Free 20-minute tarot reading (dedicated landing page)",
+      "VIP SMS list — text FUTURE to 818-600-9195 for discounts, exclusive offers, and horoscopes",
+      "Email opt-in for astro updates and savings",
+      "Free daily horoscopes by zodiac sign published on-site"
+    ]
+  },
+  "audience": {
+    "icp": "Women 25–55 in the US who follow astrology content on social media and seek spiritual clarity on love, relationships, and major life decisions; open-minded and spiritually curious",
+    "painPoints": [
+      "Uncertainty about romantic relationships or whether to stay or leave",
+      "Career crossroads with no clear answer",
+      "Feeling stuck, lost, or without direction",
+      "Need for personalized insight beyond generic horoscopes",
+      "Desire for validation or reassurance from a trusted, credible source"
+    ],
+    "segments": [
+      "First-time seekers — curious but skeptical, drawn in by the free 20-min reading",
+      "Returning clients — believers who want periodic life-update check-ins",
+      "Astrology/tarot enthusiasts — consume daily horoscope content, open to paid reports",
+      "Gift buyers — purchasing readings as gifts for friends or family"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days — spiritual-service decisions are emotionally driven and convert quickly",
+    "trial": "Free 20-minute tarot reading page; VIP SMS list with discount codes",
+    "closeMechanism": "Self-serve online booking via Acuity Scheduling (psychicwayne1.as.me) or direct phone call (1-888-929-6307); Etsy shop for digital products",
+    "topObjection": "Skepticism about accuracy and legitimacy ('Is this real / will it actually help me?'); price sensitivity for longer sessions"
+  },
+  "ahaMoment": "The first live reading where Wayne names something specific and accurate that the client hasn't shared — that resonance moment shifts a curious visitor into a true believer and repeat customer",
+  "retention": {
+    "recurring": "Repeat bookings on a self-selected cadence (no formal subscription); clients return for major decisions, seasonal check-ins, or when life feels uncertain again",
+    "expansion": "Upgrading session length (10 min → 30/60 min); adding astrology, numerology, or compatibility reports to a base reading",
+    "churnRisk": "One-and-done visitors who never rebook after an initial reading; VIP text/email subscribers who go cold; crisis bookers who disengage once their immediate question resolves"
+  },
+  "lifecycleGaps": [
+    "Welcome & onboarding — no confirmed email nurture sequence for new subscribers or first-time bookers",
+    "Lead-magnet nurture — free 20-min reading page likely has no follow-up conversion email sequence",
+    "Trial/consult conversion — no visible automated follow-up after a free or discounted first session to upsell a paid session",
+    "Booking reminders & no-show recovery — no public evidence of automated pre-session reminders or no-show re-engagement",
+    "Value newsletter — rich daily horoscope content on-site is not packaged into a regular email digest",
+    "Renewal / re-booking prompts — no evidence of 'time for your next reading' or anniversary triggers",
+    "Win-back / re-engagement — no visible campaign for clients who haven't booked in 60–90+ days",
+    "Referral / advocacy — no confirmed referral incentive for the brand's loyal repeat client base"
+  ],
+  "toneVoice": "Warm, mystical, and intimately personal; authoritative yet accessible; leans into spiritual identity with celebrity-credibility signals ('third-generation psychic to the stars'); conversational and encouraging rather than formal or clinical",
+  "compliance": "Standard entertainment/spiritual services disclaimer required on all email; CAN-SPAM compliance for email and TCPA/10DLC compliance for SMS (active VIP text list); no HIPAA, financial, or legal-sector constraints"
+}

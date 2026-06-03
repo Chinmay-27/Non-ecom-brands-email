@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Psychic Wayne",
+    "slug": "psychic-wayne",
+    "url": "https://www.psychicwayne1.com",
+    "vertical": "Local & service — spiritual/metaphysical readings (tarot, astrology)",
+    "colors": {
+      "primary": "#4A148C",
+      "accent": "#C9A227",
+      "background": "#0D0D1A",
+      "text": "#F5F0E8"
+    }
+  },
+  "summary": "Psychic Wayne is a Southern California astrology and tarot reader offering phone and online readings in 10-to-60-minute sessions, plus digital reports (natal chart, numerology, compatibility, transit) and tarot products via the website and Etsy. He serves spiritually curious people — primarily women 25–55 — seeking personalized clarity on love, relationships, career, and major life decisions. Bookings are one-off and self-serve through Acuity Scheduling or a direct phone line, with repeat visits driven by new life questions rather than any subscription.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a brand-new email or VIP-SMS subscriber into their first booked reading by getting them to claim the free 20-minute session — the fastest path to the 'aha' moment.",
+      "trigger": "New subscriber joins the email list, opts in for astro updates, or texts FUTURE to the VIP SMS line. Send within seconds.",
+      "segment": "All new contacts who have not yet booked a session; lead with the free 20-minute reading regardless of source.",
+      "rationale": "Wayne's whole business turns on the first live reading where he names something accurate the client never shared — so the single highest-leverage job is getting a curious new subscriber to actually book that first session while their interest is hot.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm, mystical welcome that sets expectations and delivers one quick win — claiming the free 20-minute reading — before skepticism or distraction sets in.",
+          "subject": "Your free 20-minute reading is waiting, [First Name]",
+          "preview": "The cards already have something to tell you. Let's not keep them waiting.",
+          "cta": "Claim my free 20-minute reading",
+          "keyPoints": [
+            "Open with a warm, personal welcome in Wayne's voice and name the outcome they came for: clarity on love, career, or a decision they can't make alone",
+            "Single primary action — book the free 20-minute tarot reading via Acuity (psychicwayne1.as.me); one button, no competing links",
+            "Establish credibility lightly: third-generation reader, 20+ years, trusted by A-list clients — enough to ease the 'is this real?' doubt without bragging",
+            "Set expectations for the next few emails (short, useful, no spam) and invite a real reply; close with the entertainment-purposes disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-reading-conversion",
+      "name": "Free Reading → Paid Session Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert someone who just had the free 20-minute reading into a paid 30- or 60-minute session while the resonance of the 'how did he know that?' moment is still fresh.",
+      "trigger": "Free 20-minute reading is completed; send same day, within a few hours of the session.",
+      "segment": "Contacts who completed a free reading and have not yet booked a paid session; branch by the theme they came in with (love vs. career vs. life direction).",
+      "rationale": "The free reading is the trial, and this brand's emotionally-driven, same-day cycle means the window to upsell is hours, not weeks — a single well-timed 'we only scratched the surface' email is the core revenue play.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Strike while the connection is hot — reinforce the accuracy they just experienced and offer the deeper paid session as the natural next step to a full answer.",
+          "subject": "We only scratched the surface today",
+          "preview": "Twenty minutes opened the door. A full reading walks you through it.",
+          "cta": "Book your full reading",
+          "keyPoints": [
+            "Acknowledge what surfaced in their free reading and validate the resonance — they felt it was real, so name that the cards had more to say than 20 minutes allowed",
+            "Frame the upgrade by outcome, not minutes: a 30- or 60-minute session to fully work through the love, career, or decision they came in for",
+            "Reduce friction — direct Acuity booking link plus the phone line (1-888-929-6307) for those who'd rather talk to a person",
+            "Gently address price sensitivity by tying cost to the weight of the decision; include the entertainment-purposes disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended sessions and recover the bookings that slip, protecting revenue that's already on the calendar.",
+      "trigger": "A session is booked via Acuity; reminder cadence fires before the appointment, with a separate no-show recovery branch.",
+      "segment": "Anyone with a scheduled phone or online reading; no-show branch targets those who miss their slot.",
+      "rationale": "Readings are time-blocked appointments Wayne delivers live, so every no-show is lost revenue he can't resell — reminders cut no-shows by roughly 35%, making this the fastest way to protect bookings already won.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "The 24-hour reminder — the highest-impact send for reducing no-shows; confirm the time, prep them to get the most from the session, and make rescheduling effortless.",
+          "subject": "Your reading with Wayne is tomorrow at [time]",
+          "preview": "Come with the one question that's been weighing on you.",
+          "cta": "Add to calendar or reschedule",
+          "keyPoints": [
+            "Confirm date, time, session length, and how the reading happens (phone or online) so there's zero ambiguity about showing up",
+            "Help them prepare — encourage them to come with their key question about love, career, or a decision; a focused question makes the reading land harder",
+            "One-tap reschedule link to recover the slot rather than lose it to a silent no-show",
+            "Warm, reassuring close in Wayne's voice plus the entertainment-purposes disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-reading-nurture",
+      "name": "Free Reading Page — Lead Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free-20-minute-reading-page leads who signed up but never booked toward their first session by dismantling the core objection: skepticism about whether readings are real.",
+      "trigger": "Visitor opts in on the free reading landing page but does not book a session within a few days; gentle every-few-days cadence.",
+      "segment": "Leads who claimed or expressed interest in the free reading but have not booked; branch by stated topic of interest if known.",
+      "rationale": "The #1 thing stopping these warm-but-hesitant leads is 'is this actually real or will it help me?', so the nurture's hero send must answer that with real client experiences rather than more promises.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Handle the skepticism objection head-on with proof — real client stories of accurate, specific guidance — so a curious-but-doubtful lead feels safe enough to book.",
+          "subject": "\"How did he know that?\" — what first-timers always say",
+          "preview": "You don't have to believe yet. Just bring one question.",
+          "cta": "See what a reading can tell you",
+          "keyPoints": [
+            "Lead with the doubt out loud — it's okay to be skeptical; most clients were too before their first reading",
+            "Share two or three short, specific client moments where Wayne named something accurate the person never shared — concrete beats generic",
+            "Lower the stakes by pointing back to the free 20-minute reading as a no-risk way to judge for themselves",
+            "Soft, low-pressure CTA to book the free reading; close with the entertainment-purposes disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate past clients and cold subscribers who haven't booked in 60–90+ days, using a timely celestial event as the reason to return.",
+      "trigger": "60–90 days of no booking or no email engagement; ideally timed to a New Moon, eclipse, Mercury retrograde, or the contact's birthday.",
+      "segment": "Dormant past clients and cold VIP/email subscribers; reference what they came in for last time where known.",
+      "rationale": "This brand's repeat revenue is purely client-driven and clusters around life transitions and astrological moments, so a win-back anchored to a real celestial event gives a lapsed client a natural, non-salesy reason to rebook.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the relationship by tying a current astrological event to a fresh reason to check in — re-establish the value and invite an easy return.",
+          "subject": "Mercury retrograde is back — and so are your questions",
+          "preview": "It's been a while. The stars have shifted. Maybe you have too.",
+          "cta": "Book your check-in reading",
+          "keyPoints": [
+            "Warm 'it's been a while' open that references the current celestial event (retrograde / eclipse / new moon) as a meaningful moment to take stock",
+            "Remind them of the core value — clarity and direction when life feels uncertain again — and, if known, nod to what they last came in for",
+            "Make returning effortless with a direct Acuity booking link and the phone option",
+            "Keep it low-pressure and caring rather than salesy; include the entertainment-purposes disclaimer"
+          ]
+        }
+      ]
+    }
+  ]
+}
