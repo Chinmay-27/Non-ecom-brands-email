@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Travel Adventure Center",
+    "slug": "travel-adventure-center",
+    "url": "https://www.traveladventurecenter.com",
+    "vertical": "Travel & Tourism (independent adventure travel operator)",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#E8951A",
+      "background": "#F9F9F9",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Travel Adventure Center is an independent operator that plans and books curated adventure travel experiences — guided tours, trips, and packages — for travelers who want something more personal than a generic package tour. It serves adventure-curious solo travelers, couples, and small friend groups (roughly ages 25–55), turning an inbound inquiry into a fully planned, human-guided trip.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a brand-new email subscriber into an engaged lead by setting expectations, building trust in a new/unknown operator, and prompting the first conversation that leads toward a trip.",
+      "trigger": "Email list signup via the homepage / contact-form opt-in (send instantly).",
+      "segment": "New subscribers with no prior trip; branch later on the destination/trip-type they tell us they want.",
+      "rationale": "The list is being built from scratch and new subscribers currently get nothing — the welcome is the highest-engagement, fastest-to-ship send and the only thing standing between a cold signup and a real planning conversation for a brand with no track record yet.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for what's coming, and deliver one quick win — get them to name the trip they've been dreaming about so we can start the relationship.",
+          "subject": "You're in — let's plan the trip you keep putting off",
+          "preview": "Tell us where you've always wanted to go. A real person takes it from there.",
+          "cta": "Tell us your dream trip",
+          "keyPoints": [
+            "Thank them for joining and promise no spam — just trip inspiration and real planning help, roughly twice a month",
+            "Single first action: hit reply (or tap the button) and tell us the one destination or kind of adventure they've always wanted",
+            "Reassure the hesitant: we handle the logistics, safety, and routes so they don't have to — and a real human reads every reply",
+            "Set the tone — casual, warm, no pressure; this is about possibility, not a hard sell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Free Trip-Planning Call Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a warm subscriber into a booked, no-obligation trip-planning call — the human touchpoint that closes adventure-travel deals.",
+      "trigger": "Subscriber engages with welcome content or has been on the list ~5–7 days without inquiring; behavioral nudge in parallel for anyone who clicks a destination link.",
+      "segment": "Engaged subscribers who haven't yet submitted a trip inquiry; branch by destination interest if known.",
+      "rationale": "The site's only conversion path is a cold contact form — there's no low-friction step between 'interested' and 'inquiry.' A free 15-minute planning call lowers the commitment, overcomes the trust-in-a-new-operator objection, and is the core revenue play for this brand.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Make the offer: a free 15-minute trip-planning call that gives them a usable plan whether or not they book, removing cost/risk hesitation and creating a clear next step.",
+          "subject": "Free 15 minutes: we'll map out your dream adventure",
+          "preview": "No pressure, no obligation — just a plan you can actually use.",
+          "cta": "Book your free planning call",
+          "keyPoints": [
+            "Offer a free, no-obligation 15-minute call where we sketch a real itinerary for their destination",
+            "Frame the value: they walk away with a usable plan even if they never book with us — removes the 'why a stranger over DIY' objection",
+            "Address the top objection head-on (cost/value vs. booking it themselves): a guided plan saves weeks of research and avoids the logistics and safety mistakes first-timers make",
+            "One clear CTA to a scheduling link; reassure it's a friendly conversation, not a sales pitch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Destination Guide Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a not-yet-ready lead toward a planning conversation over the weeks-to-months travel research cycle by delivering a useful guide and building authority.",
+      "trigger": "Download of a gated lead magnet (e.g., '7 Under-the-Radar Adventures' destination guide) added to the homepage.",
+      "segment": "Subscribers who downloaded the guide but haven't booked a call; branch by the destination/adventure type they're researching.",
+      "rationale": "Adventure travel has a long, research-heavy consideration cycle (weeks to months), which is exactly where a buyer-journey-mapped nurture earns its keep — and a destination guide gives this content-less brand its first real lead magnet to feed the top of funnel.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested guide and frame the real problem behind it — that planning a big adventure solo is overwhelming and risky — positioning us as the guide who removes that friction.",
+          "subject": "Your guide: 7 under-the-radar adventures worth the trip",
+          "preview": "Plus the one planning mistake that derails most first big trips.",
+          "cta": "Download your guide",
+          "keyPoints": [
+            "Deliver the guide instantly with a single download button",
+            "Frame the deeper problem: the best adventures are the hardest to plan — logistics, safety, and routes are where DIY travelers get stuck",
+            "Tease what's coming over the next few emails: how to choose the right trip for your fitness and interests, real traveler stories, and how to know an operator is trustworthy",
+            "Soft invitation to reply with the destination they're researching so future emails are relevant to them"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Adventure Dispatch Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long consideration cycle and between trips, building trust and authority for a new operator without discounting.",
+      "trigger": "Scheduled biweekly cadence to all engaged contacts; suppress active onboarding and route dormant contacts elsewhere.",
+      "segment": "All engaged subscribers and past travelers; segment editions by destination interest where known.",
+      "rationale": "For a new, unknown operator the biggest barrier is trust, and travel decisions simmer for months — a consistent, value-first newsletter keeps the brand present through that long cycle and between trips, which is the always-on engine that makes every other campaign work harder.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship issue establishing the recurring format — one inspiring destination, one practical tip, one short story — and proving the newsletter is worth opening every time.",
+          "subject": "Where to go this season: 3 trips you can still pull off in 2026",
+          "preview": "One destination, one packing tip, one traveler story — every two weeks.",
+          "cta": "Read the destination spotlight",
+          "keyPoints": [
+            "Lead with one timely, inspiring destination spotlight and why now is the window to go",
+            "Include one genuinely useful, practical tip (e.g., packing, best months, avoiding crowds) to build the habit of opening",
+            "Share a short real traveler story or behind-the-scenes moment that demonstrates the kind of trips we plan — proof over promises",
+            "80% value / 20% soft offer: a single low-key invitation to reply or book a planning call, never a hard sell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-trip-rebook",
+      "name": "Post-Trip Re-Engagement & Re-Booking",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Convert one-time travelers into repeat customers by re-engaging while the memory is warm and planting the next adventure before they drift to another operator.",
+      "trigger": "A set interval after a completed trip (e.g., 3–6 weeks post-return), plus a seasonal nudge ahead of the next booking window.",
+      "segment": "Past travelers who completed a trip; branch by trip type and whether they've expressed interest in a bigger or group trip (expansion).",
+      "rationale": "The intake flags 'one-and-done' as the brand's highest churn risk — happy travelers simply forget or rebook elsewhere — so a post-trip re-engagement that recaps the experience and offers first pick on the next trip directly protects the brand's repeat-booking revenue.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "30",
+          "purpose": "Catch travelers while the afterglow is strong: celebrate the trip they took, reinforce that we made it effortless, and plant the seed (with a returning-traveler perk) for the next adventure.",
+          "subject": "Still riding the high? Here's where to go next",
+          "preview": "Returning travelers get first pick on next season's trips.",
+          "cta": "Plan my next adventure",
+          "keyPoints": [
+            "Open by celebrating the trip they just took and the moment they stopped planning and started anticipating — remind them how effortless we made it",
+            "Suggest 1–2 natural next adventures matched to where they've been (a bigger trip, a new region, or a group version for friends)",
+            "Offer a returning-traveler perk — first pick on next season's dates or a small thank-you upgrade — gated to past customers",
+            "Invite them to bring friends next time (seed referral/group expansion) and make rebooking a one-click reply or call"
+          ]
+        }
+      ]
+    }
+  ]
+}

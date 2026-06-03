@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Travel Adventure Center",
+    "url": "https://www.traveladventurecenter.com",
+    "slug": "travel-adventure-center",
+    "vertical": "Travel & Tourism (local/independent operator)",
+    "tagline": "Explore Your Next Adventure",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#E8951A",
+      "background": "#F9F9F9",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Adventure travel experiences — tours, trips, and travel packages (specific offerings not publicly listed on site as of research date; site is in early/placeholder stage)",
+    "coreOutcome": "Experiencing meaningful, memorable adventure travel in a way that feels personally curated and exciting",
+    "pricePoint": "unknown — no pricing listed on site",
+    "commitment": "unknown — likely per-trip/project-based rather than subscription; no recurring model visible",
+    "leadMagnets": [
+      "Email list signup for 'updates, promotions, and more' (checkbox on contact form)"
+    ]
+  },
+  "audience": {
+    "icp": "Adventure-seeking travelers (likely 25–55) who want guided or curated travel experiences beyond generic package tours; exact demographic/psychographic detail unknown from site",
+    "painPoints": [
+      "Overwhelmed by DIY travel planning for adventure destinations",
+      "Difficulty finding unique, off-the-beaten-path experiences",
+      "Uncertainty about safety and logistics for adventure travel",
+      "Generic tours that don't match personal interests or fitness level"
+    ],
+    "segments": [
+      "Solo adventure travelers",
+      "Couples seeking shared adventure experiences",
+      "Small groups / friend groups planning trips",
+      "unknown — no segment data on site"
+    ]
+  },
+  "salesCycle": {
+    "length": "weeks to months (travel planning cycle typical for the vertical)",
+    "trial": "none visible — no free consult, demo, or sample trip offered on site",
+    "closeMechanism": "contact form inquiry (only CTA on site); booking process unknown beyond initial inquiry",
+    "topObjection": "unknown — likely cost/value vs. DIY booking or trust in a new/unknown operator"
+  },
+  "ahaMoment": "Receiving a confirmed itinerary and knowing the trip is fully planned — the moment the customer stops worrying and starts anticipating",
+  "retention": {
+    "recurring": "unknown — likely repeat bookings per trip rather than subscription; no recurring model visible",
+    "expansion": "Upsell to larger trips, group bookings, or premium experiences (inferred from vertical norms)",
+    "churnRisk": "High if no follow-up after trip; customers may default to booking next trip elsewhere without a relationship-nurturing email program"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no visible sequence for new email subscribers",
+    "Lead-Magnet Nurture — no dedicated lead magnet exists yet beyond generic email signup",
+    "Trial/Consult Conversion — no free consult or sample offer to convert subscribers",
+    "Booking Confirmation & Reminders — no visible pre-trip communication flow",
+    "Value Newsletter — no content/blog to establish expertise",
+    "Renewal / Post-Trip Re-Engagement — no visible repeat-booking or anniversary sequence",
+    "Win-Back / Re-Engagement — no visible reactivation campaign",
+    "Referral / Advocacy — no visible referral program"
+  ],
+  "toneVoice": "Casual, warm, and aspirational — invites exploration without being pushy; hero copy ('Explore Your Next Adventure') is short, punchy, and emotionally resonant; overall feel is inspirational and accessible rather than luxury or extreme",
+  "compliance": "Standard CAN-SPAM / CASL compliance expected; no indicators of HIPAA, financial, or GDPR-specific constraints; site uses Google reCAPTCHA on contact form"
+}

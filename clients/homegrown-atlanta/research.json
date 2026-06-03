@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Homegrown Atlanta",
+    "url": "https://linktr.ee/homegrown_atlanta",
+    "slug": "homegrown-atlanta",
+    "vertical": "Local & service — residential real estate",
+    "tagline": "Easygoing...from start to SOLD!",
+    "colors": {
+      "primary": "#4A7C59",
+      "accent": "#D4873A",
+      "background": "#FAF7F2",
+      "text": "#2C2C2C"
+    }
+  },
+  "offer": {
+    "what": "Residential real estate representation — buyer's agent and listing (seller) services in the Atlanta metro market, operated by Aaron Moen at Keller Williams Realty Intown Atlanta",
+    "coreOutcome": "A calm, transparent home purchase or sale with a trusted local agent who stays in your corner long after closing",
+    "pricePoint": "Commission-based; no fee quoted upfront (standard Atlanta market: ~2.5–3% buyer-side, ~5–6% total on listings); ticket size typically $300k–$600k+ per transaction",
+    "commitment": "Per-transaction (project-based), cultivated for repeat and referral",
+    "leadMagnets": [
+      "Free home buyer questionnaire",
+      "Free home seller questionnaire",
+      "Free buyer or listing consultation (Calendly booking)",
+      "Home loan process education content"
+    ]
+  },
+  "audience": {
+    "icp": "Atlanta-area first-time homebuyers and current homeowners looking to sell or upsize — value relationship and plain-English guidance over speed or corporate polish",
+    "painPoints": [
+      "Overwhelmed by Atlanta's fast-moving market",
+      "Confused by the buying or selling process",
+      "Fear of making a costly mistake without a trusted advisor",
+      "Distrust of agents who disappear after closing",
+      "Unsure whether now is the right time to buy or sell"
+    ],
+    "segments": [
+      "First-time buyers",
+      "Move-up / downsizing sellers",
+      "Out-of-state relocators to Atlanta",
+      "Past clients and referral sources"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months (home search typically 30–90 days; contract-to-close 30–60 days)",
+    "trial": "Free buyer or listing consultation via Calendly — no commitment, no cost",
+    "closeMechanism": "Booked call/consultation leading to Buyer Representation Agreement or Listing Agreement",
+    "topObjection": "Not ready yet / want to shop around / uncertain about market timing"
+  },
+  "ahaMoment": "The first consultation where the client feels heard and the process is demystified — or the first home tour where the stress visibly dissolves",
+  "retention": {
+    "recurring": "Not inherently recurring; relationship cultivated for repeat transactions (move-up, investment, etc.) and referrals",
+    "expansion": "Referrals to family and friends, second transactions (upsizing/downsizing), investment property",
+    "churnRisk": "Long inter-transaction gap (3–7 years) during which clients forget the agent and accept a referral elsewhere"
+  },
+  "lifecycleGaps": [
+    "No apparent automated Welcome & Onboarding sequence for new leads",
+    "Lead-magnet questionnaires likely not followed up with nurture email sequence",
+    "No post-close stay-in-touch or anniversary campaign",
+    "No referral/advocacy automation",
+    "Blog exists but no evidence of email newsletter or value content campaign",
+    "No win-back sequence for cold leads or past clients"
+  ],
+  "toneVoice": "Warm, casual, southern-hospitable; food-and-home metaphors ('Getting Cooking,' 'The Ingredients'); conversational and personal — avoids corporate real estate jargon; friendly without being sappy",
+  "compliance": "Standard CAN-SPAM / email opt-in required; Georgia real estate license disclosures in marketing; no HIPAA or GDPR-specific constraints"
+}

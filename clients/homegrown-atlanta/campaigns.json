@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Homegrown Atlanta",
+    "slug": "homegrown-atlanta",
+    "url": "https://linktr.ee/homegrown_atlanta",
+    "vertical": "Local & service — residential real estate",
+    "colors": {
+      "primary": "#4A7C59",
+      "accent": "#D4873A",
+      "background": "#FAF7F2",
+      "text": "#2C2C2C"
+    }
+  },
+  "summary": "Homegrown Atlanta is the residential real estate practice of REALTOR Aaron Moen at Keller Williams Realty Intown Atlanta, offering buyer's-agent and home-listing services across the Atlanta metro. It serves first-time buyers, move-up and downsizing sellers, and out-of-state relocators who want plain-English guidance and a trusted relationship over a fast, transactional experience. Revenue is commission-based and project-by-project, with long-term value coming from repeat transactions and referrals across the 5–7 year homeownership cycle.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new lead (questionnaire submission or list join) to first value fast by guiding them to book their free consultation with Aaron.",
+      "trigger": "Home buyer/seller questionnaire submitted, or new contact joins the list. Send email 1 within seconds.",
+      "segment": "New contacts; branch on questionnaire answer (buyer vs. seller vs. relocator) to lead with the relevant 'aha'.",
+      "rationale": "There is no automated welcome sequence today and the consult is the brand's entire activation moment — a warm, instant first email captures intent while it's hottest and sets Aaron's friendly, no-pressure tone before a competitor's Instagram ad does.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver the one quick win: booking the free, no-commitment consultation with Aaron.",
+          "subject": "Welcome to Homegrown — let's get cooking on your Atlanta move",
+          "preview": "Your first step is easier than you think (and it's free).",
+          "cta": "Book your free consult with Aaron",
+          "keyPoints": [
+            "Thank them for reaching out and reassure: no pressure, no cost, no commitment to the first consult",
+            "Reference their stated goal from the questionnaire (buying, selling, or relocating) so it feels personal",
+            "Frame the 30-minute consult as the fastest way to turn an overwhelming market into a clear plan",
+            "Real reply-to from Aaron — 'hit reply, a real person (me) reads every one' — establishes the trusted-advisor relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert warm leads who downloaded a questionnaire or browsed but haven't yet booked into a booked consultation, by neutralizing the 'I'm not ready / market timing' objection.",
+      "trigger": "Lead engaged (questionnaire submitted, pages visited) but no Calendly booking after the welcome email; expiry-style nudge running in parallel.",
+      "segment": "Active, un-booked leads; branch by buyer vs. seller and by stated timeline (now vs. 'just looking').",
+      "rationale": "The booked consult is the single revenue event and the top objection here is timing-related, not price — so the highest-leverage email is one that removes the 'now isn't the right time' fear with a zero-commitment, plain-English conversation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Directly address the market-timing objection and lower the friction to booking by reframing the consult as advice, not a sales pitch.",
+          "subject": "Not sure it's the right time to buy or sell in Atlanta? Let's just talk",
+          "preview": "30 minutes, zero commitment — and you'll finally know where you stand.",
+          "cta": "Grab a time on Aaron's calendar",
+          "keyPoints": [
+            "Validate the hesitation: most people feel unsure about timing — that's exactly what the consult is for",
+            "Reframe the consult as a no-obligation gut-check on YOUR situation, not a push to list or buy today",
+            "Short, specific proof point: a recent client who 'wasn't ready' and left the call with a clear, stress-free plan",
+            "Soft-handle 'shopping around': encourage it, and offer to be the second opinion that explains the rest plainly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-expansion",
+      "name": "Closing Anniversary & Referral",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Keep past clients warm across the 5–7 year gap between moves, stay top-of-mind, and generate referrals and repeat transactions.",
+      "trigger": "Closing-date anniversary (annual); also usage milestone signals like a kid heading to college or rising local home values.",
+      "segment": "Past clients (closed buyers and sellers); branch by tenure and likely next move (upsize, downsize, invest).",
+      "rationale": "The brand's core churn risk is being forgotten between transactions — the intake names past-client retention as half the primary goal, so an annual, genuinely useful anniversary touch is what protects the highest-value asset Aaron has.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "365",
+          "purpose": "Celebrate the home anniversary, deliver real value (a current home-value update), and open the door to referrals without being pushy.",
+          "subject": "Happy homeiversary! 🏡 A year in your Atlanta home",
+          "preview": "A little thank-you — plus what your home is worth now.",
+          "cta": "Get your free home value update",
+          "keyPoints": [
+            "Warm, personal note marking one year since closing — make it feel like a friend remembering, not a CRM",
+            "Deliver tangible value: a free, no-strings current market value estimate for their specific home",
+            "Remind them Aaron is still in their corner for any home question, not just the next sale",
+            "Gentle two-sided referral ask: 'know someone feeling overwhelmed by the market? Send them my way and I'll take great care of them'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultations and recover the ones that slip, since attendance is the revenue event.",
+      "trigger": "Calendly consultation booked; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled buyer or listing consultation with Aaron.",
+      "rationale": "Calendly sends only bare reminders today; a branded, warm pre-consult reminder cuts no-shows (~35% on average) and makes the highest-stakes appointment in the funnel actually happen.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that confirms the time, builds anticipation, removes prep anxiety, and offers a friction-free reschedule.",
+          "subject": "See you tomorrow — here's how to prep for our chat",
+          "preview": "Bring your questions. Aaron brings the plain-English answers.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Confirm date, time, and how to join (call/video/in-person) with an add-to-calendar link",
+            "Set expectations so they show up relaxed: 'no homework required — just bring whatever's on your mind'",
+            "Suggest one or two easy things to think about (budget comfort zone, ideal neighborhoods or timeline)",
+            "One-click reschedule link so a conflict becomes a new time instead of a no-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 5,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a cold questionnaire lead toward consult-readiness over a longer cycle by educating and building trust until they're ready to book.",
+      "trigger": "Home buyer or seller questionnaire submitted but lead not yet sales-ready (no consult booked, low engagement).",
+      "segment": "Leads below the consult-ready threshold; branch by buyer vs. seller and by the questionnaire's stated timeline.",
+      "rationale": "The questionnaires already capture rich intent but get no follow-up — a stage-matched nurture turns those dormant submissions into future consults instead of letting them go cold and forget Aaron.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver value off the back of the questionnaire and frame the real problem (the process feels overwhelming because no one has explained it plainly).",
+          "subject": "Got your questionnaire — here's what most Atlanta buyers get wrong next",
+          "preview": "The real reason the market feels overwhelming (and the simple fix).",
+          "cta": "When you're ready, book a free consult",
+          "keyPoints": [
+            "Acknowledge their submission and recap what it tells Aaron about their goals (buyer/seller, timeline)",
+            "Teach one genuinely useful thing — e.g., why the home loan / pre-approval step matters before house-hunting in a fast market",
+            "Frame the core problem: overwhelm comes from not having a guide, not from the market itself",
+            "Low-pressure CTA with a 'no rush' tone — book whenever ready, and reply with questions anytime in the meantime"
+          ]
+        }
+      ]
+    }
+  ]
+}
