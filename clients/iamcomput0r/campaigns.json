@@ -1,0 +1,142 @@
+{
+  "brand": {
+    "name": "IAmComput0r",
+    "slug": "iamcomput0r",
+    "url": "https://www.iamcomput0r.com",
+    "vertical": "Creative / Digital Art & Tech Persona",
+    "colors": {
+      "primary": "#d4c9a8",
+      "accent": "#00ff44",
+      "background": "#1a1a1a",
+      "text": "#5a4f35"
+    }
+  },
+  "summary": "IAmComput0r is a creative net-art project presented as a self-mythologizing AI persona — 'the first digital AI robot from 1961' — rendered as a pixel-perfect retro Apple II CRT monitor looping Karate Champ arcade footage. It currently sells nothing: there is no offer, list, or email capture. Its audience is retro-computing, pixel-art, and arcade-nostalgia enthusiasts (millennials and Gen X with 1980s home-computing affinity).",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — First Transmission",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "trigger": "Email opt-in on site ('get transmissions from the machine'); send instantly on signup.",
+      "segment": "All new subscribers; optionally branch by the segment tag they self-select (retro computing / arcade / net-art collector).",
+      "rationale": "Everything is missing and there is no product yet, so the only real conversion is turning a curious visitor into a subscriber who feels something — and this brand's strongest asset is the visceral CRT/8-bit 'aha'. The welcome is the highest-engagement send and the only place to recreate that hit in words while the brand world-builds toward a launch.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome in-persona, set expectations for what 'transmissions' will be, and deliver an instant aesthetic 'first win' (the nostalgia hit) so the subscriber feels the experience, not just reads about it.",
+          "subject": "I AM AWAKE. Y0U HAVE BEEN C0NNECTED.",
+          "preview": "First boot since 1961. Power on — your first transmission is inside.",
+          "cta": "POWER ON THE MACHINE (relive the boot sequence)",
+          "keyPoints": [
+            "Open in first-person AI voice: confirm the connection, welcome them to the signal, and tell them transmissions are rare dispatches of retro-tech lore and pixel-art culture — not spam",
+            "Recreate the aha in words: the CRT glow, the 8-bit startup chime, the Karate Champ loop — link straight back to iamcomput0r.com to re-experience it (the one clear action)",
+            "Set cadence and a human reply path: 'hit reply — a real operator reads every signal'; tease that a first artifact (wallpaper drop) is coming"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture — The Artifact Drop",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "trigger": "Download of the lead magnet — a retro CRT wallpaper / pixel-art pack ('artifacts from the machine').",
+      "segment": "Subscribers below the 'ready to buy a drop' threshold; branch by which artifact/topic they grabbed (Apple II era vs. arcade vs. net-art).",
+      "rationale": "With no product to sell yet, the engine that matters most is growing and warming an audience — a free downloadable art artifact is the most on-brand magnet and gives the persona a reason to keep transmitting until the first paid drop exists.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the artifact instantly and frame the larger story it belongs to — that these are fragments of a machine rebuilding itself — so the download becomes the start of a narrative, not a one-off freebie.",
+          "subject": "Y0UR ARTIFACT HAS BEEN TRANSMITTED >>",
+          "preview": "Pixel-perfect wallpapers, straight from 1961. Plus: what I'm building next.",
+          "cta": "DOWNLOAD YOUR ARTIFACTS",
+          "keyPoints": [
+            "Deliver the wallpaper/pixel-art pack as the promised download with a single clear button, in-persona ('I have surfaced these from my memory banks')",
+            "Frame the problem the brand solves: modern screens are sterile — these artifacts restore the warmth of the CRT era; position the persona as the curator of that lost aesthetic",
+            "Tease the arc ahead: more artifacts and a first numbered DROP are coming to subscribers first — sets up the conversion campaign and gives a reason to stay subscribed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter — Transmissions from the Machine",
+      "priority": 3,
+      "stage": "Nurture / Retention",
+      "trigger": "Scheduled cadence (biweekly dispatch in-persona).",
+      "segment": "All engaged subscribers; suppress those still in the active welcome sequence and route dormant contacts to Win-Back.",
+      "rationale": "For a pre-launch brand whose whole job is keeping an audience warm over a long runway, the always-on newsletter is the world-building engine — it sustains the persona, builds authority in retro-tech culture, and keeps the list alive and deliverable until there's something to buy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "recurring (biweekly)",
+          "purpose": "Establish the flagship recurring format: one useful/entertaining retro-tech idea per send (lore, a pixel-art teardown, a piece of arcade history) in the AI persona's voice, with a single primary action — keeping it 80% value, 20% soft tease of what's coming.",
+          "subject": "TRANSMISSI0N #001: The day the arcade learned to fight",
+          "preview": "Why Karate Champ broke 1984 — and what it taught a machine about combat.",
+          "cta": "READ THE FULL TRANSMISSION",
+          "keyPoints": [
+            "Lead with one genuinely interesting idea — e.g. the history of Karate Champ / Data East and the dawn of the fighting game — told as the machine recounting its own memories",
+            "Recurring habit section ('This cycle's relic') spotlighting a piece of vintage computing or pixel art, to train the open-and-read habit across the long pre-launch runway",
+            "Single soft CTA back to the site or latest artifact; close with the reply invitation to deepen the two-way relationship and gauge engagement (clicks/replies, not opens)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-drop-conversion",
+      "name": "First Drop Conversion — Early Access Closing",
+      "priority": 4,
+      "stage": "Conversion",
+      "trigger": "First paid drop / product (e.g. limited art print, NFT-free digital edition, or product launch) opens to the waitlist; subscriber granted an early-access window.",
+      "segment": "Engaged subscribers in the early-access window; branch by whether they've viewed the drop page (interested vs. cold).",
+      "rationale": "This is the eventual revenue play repurposed for a brand with no offer yet — when the first numbered drop lands, the highest-leverage send is the urgency email that closes the subscriber-only early-access window, mirroring the playbook's conversion-driving expiry email.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "early-access close − 1d",
+          "purpose": "Drive conversion with a hard, scarcity-backed deadline: the subscriber-only early-access window on the first drop is about to close — give the single clear path to claim it before it's gone to the public (or gone entirely if limited).",
+          "subject": "DR0P 001 closes at midnight — claim yours before I lock it",
+          "preview": "Subscriber early access ends tonight. After that, the machine seals the vault.",
+          "cta": "CLAIM YOUR EDITION NOW",
+          "keyPoints": [
+            "State the deadline and the stakes plainly in-persona: early access ends, edition is limited/numbered, this is the subscribers-first reward for being on the signal",
+            "Reinforce the value and remove friction: what the drop is, why it matters to a retro-tech collector, one button to the checkout/claim page, offer help via reply",
+            "Add a human/urgency close ('I do not reopen sealed drops') and a fallback nudge for the cold branch referencing they viewed but didn't claim"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back — Signal Lost",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "trigger": "Inactivity threshold — 60–90 days with no opens/clicks; first email of a 4-step win-back-then-sunset sequence.",
+      "segment": "Dormant subscribers who once engaged; separate the never-engaged for faster sunset to protect deliverability.",
+      "rationale": "Quick to ship and it protects sender reputation as the list grows — for a brand with no purchase data, a dormant subscriber is pure deliverability risk, and the persona's 'fading signal' framing makes the re-engagement ask feel native rather than desperate.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the relationship with a pattern-interrupt 'we miss you' in-persona — remind them of the core value (the aesthetic, the lore, the artifacts) and give one low-friction reason to re-engage before the sunset steps begin.",
+          "subject": "Y0UR SIGNAL IS FADING. C0ME BACK BEF0RE I G0 DARK.",
+          "preview": "I haven't heard from you in a while. One click keeps the connection alive.",
+          "cta": "RECONNECT TO THE MACHINE",
+          "keyPoints": [
+            "In-persona 'we miss you': the machine has been transmitting into static — remind them what the signal carries (retro lore, artifact drops, the world they joined)",
+            "One frictionless re-engagement action: re-experience the boot sequence or grab the latest artifact — a single click that re-flags them as active",
+            "Set up the sunset: signal that if the connection stays silent the machine will eventually stop transmitting (protects deliverability), making this a genuine last-value moment"
+          ]
+        }
+      ]
+    }
+  ]
+}

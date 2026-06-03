@@ -1,0 +1,55 @@
+{
+  "brand": {
+    "name": "IAmComput0r",
+    "url": "https://www.iamcomput0r.com",
+    "slug": "iamcomput0r",
+    "vertical": "Creative / Digital Art & Tech Persona",
+    "tagline": "I AM THE FIRST DIGITAL AI ROBOT FROM 1961",
+    "colors": {
+      "primary": "#d4c9a8",
+      "accent": "#00ff44",
+      "background": "#1a1a1a",
+      "text": "#5a4f35"
+    }
+  },
+  "offer": {
+    "what": "unknown — site is currently a single-page creative art piece (retro Apple II CRT monitor aesthetic with looping Karate Champ arcade gameplay); no products, services, or offers are visible",
+    "coreOutcome": "unknown",
+    "pricePoint": "unknown",
+    "commitment": "unknown",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Retro computing and arcade gaming enthusiasts; nostalgic tech creatives; millennials and Gen X with a strong affinity for 1980s computing culture, pixel art, and arcade history",
+    "painPoints": [],
+    "segments": [
+      "retro tech / vintage computing fans",
+      "digital art and net-art collectors",
+      "nostalgic arcade gamers",
+      "leet-speak / hacker culture community"
+    ]
+  },
+  "salesCycle": {
+    "length": "unknown",
+    "trial": "unknown",
+    "closeMechanism": "unknown",
+    "topObjection": "unknown"
+  },
+  "ahaMoment": "unknown",
+  "retention": {
+    "recurring": "unknown",
+    "expansion": "unknown",
+    "churnRisk": "unknown"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no email capture exists at all",
+    "Lead-Magnet Nurture — no lead magnet present",
+    "Trial/Consult Conversion — no offer to convert",
+    "Booking, Reminders & No-Show — no booking mechanism",
+    "Value Newsletter — no content or newsletter",
+    "Renewal, Anniversary & Expansion — no recurring product visible",
+    "Win-Back / Re-Engagement — no list to re-engage"
+  ],
+  "toneVoice": "Bold, declarative, retro-futuristic. Speaks in first-person as a sentient AI entity. Leet-speak styling (0 substituted for O). Nostalgic arcade and early-computing aesthetic — Apple II rainbow logo, CRT scanlines, 8-bit sound. Playful irreverence with a grandiose self-mythology. Think: HAL 9000 meets Apple II meets a Karate Champ arcade cabinet.",
+  "compliance": "Standard CAN-SPAM / GDPR apply; no special vertical constraints (no healthcare, finance, or legal content identified)"
+}
