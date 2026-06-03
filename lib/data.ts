@@ -52,16 +52,13 @@ export type BrandSummary = {
 const safe = (s: string) => /^[a-z0-9._-]+$/i.test(s);
 
 export async function listBrands(): Promise<BrandSummary[]> {
-  // Prefer manifest, fall back to scanning client folders.
-  try {
-    const m = JSON.parse(await fs.readFile(path.join(CLIENTS, "manifest.json"), "utf8"));
-    if (Array.isArray(m.brands) && m.brands.length) return m.brands;
-  } catch { /* fall through */ }
-
+  // Always scan client folders so newly generated brands appear immediately
+  // without needing a manifest rebuild.
   const out: BrandSummary[] = [];
   let dirs: string[] = [];
   try { dirs = await fs.readdir(CLIENTS); } catch { return out; }
   for (const d of dirs) {
+    if (d === "manifest.json") continue;
     try {
       const c: CampaignsFile = JSON.parse(await fs.readFile(path.join(CLIENTS, d, "campaigns.json"), "utf8"));
       out.push({
@@ -74,7 +71,7 @@ export async function listBrands(): Promise<BrandSummary[]> {
       });
     } catch { /* not a generated brand dir */ }
   }
-  return out;
+  return out.sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export async function getCampaigns(slug: string): Promise<CampaignsFile | null> {
