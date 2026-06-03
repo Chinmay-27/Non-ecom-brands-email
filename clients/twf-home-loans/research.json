@@ -1,0 +1,69 @@
+{
+  "brand": {
+    "name": "TWF Home Loans (Trans World Financial)",
+    "url": "https://www.twfhomeloans.com",
+    "slug": "twf-home-loans",
+    "vertical": "Local & service — mortgage brokerage",
+    "tagline": "Solutions for all of your financial needs! / Convenient, Quick & Easy Home Loans!",
+    "colors": {
+      "primary": "#1E7A4A",
+      "accent": "#4BA374",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "offer": {
+    "what": "Mortgage brokerage services: home purchase loans, refinancing, home equity lines of credit, debt consolidation, home improvement loans, cash-out loans, and new construction financing. Two main programs: (1) No-Equity/Debt-Consolidation ($15K–$500K, no appraisal required, easy qualifying) and (2) Purchase/Refinance ($50K–$4M, no-income-verification options, bad credit OK).",
+    "coreOutcome": "Lower monthly payments, debt relief, and access to home equity — saving homeowners money rather than overpaying their lender.",
+    "pricePoint": "Commission/origination-based; no upfront application fees, no out-of-pocket costs to explore options. Loan sizes $15K–$4M. Free benefit analysis included.",
+    "commitment": "One-time transaction per loan (purchase or refi). No recurring subscription; repeat business comes from future refinances or referrals.",
+    "leadMagnets": [
+      "Free no-obligation consultation (phone or online)",
+      "Free Benefit Analysis for every loan",
+      "Free Mortgage Newsletter (email list signup on homepage)"
+    ]
+  },
+  "audience": {
+    "icp": "Homeowners aged 30–60 who are cash-strapped, over-leveraged, or holding high-interest debt — particularly those who have been turned down by banks or have impaired credit. Also includes self-employed and fixed-income borrowers who struggle with traditional qualification.",
+    "painPoints": [
+      "Drowning in credit card / bill debt with no clear exit",
+      "Banks or other lenders have turned them down due to low credit scores",
+      "High monthly mortgage or loan payments eating into budget",
+      "No equity but still need cash for home improvement or emergencies",
+      "Confusing, slow, or expensive loan process at big banks",
+      "Overpaying their current lender without realizing it"
+    ],
+    "segments": [
+      "Debt-burdened homeowners seeking consolidation and cash-out relief",
+      "Homeowners wanting to refinance for a lower rate or reduced monthly payment",
+      "Home improvement seekers (no equity required)",
+      "First-time homebuyers needing flexible qualification",
+      "Self-employed / non-traditional income borrowers",
+      "Borrowers with bad credit or recent bankruptcy"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to a few weeks (consultation → application → underwriting → closing)",
+    "trial": "Yes — free, no-obligation phone consultation + free Benefit Analysis showing exact savings before any commitment",
+    "closeMechanism": "Inbound phone call (toll-free 888-268-3040) or online loan application. Loan counselor handles the close personally. No self-serve signup.",
+    "topObjection": "'My credit is bad / I have no equity / I've already been turned down by my bank.'"
+  },
+  "ahaMoment": "The free Benefit Analysis — the moment the borrower sees the exact dollar amount they will save per month. This is the activation event that converts a curious lead into a committed applicant.",
+  "retention": {
+    "recurring": "No formal recurring revenue. Repeat business comes from future refinances (rate-cycle driven) or upselling equity lines. Michael Dorff signs every communication personally, suggesting relationship-based retention.",
+    "expansion": "Referral program ('Tell A Friend'), additional loan products (equity line after initial purchase loan), future refi when rates drop.",
+    "churnRisk": "Lead shops multiple brokers simultaneously; competitor can poach between inquiry and closing. Long processing time increases drop-off. No post-close nurture visible."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no automated sequence evident; relies on manual follow-up",
+    "Lead-Magnet Nurture — newsletter exists but no drip content visible to convert subscribers to applicants",
+    "Trial/Consult Conversion — no follow-up sequence for leads who took the free consultation but didn't apply",
+    "Booking, Reminders & No-Show — no confirmation or reminder flow for scheduled calls",
+    "Value Newsletter — newsletter signup present but cadence and content quality unknown",
+    "Renewal / Anniversary & Expansion — no refi-reminder or equity-line upsell campaign visible",
+    "Win-Back / Re-Engagement — no re-engagement flow for cold leads or past clients",
+    "Referral / Advocacy — 'Tell a Friend' link exists but no automated referral sequence"
+  ],
+  "toneVoice": "Warm, direct, and benefit-first. Personal (signed by Michael J. Dorff). Uses plain language, bold emphasis on FREE and NO COST. Trustworthy and reassuring — speaks directly to people who feel stuck or judged by banks. Conversational but credible.",
+  "compliance": "Mortgage/financial services: RESPA, TILA, CAN-SPAM compliance required. Equal Housing Opportunity lender (logo displayed). California DRE licensed broker (Huntington Beach, CA). NMLS disclosure requirements. Email must not guarantee specific rates or outcomes; must include required financial disclosures."
+}

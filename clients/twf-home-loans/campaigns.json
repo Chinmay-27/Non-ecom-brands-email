@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "TWF Home Loans (Trans World Financial)",
+    "slug": "twf-home-loans",
+    "url": "https://www.twfhomeloans.com",
+    "vertical": "Local & service — mortgage brokerage (B2C)",
+    "colors": {
+      "primary": "#1E7A4A",
+      "accent": "#4BA374",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "summary": "TWF Home Loans (Trans World Financial) is a California-licensed mortgage brokerage, run by broker Michael J. Dorff since 1990, that arranges home purchase loans, refinances, debt-consolidation and home-equity loans from $15K to $4M. It serves homeowners aged 30–60 who are over-leveraged, carrying high-interest debt, or have been turned down by banks for low credit, no equity, or non-traditional income. Its hook is a free, no-obligation consultation and Benefit Analysis showing borrowers exactly how much they could save per month before any commitment.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive every new subscriber or inquiry to the free, no-obligation consultation and Benefit Analysis — the moment they see their exact monthly savings number.",
+      "trigger": "Newsletter signup, online inquiry, or first form submission. Send email 1 within seconds.",
+      "segment": "New contacts; branch by stated need (debt consolidation, lower payment/refi, or home improvement).",
+      "rationale": "TWF has top-of-funnel (phone calls, newsletter signup) and bottom (loan app) but no automated middle. A welcome flow that routes new contacts straight to the free Benefit Analysis captures intent while it is hot and is the fastest path to its activation event.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm personal welcome from Michael Dorff, set expectations, and deliver the one quick win: book the free, no-cost, no-obligation Benefit Analysis to see exact monthly savings.",
+          "subject": "Welcome — let's find out how much you could save each month",
+          "preview": "Your free Benefit Analysis shows your exact savings. No cost, no obligation.",
+          "cta": "Get my free Benefit Analysis",
+          "keyPoints": [
+            "Personal welcome signed by Michael J. Dorff; warm, plain-language, reassuring tone",
+            "The first win = the free Benefit Analysis showing the exact dollar amount saved per month, with zero out-of-pocket cost and no obligation to continue",
+            "Pre-handle the top objection up front: bad credit OK, bankruptcy OK, no equity required — homeowners turned down by banks are welcome",
+            "Single CTA to book the consult or call (888) 268-3040; include required NMLS / Equal Housing Opportunity / CA DRE disclosures, no rate guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Application Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert leads who took the free consultation or saw their Benefit Analysis but have not yet submitted a loan application.",
+      "trigger": "Free consultation completed / Benefit Analysis delivered, with no application submitted within 48–72 hours.",
+      "segment": "Warm leads post-consult; branch by stalled (no app started) vs. partial (app started, not finished).",
+      "rationale": "This is TWF's core revenue play — the call is the close, but burned, skeptical borrowers shop multiple brokers and stall. A follow-up that re-states their personalized savings and crushes the 'my credit is too bad / I have no equity' objection wins the deal before a competitor poaches it.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Reinforce the savings figure from their Benefit Analysis, dismantle the #1 objection with real proof, and remove friction to finishing the application.",
+          "subject": "You could save like John & Lisa did — $475 a month",
+          "preview": "Turned down before? Bad credit and no equity are exactly what we solve.",
+          "cta": "Finish my application",
+          "keyPoints": [
+            "Reference their specific Benefit Analysis savings number; remind them the analysis cost nothing and carries no obligation",
+            "Lead with the John & Lisa, Irvine testimonial — saved $475/month, paid off credit card debt, walked away with cash ('a raise without getting a raise')",
+            "Directly answer the top objection: impaired credit, bankruptcy, no-income-verification, and no-equity programs ($15K–$4M) exist precisely for people the banks rejected",
+            "One-click path back to the online application or a direct call to Michael / a loan counselor; include NMLS, CA DRE, Equal Housing disclosures and no rate guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-booking-reminders",
+      "name": "Consultation Booking & Reminders",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultation calls and recover the ones that slip, so leads actually get to their Benefit Analysis.",
+      "trigger": "Consultation call booked; upcoming scheduled call; no-show event.",
+      "segment": "Anyone with a scheduled phone or online consultation.",
+      "rationale": "The phone consultation IS TWF's close mechanism, yet there is no confirmation or reminder flow. Reminders cut no-shows by ~35%, and every recovered call is a chance to deliver the Benefit Analysis — the activation event that converts a curious lead into an applicant.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly confirm the booked consultation, set expectations for what the free Benefit Analysis covers, and reduce no-shows by telling them what to have ready.",
+          "subject": "You're booked — here's what your free savings review covers",
+          "preview": "A quick checklist so we can show your exact savings on the call.",
+          "cta": "Add my consultation to calendar",
+          "keyPoints": [
+            "Confirm date/time and the loan counselor's name; add-to-calendar link and an easy reschedule option to keep the slot",
+            "Set expectations: a no-cost, no-obligation Benefit Analysis showing their exact potential monthly savings — nothing to pay, nothing to commit to",
+            "Light prep list (current loan/payment info, debts they'd like to consolidate) so the savings number is accurate, while reassuring that bad credit/no equity is fine",
+            "Reachable at (888) 268-3040 if anything changes; include NMLS / CA DRE / Equal Housing disclosures, no rate or outcome guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newsletter-nurture",
+      "name": "Mortgage Newsletter Lead Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move newsletter subscribers who haven't booked toward sales-readiness with trust-building education that creates urgency for the free Benefit Analysis.",
+      "trigger": "Newsletter signup with no consultation booked; cadence every ~10 days mapped to the buyer journey.",
+      "segment": "Subscribers below sales-ready threshold; branch by interest topic (refinance/lower payment, debt consolidation, home improvement).",
+      "rationale": "TWF's homepage newsletter signup feeds the funnel but has no drip to convert subscribers to applicants. Educational nurture builds trust with skeptical, bank-burned homeowners over a longer cycle and pushes them to the free, no-risk savings analysis.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the nurture by naming the problem most homeowners don't realize they have — quietly overpaying their lender — and frame the free Benefit Analysis as the no-risk way to find out.",
+          "subject": "3 signs you're overpaying your mortgage right now",
+          "preview": "Most homeowners never check. A free analysis takes the guesswork out.",
+          "cta": "See the signs (and your savings)",
+          "keyPoints": [
+            "Educational, not salesy: 3 plain-language signs of overpaying — high-interest credit card balances, a rate well above today's options, or shrinking monthly breathing room",
+            "Teach how consolidating debt into a home loan or refinancing can lower total monthly outlay, with interest that may be tax-deductible",
+            "Reassure the skeptical reader: options exist even with impaired credit, no equity, or non-traditional income — they may have been told 'no' wrongly",
+            "Soft CTA to the free, no-obligation Benefit Analysis; signed by Michael Dorff; include NMLS / CA DRE / Equal Housing disclosures and no rate guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reactivation",
+      "name": "Win-Back & Reactivation",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate cold leads and past clients — especially when rates move — and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks/inquiry; or past closed clients eligible for a refinance as rates shift.",
+      "segment": "Dormant leads (never closed) and past clients (closed a loan years ago); separate messages for each.",
+      "rationale": "TWF has no post-close nurture and no re-engagement for cold leads, yet refinances are rate-cycle driven every few years — past clients are its highest-intent reactivation pool. A win-back recovers 5–15% of dormant contacts and reopens dormant pipeline cheaply.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship by reminding dormant contacts and past clients of the core value and giving a timely reason to re-check their savings now that the market has changed.",
+          "subject": "Rates have moved — is it time to check your savings again?",
+          "preview": "Your free Benefit Analysis is still no cost and no obligation.",
+          "cta": "Recheck my savings free",
+          "keyPoints": [
+            "Warm 'it's been a while' note from Michael Dorff; for past clients, reference that refinance opportunities come and go with the rate cycle",
+            "Remind them of the core value: lower monthly payments, debt relief, and access to equity — saving money instead of overpaying their lender",
+            "Strong reason to return now: a fresh, free, no-obligation Benefit Analysis to see whether today's options beat their current payment",
+            "Single CTA to rebook the free analysis or call (888) 268-3040; clear unsubscribe for sunset; include NMLS / CA DRE / Equal Housing disclosures, no rate guarantees"
+          ]
+        }
+      ]
+    }
+  ]
+}
