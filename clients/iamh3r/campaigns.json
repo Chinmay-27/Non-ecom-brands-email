@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "IAmH3r",
+    "slug": "iamh3r",
+    "url": "https://www.iamh3r.net",
+    "vertical": "Women's empowerment / personal brand / lifestyle community",
+    "colors": {
+      "primary": "#1A0033",
+      "accent": "#D4AF37",
+      "background": "#0D0D0D",
+      "text": "#F5F5F5"
+    }
+  },
+  "summary": "IAmH3r is a women's empowerment personal brand and community (DyvaVille, NY) led by a founder, serving women — primarily Black women and women of color — who want to feel seen, affirmed, and connected to a sisterhood as they step into their identity. Acquisition is social-first (X/Twitter, likely Instagram); the likely revenue model is a free community feeding paid membership, coaching, or digital products. Note: the brand site was not resolving at research time, so offer structure, pricing, and tooling remain unconfirmed and should be validated at client kickoff.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Deliver the 'I Am Her' moment immediately — make a new subscriber feel seen, introduce the founder and community, and drive the first affirmation/community action.",
+      "trigger": "New subscriber joins the list (link-in-bio, social CTA, lead-magnet opt-in, or community signup). Send email 1 within seconds.",
+      "segment": "All new contacts; branch later by why-they-joined survey answer (community, coaching, content) if captured.",
+      "rationale": "Every gap is unconfirmed, but for a social-first personal brand the welcome is the highest-engagement, fastest-to-show-value send and the moment to convert a curious follower into a member of the sisterhood before the spark fades.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm, founder-voice welcome that affirms her, sets expectations, and gives one immediate community/identity win.",
+          "subject": "Welcome to the sisterhood — you're already H3r 👑",
+          "preview": "Your first affirmation is inside. Two minutes to feel seen.",
+          "cta": "Read your welcome + claim your first affirmation",
+          "keyPoints": [
+            "Open in the founder's first-person voice — bold, affirming, celebratory of Black womanhood and identity",
+            "Tell her she belongs here the moment she joined ('I Am Her' = she already is)",
+            "Deliver one quick win now: a signature affirmation, the founder's origin story, or an invite into the community space",
+            "Set expectations for what's coming and invite a real reply — a human reads every one",
+            "Single clear CTA; no offer or upsell yet — trust is the currency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Warm a cold social follower from a free download toward the core paid offer (membership/coaching) over a long cycle, building trust and identity connection before any ask.",
+      "trigger": "Opt-in to a lead magnet (suggested: a free affirmation guide, a 'Who Is She?' identity quiz, or a 5-day empowerment challenge).",
+      "segment": "Leads below the 'ready-to-buy' threshold; branch by lead-magnet topic and any quiz/persona answer captured.",
+      "rationale": "Acquisition is social-first with no confirmed trial or booking motion, so a lead magnet is the realistic top-of-funnel capture — and stage-matched nurture is what turns followers into buyers over the weeks-long relationship cycle these communities run on.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the asset instantly and frame the deeper problem it speaks to — the feeling of being unseen — so the rest of the sequence has a hook.",
+          "subject": "Here's your guide — but first, can I be real with you?",
+          "preview": "The reason you downloaded this isn't really about the guide.",
+          "cta": "Get your guide + read the truth behind it",
+          "keyPoints": [
+            "Deliver the downloaded asset above the fold — no friction",
+            "Name the real problem: feeling unseen, undervalued, or disconnected from her truest self",
+            "Position IAmH3r as the sisterhood built for exactly that, in the founder's voice",
+            "Set up the journey ahead ('over the next few weeks I'll share...') without selling yet",
+            "Soft single CTA to consume the asset; invite a reply with her biggest 'I am...' goal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 3,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build the founder's authority and the community bond across the long cycle — 80% value, 20% soft offer — without discounting.",
+      "trigger": "Scheduled recurring cadence (recommend weekly or biweekly).",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route the recently dormant into Win-Back instead.",
+      "rationale": "For a personal brand, the founder's voice IS the product — a recurring affirmation + community-stories send is the always-on engine that keeps the list warm, builds the sisterhood, and seeds referrals.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable flagship edition: one affirmation/idea, one community story, one soft invitation — the habit-building template.",
+          "subject": "This week, H3r: the affirmation you didn't know you needed",
+          "preview": "One truth, one sister's story, one step forward. Let's go.",
+          "cta": "Read this week's H3r note",
+          "keyPoints": [
+            "Lead with one useful idea or affirmation she can use today — the recurring 'This week, H3r' section that builds habit",
+            "Spotlight a community win or sister's story for social proof and belonging",
+            "Keep it 80% value / 20% soft offer; a single primary CTA (read, reply, or join)",
+            "Founder first-person voice throughout — bold, affirming, culturally fluent",
+            "Make replying easy; reader replies feed testimonials and re-engagement signals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offer-conversion",
+      "name": "Community-to-Paid Conversion",
+      "priority": 4,
+      "stage": "Conversion",
+      "objective": "Convert a warmed free-community member or nurtured lead into the core paid offer (membership, coaching, or mastermind), handling the 'is this really for me?' objection.",
+      "trigger": "Lead crosses the engagement threshold (consumed nurture, joined free community, replied) OR a free consult/challenge ends; run a behavioral nudge + soft deadline in parallel.",
+      "segment": "Engaged free members and sales-ready leads; branch by depth (highly engaged = direct offer, lurking = re-warm with proof first).",
+      "rationale": "This is the core revenue play — once trust is built, the brand needs a deliberate ask that moves free community members into paid membership/coaching; without it the nurture work never monetizes. Confirm the exact offer and price at kickoff.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Make the clear, warm invitation to the paid offer — reframe the cost as an investment in herself and dissolve the 'is this for me?' objection with belonging and proof.",
+          "subject": "You've been H3r all along — ready to make it official?",
+          "preview": "The doors are open. Here's exactly what's waiting for you inside.",
+          "cta": "Step into the membership",
+          "keyPoints": [
+            "Affirm how far she's come in the community and name that she's ready for the next level",
+            "Spell out concretely what the paid offer includes and the transformation/outcome it delivers",
+            "Handle the #1 objection head-on: 'is this community actually for me?' — yes, and here's the proof",
+            "Member testimonial or founder story showing the before/after of belonging",
+            "One low-friction CTA with a gentle reason to act now; offer a real reply to talk it through"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate subscribers who went quiet, recover dormant members, and protect deliverability by sunsetting non-responders.",
+      "trigger": "Inactivity threshold (e.g., 60–90 days with no opens/clicks) or a lapsed/cancelled membership.",
+      "segment": "Dormant subscribers (lean on fresh value); separately, churned members (reference what's changed and what they're missing).",
+      "rationale": "Engagement drop-off after the initial excitement is the classic failure mode for empowerment communities, so a win-back is quick to ship, recovers 5–15% of inactive contacts, and keeps sender reputation healthy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "The 'we miss you' opener — remind her of the core value and that her seat in the sisterhood is still hers.",
+          "subject": "Did we lose you, sis? Your seat's still here 💛",
+          "preview": "It's not the same without you. Here's what you've been missing.",
+          "cta": "Come back to the sisterhood",
+          "keyPoints": [
+            "Warm, no-guilt 'we miss you' in the founder's voice — she's still H3r, the door never closed",
+            "Remind her of the core value: being seen, affirmed, and part of the community",
+            "Tease what's new since she went quiet to give a concrete reason to return",
+            "Single low-friction CTA back into the community or latest content",
+            "Set up the sequence's later sunset step to protect deliverability if she stays silent"
+          ]
+        }
+      ]
+    }
+  ]
+}

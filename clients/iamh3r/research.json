@@ -1,0 +1,54 @@
+{
+  "brand": {
+    "name": "IAmH3r",
+    "url": "https://www.iamh3r.net",
+    "slug": "iamh3r",
+    "vertical": "Women's empowerment / personal brand / lifestyle",
+    "tagline": "unknown — site not resolving at time of research",
+    "colors": {
+      "primary": "#1A0033",
+      "accent": "#D4AF37",
+      "background": "#0D0D0D",
+      "text": "#F5F5F5"
+    }
+  },
+  "offer": {
+    "what": "unknown — domain not resolving; likely coaching, content, community, or lifestyle products based on brand name and social presence",
+    "coreOutcome": "unknown — inferred: women stepping into their identity and power ('I Am Her')",
+    "pricePoint": "unknown",
+    "commitment": "unknown",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Women (likely Black women / women of color) seeking self-identity, empowerment, and community — inferred from brand name, leet-speak 'h3r' aesthetic, and X account signals (#TeamDyva, DyvaVille NY)",
+    "painPoints": [
+      "unknown — inferred: feeling unseen or undervalued",
+      "unknown — inferred: seeking community and sisterhood",
+      "unknown — inferred: desire to build a personal brand or lifestyle they're proud of"
+    ],
+    "segments": [
+      "unknown — possible: personal-brand builders",
+      "unknown — possible: women in mid-life transition",
+      "unknown — possible: local NY community"
+    ]
+  },
+  "salesCycle": {
+    "length": "unknown",
+    "trial": "unknown",
+    "closeMechanism": "unknown",
+    "topObjection": "unknown"
+  },
+  "ahaMoment": "unknown — inferred: first moment of feeling seen and affirmed as part of the community",
+  "retention": {
+    "recurring": "unknown",
+    "expansion": "unknown",
+    "churnRisk": "unknown"
+  },
+  "lifecycleGaps": [
+    "All backbone campaigns unconfirmed — site inaccessible at research time",
+    "No confirmed email program, lead magnet, or nurture sequence found",
+    "No pricing or offer structure confirmed"
+  ],
+  "toneVoice": "Bold, affirming, unapologetic — inferred from brand name and social signals; leet-speak 'h3r' suggests culturally fluent, digitally native, likely casual-to-empowering register",
+  "compliance": "unknown — no healthcare, finance, or legal signals found; standard CAN-SPAM / GDPR applies"
+}
