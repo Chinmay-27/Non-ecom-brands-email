@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Dynamic Wellness",
+    "slug": "dynamic-wellness",
+    "url": "https://www.dynamicwellness.vip",
+    "vertical": "Health & Wellness / Network Marketing (Vital Health Global affiliate)",
+    "colors": {
+      "primary": "#1A7A4A",
+      "accent": "#F4C430",
+      "background": "#F8F9FA",
+      "text": "#1C1C1C"
+    }
+  },
+  "summary": "Dynamic Wellness is a personal-brand affiliate of Vital Health Global selling functional natural supplements across five families (Awaken, Detox, Nourish, Restore, and Kids), plus an affiliate income opportunity, via a referral link. It serves health-conscious adults 25–50 seeking natural, science-backed energy and vitality, and entrepreneurially minded prospects looking for a home-based business. Entry is referral-only through a $29.99/yr membership that unlocks member pricing; revenue recurs through repeat product orders and annual renewals.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new member/buyer to their first felt result (the 'aha') fast, so they reorder instead of quietly dropping off in the first 30 days.",
+      "trigger": "Membership purchased / first product order placed via the referral link.",
+      "segment": "New wellness consumers and new members; branch on which product family they started with (Awaken, Detox, Nourish, Restore, Kids).",
+      "rationale": "The biggest churn risk here is buyers who don't feel results in the first 30 days and silently stop reordering — proper onboarding (which product, when to take it, what to expect weeks 1–4) is what carries them to the energy/clarity 'aha' that creates a loyal repeat buyer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for the next 1–4 weeks, and deliver one quick win — exactly how and when to take their first product today.",
+          "subject": "Welcome to the family — your first 7 days start here",
+          "preview": "Take it like this and most people feel the difference within 1–2 weeks.",
+          "cta": "See your day-1 routine",
+          "keyPoints": [
+            "Warm, personal welcome in the brand's 'family/journey' voice; thank them for joining through your referral",
+            "One specific first action: how and when to take the product they ordered (e.g. Awaken in the morning) for best results",
+            "Set the expectation that the felt improvement — more morning energy, clearer focus — typically shows up with consistent daily use over 1–2 weeks, so consistency matters most",
+            "Invite a real reply: a real person reads every one, here to answer questions about your routine",
+            "Use FDA-safe language throughout ('supports', 'may help') — no treat/cure/prevent claims"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opportunity-conversion",
+      "name": "Business Opportunity & Scanner Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert business-opportunity prospects and Scanner/demo attendees into active affiliates or higher-tier (Elite Pack / Scanner) buyers after a presentation or webinar.",
+      "trigger": "Attended an opportunity presentation, webinar, or Vital Health Scanner demo; or requested business-opportunity info.",
+      "segment": "Warm prospects post-presentation; branch by intent — income-opportunity prospects vs. product/Scanner buyers.",
+      "rationale": "The business-opportunity follow-up is almost certainly missing, yet recruitment is a 2–8 week relationship sale where most prospects need a structured post-presentation sequence — and the #1 objection ('is this a pyramid scheme?') must be answered head-on.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day follow-up that recaps the presentation, meets the 'is this an MLM/pyramid scheme?' objection honestly, and gives one low-friction next step.",
+          "subject": "What you saw last night — and the honest answer to your biggest question",
+          "preview": "Most people leave wondering one thing. Let's clear it up.",
+          "cta": "Book a no-pressure 1-on-1",
+          "keyPoints": [
+            "Recap the core of what they saw: real products people reorder because they work, plus a referral-based income model",
+            "Answer the #1 objection directly and honestly — it's a consumer-product-first model, you earn by sharing products you actually use, no one is required to recruit",
+            "Reframe to the real decision: try the products yourself first to validate before you ever promote anything",
+            "Include the required FTC income-disclosure statement; make no specific earnings promises",
+            "Single low-friction CTA: book a short 1-on-1 to map out what a realistic start looks like for them"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attendance at Scanner demos, opportunity calls, and virtual events, and recover the ones that slip.",
+      "trigger": "Demo/call/webinar booked; upcoming event; no-show event.",
+      "segment": "Anyone with a scheduled Scanner demo, 1-on-1 opportunity call, or registered virtual event.",
+      "rationale": "Almost the entire funnel here runs on live touchpoints — Scanner demos, opportunity calls, webinars — and none of them have confirmation/reminder flows; reminders cut no-shows ~35% on average, recovering attendance that is the actual revenue event.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant confirmation of the booked Scanner demo or opportunity call — lock it in the calendar and set expectations so they actually show.",
+          "subject": "You're booked — here's what to expect at your session",
+          "preview": "Add it to your calendar and come with your top question.",
+          "cta": "Add to calendar",
+          "keyPoints": [
+            "Confirm the exact date, time, and format (in-person Scanner demo / virtual 1-on-1 / webinar) with a one-tap add-to-calendar link",
+            "Set expectations: what the Scanner reading or the call will cover and how long it takes",
+            "Tell them what to bring or think about beforehand (e.g. their main wellness goal or one question)",
+            "Include a friendly reschedule link to reduce silent no-shows",
+            "Name the host/practitioner so it feels personal, not automated"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture (7-Day Vitality Challenge)",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Warm referred-but-not-ready prospects toward their first purchase by educating them on natural vitality before asking for the sale.",
+      "trigger": "Opted in to a lead magnet — a '7-Day Vitality Challenge' guide or 'What's draining your energy?' quiz.",
+      "segment": "Cold/warm leads below buying-readiness who came in via referral or social but haven't purchased; branch by quiz answer (energy, focus, gut).",
+      "rationale": "There's no public lead magnet today, so referred prospects arrive with no education path — a simple nurture tied to a vitality challenge gives skeptical buyers a reason to engage and addresses the 'is this worth the price vs. drugstore?' objection before the ask.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the lead magnet and frame the real problem behind low energy — earning permission to teach over the next couple of weeks.",
+          "subject": "Your 7-Day Vitality Challenge is inside (start tomorrow morning)",
+          "preview": "The real reason coffee stopped working — and what actually helps.",
+          "cta": "Get the challenge guide",
+          "keyPoints": [
+            "Deliver the promised guide/quiz result immediately with a clear first step for day 1",
+            "Frame the underlying problem: persistent low energy and brain fog are rarely fixed by more caffeine or synthetic drugstore supplements",
+            "Position natural, science-backed formulas as the alternative — using FDA-safe 'supports/may help' language, no disease claims",
+            "Set up the next emails as a no-pressure education series, not a sales pitch",
+            "Keep the CTA to a single low-friction action: download/start the challenge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed product buyers and dormant affiliates before they fully churn, and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks or no reorder; or an affiliate who went quiet after their first purchase.",
+      "segment": "Dormant buyers (lean on fresh value/results) vs. dormant affiliates (lean on what's changed and a low-pressure restart).",
+      "rationale": "MLM-adjacent models have high early attrition — buyers who stalled before feeling results and affiliates who never made a second move — and a win-back recovers 5–15% of inactive contacts while protecting sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you', remind them of the core outcome they came for, and lower the barrier to restarting.",
+          "subject": "Still chasing that 'I have energy again' feeling?",
+          "preview": "It's not too late to pick up where you left off.",
+          "cta": "Restart your routine",
+          "keyPoints": [
+            "Warm, no-guilt 'we noticed you've been quiet' tone in the brand's family voice",
+            "Remind them of the outcome they originally wanted — sustained daily energy and clarity — and that results need consistent use",
+            "Acknowledge the common reason people stall (didn't feel it fast enough) and reassure that the felt difference often takes 1–2 weeks of daily use",
+            "One easy restart action: reorder their starter product or reply to get a personalized recommendation",
+            "Affiliate branch references what's new since they went quiet and a low-pressure way back in, with FTC income disclosure if earnings are mentioned"
+          ]
+        }
+      ]
+    }
+  ]
+}

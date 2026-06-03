@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Dynamic Wellness",
+    "url": "https://www.dynamicwellness.vip",
+    "slug": "dynamic-wellness",
+    "vertical": "Health & Wellness / Network Marketing (Vital Health Global affiliate)",
+    "tagline": "Feel the Difference of Daily Vitality",
+    "colors": {
+      "primary": "#1A7A4A",
+      "accent": "#F4C430",
+      "background": "#F8F9FA",
+      "text": "#1C1C1C"
+    }
+  },
+  "offer": {
+    "what": "Vital Health Global wellness supplements (functional supplements across Awaken, Detox, Nourish, Restore, and Kids product families) plus an affiliate/business opportunity; sold via referral link under the Dynamic Wellness personal brand",
+    "coreOutcome": "Sustained daily energy, vitality, and balanced health through science-based natural supplements; secondary outcome: financial freedom and residual income for business-opportunity prospects",
+    "pricePoint": "Individual products $18–$100; Annual membership $29.99/yr (referral-only, unlocks member pricing); Vital Health Scanner $149–$300; bundles/packs available at discounted rates",
+    "commitment": "Annual membership renewal; product purchases can be one-time or recurring; no mandatory autoship found",
+    "leadMagnets": [
+      "Membership invitation (referral-only access to member savings)",
+      "Vital Health Scanner demo or assessment",
+      "Business opportunity/income presentation or webinar"
+    ]
+  },
+  "audience": {
+    "icp": "Health-conscious adults 25–50 (skewing female) seeking natural, science-backed energy and wellness supplements; often frustrated with synthetic supplements or persistent low energy, brain fog, or poor gut health",
+    "painPoints": [
+      "Chronic low energy and fatigue",
+      "Brain fog and poor focus",
+      "Difficulty maintaining healthy weight or metabolism",
+      "Skepticism about supplement quality (synthetic vs. natural)",
+      "Desire for financial independence or a home-based business (business segment)"
+    ],
+    "segments": [
+      "Wellness consumers: buying for personal health outcomes, not interested in the business side",
+      "Affiliate/entrepreneur prospects: motivated by the income opportunity, use products themselves to validate before promoting",
+      "Existing members: already purchased membership, need activation and upsell to higher-value bundles or Scanner"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day to 1–2 weeks; product purchases are impulse-to-short-cycle; business opportunity recruitment takes weeks to months",
+    "trial": "No free trial; referral-only membership ($29.99/yr) is the lowest barrier entry point; some affiliates may offer sample products informally",
+    "closeMechanism": "Affiliate referral link direct to Vital Health Global store; personal 1-on-1 conversation or group presentation for business opportunity; checkout is self-serve once referred",
+    "topObjection": "\"Is this a pyramid scheme / MLM?\" — skepticism about the business model; for product buyers: \"Are these worth the price vs. drugstore alternatives?\""
+  },
+  "ahaMoment": "First noticeable energy or health improvement after consistent product use (typically within 1–2 weeks of daily use) — the activation event that converts a skeptical trialer into a loyal repeat buyer and potential advocate",
+  "retention": {
+    "recurring": "Annual membership renewal ($29.99/yr); repeat product purchases once a product is part of daily routine; affiliate structure incentivizes ongoing purchasing to maintain commission eligibility",
+    "expansion": "Upgrading to higher-tier bundles (e.g., Elite Pack with Vital Scanner); recruiting new members to build a downline; advancing affiliate rank for higher commission tiers; adding products from other families (cross-family upsell)",
+    "churnRisk": "Slow or unnoticed product results in first 30 days; sticker shock on product prices without perceived differentiation; affiliate attrition if income expectations aren't met quickly; members who joined for the business opportunity but don't recruit"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — new members/buyers need a guided start (which products to take, how, what to expect in week 1–4)",
+    "Lead-Magnet Nurture — no public lead magnet found; prospects entering via referral link need education before they're ready to buy",
+    "Trial/Consult Conversion — business opportunity prospects need a follow-up sequence after a presentation or webinar",
+    "Booking & Reminders — opportunity calls, Scanner demos, and virtual events need confirmation + no-show recovery sequences",
+    "Value Newsletter — ongoing product education, success stories, and health tips to keep buyers engaged between purchases",
+    "Renewal & Expansion — annual membership renewal reminder + upsell to bundles, Scanner, or higher-tier packs",
+    "Win-Back / Re-Engagement — lapsed buyers or affiliates who went quiet after initial purchase"
+  ],
+  "toneVoice": "Warm, empowering, and aspirational — bridges science-backed credibility with personal transformation storytelling. Conversational but purposeful; avoids clinical jargon. Uses community language ('family,' 'journey,' 'legacy'). Inspirational without being preachy. Slightly more formal for business-opportunity messaging, more personal/relatable for wellness consumer messaging.",
+  "compliance": "FTC disclosure required for income claims (affiliate/MLM context — must include income disclosure statement); FDA health-claim restrictions (cannot claim products treat, cure, or prevent disease); CAN-SPAM / CASL compliance for email; GDPR if sending to EU contacts. Avoid unsubstantiated health efficacy claims."
+}
