@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Karen's Botanicals",
+    "url": "https://www.karensbotanicals.com",
+    "slug": "karen-s-botanicals",
+    "vertical": "Organic skincare & wellness (ecommerce)",
+    "tagline": "Organic skin care and organic beauty products that are clinically validated to show transformative results",
+    "colors": {
+      "primary": "#4A7C59",
+      "accent": "#C5883C",
+      "background": "#F5F0E8",
+      "text": "#2D2416"
+    }
+  },
+  "offer": {
+    "what": "Handcrafted organic skincare and bodycare products (cleansers, toners, creams, serums, body oils, balms, health tonics) made in small batches on a Georgia farm from ancestral 19th-century botanical recipes",
+    "coreOutcome": "Healthy, beautiful skin through safe, plant-based formulations free from synthetic chemicals — results driven by herbal heritage rather than laboratory shortcuts",
+    "pricePoint": "$8.95–$31.99 per product; typical basket likely $25–$60; one-off purchases",
+    "commitment": "One-off purchase; no subscription model; repeat purchase incentivized via points-based rewards program",
+    "leadMagnets": [
+      "10% off coupon for email newsletter signup",
+      "Loyalty rewards program: 100 free starting points + 10 pts per $1 spent (tiers up to 25% off at 1,500 pts)",
+      "Referral program: $10 off for both referrer and new customer on first purchase"
+    ]
+  },
+  "audience": {
+    "icp": "Health-conscious women 35–65 seeking authentic, organic skincare as an alternative to mass-market chemical-laden products; values heritage, small-batch craftsmanship, sustainability, and products that respect aging naturally",
+    "painPoints": [
+      "Skin sensitivity or adverse reactions to synthetic/chemical skincare ingredients",
+      "Aging and mature skin concerns — wrinkles, dryness, loss of radiance",
+      "Distrust of mass-produced beauty products and opaque ingredient lists",
+      "Difficulty finding truly natural products that actually deliver visible results",
+      "Dry, oily, or problem skin not adequately addressed by commercial alternatives"
+    ],
+    "segments": [
+      "Dry / sensitive skin type (largest, drawn to gentle healing formulas)",
+      "Anti-aging / mature skin (45+, motivated by wrinkle and firmness concerns)",
+      "Normal-to-oily skin type (toners, serums, lightweight lotions)",
+      "Holistic wellness enthusiast / natural-living advocate (also buys Fire Cider health tonic)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day (self-serve ecommerce; impulse-to-checkout same session)",
+    "trial": "None; 10% off welcome discount lowers first-purchase barrier; no samples or free trial offered",
+    "closeMechanism": "Self-serve add-to-cart on karensbotanicals.com; also sold on Amazon for reach",
+    "topObjection": "Price premium vs. drugstore/mass-market alternatives; skepticism about small-batch efficacy vs. larger clinical/commercial brands"
+  },
+  "ahaMoment": "First use of a product delivering a noticeable difference in skin feel, texture, or appearance — the moment a customer experiences the quality and purity gap vs. anything they've used from a commercial brand",
+  "retention": {
+    "recurring": "No subscription; repeat purchases incentivized by points-based rewards program (200–1,500 pts = 5–25% off) and referral coupons",
+    "expansion": "Cross-sell complementary routine products (cleanser → toner → moisturizer → serum → eye cream); upsell to higher-priced specialty oils (Balm of Gilead $31.99, Deepease Arnica Oil $23.99)",
+    "churnRisk": "No auto-replenishment means customers lapse between cycles with no automated nudge; several SKUs marked sold out (friction for repeat buyers); no subscription lock-in"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: likely a single coupon email only — no multi-email series educating customers on product routines, brand heritage, or skin-type matching",
+    "Lead-Magnet Nurture: blog content exists but a structured email nurture sequence for new subscribers is likely absent",
+    "Value Newsletter: appears ad hoc rather than a consistent educational/engagement cadence",
+    "Replenishment Reminder: no subscription model means no automated refill nudges for consumable products",
+    "Expansion / Cross-sell: rewards program exists but dedicated cross-sell email campaigns are unlikely",
+    "Win-Back / Re-Engagement: no evidence of automated re-engagement for lapsed buyers"
+  ],
+  "toneVoice": "Heritage-driven and botanical; warm, artisanal, and educational; celebrates graceful natural aging and holistic wellness; poetic in product descriptions (e.g., 'crisp, clean scent reminiscent of standing in a forest after rain'); transparent and trust-building; avoids clinical jargon in favor of plant-based storytelling rooted in a real family legacy",
+  "compliance": "FTC guidelines for cosmetic/skincare efficacy claims ('clinically validated' language must be substantiated); USDA/FDA organic and natural labeling standards; CAN-SPAM compliance for email marketing"
+}

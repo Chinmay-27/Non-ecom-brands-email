@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Karen's Botanicals",
+    "slug": "karen-s-botanicals",
+    "url": "https://www.karensbotanicals.com",
+    "vertical": "Organic skincare & wellness (ecommerce)",
+    "colors": {
+      "primary": "#4A7C59",
+      "accent": "#C5883C",
+      "background": "#F5F0E8",
+      "text": "#2D2416"
+    }
+  },
+  "summary": "Karen's Botanicals handcrafts organic skincare and bodycare products — cleansers, toners, creams, serums, oils, balms, and herbal health tonics — in small batches on the Mitchell family farm in Georgia, using 19th-century Slovak botanical recipes. It serves health-conscious women roughly 35–65 who distrust mass-market, chemical-laden beauty products and want clean, ingredient-transparent alternatives that respect aging naturally. Sales are one-off self-serve purchases (no subscription) on its own site and Amazon, with repeat buying driven by a points-based rewards program.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Convert a new email subscriber into a confident first purchase and get them to the 'aha' moment — the first use where clean, farm-made skincare visibly outperforms what they used before.",
+      "trigger": "Newsletter signup / list join (10%-off coupon opt-in); send within seconds.",
+      "segment": "New subscribers; branch by skin-type self-selection via the Facial Care Chart (dry/sensitive, anti-aging/mature, normal-to-oily, holistic wellness).",
+      "rationale": "Every backbone flow is currently missing and the model is fully self-serve, so a new subscriber who doesn't learn the heritage story, correct routine, and skin-type match will never reach the aha moment and won't return. The welcome send is the highest-engagement, fastest-win lever the brand has.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome + deliver the 10% code + tell the farm/heritage story + point to the one first action (match a skin type via the Facial Care Chart).",
+          "subject": "Welcome to the farm — your 10% off is inside 🌿",
+          "preview": "Two generations, one Georgia farm, and the first step for your skin.",
+          "cta": "Find your skin-type match & shop 10% off",
+          "keyPoints": [
+            "Deliver the 10%-off welcome code prominently with a clear expiry",
+            "Tell the origin story in the brand's voice: 19th-century Slovak recipes, handcrafted in small batches on the Mitchell family farm in Georgia",
+            "Single first action — use the Facial Care Chart to match their skin type to the right cleanser/serum/moisturizer",
+            "Set expectations: a few short emails over the next two weeks on routine and results, and that a real person reads every reply",
+            "Reassure on purity — what's never in the products (synthetic fillers, parabens) to pre-empt the price-premium doubt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a subscriber who took the 10% coupon but hasn't purchased toward a first order by defusing the #1 objection — 'is the premium worth it vs. a drugstore product?'",
+      "trigger": "Newsletter signup with no purchase after the welcome series; sent on a ~10-day nurture cadence.",
+      "segment": "Non-purchasing subscribers below first-purchase intent; branch by the skin-type interest signaled at signup.",
+      "rationale": "The brand's stated top objection is price premium and small-batch skepticism, and acquisition (SEO, Amazon, rewards) brings in subscribers who stall on that exact doubt. A proof-and-transparency email reframes the cost before the coupon expires.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "10",
+          "purpose": "Handle the price-premium objection head-on by reframing cost around ingredient transparency and what is deliberately left out, backed by substantiated proof.",
+          "subject": "Why our serum costs more than the one at CVS",
+          "preview": "It's not about what's in it — it's about what's not.",
+          "cta": "See what's inside (and what isn't)",
+          "keyPoints": [
+            "Reframe price: a $26 serum with named botanical ingredients vs. a $10 formula padded with synthetic fillers — cost-per-honest-ingredient, not cost-per-ounce",
+            "Lead with ingredient transparency: every ingredient readable and sourced, small-batch on the farm",
+            "Use substantiated 'clinically validated' proof and real customer results — stay within FTC efficacy-claim limits (no treat/cure language)",
+            "Spotlight one accessible best-seller matched to their skin-type interest as a low-risk first buy",
+            "Remind the 10%-off code is still active with a gentle expiry nudge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "replenishment-cross-sell",
+      "name": "Replenishment & Cross-Sell",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Recover the repeat-purchase revenue lost to having no subscription by nudging a refill before consumables run out, and grow basket size by guiding the customer to the next step in their routine.",
+      "trigger": "Time since last purchase tuned to product run-out (~5–6 weeks for cleansers/lotions); usage milestone signaling routine readiness.",
+      "segment": "Past purchasers of consumable SKUs; branch high-engagement buyers into cross-sell (next routine step / premium oils) vs. straight reorder.",
+      "rationale": "This is the brand's single biggest gap: consumables cycle every 4–8 weeks but there is no auto-replenishment, so customers silently drift between cycles. A timed refill-plus-routine nudge is the most revenue-proximate flow for a no-subscription repeat-purchase model.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "42",
+          "purpose": "Prompt a one-tap reorder timed to run-out, surface the rewards points already earned, and cross-sell the logical next step in the routine.",
+          "subject": "Running low? Your cleanser's about due 🌱",
+          "preview": "Reorder in a tap — and there are points waiting on your account.",
+          "cta": "Reorder & complete your routine",
+          "keyPoints": [
+            "Timed to typical run-out so the nudge feels helpful, not pushy — 'about now is when most people reach the bottom of the jar'",
+            "One-tap reorder of their last consumable purchase",
+            "Show their current rewards points balance and how close they are to the next discount tier (200–1,500 pts)",
+            "Cross-sell the next routine step matched to what they bought (cleanser → toner → moisturizer → serum) or an upsell to a premium oil",
+            "Flag low-stock items gently so repeat buyers don't hit a sold-out wall"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed buyers who missed the replenishment window and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no purchase / no engagement.",
+      "segment": "Dormant past customers; branch churned buyers (reference what they bought most) vs. never-purchased dormant subscribers (fresh value).",
+      "rationale": "No subscription and several sold-out SKUs mean first-time and repeat buyers lapse with zero automated nudge, and there's no existing re-engagement flow — a quick-to-ship win-back recovers 5–15% and shields sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you', remind them of the core value, surface their unspent rewards points, and hook on a timely seasonal skin concern.",
+          "subject": "Your skin misses us (and we miss you)",
+          "preview": "Plus the rewards points sitting in your account.",
+          "cta": "See what's new for your skin this season",
+          "keyPoints": [
+            "Warm, no-pressure 're-introduce ourselves' tone true to the heritage voice",
+            "Remind of the core value: clean, farm-made, fully transparent — the gap they felt the first time",
+            "Surface their current unspent rewards points balance as a reason to come back now",
+            "Seasonal hook tied to early-summer skin needs (lightweight hydration, sun-stressed skin) with a matched product",
+            "Low-friction return path; sets up the later pattern-interrupt and sunset emails in the series"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority and trust across the long repeat-purchase cycle without leaning on discounts.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route recently-dormant contacts to Win-Back instead.",
+      "rationale": "Newsletters appear ad hoc today, yet education is exactly what this trust-and-heritage brand sells on — a consistent value-first cadence keeps a no-subscription audience engaged between purchases and assists conversions without eroding margin.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship edition: deliver one genuinely useful seasonal skincare ritual (80% value / 20% soft offer) under a recurring 'From the Farm' section that builds habit.",
+          "subject": "The forest-after-rain trick for calm summer skin",
+          "preview": "One three-minute ritual, zero synthetics.",
+          "cta": "Read the ritual",
+          "keyPoints": [
+            "One useful idea per send: a seasonal early-summer skin ritual readers can do tonight",
+            "80% education / 20% soft offer — teach first, then tie softly to one matched product",
+            "Recurring 'From the Farm' segment (an herbal note or behind-the-scenes from the Georgia farm) to build a habit",
+            "Single primary CTA to read/try; invite replies to a real person",
+            "Voice-led storytelling rooted in the family legacy; no clinical jargon, no discount push"
+          ]
+        }
+      ]
+    }
+  ]
+}
