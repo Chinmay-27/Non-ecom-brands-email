@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Strategic CFO Advisory",
+    "slug": "strategic-cfo-advisory",
+    "url": "https://www.strategiccfoadvisory.com",
+    "vertical": "B2B / Professional Services — Financial Advisory",
+    "colors": {
+      "primary": "#C9921F",
+      "accent": "#0D1B2A",
+      "background": "#F5F7FA",
+      "text": "#1A2438"
+    }
+  },
+  "summary": "Strategic CFO Advisory is a boutique firm offering fractional, part-time, and interim CFO services alongside investment banking advisory (M&A, capital raising, and valuation) to middle-market companies with roughly $10M–$500M in annual revenue. It serves founder-owned and PE-backed businesses that lack full-time CFO leadership and are navigating an exit, a capital raise, or a financial turnaround. Engagements run as ongoing monthly CFO retainers or project-based transaction mandates, and almost always begin with a free 30-minute strategy consultation.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Greet a new inquiry the moment it lands, establish senior-advisor credibility, and drive the single highest-value first action: booking the free 30-minute strategy session.",
+      "trigger": "Contact form submitted / consultation requested / lead-magnet list join — fires within seconds of signup.",
+      "segment": "New contacts; branch on the form's 'primary need' field (part-time CFO, sell/buy a company, raise capital, value my company, improve systems, strategic planning, not sure).",
+      "rationale": "There is zero nurture today between an inquiry and a human reply, and the booked consultation is the gating action for every deal — a fast, credible welcome that points straight at it is the highest-leverage first build.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant welcome that confirms the inquiry, sets expectations (24h human response, full NDA discretion), and routes the contact to book their free strategy session — the pre-engagement 'aha' that delivers on-the-spot valuation insight.",
+          "subject": "You're in — let's talk about what your company is really worth",
+          "preview": "A senior advisor will reach out within 24 hours. Here's how to get your strategy session on the calendar now.",
+          "cta": "Book your free 30-minute strategy session",
+          "keyPoints": [
+            "Welcome from a named senior advisor (Big 4 / Wells Fargo IB / CPA-CFA pedigree), not a marketing inbox — every reply reaches a real person",
+            "Set expectations: a 24-hour response, a no-obligation call under NDA, and immediate valuation insights on the session itself",
+            "Reference their stated 'primary need' so the next step feels tailored to whether they're exiting, raising, or stabilizing cash",
+            "One CTA — book the 30-minute session; mention the ROI calculator as a quick self-serve win while they wait"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Client Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a completed free consultation into a signed CFO retainer or investment banking mandate by delivering the custom proposal and a defensible ROI projection.",
+      "trigger": "Free 30-minute strategy session completed and prospect has not yet signed; runs in parallel with a gentle decision-stage cadence.",
+      "segment": "Post-consult prospects; branch by primary need (CFO retainer vs. M&A / capital-raise mandate) and by revenue band to size the ROI example.",
+      "rationale": "The consultation is where deals are won or lost, and the firm's #1 objection is cost-vs-ROI — a tailored proposal email that quantifies value against the monthly investment is the core revenue play for a business with no follow-up today.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Recap the specific situation discussed on the call, deliver the custom proposal, and frame the ROI projection so the prospect can justify the monthly investment internally and move to kickoff.",
+          "subject": "Your custom proposal — and the math behind a 20-hour CFO engagement",
+          "preview": "The roadmap we discussed, your projected ROI, and a clear next step. No obligation, fully under NDA.",
+          "cta": "Review your proposal & schedule kickoff",
+          "keyPoints": [
+            "Open with a specific recap of their numbers and the situation surfaced on the call so the email reads as a continuation, not a template",
+            "Present the custom proposal with a transparent ROI projection (e.g., a 20 hrs/month engagement modeled against their revenue band) — framed as a projection and expectation, never a guaranteed return",
+            "Address the cost objection head-on with an anonymized peer outcome (institutional-grade pedigree, an exit at a strong EBITDA multiple) kept within NDA-safe, non-promissory language",
+            "Single clear next step — confirm scope and book the kickoff; offer a direct reply to a named advisor for any questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Consultation Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attendance at booked strategy sessions and recover the ones that slip — protecting the firm's most valuable conversion event.",
+      "trigger": "Strategy session confirmed; reminder fires 24 hours before the scheduled time; no-show branch fires 1–2 hours after a missed slot.",
+      "segment": "Anyone with a scheduled free strategy session; branch into a warm, no-penalty rebook sequence on a no-show.",
+      "rationale": "These are high-value, senior-advisor consultation slots with no reminder flow today; reminders cut no-shows by roughly 35%, recovering booked revenue immediately at almost no cost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "24-hours-before reminder that reconfirms the time, primes the prospect with what to bring, sets expectations for the valuation insights they'll receive, and removes friction with a one-click reschedule.",
+          "subject": "Tomorrow at [time]: your strategy session — one number to have ready",
+          "preview": "Bring your latest revenue figure and we'll bring immediate insight on what your company is worth.",
+          "cta": "Confirm or reschedule in one click",
+          "keyPoints": [
+            "Reconfirm the date, time, and the name of the advisor they'll meet so the session feels personal and locked in",
+            "Tell them the one thing to prepare — latest revenue, primary financial concern, current runway — so the 30 minutes go straight to value",
+            "Set the payoff: they'll leave with on-the-spot valuation insight and a clear sense of the path forward, with no obligation and full NDA discretion",
+            "Frictionless reschedule link to recover would-be no-shows before they happen, plus a reply-to for last-minute questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a cold lead-magnet downloader toward a booked consultation over a long consideration cycle by delivering the asset and framing the expensive problem it points to.",
+      "trigger": "Lead-magnet download (CFO's Guide to Strategic Growth, 13-Week Cash Flow Forecast Template, or Series A Fundraising Checklist).",
+      "segment": "Leads below sales-ready threshold; branch the sequence by which magnet was downloaded (valuation/growth vs. cash flow vs. fundraising).",
+      "rationale": "Three strong lead magnets are live with zero follow-up, so every download currently leaks; a download-triggered drip is the cheapest way to warm a long-cycle B2B audience toward the free consultation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly deliver the requested asset and reframe it from a free download into the symptom of a costly problem — missing institutional-grade financial leadership — establishing the firm as the credible fix.",
+          "subject": "Your CFO's Guide is inside — and the one number that decides your valuation",
+          "preview": "Download the guide, then read why most middle-market companies leave 2–3x of their value on the table.",
+          "cta": "Download your guide",
+          "keyPoints": [
+            "Deliver the exact asset they asked for above the fold with a single, obvious download link",
+            "Frame the real problem the asset exposes — messy financials, weak unit-economics narratives, or no runway visibility block exits and raises — in the prospect's own words",
+            "Establish credibility briefly (Deloitte / Wells Fargo IB / Ivy MBA / Series 7-63-79) so the advice carries weight without slipping into performance promises",
+            "Preview what's coming in the series and offer the free strategy session as the low-friction next step for anyone ready sooner"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant past leads and completed-project clients whose perceived need lapsed, and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks/replies, or a transaction/engagement that has since closed.",
+      "segment": "Dormant leads who never converted; separately, post-transaction clients whose retainer ended after a deal closed.",
+      "rationale": "Past inquiries and completed-project clients are a sizeable untapped audience for a firm whose main churn risk is natural project completion, and a short win-back is fast to ship while recovering 5–15% of inactive contacts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a 'did your plans change?' check-in that reminds them of the core outcome (a premium, exit-ready valuation) and offers a fresh, no-pressure strategy session.",
+          "subject": "Still planning that exit — or did the timeline shift?",
+          "preview": "It's been a while. Here's what's changed for middle-market owners in 2026, and an easy way back in.",
+          "cta": "Book a fresh strategy session",
+          "keyPoints": [
+            "Lead with a genuine, respectful check-in tied to the goal they originally came for (exit, raise, or financial control) rather than a generic 'we miss you'",
+            "Pattern-interrupt with what's new — shifting 2026 M&A and capital-market conditions, and the updated CFO's Guide — to give a real reason to re-engage",
+            "Reference the discreet, advisor-led relationship and that prior context stays under NDA, so a returning contact feels remembered, not re-marketed",
+            "One low-friction CTA to rebook a free session; signal this is a light-touch sequence and they can opt out, preserving sender reputation"
+          ]
+        }
+      ]
+    }
+  ]
+}

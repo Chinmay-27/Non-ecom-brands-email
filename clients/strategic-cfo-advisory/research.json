@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Strategic CFO Advisory",
+    "url": "https://www.strategiccfoadvisory.com",
+    "slug": "strategic-cfo-advisory",
+    "vertical": "B2B / Professional Services — Financial Advisory",
+    "tagline": "Elite Financial Leadership for Middle Market Companies",
+    "colors": {
+      "primary": "#C9921F",
+      "accent": "#0D1B2A",
+      "background": "#F5F7FA",
+      "text": "#1A2438"
+    }
+  },
+  "offer": {
+    "what": "Fractional / part-time / interim CFO services and investment banking advisory (M&A, capital raising, valuation) for middle market companies.",
+    "coreOutcome": "Increase company value 2-3x — through financial clarity, operational discipline, and elite transaction execution — so founders and owners can exit, raise capital, or scale with institutional-grade confidence.",
+    "pricePoint": "Not published; ROI calculator default suggests ~$4,375/month for 20 hrs/month at $5M ARR. Likely $3K–$15K+/month retainer for CFO advisory; investment banking billed as project fees / success fees.",
+    "commitment": "Ongoing retainer for CFO advisory; project-based for investment banking transactions.",
+    "leadMagnets": [
+      "CFO's Guide to Strategic Growth in 2026 (PDF playbook)",
+      "13-Week Cash Flow Forecast Template (Excel)",
+      "Series A Fundraising Checklist (due diligence checklist)"
+    ]
+  },
+  "audience": {
+    "icp": "Founder-owned or PE-backed middle market companies with $10M–$500M in annual revenue that lack full-time CFO leadership and are preparing for an exit, capital raise, or significant financial transformation.",
+    "painPoints": [
+      "No institutional-grade financial leadership without paying a full-time CFO salary",
+      "Messy or non-audit-ready financials blocking a sale or fundraise",
+      "Burning cash too fast / insufficient runway visibility",
+      "Investors passing on deals due to poor unit economics story",
+      "Missing the valuation multiple they deserve at exit",
+      "No strategic financial roadmap to guide growth decisions"
+    ],
+    "segments": [
+      "Exit-ready owners (M&A sell-side preparation)",
+      "Growth-stage companies raising Series A/B capital",
+      "Companies needing ongoing fractional CFO leadership",
+      "Distressed / high-burn companies needing financial triage"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months — complex B2B professional services requiring trust and custom scoping",
+    "trial": "Free 30-minute strategic consultation with immediate valuation insights; no obligation",
+    "closeMechanism": "Free consultation → custom proposal with clear ROI projection → engagement kickoff",
+    "topObjection": "Cost vs. ROI justification — 'Can I afford a fractional CFO?' (addressed directly with an interactive ROI calculator on the homepage)"
+  },
+  "ahaMoment": "Delivery of a 60-day strategic roadmap with actionable recommendations — the first concrete proof of value after engagement begins. The free consultation itself is designed to deliver an immediate 'aha' via on-the-spot valuation insights.",
+  "retention": {
+    "recurring": "Fractional CFO engagements are ongoing monthly retainers; investment banking is project/transaction-based with success fees.",
+    "expansion": "Upsell from CFO advisory retainer into investment banking services (e.g., sell-side M&A or capital raise); increase advisory scope and hours as company grows.",
+    "churnRisk": "Natural project end — once a transaction closes or a crisis is resolved, the perceived need for the retainer drops. Must continuously demonstrate ongoing strategic value to retain post-transaction clients."
+  },
+  "lifecycleGaps": [
+    "Welcome & onboarding sequence — no visible nurture after a lead inquiry or consultation booking",
+    "Lead-magnet nurture — three strong lead magnets exist but no evident drip/education sequence follows the download",
+    "Trial/consult conversion — prospects who book a call but don't sign need a follow-up sequence to close",
+    "Booking reminders & no-show recovery — high-value consultations need confirmation and re-booking flows",
+    "Value newsletter — no ongoing thought-leadership cadence to stay top-of-mind during long consideration cycles",
+    "Referral / advocacy — impressive case studies (Blackstone, $50M exits) but no visible referral capture system",
+    "Win-back / re-engagement — past leads and completed-project clients are an untapped re-engagement audience"
+  ],
+  "toneVoice": "Authoritative and credibility-led — leads with Wall Street pedigree (Deloitte, Wells Fargo IB, Ivy League) and hard numbers. Professional but accessible; avoids jargon overload in favor of outcome language ('2-3x value', '40% burn reduction'). Confident without being arrogant. Tone sits closer to formal than casual.",
+  "compliance": "Financial services — holds Series 7, 63, 79 securities licenses; investment banking advisory is regulated. Emails must avoid performance guarantees and unqualified ROI claims. All engagements operate under NDA. Standard CAN-SPAM / GDPR opt-out requirements apply."
+}

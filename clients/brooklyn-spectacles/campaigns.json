@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Brooklyn Spectacles",
+    "slug": "brooklyn-spectacles",
+    "url": "https://www.brooklynspectacles.com",
+    "vertical": "Local & service — independent eyewear retail (DTC + brick-and-mortar)",
+    "colors": {
+      "primary": "#1C1C1C",
+      "accent": "#BF9B5F",
+      "background": "#FAFAFA",
+      "text": "#2E2E2E"
+    }
+  },
+  "summary": "Brooklyn Spectacles is an independent eyewear brand that designs and hand-finishes optical frames, sunglasses, and a children's line ('Little Spectacles') in Italian acetate at its Williamsburg, Brooklyn studio. It sells direct-to-consumer online and at its flagship at 291 Bedford Ave, plus through authorized US and Canada retailers, serving style-conscious urban creatives and professionals who want distinctive, well-made frames over mass-market chain eyewear. Purchases are one-off (roughly $195–$225 per frame) with a natural 1–3 year repeat cycle driven by prescription changes, frame wear, or wanting a new look.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Bridge the gap between checkout and the unboxing 'aha' — reinforce craftsmanship, set care expectations, and seed the brand relationship so a one-time buyer has reasons to return.",
+      "trigger": "Purchase confirmed (Shopify order created); send email 1 within seconds of checkout.",
+      "segment": "New buyers (online DTC); branch by product line — optical, sunglasses, or Little Spectacles (kids).",
+      "rationale": "Buyers currently get only a bare Shopify order confirmation, yet this is the highest-engagement moment to justify a premium price, prevent buyer's remorse before delivery, and plant the care + second-pair relationship that fights the brand's single-purchase mentality.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant order confirmation reframed as a craft story — confirm the purchase, set the delivery timeline, reinforce why the price is worth it, and build anticipation for the unboxing.",
+          "subject": "Your frames are being handmade in Williamsburg",
+          "preview": "Here's what's happening to your Italian-acetate frames right now — and what to expect when the box lands.",
+          "cta": "See how your frames are made",
+          "keyPoints": [
+            "Confirm the order and set a clear delivery timeline so there's no anxiety during the wait",
+            "Reinforce the craft — Italian acetate, hand-finishing, real metal hinges — the reasons it cost more than a chain pair",
+            "Build anticipation for the 'aha' unboxing moment and invite a #LoveMyBKS share once they're wearing them",
+            "Lead with simple care basics and a real reply-to address so a person is on the other end"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert email subscribers who have browsed but not bought into first-time customers by dismantling the two blockers — price and online-fit anxiety — without discounting.",
+      "trigger": "Email-list signup (footer) with no purchase; lead has not converted within the browse window.",
+      "segment": "Non-buyer subscribers; branch by browsing interest — optical, sunglasses, or kids — where known.",
+      "rationale": "The footer signup exists with no nurture behind it. For this audience the stall is specific: price ($195–$225) and 'will they suit my face / fit my prescription online,' so the nurture's job is to retire those exact objections rather than chase a coupon.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Retire the price and fit objections head-on — justify the cost through longevity and craft, and remove online-purchase risk with the fit and return guarantee.",
+          "subject": "Worth it? The math on a pair that lasts years",
+          "preview": "Italian acetate, real hinges, and a no-risk fit guarantee — why $195 beats replacing cheap frames twice.",
+          "cta": "Find your frames",
+          "keyPoints": [
+            "Cost-per-wear math: one $195 handmade pair outlasts several warping fast-fashion frames",
+            "Address fit anxiety directly — measurements, face-shape guidance, and an easy return/exchange policy take the risk off online buying",
+            "Contrast with the mass-market chains the audience is tired of (the Warby Parker / LensCrafters look-alike problem)",
+            "Single CTA into the collection; invite a reply with a face-shape question to a real stylist"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal, Prescription Anniversary & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Manufacture the repeat-purchase trigger this single-purchase business lacks — reactivate past buyers at their natural prescription-refresh moment and drive second-pair (sun + optical) expansion.",
+      "trigger": "Purchase-date anniversary (~18–24 months post-purchase for a prescription refresh; ~60–90 days for a second-pair add-on).",
+      "segment": "Past buyers; branch by health — recent/engaged buyers get the second-pair expansion offer, long-lapsed buyers get the prescription-refresh nudge.",
+      "rationale": "With no subscription and a 1–3 year repeat cycle, the brand's single biggest revenue lever is creating a reason to return at the moment a prescription typically changes — otherwise a satisfied customer silently buys their next pair from a chain.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "540",
+          "purpose": "Reach past buyers around the 18-month mark — when a prescription often shifts — and turn a dormant relationship into a new-pair purchase.",
+          "subject": "Still getting compliments two years on?",
+          "preview": "Prescriptions drift and styles move — here's what we've made since your last pair.",
+          "cta": "Browse new arrivals",
+          "keyPoints": [
+            "Frame it around the natural prescription cycle (commonly shifts every 1–2 years) — a non-pushy reason to refresh",
+            "Showcase new street-named frames and collaboration drops released since their last purchase",
+            "Offer both paths: an in-store fitting at 291 Bedford Ave or online with the fit guarantee",
+            "Recognize returning customers with loyalty acknowledgment, not a discount race"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant subscribers and lapsed buyers with fresh brand momentum, then sunset the truly disengaged to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks (dormant subscriber), or a long gap since last purchase with no engagement (lapsed buyer).",
+      "segment": "Dormant subscribers and lapsed buyers, messaged separately — lapsed buyers reference what they bought, dormant subscribers lean on fresh value.",
+      "rationale": "The single-purchase mentality means satisfied customers go quiet for years; a win-back recovers 5–15% of them with new collections and a light gesture before they default to a competitor at their next prescription change.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with what's new in Brooklyn since they went quiet, plus a small welcome-back gesture — the highest-recovery send in the flow.",
+          "subject": "It's been a while — Brooklyn's been busy",
+          "preview": "New frames, new collabs, and a little something to welcome you back.",
+          "cta": "See what's new",
+          "keyPoints": [
+            "Pattern-interrupt with fresh value: new collections and collaboration drops since they last engaged",
+            "A modest, on-brand gesture (free lens-care kit or store credit toward a second pair) rather than a deep discount",
+            "Lapsed-buyer branch references their original pair; dormant-subscriber branch leans on new arrivals",
+            "Set up the sunset path — non-responders flow to a final 'should we stop emailing?' before suppression"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter — Dispatches from the Studio",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the multi-year gap between purchases by building brand authority and Brooklyn-culture affinity — without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress contacts in active onboarding (Campaign 1) and route recently-dormant contacts to Win-Back (Campaign 4) instead.",
+      "rationale": "Because a buyer has no functional reason to return for 1–3 years, an always-on editorial keeps the brand present so that when the prescription does change, Brooklyn Spectacles is the default choice — not a chain.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "monthly",
+          "purpose": "The flagship recurring edition that sets the format — one craft/culture story, one styling tip, and a soft look at what's new — building a monthly reading habit.",
+          "subject": "The street behind the frame: this month from the studio",
+          "preview": "A frame's origin story, one face-shape styling tip, and what we're making next.",
+          "cta": "Read the story",
+          "keyPoints": [
+            "Repeatable 80/20 format: a Williamsburg craft or street-name origin story plus one practical styling/fit tip",
+            "Builds habit with a recurring section readers return for; a single primary CTA per send",
+            "Soft, non-pushy product moment (a new arrival or collab) instead of a sale",
+            "Invite replies and #LoveMyBKS UGC to keep the community loop alive"
+          ]
+        }
+      ]
+    }
+  ]
+}

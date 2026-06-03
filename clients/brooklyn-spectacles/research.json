@@ -1,0 +1,60 @@
+{
+  "brand": {
+    "name": "Brooklyn Spectacles",
+    "url": "https://www.brooklynspectacles.com",
+    "slug": "brooklyn-spectacles",
+    "vertical": "Local & service — independent eyewear retail (DTC + brick-and-mortar)",
+    "tagline": "Beautifully crafted frames inspired by Brooklyn",
+    "colors": {
+      "primary": "#1C1C1C",
+      "accent": "#BF9B5F",
+      "background": "#FAFAFA",
+      "text": "#2E2E2E"
+    }
+  },
+  "offer": {
+    "what": "Handcrafted independent eyeglass frames (optical + sunglasses) and children's eyewear ('Little Spectacles'), made with Italian acetate and sold DTC online plus flagship store at 291 Bedford Ave, Williamsburg, Brooklyn. Also distributed through authorized US/Canada retailers.",
+    "coreOutcome": "Wearing distinctive, quality-crafted frames that signal creative taste and Brooklyn identity — a clear step above mass-market chain eyewear.",
+    "pricePoint": "$195–$225 for standard optical frames; $95 on sale; $495 for designer collaborations (e.g. Issey Miyake). One-off purchase; no subscription.",
+    "commitment": "One-time purchase. Repeat only when updating prescription, replacing worn frames, or adding a second pair.",
+    "leadMagnets": ["Email list signup (footer)", "Sale collection (up to 50% off selected frames)", "Digital gift cards"]
+  },
+  "audience": {
+    "icp": "Style-conscious urban creatives and professionals, 25–45, in Brooklyn/NYC metro and major US/Canada cities. They care about craftsmanship and independent brands, distrust mass-market chains, and treat their glasses as a fashion accessory as much as a vision tool.",
+    "painPoints": [
+      "Generic, boring frames from LensCrafters / Warby Parker feel like everyone else's",
+      "Cheap hinges and thin acetate that warp or break within a year",
+      "Hard to find quality independent eyewear without flying to Europe",
+      "Online buying anxiety — can't try before you buy"
+    ],
+    "segments": [
+      "Local Williamsburg / Brooklyn walk-in customers",
+      "Online DTC buyers across US and Canada",
+      "Parents buying kids' frames (Little Spectacles line)",
+      "Gift buyers (gift cards, gifting a pair)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day (in-store) to 3–7 days (online browse-to-checkout). Repeat purchases may be annual or longer as prescriptions change.",
+    "trial": "No home trial program found. In-store try-on available at flagship. Online buyers rely on photos, measurements, and return/exchange policy.",
+    "closeMechanism": "Self-serve online checkout (Shopify) or in-store walk-in purchase. No sales call required.",
+    "topObjection": "Price ($195–$225 frame-only feels premium vs. fast-fashion eyewear) and online fit uncertainty — 'What if they don't suit my face / fit my prescription needs?'"
+  },
+  "ahaMoment": "The moment a customer puts on their finished pair — either in-store during the fitting or the first time they open the delivery box — and the craftsmanship, fit, and compliments confirm the price was worth it.",
+  "retention": {
+    "recurring": "Not inherently recurring. Natural repeat cycle is 1–3 years (prescription update, frame replacement, or wanting a new look). Sunglasses represent an incremental second-pair purchase.",
+    "expansion": "Second pair upsell (optical + sun), children's frames for parents already in the brand, gift cards driving new-customer acquisition, limited-edition and collaboration drops.",
+    "churnRisk": "Single-purchase mentality — customers buy once and don't think about the brand again until their next prescription change. No loyalty program or ongoing reason to engage."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: no evidence of a post-purchase sequence reinforcing quality, care instructions, or second-pair cross-sell",
+    "Lead-Magnet Nurture: email list signup with no known nurture flow for non-buyers",
+    "Post-Purchase Care: no frame care, lens cleaning, or adjustment reminder sequence visible",
+    "Value Newsletter: no editorial or community content series found",
+    "Renewal / Re-engagement: no 'time for a new pair?' or prescription-anniversary trigger",
+    "Referral / Advocacy: hashtag UGC encouraged (#LoveMyBKS) but no structured referral or review-request email flow",
+    "Win-Back: no re-engagement campaign for lapsed buyers evident"
+  ],
+  "toneVoice": "Confident and craft-proud without being pretentious. Brooklyn indie energy — grounded in local creative culture, conversational, celebrates the intersection of artistry and everyday wear. Avoids corporate polish; leans into place, craft, and community.",
+  "compliance": "Standard retail / CAN-SPAM / CASL (ships to Canada). No healthcare/HIPAA exposure — brand sells frames only, not vision care services or prescriptions."
+}
