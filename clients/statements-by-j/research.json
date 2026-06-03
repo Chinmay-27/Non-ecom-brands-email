@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Statements by J",
+    "url": "https://www.statementsbyj.com",
+    "slug": "statements-by-j",
+    "vertical": "Home furnishings / e-commerce retail with physical showroom",
+    "tagline": "Luxurious, chic and yet affordable",
+    "colors": {
+      "primary": "#1A1A1A",
+      "accent": "#B8962E",
+      "background": "#FAFAFA",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "Modern designer-aesthetic furniture sold online with nationwide shipping — dining sets, sofas, accent chairs, bedroom, office, and entryway pieces — plus a physical showroom in Commerce, CA (Los Angeles)",
+    "coreOutcome": "A stylish, designer-quality home without luxury markups or stuffy showrooms",
+    "pricePoint": "Mid-tier luxury; one-off product purchases; no subscription or retainer",
+    "commitment": "Single purchase / one-off transaction",
+    "leadMagnets": [
+      "15% off first order via email signup",
+      "Open-box / sale section featuring discounted items"
+    ]
+  },
+  "audience": {
+    "icp": "Style-conscious homeowners aged 25–55 in major US metros (LA, NYC, Miami, Chicago, etc.) who want modern furniture that looks high-end but is priced accessibly; secondary audience is professional interior designers and stylists sourcing for clients",
+    "painPoints": [
+      "Luxury furniture comes with 'crazy markups' that price out design-savvy shoppers",
+      "Traditional showrooms feel stuffy, intimidating, or inaccessible",
+      "Hard to find bold, unique modern furniture at a reasonable price",
+      "Buying furniture online without touching it first feels risky"
+    ],
+    "segments": [
+      "New homeowners and movers furnishing a new space from scratch",
+      "Interior designers and stylists sourcing bold pieces for client projects",
+      "Small-space / apartment dwellers seeking compact, modern solutions",
+      "Local Los Angeles shoppers who can visit the Commerce showroom"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 2–3 weeks (online browse, possible repeat visits, optional showroom trip before committing)",
+    "trial": "No free trial; free in-person showroom appointment available at Commerce, CA location",
+    "closeMechanism": "Self-serve online checkout (primary); in-showroom appointment for local shoppers",
+    "topObjection": "Cannot see or feel the furniture before buying — uncertainty about quality, color accuracy, and fit for their specific space"
+  },
+  "ahaMoment": "When the first piece is delivered, placed in the room, and the customer sees the designer look they envisioned at a price that didn't break the bank",
+  "retention": {
+    "recurring": "No subscription; pure repeat-purchase model — customers return when furnishing additional rooms or replacing pieces",
+    "expansion": "Upsell to higher-ticket items, additional room categories, or new monthly arrivals; open-box/sale section for deal-seekers",
+    "churnRisk": "High single-purchase drop-off; no detected loyalty program or structured post-purchase re-engagement to bring buyers back"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely no nurture sequence beyond delivering the 15% discount code",
+    "Post-purchase series — no clear order-follow-up, review request, or 'complete the room' cross-sell flow",
+    "Value newsletter — no blog or regular editorial content cadence detected",
+    "Win-Back / Re-Engagement — no program to reactivate past buyers after 60–90 days",
+    "Referral / Advocacy — 5,000+ five-star ratings on-site but no visible structured referral program"
+  ],
+  "toneVoice": "Aspirational yet anti-snobbery. Bold and confident without pretension. Uses phrases like 'forget those crazy markups' and 'stuffy showrooms.' Luxury positioning that feels inclusive and warm, not gatekeeping. Contemporary, inviting, design-forward.",
+  "compliance": "Standard CAN-SPAM / e-commerce. No healthcare, finance, or legal constraints detected. GDPR consideration if EU traffic. 7-day return policy should be referenced accurately in any transactional copy."
+}

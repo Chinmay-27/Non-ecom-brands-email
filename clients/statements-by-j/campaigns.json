@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Statements by J",
+    "slug": "statements-by-j",
+    "url": "https://www.statementsbyj.com",
+    "vertical": "Home furnishings e-commerce (online nationwide + appointment showroom in Commerce, CA)",
+    "colors": {
+      "primary": "#1A1A1A",
+      "accent": "#B8962E",
+      "background": "#FAFAFA",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "Statements by J is a Los Angeles-based home-furnishings retailer selling modern, designer-aesthetic furniture (dining, living, bedroom, office, entryway, and small-space pieces) online with nationwide shipping from its Commerce, CA warehouse, plus an appointment-only showroom. It serves style-conscious homeowners aged 25-55 in major US metros who want a high-end look without luxury markups, with a secondary audience of interior designers sourcing for client projects. Revenue is one-off repeat purchases with no subscription or trial; growth depends on converting its email list and pulling past buyers back to furnish additional rooms.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Convert new email signups into first-time buyers by delivering the 15% code, establishing the brand story, and defusing the #1 objection (can't touch it before buying).",
+      "trigger": "Email signup / first-order discount opt-in (send email 1 within seconds).",
+      "segment": "New contacts who joined the list; branch later by category browsed (living, dining, bedroom, small-space).",
+      "rationale": "The 15% code is the brand's main capture mechanism but is likely delivered as a bare transactional email; this is the highest-engagement, fastest-ROI flow and the only place to turn a discount-hunter into a confident buyer despite the no-touch online risk.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome: deliver the 15% code, land the anti-markup brand story, and remove the no-touch buying risk so the first order happens.",
+          "subject": "Welcome in — here's 15% off (no crazy markups, no stuffy showroom)",
+          "preview": "Your code's inside. Plus why 5,000+ people happily bought their sofa online.",
+          "cta": "Shop the collection with 15% off",
+          "keyPoints": [
+            "Deliver the 15% first-order code prominently with a clear expiry and one primary button",
+            "Tell the brand story in the founder's voice: designer-quality looks without the luxury markups or gatekeeping showrooms",
+            "Disarm the 'I can't see or touch it' objection with 5,000+ five-star reviews, the 7-day return policy stated accurately, and color/scale guidance",
+            "Set delivery expectations: fast 1-4 business-day shipping from the LA warehouse, white-glove available locally"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "complete-the-room-expansion",
+      "name": "Complete the Room (Post-Purchase Expansion)",
+      "priority": 2,
+      "stage": "Retention / Expansion",
+      "objective": "Drive the second purchase by cross-selling complementary pieces while the first delivery's excitement is highest, growing lifetime value in a no-subscription repeat-purchase model.",
+      "trigger": "First order delivered (send ~7-14 days after delivery, once the piece is placed).",
+      "segment": "Recent first-time buyers; branch by the room category of the purchased item (e.g., bought a sofa, show living-room pairings).",
+      "rationale": "With no recurring revenue and high single-purchase drop-off, the room-completion cross-sell at peak satisfaction is the brand's single biggest expansion lever and replaces the playbook's renewal recap, which doesn't apply to one-off purchases.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "10",
+          "purpose": "Celebrate the delivered piece and present a styled set of complementary items so the customer finishes the room with Statements by J rather than elsewhere.",
+          "subject": "Your new piece looks incredible — now let's finish the room",
+          "preview": "The pieces that pair perfectly with what you just bought — styled for you.",
+          "cta": "Shop pieces that complete the look",
+          "keyPoints": [
+            "Acknowledge and celebrate the specific piece they received and the designer look they were going for",
+            "Show 3-4 complementary pieces matched to that room (rug, accent chair, lighting, console) as a curated 'finish the look' set",
+            "Lean on the styling-friend voice: how designers layer the room, with real shoppable products",
+            "Lower second-purchase risk by reminding them of the 7-day returns and that they already know the quality firsthand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate past buyers and dormant subscribers who have gone quiet for 6-12 months and pull them back to furnish another room before they forget the brand.",
+      "trigger": "No purchase or email engagement for 6-12 months (or a long gap since first delivery).",
+      "segment": "Lapsed buyers (reference what they bought) vs. never-purchased dormant subscribers (lean on fresh value); sunset non-responders.",
+      "rationale": "High single-purchase drop-off and no existing re-engagement program means a large slice of the 5,000+ buyer base is sitting idle; win-back recovers 5-15% cheaply and protects list deliverability.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warmly re-open the relationship by showcasing new arrivals since their last visit plus a welcome-back incentive, giving a concrete reason to return.",
+          "subject": "It's been a while — here's what's new since your last visit",
+          "preview": "Fresh modern drops you haven't seen, plus a little something to welcome you back.",
+          "cta": "See what's new",
+          "keyPoints": [
+            "Acknowledge the gap warmly without guilt, in the brand's inclusive voice",
+            "Spotlight new monthly arrivals and a seasonal room-refresh hook so the brand feels current",
+            "Offer a returning-customer incentive (e.g., a welcome-back discount or open-box deal) as the reason to act now",
+            "Reinforce trust with the 5,000+ five-star reviews and easy 7-day returns to re-clear the no-touch objection"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter (New Arrivals & Styling)",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long, unpredictable repeat-purchase cycle by delivering design value and surfacing new monthly arrivals without leaning on discounts.",
+      "trigger": "Scheduled monthly cadence; suppress contacts in active onboarding and route dormant ones to win-back.",
+      "segment": "All engaged contacts; optionally branch editions by interest (small-space, designers, full-home movers).",
+      "rationale": "There is no blog or editorial cadence today, yet 'new arrivals monthly' is a natural recurring hook; an always-on value newsletter is the engine that keeps a one-off-purchase audience warm between buys.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship monthly edition: lead with one genuinely useful styling idea, then spotlight this month's new arrivals as the recurring habit-building section.",
+          "subject": "Just landed: this month's new arrivals (+ one styling trick)",
+          "preview": "Fresh modern pieces just dropped — plus how to make a small space feel designer.",
+          "cta": "Shop this month's new arrivals",
+          "keyPoints": [
+            "Open with one standalone value idea (a styling/design tip, e.g., layering a small living room) — 80% value, 20% soft offer",
+            "Spotlight 3-5 new monthly arrivals with the price-accessible, anti-markup angle",
+            "Keep a single primary CTA and a recurring 'This month's drop' section that builds reader habit",
+            "Reinforce authority through real designer-style guidance, not promotions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "showroom-booking-reminders",
+      "name": "Showroom Booking & Reminders",
+      "priority": 5,
+      "stage": "Conversion / Booking",
+      "objective": "Maximize attended showroom appointments for high-intent LA-area shoppers and designers, turning the free in-person visit into a faster close.",
+      "trigger": "Showroom appointment booked at the Commerce, CA location; reminder before the visit; recovery if no-show.",
+      "segment": "Local Los Angeles shoppers and interior designers who booked an appointment.",
+      "rationale": "The free showroom visit is this brand's only high-intent 'demo' and closes faster than online, but no automated confirmation/reminder exists; reminders cut no-shows ~35% and protect the highest-converting segment, though it serves only the local slice so it ranks below list-wide flows.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant booking confirmation that locks in the visit, sets relaxed expectations, and primes the shopper to come prepared so the appointment converts.",
+          "subject": "You're booked — see you at the Commerce showroom",
+          "preview": "What to expect (zero pressure, zero stuffiness), plus parking and directions.",
+          "cta": "Add to calendar & get directions",
+          "keyPoints": [
+            "Confirm the date, time, and Commerce, CA address with an add-to-calendar link and a clear reschedule option",
+            "Set the anti-stuffy expectation: a relaxed, no-pressure visit to touch and feel the pieces in person",
+            "Tell them what to bring to make it productive (room dimensions, photos, inspiration, color swatches)",
+            "Note parking/directions and that white-glove local delivery is available if they buy"
+          ]
+        }
+      ]
+    }
+  ]
+}
