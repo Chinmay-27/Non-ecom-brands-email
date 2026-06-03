@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Gaba Printing",
+    "slug": "gaba-printing",
+    "url": "https://www.gabaprinting.com",
+    "vertical": "Local & service (B2B commercial printing)",
+    "colors": {
+      "primary": "#1C2B3A",
+      "accent": "#E84141",
+      "background": "#FFFFFF",
+      "text": "#222222"
+    }
+  },
+  "summary": "Gaba Printing is a family-owned, full-service commercial printer in Hackensack, NJ serving the NY/NJ tri-state area. They produce marketing collateral, large-format signage, vehicle wraps, custom apparel, and specialty items, and build branded web-to-print portals so corporate teams can order brand-consistent materials. Their customers are local small-to-mid business owners, marketing managers, contractors, and real estate agents who want a reliable local printer that gets quality right the first time.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & First-Order Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new contact or first-time account to their 'aha' — confidently uploading a file, approving the proof, and holding a great first print run — while establishing Gaba as the trusted local expert.",
+      "trigger": "New storefront account created or first quote/order submitted; send email 1 within seconds.",
+      "segment": "New contacts and first-time buyers; branch later by product interest (collateral, large-format, apparel, corporate portal).",
+      "rationale": "Gaba has no welcome sequence today, yet the first print run is exactly where trust is won or lost — guiding the proof-approval step removes the biggest source of first-order anxiety and plants the seed for reorders and the portal.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm family-owned welcome, set expectations on proof + turnaround, and drive the single most important first action: starting an order or uploading artwork for a proof.",
+          "subject": "Welcome to Gaba — let's get your first print right",
+          "preview": "Upload your file, approve your proof, and we handle the rest. A real person reads every reply.",
+          "cta": "Start your order / upload artwork",
+          "keyPoints": [
+            "Welcome from Darin and the Gaba family — three generations of printing in the tri-state, not a faceless online print factory",
+            "Walk through the simple path: upload your file, we send a proof, you approve, we print and deliver on deadline",
+            "Reassure on the #1 first-order fear — every job gets a proof you approve before it prints, so the color and layout come out exactly as you envisioned",
+            "Invite a direct reply or call to (201) 470-4382 if they're unsure about file setup or specs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-to-order-conversion",
+      "name": "Quote-to-Order Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a free quote requester who hasn't ordered into a paying customer by removing the commodity-printer objection and proving local quality and turnaround reliability.",
+      "trigger": "Free quote requested but no order placed within 2 days.",
+      "segment": "Quote requesters with no completed order; branch by requested product (e.g., business cards, banners, apparel, portal).",
+      "rationale": "Quote requesters who go silent are Gaba's clearest lost revenue, and the moment they hesitate is exactly when 'why not just use Vistaprint?' wins — this email answers that objection head-on while the project is still warm.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Re-engage the warm quote, directly counter the commodity-printer comparison with quality, local accountability, and reliable turnaround, and make placing the order one click.",
+          "subject": "Still deciding on your [product]? Here's what big-box printers can't do",
+          "preview": "Real proof approval, local quality control, and a deadline we actually hit — not a roll of the dice.",
+          "cta": "Approve your quote & place the order",
+          "keyPoints": [
+            "Acknowledge the quote and the real choice they're weighing — Gaba vs. a cheap online printer like Vistaprint or GotPrint",
+            "Counter the objection: a local team that proofs your job, catches color and layout issues before they print, and stands behind the result",
+            "Reliability angle — materials ready when you need them for the event, launch, or campaign driving the deadline",
+            "Low-friction close: reply with a yes or click to confirm; Darin is reachable directly for anything custom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reorder-expansion",
+      "name": "Reorder Reminder & Account Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Turn one-time buyers into repeat customers and grow order value — prompt timely restocks and expand into adjacent products (apparel, signage) or a corporate portal.",
+      "trigger": "Time-since-last-order threshold reached (e.g., 45–90 days, tuned by product type) or a known seasonal restock window.",
+      "segment": "Past buyers; branch by health — repeat/multi-product buyers get the portal/expansion offer, single-order buyers get a straight reorder nudge.",
+      "rationale": "The brand's biggest stated leak is one-time buyers who never return and default back to commodity printers — there's no reorder nudge today, and repeat-order rate is the primary target metric.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "60",
+          "purpose": "Remind the customer it's time to restock their last order, make reordering effortless, and surface one relevant expansion (matching apparel/signage or a team portal).",
+          "subject": "Running low on [last product]? Reorder in two clicks",
+          "preview": "Your artwork is on file — we can have the next run printed and out the door fast.",
+          "cta": "Reorder now",
+          "keyPoints": [
+            "Reference their specific last order and that their approved artwork is already on file — no setup, no re-proofing hassle",
+            "Make the reorder one action and reassure on the same quality and turnaround they got last time",
+            "Soft expansion nudge — pair their collateral with matching banners, apparel, or signage, or set up a branded portal so their whole team can order on-brand",
+            "Family-owned reminder that they're a valued local customer, not an account number"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Lapsed Customer Win-Back",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate customers who have gone quiet, remind them of the value of a trusted local printer, and clean the list of true non-responders.",
+      "trigger": "No order or engagement for 6+ months.",
+      "segment": "Dormant past buyers; separate gentle branch for those who only ever placed one order.",
+      "rationale": "Gaba has no lapsed-customer campaign, so dormant buyers silently drift to cheaper printers; a low-cost win-back can recover 5–15% before they're gone for good.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you,' remind them what made Gaba worth choosing, and give a frictionless reason to come back for their next project.",
+          "subject": "It's been a while — your tri-state print shop is still here",
+          "preview": "Same family, same quality, ready whenever your next project is.",
+          "cta": "Start your next project",
+          "keyPoints": [
+            "Warm, no-guilt re-open from Darin — they trusted Gaba before and the local team would love to print for them again",
+            "Remind of the core value: proofed quality, reliable turnaround, and a real person who picks up the phone",
+            "Lower the barrier — invite them to send the next job or just reply with what they need a quote on",
+            "Optional gentle incentive or priority turnaround on their next order to make returning easy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The Print Shop Insider (Value Newsletter)",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long, irregular print buying cycle and build authority as the local print expert — without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding and route the long-dormant to Win-Back instead.",
+      "rationale": "Print needs are sporadic, so the customer who isn't ordering this month still decides where to go next quarter — a steady, useful monthly touch keeps Gaba the obvious choice and softens the price-shopping reflex.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the flagship monthly edition — one genuinely useful print/branding tip plus a seasonal idea — that builds habit and trust with a single soft CTA.",
+          "subject": "3 things that make a banner actually get noticed",
+          "preview": "A quick tip from the shop floor — plus what local businesses are printing this season.",
+          "cta": "See examples / get a quote",
+          "keyPoints": [
+            "Lead with one practical, behind-the-shop tip (e.g., how to design large-format so it reads from across the street, or file specs that avoid blurry prints)",
+            "Tie to a timely, seasonal angle relevant to tri-state businesses (events, grand openings, holiday signage)",
+            "Showcase a quick local mini-example or recent project to demonstrate range and quality",
+            "Single soft CTA to explore the product or request a quote, with a reply invitation to keep it human"
+          ]
+        }
+      ]
+    }
+  ]
+}

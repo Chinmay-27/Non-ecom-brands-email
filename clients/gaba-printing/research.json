@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Gaba Printing",
+    "url": "https://www.gabaprinting.com",
+    "slug": "gaba-printing",
+    "vertical": "Local & service (B2B commercial printing)",
+    "tagline": "We Print Everything But Money",
+    "colors": {
+      "primary": "#1C2B3A",
+      "accent": "#E84141",
+      "background": "#FFFFFF",
+      "text": "#222222"
+    }
+  },
+  "offer": {
+    "what": "Full-service commercial printing: marketing collateral (business cards, postcards, brochures, flyers), large-format print (banners, signs, vehicle wraps, window graphics), apparel (silk-screen custom t-shirts), specialty items (NCR forms, notepads, envelopes, presentation folders, mounted canvas), and branded corporate web-to-print portals",
+    "coreOutcome": "Local businesses look polished and on-brand with professionally printed materials delivered reliably — without the hassle of managing print vendors or brand inconsistency across locations/employees",
+    "pricePoint": "Low to mid ticket; entry products from $16 (postcards) to $36+ (brochures); bulk quantity pricing scales up; corporate portals are custom-quoted",
+    "commitment": "Primarily one-off transactional orders; recurring via corporate portals and repeat reorders",
+    "leadMagnets": [
+      "Free quote request (online form)",
+      "Corporate portal setup inquiry"
+    ]
+  },
+  "audience": {
+    "icp": "Small to mid-sized business owners and marketing managers in the NJ/NY tri-state area who need professional printed materials to market their business or maintain brand consistency",
+    "painPoints": [
+      "Brand inconsistency across printed materials made by different people or vendors",
+      "Complexity of managing print orders for multiple employees or locations",
+      "Difficulty finding a local printer who is reliable and gets quality right",
+      "Turnaround time anxiety — needing materials by a hard deadline",
+      "Price shock or hidden costs from commodity online printers"
+    ],
+    "segments": [
+      "Individual SMB owners (transactional — one-off orders)",
+      "Contractors and tradespeople (lawn signs, vehicle wraps, business cards)",
+      "Corporate marketing teams (branded portals, bulk branded collateral)",
+      "Real estate agents and estate-sale operators",
+      "Event organizers and nonprofits (banners, flyers, programs)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days for transactional orders; 1–4 weeks for corporate portal setup",
+    "trial": "No formal trial; free online quote available; product catalog browsable without login",
+    "closeMechanism": "Self-serve online order for standard products; direct phone/email contact (Darin) for corporate portals and large accounts",
+    "topObjection": "Why not just use Vistaprint or another commodity online printer? (price comparison with big-box digital printers)"
+  },
+  "ahaMoment": "Holding the first high-quality print run in their hands — or (for corporate accounts) seeing their branded employee portal live with custom templates ready to order from",
+  "retention": {
+    "recurring": "Repeat print orders (seasonal campaigns, restocks); corporate portal clients have a sticky recurring relationship",
+    "expansion": "More product categories per order, higher quantities, additional employee accounts on portal, apparel + signage bundles",
+    "churnRisk": "One-time buyers who do not return; SMBs easily tempted away by lower commodity-printer prices when reordering; no automated reorder nudge"
+  },
+  "lifecycleGaps": [
+    "No evident welcome/onboarding sequence for new buyers",
+    "No post-purchase follow-up or reorder reminder",
+    "No lead-nurture sequence for quote requesters who do not convert",
+    "No corporate portal upsell sequence for existing transactional customers",
+    "No re-engagement campaign for lapsed customers",
+    "No referral/advocacy program surfaced in email"
+  ],
+  "toneVoice": "Professional and dependable with family-owned warmth; direct and practical; low-jargon; friendly without being casual — think local expert you trust, not a faceless print factory",
+  "compliance": "Standard CAN-SPAM / CASL compliance; no HIPAA, financial, or legal-sector constraints identified"
+}
