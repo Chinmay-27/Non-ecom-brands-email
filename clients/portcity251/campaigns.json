@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Port City 251",
+    "slug": "portcity251",
+    "url": "https://www.portcity251.com",
+    "vertical": "Local media / community newsletter (Mobile, AL) + SMB advertising",
+    "colors": {
+      "primary": "#1C3D6E",
+      "accent": "#F4A623",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Port City 251 is a free weekly email newsletter covering hyperlocal Mobile, Alabama news — events, restaurant openings, civic decisions, and community stories — reaching 500+ subscribers and a 10,000+ member Facebook community. It serves two audiences: Mobile residents who want a curated local read, and local small businesses who buy affordable advertising packages (directory listings, business spotlights, banner ads, event listings) to reach that hyperlocal audience.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new subscriber to their first 'I almost didn't know about this' moment fast, and flag the advertising/directory opportunity to any business owners on the list.",
+      "trigger": "New newsletter signup (web form submission) — send instantly.",
+      "segment": "New subscribers; branch a single line for self-identified local business owners toward the free directory listing.",
+      "rationale": "New subscribers today get only a confirmation email and no guided first-week experience, yet welcome emails are the most-opened a brand sends — this is the cheapest, highest-engagement way to turn a passive signup into a habitual weekly opener for a 500-person list where every retained reader grows advertiser leverage.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm neighborly welcome, set the weekly-read expectation, and deliver one quick local win immediately so the value lands before the first newsletter even arrives.",
+          "subject": "Welcome, neighbor — here's what's happening in Mobile this week",
+          "preview": "Your 5-minute Port City 251 read starts now. One local thing you'd have missed inside.",
+          "cta": "Read this week's Mobile highlights",
+          "keyPoints": [
+            "Open warm and local: 'You just joined 500+ neighbors keeping up with Mobile' — set the morning-coffee, 5-minute-read expectation",
+            "Deliver one quick win now: a single can't-miss local event, restaurant opening, or neighborhood story so the 'I almost didn't know about this' aha hits immediately",
+            "Promise no spam, one-click unsubscribe — directly answer the 'I already get too many emails' hesitation",
+            "Soft line for business owners: 'Run a local business? Get listed free in our directory' linking to the free listing",
+            "Real human reply-to and a friendly sign-off in first-person-plural community voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertiser-inquiry-conversion",
+      "name": "Advertiser Inquiry-to-Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a warm advertising inquiry that didn't close on the first touch into a paid package by handling the list-size/ROI objection and offering a low-commitment first step.",
+      "trigger": "Advertising contact-form submission with no close within ~3 days.",
+      "segment": "Business owners who inquired about advertising but haven't booked; branch by stated intent (spotlight vs. ongoing package).",
+      "rationale": "These are the hottest revenue leads the brand has — they already raised their hand — and right now inquiries that go cold after the form fill get no follow-up, leaving the most direct money on the table. A single objection-handling email closes the gap fastest.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Answer the unspoken 'is 500 subscribers worth it?' objection head-on with the full-reach picture and social proof, then offer the lowest-friction way to start.",
+          "subject": "About reaching Mobile customers — a quick honest answer",
+          "preview": "It's not just 500 inboxes. Here's the real local reach, and an easy way to try it.",
+          "cta": "Book your Business Spotlight ($95)",
+          "keyPoints": [
+            "Lead by naming the objection plainly: '500 subscribers sounds small — here's why local businesses still get walk-ins from it'",
+            "Reframe true reach: 500+ engaged ~25%-open subscribers PLUS the 10,000+ member Facebook community — hyperlocal Mobile customers, not broad untargeted ad spend",
+            "Social proof: a short 'people walked in and said they saw us in Port City 251' style success line",
+            "Low-commitment offer: one-time Business Spotlight at $95 — no monthly contract, evaluate the response before committing to Bronze/Silver/Gold",
+            "Frictionless next step: reply to this email or grab a slot — a real person responds within 24 hours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "directory-lister-nurture",
+      "name": "Free Directory Lister Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free directory listers from a no-cost listing toward their first paid advertising package over a patient cycle.",
+      "trigger": "Business added to the free directory (no paid package purchased).",
+      "segment": "Free directory listers who are not yet advertisers — the highest-value warm-lead pool.",
+      "rationale": "Free listers have already self-identified as local businesses wanting community visibility but aren't being walked toward a paid conversation at all — converting even a handful into Bronze/Spotlight buyers is the most pressing growth gap the team named.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Show proof that newsletter placement drives real local response, then make the low-risk Business Spotlight the obvious next step up from a free listing.",
+          "subject": "Your free listing is live — want Mobile to actually notice it?",
+          "preview": "A directory line gets found. A Business Spotlight gets remembered. Here's the difference.",
+          "cta": "Run a Business Spotlight ($95, one-time)",
+          "keyPoints": [
+            "Acknowledge the free listing and thank them for being part of the local business community",
+            "Contrast quietly: a directory line is great for people already searching; a Spotlight puts you in front of every engaged subscriber this week",
+            "Concrete proof point / mini-case of a local business that ran a Spotlight and saw calls or walk-ins",
+            "Frame audience honestly: hyperlocal Mobile readers + 10,000+ Facebook community — the neighbors most likely to become your customers",
+            "Single low-commitment CTA: $95 one-time Business Spotlight, no monthly contract — a natural first paid step before Bronze/Silver/Gold"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriber-winback",
+      "name": "Subscriber Win-Back & Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate subscribers who have stopped opening, and sunset the truly dead to protect sender reputation.",
+      "trigger": "60–90 days with no opens or clicks.",
+      "segment": "Dormant newsletter subscribers; lapsed advertisers handled as a separate branch.",
+      "rationale": "On a 500-person list every reactivated reader matters for advertiser leverage, and cleaning dead weight protects deliverability before the list scales — a quick, high-leverage flow to ship.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt a dormant subscriber by reminding them of the core value and asking, neighbor-to-neighbor, whether they still want the weekly read.",
+          "subject": "Did we lose you, Mobile?",
+          "preview": "We've still got the events, openings, and local stories you signed up for. Want them?",
+          "cta": "Keep me on the list",
+          "keyPoints": [
+            "Warm, no-guilt tone: 'We noticed you've been quiet — totally fine, life gets busy'",
+            "Remind of core value: the curated 5-minute Mobile read of events, restaurant openings, and neighborhood news they'd otherwise miss",
+            "Tease something fresh and recent to give a real reason to come back",
+            "One clear choice: a button to stay subscribed (re-confirm engagement)",
+            "Set up the sunset: 'If we don't hear back we'll stop cluttering your inbox' — honest, deliverability-protecting close"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advertiser-renewal-expansion",
+      "name": "Advertiser Renewal & Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect monthly advertiser revenue and grow accounts from Bronze toward Silver/Gold and add-ons.",
+      "trigger": "Approaching the end of an advertiser's 4-issue/monthly package cycle; usage/engagement milestone signaling upsell readiness.",
+      "segment": "Active paying advertisers; branch high-response accounts toward expansion and low-response accounts toward a save/help conversation.",
+      "rationale": "Advertiser packages are the brand's only recurring revenue and there's no current renewal or upgrade prompt, so churn from unproven ROI goes unaddressed — a recap-plus-expansion email both saves and grows the account.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Quantify the local response their ad generated this cycle, then make renewing-and-upgrading the natural next move.",
+          "subject": "Here's what your ad did in Mobile this month",
+          "preview": "Your reach this cycle — plus an easy way to do even more next month.",
+          "cta": "Renew & explore Silver/Gold",
+          "keyPoints": [
+            "Open with a concrete recap of their placement's reach: impressions across the newsletter and 10,000+ Facebook community this cycle — directly answers the ROI/attribution worry",
+            "Tie it to outcomes: remind them this is the audience that walks in saying 'I saw you in Port City 251'",
+            "Make the renewal effortless: month-to-month, no long contract, continue without a gap",
+            "Expansion path for engaged advertisers: Bronze to Silver/Gold for more placement and monthly analytics, or add a Business Spotlight or Facebook Post",
+            "Save branch for low-response accounts: offer a quick call to improve the creative or placement before they consider stopping"
+          ]
+        }
+      ]
+    }
+  ]
+}

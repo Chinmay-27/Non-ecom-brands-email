@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Port City 251",
+    "url": "https://www.portcity251.com",
+    "slug": "portcity251",
+    "vertical": "Local media / community newsletter",
+    "tagline": "Mobile Alabama's Weekly Local Newsletter",
+    "colors": {
+      "primary": "#1C3D6E",
+      "accent": "#F4A623",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Free weekly local newsletter for Mobile, AL residents + paid advertising packages for local businesses (directory listings, banner ads, business spotlights, event listings, Facebook posts)",
+    "coreOutcome": "Subscribers stay effortlessly informed about everything happening in Mobile, AL without hunting across platforms; advertisers reach a hyper-local engaged audience of 500+ newsletter subscribers and 10,000+ Facebook community members",
+    "pricePoint": "Free for subscribers; advertising from $25 (single event listing) to $325/month (Gold package); Business Spotlight $95 one-time; Bronze $95/mo, Silver $175/mo, Gold $325/mo",
+    "commitment": "No commitment for subscribers (free, unsubscribe anytime); month-to-month or per-4-issue packages for advertisers — no long-term contract mentioned",
+    "leadMagnets": [
+      "Free weekly newsletter subscription",
+      "Free business directory listing (add your business at no cost)"
+    ]
+  },
+  "audience": {
+    "icp": "Dual ICP: (1) Mobile, AL residents aged 25–65 who want curated local news delivered to their inbox; (2) Mobile, AL small business owners who want hyper-local brand visibility and community reach at accessible price points",
+    "painPoints": [
+      "Hard to find all local Mobile news in one place without hunting across platforms",
+      "National and regional media ignores the hyperlocal stories that actually affect daily life",
+      "Local businesses struggle to reach a genuinely local audience affordably — Google and Facebook ads lack true neighborhood targeting at small scale",
+      "Missing community events, restaurant openings, and neighborhood developments until after they happen",
+      "Small business owners feel invisible to the community they serve"
+    ],
+    "segments": [
+      "Newsletter subscribers — Mobile, AL residents (consumer side, free)",
+      "Paying advertisers — local SMBs wanting community reach and brand awareness (revenue side)",
+      "Free directory listers — businesses in the directory but not yet buying ad packages (warm leads for upsell)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Subscribers: same-day self-serve. Advertisers: days to 1–2 weeks (inquiry form → 24-hour response → verbal or email close)",
+    "trial": "No formal free trial for advertising. The free newsletter itself allows prospective advertisers to evaluate content quality and audience fit before committing. Free directory listing serves as a low-friction entry point.",
+    "closeMechanism": "Subscribers: self-serve web form (email + name). Advertisers: contact form submission → team responds within 24 hours → close by email or phone",
+    "topObjection": "Advertisers: list size of 500+ subscribers raises ROI questions vs. cost. Subscribers: fear of spam or irrelevant content drowning their inbox."
+  },
+  "ahaMoment": "Subscribers: opening the first newsletter and spotting a local event, restaurant, or neighborhood story they'd have completely missed otherwise — that 'I almost didn't know about this' moment. Advertisers: receiving an inbound inquiry, call, or mention from a customer who saw the Business Spotlight or newsletter ad.",
+  "retention": {
+    "recurring": "Advertisers on Bronze/Silver/Gold monthly packages; subscribers on a free weekly send cadence — retention = continued opens and clicks",
+    "expansion": "Bronze ($95) → Silver ($175) → Gold ($325) package upgrades; one-off add-ons (Business Spotlight $95, Event Listing $25, Facebook Post $50) create natural upsell moments between billing cycles",
+    "churnRisk": "Subscribers unsubscribe if content feels too ad-heavy or stops being locally relevant. Advertisers churn if they cannot attribute ROI — small list size makes this a live objection that must be addressed proactively with analytics and success stories."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: new subscriber likely receives only a confirmation email — no sequence reinforcing the value or driving first engagement",
+    "Lead-Magnet Nurture: free directory listers and new subscribers are not being nurtured toward a paid advertising conversation",
+    "Trial/Consult Conversion: advertising inquiries that go cold after the initial form submission have no follow-up sequence",
+    "Renewal & Expansion: no apparent emails prompting Bronze advertisers to upgrade or reminding Gold advertisers to renew",
+    "Win-Back: no sequence to re-engage unengaged subscribers or lapsed advertisers"
+  ],
+  "toneVoice": "Warm, neighborly, and community-proud. Casual but credible — written by locals for locals. Celebratory of small businesses and everyday community members. Conversational 'morning coffee read' energy. No jargon, no corporate speak. Uses 'neighbors' language naturally.",
+  "compliance": "Standard CAN-SPAM compliance required (unsubscribe link, physical address). No healthcare, finance, or legal vertical constraints. Local Alabama operation — no GDPR complexity expected unless EU subscribers are present. Email contact is a Gmail address, suggesting lean early-stage operation."
+}

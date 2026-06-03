@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "AI for Christians",
+    "url": "https://aiforchristians.ai",
+    "slug": "ai-for-christians",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Spirit-Led. AI-Assisted.",
+    "colors": {
+      "primary": "#7B2D8B",
+      "accent": "#C9A227",
+      "background": "#0F0F1A",
+      "text": "#F5F0E8"
+    }
+  },
+  "offer": {
+    "what": "Low-ticket books ($3–$7), bookazines, and Bible-study/spiritual-warfare AI chatbots (via Poe) — all equipping Christians to use AI for ministry, discipleship, and daily life. Supplemented by a free community and a free newsletter.",
+    "coreOutcome": "Christians confidently integrate AI into their faith walk and ministry without compromising spiritual integrity.",
+    "pricePoint": "$3–$7 per book or bookazine; chatbots free via Poe; community and newsletter free",
+    "commitment": "One-off purchases; no visible paid recurring subscription",
+    "leadMagnets": [
+      "Digital Discipleship newsletter (free signup)",
+      "Free community access",
+      "Free AI chatbots on Poe (Arch Angel Michael War Room, Logos Bible Study AI, Ephah Bible Study Tool)"
+    ]
+  },
+  "audience": {
+    "icp": "Evangelical/Pentecostal Christians — pastors, ministry leaders, Christian students, and devout laypeople — who sense that AI is reshaping their world but fear it conflicts with their faith or don't know where to start.",
+    "painPoints": [
+      "Fear that AI is spiritually dangerous or anti-Christian",
+      "Feeling left behind by rapid technological change",
+      "Uncertainty about how to use AI for ministry or discipleship without losing biblical grounding",
+      "Personal spiritual battles (addiction, sexual temptation) they want faith-based help with",
+      "Concern that AI will replace human theological wisdom and pastoral care"
+    ],
+    "segments": [
+      "Ministry leaders and pastors seeking theological frameworks for AI adoption",
+      "Christian students and professionals cautious about embracing AI tools",
+      "Believers dealing with personal sin struggles (sexual temptation/pornography)",
+      "Families wanting to protect themselves and their finances from AI-driven disruption"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — low-barrier impulse purchase",
+    "trial": "Free chatbots via Poe; free newsletter and community serve as entry points",
+    "closeMechanism": "Self-serve: direct buy button on book and bookazine pages",
+    "topObjection": "\"AI is spiritually dangerous / at odds with my faith.\""
+  },
+  "ahaMoment": "First chapter of a book or first chatbot interaction where the subscriber experiences faith and AI working together — realizing AI can amplify rather than threaten their walk with God.",
+  "retention": {
+    "recurring": "Digital Discipleship newsletter (free) and free community. No paid recurring product visible.",
+    "expansion": "Cross-sell from one book to another; upsell from free chatbot usage to paid books, bookazines, or deeper community involvement",
+    "churnRisk": "One-off buyers with no recurring hook are easy to lose; newsletter subscribers churn if content is inconsistent, too promotional, or fails to deliver fresh spiritual+practical value"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding sequence for new subscribers and buyers",
+    "Lead-Magnet Nurture for newsletter/community sign-ups who haven't purchased",
+    "Post-purchase cross-sell sequence (one book buyer → other books, bookazines, chatbots)",
+    "Win-Back / Re-Engagement for inactive newsletter subscribers",
+    "Consistent value newsletter cadence (existing 'Digital Discipleship' quality and frequency unknown)"
+  ],
+  "toneVoice": "Prophetic-meets-practical: spiritually charged language (Scripture, faith affirmations, Kingdom vocabulary) blended with clear, empowering action steps. Warm, bold, and encouraging — like a Spirit-filled pastor who is also a tech-savvy innovator. Avoids corporate or cold tone.",
+  "compliance": "Standard CAN-SPAM and GDPR. No HIPAA or financial compliance needs. Religious content requires doctrinal sensitivity — avoid divisive theological positions and respect diverse Christian traditions."
+}

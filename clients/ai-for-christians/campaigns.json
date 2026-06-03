@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "AI for Christians",
+    "slug": "ai-for-christians",
+    "url": "https://aiforchristians.ai",
+    "vertical": "Education/nonprofit/membership (faith-based digital education)",
+    "colors": {
+      "primary": "#7B2D8B",
+      "accent": "#C9A227",
+      "background": "#0F0F1A",
+      "text": "#F5F0E8"
+    }
+  },
+  "summary": "AI for Christians publishes low-ticket ($3–$7) books and bookazines plus free Bible-study and spiritual-warfare AI chatbots, a free 'Digital Discipleship' newsletter, and a free community — all teaching Christians to use AI for ministry, discipleship, and daily life without compromising their faith. It serves evangelical and Pentecostal believers (pastors, ministry leaders, students, and devout laypeople) who feel both drawn to and fearful of AI. The whole catalog exists to dismantle one objection: that AI is spiritually dangerous or at odds with following God.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get every new newsletter, community, or chatbot sign-up to the 'aha' moment — experiencing faith and AI working together — within their first session.",
+      "trigger": "Newsletter signup, community join, or first form submission. Send instantly.",
+      "segment": "All new contacts; branch later by stated interest (ministry/theology, personal-freedom, student, family) if captured at signup.",
+      "rationale": "These are free-signup contacts caught between two fears, and the activation path (free chatbot or a $3 book) is immediate and self-serve — a fast instant welcome turns curiosity into a first faith+AI win before doubt creeps back in.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the Spirit-Led + AI-Assisted promise, and deliver one immediate proof-of-concept win via a free tool.",
+          "subject": "You're in — now let's prove AI can serve your walk with God",
+          "preview": "Two minutes with one free tool, and the fear starts to lift.",
+          "cta": "Open the Logos Bible Study AI (free)",
+          "keyPoints": [
+            "Welcome them and name the tension head-on: you can lead in the AI age without compromising your faith",
+            "Hand them one quick win now — a free Poe chatbot (Logos Bible Study AI) so they feel faith and AI working together in minutes",
+            "Set expectations for the short series ahead and invite a real reply — a real person reads every one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free subscribers who haven't bought past the 'AI is spiritually dangerous' objection and toward their first $3–$7 book or bookazine.",
+      "trigger": "Newsletter/community signup or free chatbot use with no purchase; subscriber below the buyer threshold.",
+      "segment": "Non-buyers; branch the middle emails by interest topic (theology/ministry, sexual freedom, students, family/finances).",
+      "rationale": "This brand's entire reason to exist is dismantling one objection, so the highest-leverage nurture send is the one that reconciles AI with Scripture — clearing the only real barrier between a free subscriber and a $3–$7 purchase.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Confront the #1 objection directly with a biblical, doctrinally-sensitive framework, then bridge to the entry-priced book that goes deeper.",
+          "subject": "Is AI spiritually dangerous? Let's settle it with Scripture",
+          "preview": "The honest answer most won't give you about AI and your faith.",
+          "cta": "Read \"AI JUST Killed the Theologian\" ($5)",
+          "keyPoints": [
+            "Name the fear without flinching: AI as idol vs. AI as tool — the difference is who you serve with it",
+            "Give a Scripture-grounded framework for stewarding AI in ministry, staying neutral on divisive doctrinal lines",
+            "Bridge to the $5 book as the next, low-risk step for readers who want the full case"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant subscribers and one-off buyers with a low-barrier re-entry, and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks, or a single purchase with no further engagement.",
+      "segment": "Dormant subscribers (lean on fresh value) vs. past one-off buyers (reference what they bought, show what's new).",
+      "rationale": "With one-off purchases and a free community, there's no automatic pull-back mechanism, so dormant contacts quietly leak away — a Kingdom-urgency win-back is quick to ship and recovers 5–15% before they're lost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship by reminding them of the stakes (leading, not falling behind) and offering a frictionless free return path.",
+          "subject": "Did we lose you — or did the noise just get loud?",
+          "preview": "The AI moment isn't slowing down. Your church still needs you leading it.",
+          "cta": "Come back with a free War Room session",
+          "keyPoints": [
+            "Warm, no-guilt 'we miss you' that reconnects to why they signed up: leading their world into the AI age, Spirit-led",
+            "Pattern-interrupt with fresh urgency — AI is moving faster, and they were meant to lead it, not be left behind",
+            "Offer the lowest-friction re-entry: a free Arch Angel Michael War Room chatbot session, no purchase required"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter (Digital Discipleship)",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long cycle with consistent, practical faith+AI value — without leaning on discounts.",
+      "trigger": "Scheduled recurring cadence (weekly or biweekly).",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route the recently-dormant to Win-Back instead.",
+      "rationale": "The 'Digital Discipleship' newsletter already exists but lacks proven cadence and structure — a repeatable, habit-building value format is the always-on engine that keeps one-off buyers and free members from going cold.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable flagship format: one genuinely useful faith+AI idea, a recurring habit section, 80% value / 20% soft offer, single CTA.",
+          "subject": "This week: one AI prompt that turns your quiet time into deep study",
+          "preview": "Plus the mistake believers make when they let AI 'pray' for them.",
+          "cta": "Try this week's prompt",
+          "keyPoints": [
+            "Lead with one practical win — a copy-paste prompt that turns daily devotion into verse-by-verse study using a free chatbot",
+            "Anchor the recurring 'This Week in Digital Discipleship' section so readers build a habit of opening it",
+            "Close with a light, optional nudge toward a relevant book or bookazine — value first, offer second"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross-sell-expansion",
+      "name": "Post-Purchase Cross-Sell & Expansion",
+      "priority": 5,
+      "stage": "Retention / Expansion",
+      "objective": "Turn a single $3–$7 buyer into a repeat buyer by guiding them to the next logical book, bookazine, or free chatbot.",
+      "trigger": "Completed purchase; fires a few days after the buy to allow first-read.",
+      "segment": "One-off buyers; branch the recommendation by the title they bought (theology, sexual freedom, students, family/finances).",
+      "rationale": "There's no recurring revenue and no renewal cycle, so expansion here means cross-sell across the catalog — the explicit lifecycle gap of moving a book buyer to the next book, bookazine, or deeper chatbot use.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Affirm the outcome of their first purchase and recommend the single most relevant next step in the catalog.",
+          "subject": "You finished step one — here's where the Spirit leads next",
+          "preview": "The book you just read has a natural next chapter in your walk.",
+          "cta": "See your next read ($3–$7)",
+          "keyPoints": [
+            "Affirm and celebrate the step they took, tying it back to the outcome they were after",
+            "Recommend one logical next title or bookazine based on what they bought — not a catalog dump",
+            "Point to a complementary free chatbot so even non-buyers stay engaged with the brand"
+          ]
+        }
+      ]
+    }
+  ]
+}
