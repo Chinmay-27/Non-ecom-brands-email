@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "Paymentum Payment Solutions",
+    "url": "https://www.paymentum.net",
+    "slug": "paymentum",
+    "vertical": "B2B/professional — merchant services / fintech",
+    "tagline": "Payment Solutions That Drive Momentum",
+    "colors": {
+      "primary": "#1B4FD8",
+      "accent": "#00C896",
+      "background": "#F8FAFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Omni-channel merchant payment processing: POS systems, payment terminals, surcharging / dual-pricing / cash-discount programs, ACH, mobile payments, gateways, and printing/promotional services",
+    "coreOutcome": "Eliminate or dramatically reduce credit card processing fees — merchants keep the 3–4% they currently lose to card networks",
+    "pricePoint": "Custom/variable; no long-term contracts; free terminal hardware program for eligible merchants; net cost largely recouped via compliant surcharging passed to cardholders",
+    "commitment": "Month-to-month — no long-term contract at signing",
+    "leadMagnets": [
+      "Free Payments Audit (review of current merchant statement)",
+      "Free Demo / Book an Appointment",
+      "Calculate Your Savings interactive tool",
+      "Free Terminal Program for eligible merchants"
+    ]
+  },
+  "audience": {
+    "icp": "Small-to-mid-sized business owner in healthcare (dentists, physicians, chiropractors, optometrists), restaurants (fast casual, full service, food trucks, bars), or retail (boutiques, salons, automotive repair, convenience stores) currently paying 3–4%+ in card processing fees and motivated to eliminate or offset that cost",
+    "painPoints": [
+      "Paying 3–4%+ in card processing fees that silently erode margins",
+      "Locked into long-term processor contracts with no exit",
+      "Opaque monthly merchant statements that are hard to audit",
+      "Outdated or fragmented POS systems that slow operations",
+      "Healthcare: administrative billing burden and slow patient payment collection",
+      "Restaurants: need for integrated ordering, KDS, and delivery tools in one stack",
+      "Fear of customer pushback when surcharges appear on card transactions"
+    ],
+    "segments": [
+      "Healthcare practitioners (dentists, physicians, chiropractors, optometrists, psychiatrists)",
+      "Restaurant operators (fast casual, full service, food trucks, bars & nightclubs)",
+      "Retail merchants (boutiques, salons, automotive repair, gas/convenience stores)",
+      "Nonprofits and educational institutions (special pricing available)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — lead submits contact form or books appointment → free payments audit / demo → proposal showing savings → merchant agreement signing",
+    "trial": "Free Payments Audit; free demo; Calculate Your Savings calculator; free terminal hardware for eligible merchants",
+    "closeMechanism": "Booked call or in-person appointment with sales rep → audit of current processing statement → side-by-side savings proposal → merchant agreement (no long-term lock-in)",
+    "topObjection": "Worry about customer pushback when surcharges appear on card payments; skepticism that 0% processing is real / too good to be true; reluctance to switch processors mid-contract"
+  },
+  "ahaMoment": "Merchant processes their first transaction at 0% net cost and sees the savings on their statement — or completes the free audit/savings calculator and sees the exact annual dollar amount they would keep",
+  "retention": {
+    "recurring": "Ongoing month-to-month merchant processing relationship; Paymentum earns on transaction volume so retention = active, growing merchant base",
+    "expansion": "Additional terminals, multi-location rollout, escalating partner program tiers (affiliate → referral partner → strategic alliance → agent/reseller), add-on printing and promotional services",
+    "churnRisk": "Competitor undercutting on rates, merchant anxiety over cardholder surcharge complaints, business closure or acquisition, hardware/software reliability issues"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no evident sequence to get new merchants live, confident, and processing on day one",
+    "Lead-Magnet Nurture — free audit and demo leads almost certainly go cold without a structured follow-up track",
+    "Trial/Consult Conversion — no known email sequence converting audit/demo attendees to signed merchant agreements",
+    "Value Newsletter — no visible email content program educating merchants on surcharging compliance, payment trends, or cost-saving tactics",
+    "Renewal & Expansion — no evident upsell or multi-location growth emails for existing merchants",
+    "Win-Back / Re-Engagement — no known sequence for cold leads or merchants who went quiet after a demo"
+  ],
+  "toneVoice": "Professional yet approachable; confident and ROI-focused; plain-spoken (avoids heavy fintech jargon); empathetic to small-business-owner pressures; leads with concrete dollar savings over abstract feature lists",
+  "compliance": "Fintech/payments: PCI DSS, Visa/Mastercard surcharging network rules (up to 3% cap on credit, not debit), state-specific surcharging laws (a handful of states restrict or ban surcharging — must be flagged per segment). CAN-SPAM for all email. Paymentum is the processor, not a covered HIPAA entity, but healthcare-vertical messaging should avoid reproducing PHI or making clinical claims."
+}

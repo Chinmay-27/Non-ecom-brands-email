@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "Paymentum Payment Solutions",
+    "slug": "paymentum",
+    "url": "https://www.paymentum.net",
+    "vertical": "B2B/professional — merchant services / fintech",
+    "colors": {
+      "primary": "#1B4FD8",
+      "accent": "#00C896",
+      "background": "#F8FAFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Paymentum is a Nashville-based merchant services and payment processing company that helps small-to-mid-sized businesses eliminate or sharply reduce the 3-4% they lose to card processing fees, primarily through compliant surcharging and dual-pricing programs plus omni-channel POS hardware, terminals, gateways, and ACH. It serves healthcare practices, restaurants, and retail merchants on month-to-month terms with no long-term contract, and earns on ongoing transaction volume. Deals close through an assisted, rep-led path: a free payments audit or savings-calculator result leads to a booked demo and a side-by-side savings proposal before a merchant agreement is signed.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a newly-signed merchant from agreement to their first live transaction at 0% net cost — the activation moment that confirms the promise and prevents early silent churn.",
+      "trigger": "Merchant agreement signed / account created.",
+      "segment": "New merchants; branch by vertical (healthcare, restaurant, retail) for setup specifics and POS stack.",
+      "rationale": "Paymentum's sale is assisted and the 'aha' is operational — seeing 0% net cost on a live transaction — so a confident, supported first-week is the single highest-leverage build, and unactivated merchants are the biggest silent-churn risk.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for go-live, and deliver the one first action that gets them to a live 0%-cost transaction fast.",
+          "subject": "You're set up — let's run your first 0% transaction",
+          "preview": "Your terminal, your savings, and the one step to get live today.",
+          "cta": "Confirm your terminal activation",
+          "keyPoints": [
+            "Welcome the owner by name and restate the promise: keep the 3-4% you were handing to the card networks",
+            "One clear first action — activate the terminal / run a test transaction — framed as a 2-minute step with rep support on standby",
+            "Set the 'aha' expectation: see 0% net cost on your next statement, and reply to this email to reach a real person on the onboarding team"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Audit-to-Agreement Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a completed free payments audit or demo into a signed merchant agreement by putting the exact dollar savings in front of the owner.",
+      "trigger": "Free payments audit completed / demo attended; statement analyzed.",
+      "segment": "Audited leads who haven't signed; branch by monthly card volume (higher volume = bigger savings headline).",
+      "rationale": "The audit-to-proposal moment is the core revenue play for an assisted sale — once a merchant sees the concrete annual dollars they'd keep, a no-long-term-contract offer removes the last friction to signing.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Deliver the personalized savings proposal, quantify the annual dollars kept, and pre-empt the #1 objection (cardholder surcharge pushback) to move them to signing.",
+          "subject": "Your audit: $[X,XXX]/yr you're handing to the card networks",
+          "preview": "Side-by-side proposal inside — and yes, it's month-to-month.",
+          "cta": "Review your savings proposal",
+          "keyPoints": [
+            "Lead with their real number from the audit: exactly what they pay now vs. ~0% net under Paymentum, in annual dollars",
+            "Handle the top objection head-on — compliant surcharging is disclosed at point of sale and most cardholders don't blink; cite the network-rule guardrails",
+            "Lower the risk to sign: month-to-month, no long-term contract, free terminal for eligible merchants, and a rep on the line to walk through it"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Audit & Savings-Calculator Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Keep audit and savings-calculator leads who didn't book warm, and move them toward a booked demo over a multi-week cycle.",
+      "trigger": "Calculate Your Savings completed or free audit requested, but no appointment booked.",
+      "segment": "Leads below the sales-ready threshold; branch by vertical and by the savings figure their calculator/audit surfaced.",
+      "rationale": "Inbound 'free audit' and 'calculate your savings' CTAs are a primary lead source, and without a follow-up track those high-intent leads almost certainly go cold before they book a call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the savings summary they generated and reframe the recurring fee as a fixable, ongoing profit leak — the problem-recognition opener.",
+          "subject": "Here's the $[X,XXX] a year you're leaving on the table",
+          "preview": "Your savings summary — and what that number really costs you.",
+          "cta": "Book your free payments audit",
+          "keyPoints": [
+            "Recap their calculator result with the concrete annual figure, then show what that compounds to over 3-5 years of card fees",
+            "Reframe processing fees as the rare cost a business owner has been told is fixed but isn't — surcharging/dual-pricing changes that",
+            "Low-friction next step: a 15-minute free audit of their actual statement to turn the estimate into an exact, signable number"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Appointment Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended audits and demos — and make sure the owner shows up prepared so the meeting produces a real savings number.",
+      "trigger": "Appointment booked via web form; upcoming audit/demo; no-show event.",
+      "segment": "Anyone with a scheduled audit, demo, or rep appointment.",
+      "rationale": "Appointments are booked through the web form with no visible automated reminders; a simple reminder track recovers attendance immediately (~35% fewer no-shows) and the prep step makes each audit actually convertible.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1 before appointment",
+          "purpose": "Day-before reminder that locks attendance and tells the owner exactly what to bring so the audit yields a precise savings figure.",
+          "subject": "Tomorrow at [time]: bring your last merchant statement",
+          "preview": "5 minutes of prep = your exact card-fee savings number.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Confirm date, time, rep name, and the join link or address; one-tap reschedule to avoid a silent no-show",
+            "Tell them precisely what to bring — their most recent merchant processing statement — so the rep can produce a real side-by-side savings number live",
+            "Set the payoff: leave the call knowing the exact annual dollars you'd keep, with no obligation and no long-term contract"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate cold audit leads and merchants who went quiet after a demo, and clean the list to protect deliverability.",
+      "trigger": "60-90 days of no opens/clicks/replies, or a stalled lead that never re-engaged after a demo.",
+      "segment": "Dormant leads (never signed); separately, demo attendees who went silent — different message for each.",
+      "rationale": "Referral and inbound leads that stall after an audit or demo are a recurring drop-off, and a quick win-back track recovers 5-15% of them while sunsetting dead contacts to keep the sending domain healthy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt re-open that reminds the lead of the unclaimed savings and lowers the bar to re-engage with a single question.",
+          "subject": "Still paying 3-4% on every card swipe?",
+          "preview": "The savings number we ran for you hasn't gone anywhere.",
+          "cta": "Pick up where we left off",
+          "keyPoints": [
+            "Remind them of the core value left on the table — the fees they're still paying that Paymentum can wipe out",
+            "Acknowledge timing is hard for busy owners and remove friction: no contract, free terminal, one short call to finish the audit",
+            "Make the reply easy — a single yes/no question ('want me to re-run your savings?') so a quiet lead can re-engage in one tap"
+          ]
+        }
+      ]
+    }
+  ]
+}
