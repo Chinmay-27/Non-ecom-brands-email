@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Stephanie April Photography",
+    "url": "https://stephanieapril.com",
+    "slug": "stephanie-april",
+    "vertical": "Local & service — wedding/event photography",
+    "tagline": "When two imperfect people, are perfect soulmates",
+    "colors": {
+      "primary": "#1A1A1A",
+      "accent": "#C9A96E",
+      "background": "#F8F6F3",
+      "text": "#333333"
+    }
+  },
+  "offer": {
+    "what": "Wedding photography, engagement sessions, and elopement packages with optional add-ons (bridal, boudoir, proposal, rehearsal, day-after, trash-the-dress, anniversary 'We Still Do' sessions)",
+    "coreOutcome": "Emotionally authentic, documentary-style visual memories of life's most meaningful moments — so couples can relive the raw feeling of their wedding day forever",
+    "pricePoint": "Not publicly disclosed; $300 non-refundable retainer to reserve date; custom quotes provided via complimentary consultation; mid-market DFW wedding photography range inferred (~$1,500–$3,500+)",
+    "commitment": "One-time event booking; 65-mile travel radius from Wylie, TX (75098); $0.025/mile travel fee beyond radius",
+    "leadMagnets": [
+      "Free bridal guide download",
+      "Complimentary consultation",
+      "Wedding planning budget & timeline templates (referenced in blog)",
+      "First-booking upgraded wedding album incentive"
+    ]
+  },
+  "audience": {
+    "icp": "Engaged couples in the Dallas-Fort Worth area (Wylie, Forney, Kaufman, Terrell, Frisco, Plano) seeking moody, documentary-style wedding photography that captures raw emotion; also serves destination elopement couples nationwide/worldwide",
+    "painPoints": [
+      "Wedding planning overwhelm and decision paralysis",
+      "Budget uncertainty — pricing opacity creates friction for cost-conscious couples comparing photographers",
+      "Fear of stiff, posed photos that don't reflect their real relationship",
+      "Stress around day-of coordination and timeline management",
+      "Finding a photographer who truly 'gets' their vision and love story"
+    ],
+    "segments": [
+      "Traditional wedding couples — full-day DFW coverage, primary revenue segment",
+      "Elopement couples — intimate ceremony, destination-friendly, growing segment",
+      "Engagement session clients — pre-wedding gateway that often converts to full wedding booking",
+      "Boudoir and anniversary clients — existing-couple expansion, repeat business"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months (weddings typically booked 6–18 months in advance; elopements may be shorter)",
+    "trial": "Complimentary consultation — free discovery call or in-person meeting to discuss vision, pricing, and package options",
+    "closeMechanism": "Complimentary consultation → custom quote → $300 non-refundable retainer to secure the wedding date",
+    "topObjection": "Pricing opacity — no rates visible on-site, requiring contact before couples know if it fits their budget; creates high drop-off among comparison shoppers"
+  },
+  "ahaMoment": "Receiving the final edited gallery (typically 6–12 weeks post-event) and seeing their raw, unposed emotions captured exactly as they felt — the moment that validates the entire investment and drives referrals",
+  "retention": {
+    "recurring": "Low inherent recurrence (wedding is once-per-couple); repeat business via engagement → wedding pipeline and life-stage add-ons (anniversary, boudoir, future family sessions)",
+    "expansion": "Add-on session upsells: engagement, bridal, boudoir, couples boudoir, proposal, rehearsal coverage, day-after, trash-the-dress, 'We Still Do' anniversary sessions",
+    "churnRisk": "Inquiry ghosting if follow-up is slow; loss to cheaper or more price-transparent competitors; long 6–18 month gap between booking and wedding creates contact decay risk"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no known post-booking nurture to keep booked couples engaged through the 6–18 month pre-wedding wait",
+    "Lead-Magnet Nurture — bridal guide downloaders likely receive no automated sequence to convert to consultation bookings",
+    "Trial/Consult Conversion — no known automated follow-up after a consultation inquiry or complimentary call",
+    "Booking Reminders & Day-Of Prep — no known timeline/reminder series to reduce no-shows and reduce couple anxiety",
+    "Renewal & Expansion — no known sequence promoting add-ons or anniversary sessions to past clients",
+    "Win-Back / Re-Engagement — no known reactivation flow for cold inquiry leads who never booked"
+  ],
+  "toneVoice": "Romantic, poetic, and emotionally warm. Uses intimate endearments ('Beautiful Soulmates,' 'lovebirds'). Conversational and encouraging with genuine empathy for planning stress. Positions photography as deeply personal storytelling — never transactional. Mixes practical planning guidance with heartfelt, intimate sentiment.",
+  "compliance": "Standard CAN-SPAM / email compliance applies. No HIPAA, financial services, or legal vertical constraints. Photography contracts contain standard liability and retainer language."
+}

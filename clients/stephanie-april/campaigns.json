@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Stephanie April Photography",
+    "slug": "stephanie-april",
+    "url": "https://stephanieapril.com",
+    "vertical": "Local & service — wedding/event photography",
+    "colors": {
+      "primary": "#1A1A1A",
+      "accent": "#C9A96E",
+      "background": "#F8F6F3",
+      "text": "#333333"
+    }
+  },
+  "summary": "Stephanie April Photography is a solo wedding and event photographer based in Wylie, TX, serving engaged couples across the Dallas-Fort Worth area and destination elopement couples worldwide. She shoots moody, documentary-style weddings, engagement sessions, and elopements, plus add-on sessions (bridal, boudoir, proposal, anniversary), closing bookings through a complimentary consultation and a $300 retainer that secures the date.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — Booked Couple Nurture",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a freshly-booked couple into a calm, confident, fully-trusting client across the 6–18 month wait before their wedding day — preventing second-guessing, ghosting, and the 'I feel like a transaction' decay.",
+      "trigger": "$300 retainer paid / wedding date secured — send email 1 within minutes of the booking confirming.",
+      "segment": "Newly-booked couples; branch by package type (full wedding vs. elopement) and months-to-date.",
+      "rationale": "This brand's 'aha' moment — the final gallery — arrives 6–18 months after booking, the longest value gap of any backbone campaign. Without nurture in that gap, trust quietly erodes between booking and the day, which is exactly where this solo photographer's reputation and referrals are won or lost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the moment the retainer clears — confirm the date is locked, set expectations for the journey ahead, and give one easy first step so the couple feels cared for, not filed away.",
+          "subject": "Your date is officially ours, Beautiful Soulmates 🤍",
+          "preview": "Here's exactly what happens between now and the day you say 'I do.'",
+          "cta": "Tell me your love story (start your planning questionnaire)",
+          "keyPoints": [
+            "Confirm the wedding date is secured and the retainer received — relief that the most important vendor is handled",
+            "Lay out the journey: timeline planning, engagement session, final walkthrough, the day, then the gallery — so the long wait feels intentional, not silent",
+            "One small first action: complete the love-story / venue / vision questionnaire so Stephanie can start tailoring their coverage",
+            "Real, human reply-to — 'hit reply anytime, a real person (me) reads every word' — to anchor the relationship over the long gap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture — Free Bridal Guide → Consultation",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a cold bridal-guide downloader toward booking a complimentary consultation, while quietly dissolving the pricing-opacity hesitation that drives comparison shoppers away.",
+      "trigger": "Free bridal guide download on stephanieapril.com.",
+      "segment": "Bridal-guide downloaders who have not yet booked a consultation; branch by stated venue/location and wedding timeframe if captured.",
+      "rationale": "The bridal guide is a confirmed live lead magnet with no follow-up behind it, so every download currently leaks. Since the brand's #1 objection is hidden pricing, a nurture sequence is the natural place to reframe 'no public rates' as 'custom quote built around your day' and earn the consultation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the bridal guide instantly and frame the real problem it solves — planning overwhelm — while establishing Stephanie's documentary point of view so the guide becomes the start of a relationship, not a one-off download.",
+          "subject": "Your DFW bridal guide is inside, lovebirds 💍",
+          "preview": "The first planning decision that makes every other one easier.",
+          "cta": "Download your bridal guide",
+          "keyPoints": [
+            "Deliver the guide front and center — no hunting, instant payoff for the download",
+            "Name the real pain: wedding planning overwhelm and decision paralysis, and position photography as the choice that makes the rest feel calmer",
+            "Establish the documentary, raw-emotion style early so couples self-identify ('photos that look and feel like you')",
+            "Soft, no-pressure invitation to a complimentary consultation as the next step — seeded, not pushed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Booking Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert a couple who has had (or requested) a complimentary consultation into a paid booking by delivering their custom quote, neutralizing the pricing objection, and creating gentle date-availability urgency.",
+      "trigger": "Complimentary consultation completed / consult requested via contact form.",
+      "segment": "Couples post-consultation who have not yet paid the retainer; branch by package discussed (wedding vs. elopement vs. add-on).",
+      "rationale": "The consultation → custom quote → $300 retainer path is this brand's entire revenue mechanism, and inquiry ghosting is its named churn risk. A prompt, personalized post-consult email that puts pricing in writing is the single highest-leverage send for the brand's primary goal.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day follow-up that delivers the personalized quote referencing their actual venue and vision, removes the pricing fog directly, and gives one frictionless path to lock the date before it's claimed.",
+          "subject": "Your custom quote for [Wedding Date] is ready 🤍",
+          "preview": "Everything we talked about, in writing — plus how to reserve your date.",
+          "cta": "Reserve your date with a $300 retainer",
+          "keyPoints": [
+            "Recap the specific vision from the consult — venue, date, coverage hours — so the quote feels built for them, not a template",
+            "Lay pricing out plainly to dissolve the brand's #1 objection (pricing opacity) the instant they're ready to compare",
+            "Gentle urgency: 'I only take a limited number of weddings per date, and yours isn't held until the retainer is in'",
+            "One-click path to the $300 retainer + an open offer to hop on a quick call with any lingering questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Consultation & Wedding-Day Reminders",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultations and reduce day-of anxiety by reminding couples of upcoming consults and prepping booked couples for their session/wedding timeline.",
+      "trigger": "Consultation booked; upcoming consult or session; wedding-week approaching.",
+      "segment": "Anyone with a scheduled consultation, engagement session, or wedding date; branch by appointment type.",
+      "rationale": "This business runs entirely on appointments — the consult is the revenue event and the wedding is the deliverable — yet there's no reminder series, leaving easy no-show revenue (~35% reduction possible) and avoidable couple anxiety on the table.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1 (day before consult)",
+          "purpose": "The 24-hour consultation reminder — confirm time and place, lower the stakes so the couple shows up relaxed, and tell them exactly what to bring so the conversation is productive.",
+          "subject": "See you tomorrow, lovebirds — here's what to have ready",
+          "preview": "Bring your date, your venue, and your dreams — I'll handle the rest.",
+          "cta": "Confirm or reschedule your consultation",
+          "keyPoints": [
+            "Restate the consult time, format (call or in-person), and join link/address so nothing is in doubt",
+            "Set a low-pressure tone: 'this is a no-obligation chat about your day, not a sales pitch'",
+            "Tell them what to bring — wedding date, venue, must-have moments, any Pinterest vibes — so Stephanie can quote accurately",
+            "Easy one-click reschedule link to recover would-be no-shows instead of losing them"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anniversary-expansion",
+      "name": "Anniversary & Add-On Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Reactivate past couples around their first anniversary and life milestones to book expansion sessions (anniversary 'We Still Do', boudoir, future family) — the brand's primary repeat-revenue engine.",
+      "trigger": "1-year wedding anniversary date; gallery delivery milestone; major life event if known.",
+      "segment": "Past wedding/elopement clients; branch by elapsed time since wedding and prior add-ons purchased.",
+      "rationale": "A wedding is a once-per-couple event, so this brand's only durable recurring revenue comes from life-stage add-ons — and the most natural, emotionally resonant re-entry point is the first anniversary, when the couple already loves their gallery and trusts Stephanie completely.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0 (1-year anniversary)",
+          "purpose": "Celebrate the couple's first anniversary, relive their wedding gallery, and invite them into a 'We Still Do' anniversary session — turning a warm emotional moment into a booked expansion.",
+          "subject": "One year ago today, you said 'I do' 🤍",
+          "preview": "Let's capture the love that's only grown since — your 'We Still Do' session awaits.",
+          "cta": "Book your 'We Still Do' anniversary session",
+          "keyPoints": [
+            "Open on genuine celebration of their one-year milestone — reference their wedding date and a favorite moment from the day",
+            "Reconnect them with the feeling of their gallery (the 'aha' moment) to reignite the emotional bond",
+            "Introduce the 'We Still Do' anniversary session as the way to honor how far they've come — framed as story, not upsell",
+            "Single, low-friction CTA to book, plus a warm mention of other ways to keep their story alive (boudoir, future family sessions)"
+          ]
+        }
+      ]
+    }
+  ]
+}
