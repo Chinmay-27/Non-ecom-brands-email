@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Blessing Mouth",
+    "slug": "blessing-mouth",
+    "url": "https://www.blessingmouth.com",
+    "vertical": "Faith-based app / Membership (freemium)",
+    "colors": {
+      "primary": "#0F172A",
+      "accent": "#C8962C",
+      "background": "#FAFAF8",
+      "text": "#1C1917"
+    }
+  },
+  "summary": "Blessing Mouth is a freemium faith-based voice declaration app where Christian believers browse a library of scripture-rooted declarations, record themselves speaking God's Word aloud over their own lives, and build a daily practice through customizable reminders. It serves believers who feel spiritually stuck despite church, Bible reading, and serving, by turning head knowledge into a consistent embodied practice grounded in Joshua 1:8. Revenue is recurring via Silver/Bronze/Gold subscriptions ($2.99/mo or $24/yr) layered over a permanent free tier.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get the new free signup to record and play back their first declaration within 24–48 hours — the activation event the entire product value depends on.",
+      "trigger": "Account created (free email or Google signup); email 1 sends within seconds of signup.",
+      "segment": "All new signups; later branch on whether they recorded and enabled a reminder.",
+      "rationale": "Blessing Mouth's value is entirely habit-dependent — users who never make a first recording disengage before the aha moment, making activation the single highest-leverage flow for this brand.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the daily-rhythm expectation, and drive the one action that creates first value: record and play back a declaration.",
+          "subject": "Welcome — your first declaration is waiting",
+          "preview": "Two minutes to hear God's Word in your own voice.",
+          "cta": "Record your first declaration",
+          "keyPoints": [
+            "Personal, pastoral welcome from the founder — you're here because something felt missing despite doing everything right",
+            "The one first action: pick a theme, record one declaration, and play it back — most people feel the shift on the first listen",
+            "Set the expectation early: turn on a daily reminder so the practice becomes a rhythm, not a one-time visit",
+            "Hit reply anytime — a real person reads every message"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-to-paid-conversion",
+      "name": "Free-to-Paid Conversion (Silver)",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert an activated free user into a paying Silver subscriber by connecting the difference they've already felt to the depth the full library unlocks.",
+      "trigger": "First recording completed OR ~7 days of free usage; behavioral nudge fires once the user has felt the practice work.",
+      "segment": "Activated free users (made at least one recording); branch by engagement depth.",
+      "rationale": "The brand's own instruction is 'upgrade only when you feel the difference,' so the core revenue email must arrive right after activation and trade on lived experience, not discounts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "7",
+          "purpose": "Reference the difference they've already felt and present Silver as the way to bring that practice to every area of life.",
+          "subject": "You felt it on the free plan. Here's what's behind the next door.",
+          "preview": "Every theme — healing, provision, identity, peace — unlimited.",
+          "cta": "Unlock the full library (Silver)",
+          "keyPoints": [
+            "Name what they've experienced: hearing your own voice declare the Word changes how your spirit receives it",
+            "Free gave you a taste — Silver opens every theme, the full library, unlimited recordings, and custom lists and reminders",
+            "Just $2.99/mo, or $24/yr to save 33% — cancel anytime, no pressure",
+            "Frame the cost against the area of life you're believing for — this is the practice working for all of it, every day"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "joshua-nurture",
+      "name": "Lead-Magnet Nurture (Joshua 1:8 Premise)",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free users who haven't activated toward the practice by dismantling the #1 objection — 'I already read my Bible / go to church' — with the brand's core theological premise.",
+      "trigger": "Free signup who has not yet made a recording; drip spaced over the consideration window.",
+      "segment": "Non-activated free users; branch by the declaration theme they browsed first.",
+      "rationale": "The entire offer rests on reading ≠ speaking, and the objection-handling email is the one send that reframes the prospect's whole relationship to the practice — the highest-value piece of the nurture for this brand.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Handle the top objection by teaching that Joshua 1:8 attaches the promise to speaking (hagah), not silent reading — then invite the first recording.",
+          "subject": "\"But I already read my Bible\"",
+          "preview": "Joshua 1:8 ties the promise to your mouth, not your eyes.",
+          "cta": "Speak your first verse",
+          "keyPoints": [
+            "Meet the objection head-on with warmth — this is exactly what most believers were never taught",
+            "Joshua 1:8's 'hagah' means to murmur, mutter, speak aloud — the promise of success is conditioned on declaring, not just knowing",
+            "Reading informs the mind; speaking trains the spirit — and every silent day leaves the voice of doubt unopposed",
+            "Try it once: pick one verse and say it out loud over your own life today"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate free and paid users who have gone quiet by restarting the daily declaration rhythm before they fully drop off.",
+      "trigger": "No app open / no recording for 7–14 days.",
+      "segment": "Dormant users; branch dormant free vs. lapsing paid; sunset non-responders after the sequence.",
+      "rationale": "The brand's own line — 'every day you don't declare, that other voice gets another unopposed rep' — maps perfectly onto win-back and reframes silence as a battle being lost, not just a missed habit.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with the unopposed-voice framing and make the return a single, low-friction recording.",
+          "subject": "Every silent day, that other voice gets a free rep",
+          "preview": "We saved your declarations — pick up right where you left off.",
+          "cta": "Reopen Blessing Mouth",
+          "keyPoints": [
+            "No shame, no guilt — life gets loud and the practice slips; that's exactly when it matters most",
+            "When you go quiet, the voice of doubt and unworthiness keeps speaking, unopposed",
+            "One recording is all it takes to restart the rhythm — your lists and reminders are still here",
+            "Re-anchor on the outcome they came for: peace and identity that move from doctrine into daily reality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter (Weekly Declaration)",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind between app sessions and reinforce the speaking habit with one scripture-rooted declaration each week.",
+      "trigger": "Scheduled weekly cadence.",
+      "segment": "All engaged free and paid users; suppress active onboarding and route dormant users to Win-Back.",
+      "rationale": "An always-on weekly devotional keeps the practice present between sessions and builds the habit loop the product's retention depends on, without ever leaning on discounts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "Recurring (weekly)",
+          "purpose": "Deliver one verse and theme for the week with a short reflection, and prompt the reader to record it — the recurring 'This week's declaration' habit anchor.",
+          "subject": "This week's declaration to speak over your life",
+          "preview": "One verse. Say it out loud before the week gets loud.",
+          "cta": "Record this week's declaration",
+          "keyPoints": [
+            "Recurring 'This week's declaration' section — one scripture and life theme per send to build a weekly habit",
+            "A short, pastoral reflection on why speaking this specific verse aloud matters right now",
+            "80% value / 20% soft nudge — single primary CTA to open the app and record it",
+            "Reinforce the core practice: the Word lands differently when it's in your own voice"
+          ]
+        }
+      ]
+    }
+  ]
+}

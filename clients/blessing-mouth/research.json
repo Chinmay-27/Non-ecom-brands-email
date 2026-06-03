@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Blessing Mouth",
+    "url": "https://www.blessingmouth.com",
+    "slug": "blessing-mouth",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Speak Faith. Renew Your Mind.",
+    "colors": {
+      "primary": "#0F172A",
+      "accent": "#C8962C",
+      "background": "#FAFAF8",
+      "text": "#1C1917"
+    }
+  },
+  "offer": {
+    "what": "Faith-based voice declaration app — users browse a library of scripture-rooted declarations, record themselves speaking God's Word over their own lives, and build a consistent daily practice with reminder scheduling",
+    "coreOutcome": "Consistent daily declaration of God's Word that transforms the believer from the inside out — replacing spiritual distance and doubt with lived-out peace, identity, and promise",
+    "pricePoint": "Free forever (foundational tier) · Silver $2.99/mo or $24/yr (save 33%) · Bronze & Gold tiers also available",
+    "commitment": "Self-serve freemium; monthly or annual paid subscriptions, cancel anytime",
+    "leadMagnets": [
+      "Permanent free plan (no credit card) — foundational declarations library, voice recording, 4 default declaration lists, custom reminders"
+    ]
+  },
+  "audience": {
+    "icp": "Christian believers (any denomination) who feel spiritually stuck or distant from God despite attending church, reading the Bible, and serving — they have head knowledge but lack a consistent, embodied speaking practice",
+    "painPoints": [
+      "God feels far away despite doing everything right (church, Bible reading, serving)",
+      "Knowing about God intellectually but not experiencing His promises in daily life",
+      "Spiritual inconsistency — wanting a daily rhythm but failing to sustain one",
+      "The quiet voice of doubt, shame, or unworthiness goes unopposed",
+      "Never taught to speak the Word aloud as a spiritual discipline (hagah)"
+    ],
+    "segments": [
+      "Spiritually dormant Christians ready to reactivate a faith practice",
+      "Believers in active life crisis (marriage, health, provision, identity) seeking breakthrough",
+      "Consistent churchgoers who feel something is missing from their private practice",
+      "New or returning believers building foundational daily habits"
+    ]
+  },
+  "salesCycle": {
+    "length": "same day",
+    "trial": "Free plan is permanent freemium — no time limit, no credit card required; paid upgrade happens when user 'feels the difference'",
+    "closeMechanism": "Self-serve — free email or Google sign-up on web app; upgrade to paid plan inside the app",
+    "topObjection": "'I already read my Bible / go to church' — the brand pre-empts this by teaching that reading alone ≠ the promise; Joshua 1:8 frames speaking as the condition for prosperity and success, differentiating the practice from mere knowledge"
+  },
+  "ahaMoment": "The first time a user records themselves declaring scripture and plays it back — hearing their own voice speak God's Word over their life creates an emotional and spiritual shift that silent reading cannot produce",
+  "retention": {
+    "recurring": "Monthly or annual paid subscription (Silver/Bronze/Gold); daily in-app reminder system builds habitual opens",
+    "expansion": "Free → Silver → Bronze → Gold tier upgrades; annual plan upsell for 33% savings over monthly",
+    "churnRisk": "Users who sign up but never build the daily declaration habit — if they don't make their first recording and enable reminders within the first session, they disengage before the aha moment"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — guide new users to their first recording and first reminder within 24–48 hours of signup (the activation event)",
+    "Lead-Magnet Nurture — free-user drip teaching the Joshua 1:8 premise and building urgency for the first paid upgrade",
+    "Trial/Consult Conversion — free-to-paid conversion sequence triggered after first recording or 7 days of free usage",
+    "Value Newsletter — weekly devotional or scripture-based email keeping free and paid users engaged between app sessions",
+    "Renewal, Anniversary & Expansion — annual renewal reminders, streak/milestone celebrations, upsell to higher tiers",
+    "Win-Back / Re-Engagement — sequence for users who have not opened the app in 7–14 days"
+  ],
+  "toneVoice": "Personal, pastoral, and earnest — confessional founder storytelling (failed marriages, spiritual struggle), scripture-anchored reasoning, direct challenges ('Every day you don't declare, that other voice gets another unopposed rep'), warm but urgent; never preachy or denominationally exclusive",
+  "compliance": "Standard CAN-SPAM / GDPR compliance required. No healthcare, finance, or legal vertical constraints. Faith content should remain grounded in the app's own scriptural framing (Joshua 1:8) — avoid prosperity-gospel overreach or guarantee language around outcomes."
+}
