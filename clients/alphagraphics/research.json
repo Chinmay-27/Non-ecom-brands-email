@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "AlphaGraphics",
+    "url": "https://www.alphagraphics.com",
+    "slug": "alphagraphics",
+    "vertical": "B2B/professional",
+    "tagline": "Print & Marketing Solutions",
+    "colors": {
+      "primary": "#F47920",
+      "accent": "#231F20",
+      "background": "#FFFFFF",
+      "text": "#333333"
+    }
+  },
+  "offer": {
+    "what": "Full-service B2B print and marketing communications delivered through 270+ locally owned franchise centers. Categories: graphic design, digital/offset printing, large-format graphics and signage, vehicle wraps, direct mail, promotional products, packaging, and branding/identity services.",
+    "coreOutcome": "Businesses get high-quality, on-brand marketing materials and signage that help them attract customers, maintain brand consistency, and stand out — without needing an in-house design team or managing multiple vendors.",
+    "pricePoint": "Project-based custom quotes; no public pricing. Small orders (business cards, flyers) ~$50–$500; large-format/campaign work $1,000–$10,000+. No subscription — revenue is repeat-project-based. Corporate accounts may have standing purchase agreements.",
+    "commitment": "Per-project with no recurring contract; relationship-based repeat business is the norm for SMB and corporate accounts.",
+    "leadMagnets": [
+      "Free quote / estimate (universal entry point via online form or in-person)",
+      "Free design consultation (varies by location)",
+      "agEnterprise self-serve online ordering portal (for corporate/multi-location accounts)"
+    ]
+  },
+  "audience": {
+    "icp": "SMB owner or marketing manager at a local/regional business (retail, professional services, real estate, restaurant, healthcare) needing reliable, high-quality print and marketing materials on a recurring basis. Secondary: corporate marketing/procurement managers at multi-location organizations.",
+    "painPoints": [
+      "Inconsistent brand colors and quality across print vendors",
+      "Long or unpredictable turnaround times that miss campaign windows",
+      "Juggling multiple vendors for design, print, signage, and fulfillment",
+      "Online-only printers (Vistaprint, Canva Print) lack support, customization, and color accuracy",
+      "Difficulty scaling consistent branded materials across multiple locations"
+    ],
+    "segments": [
+      "Local SMBs (retail, restaurants, professional services)",
+      "Corporate / enterprise marketing and procurement teams",
+      "Franchisors needing centralized brand-consistent materials (National Programs)",
+      "Real estate professionals (high-volume repeat print buyers)",
+      "Non-profits and event organizers"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 1–2 weeks (quote request → consultation → proof approval → production → delivery); same-day turnaround available for simple jobs",
+    "trial": "Free quote/estimate is the universal entry point; free design consultation available at most locations",
+    "closeMechanism": "Local franchise owner or sales associate; customer submits quote request (online form, phone, or in-person), receives proof and price, approves and pays, job enters production. Repeat customers often skip the formal quote stage.",
+    "topObjection": "Price vs. commodity online printers. Overcome by emphasizing local support, faster turnaround, color accuracy, and ability to handle complex/custom work that online-only vendors cannot."
+  },
+  "ahaMoment": "Receiving the first finished product — business cards, banner, sign, or campaign kit — and seeing that quality and brand accuracy exceed what they could get online, delivered on time. Typically 1–5 business days from order placement; assisted by local franchise owner and design team.",
+  "retention": {
+    "recurring": "Not subscription-based but highly repeat-purchase. SMBs reorder on predictable cycles (business cards every 3–6 months, seasonal materials annually, event signage ad hoc). Corporate accounts may have standing portal-based orders.",
+    "expansion": "Customers who start with one category (e.g., business cards) are often unaware of the full range. Cross-sell to adjacent categories (signage, vehicle wraps, direct mail, promotional products) is the primary expansion lever.",
+    "churnRisk": "One-and-done customers who don't think of AlphaGraphics for their next need and default to cheaper online options. Also at risk: customers whose primary local contact changes, breaking the relationship."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no standard post-quote or post-first-order nurture sequence to orient new customers and introduce the full service range",
+    "Lead-Magnet / Quote Nurture — unconverted quote requests likely get a follow-up call but no email nurture sequence",
+    "Reorder Reminders — no triggered email when a time-based reorder window opens (e.g., 90 days after business card order)",
+    "New Product / Service Introduction — customers often unaware of categories beyond what they first ordered",
+    "Seasonal Promotions — trade show season, Q4 holiday, back-to-school windows not systematically messaged",
+    "Referral / Advocacy — no structured program to turn satisfied SMB customers into referral sources",
+    "Win-Back — dormant accounts (no order in 6+ months) receive no re-engagement sequence"
+  ],
+  "toneVoice": "Professional, confident, and locally warm. Speaks like a trusted neighborhood expert with big-brand capabilities — solution-focused, jargon-light, emphasizing speed, quality, and partnership. Not corporate-stiff; not overly casual. Peer-to-peer B2B register. Avoid discount-driven language; this is a quality/service brand.",
+  "compliance": "Standard CAN-SPAM / CASL. Franchise structure means list ownership may be split between corporate and individual location levels — list segmentation and permission management must be handled carefully per list source. No healthcare, financial, or legal content restrictions."
+}

@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "AlphaGraphics",
+    "slug": "alphagraphics",
+    "url": "https://www.alphagraphics.com",
+    "vertical": "B2B/professional (print & marketing services) with a local/service franchise layer",
+    "colors": {
+      "primary": "#F47920",
+      "accent": "#231F20",
+      "background": "#FFFFFF",
+      "text": "#333333"
+    }
+  },
+  "summary": "AlphaGraphics is a full-service B2B print and marketing-communications company delivered through 270+ locally owned franchise centers, offering graphic design, digital and offset printing, large-format signage, vehicle wraps, direct mail, promotional products, and branding. It serves SMB owners and marketing managers, plus corporate and franchisor teams who need consistent, high-quality branded materials on a recurring basis. Revenue is project-based and repeat-purchase rather than subscription, with the local franchise owner holding the customer relationship.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation by getting a new customer to their first-value moment — a finished product that beats online-printer quality, delivered on time — and orient them to the full AlphaGraphics range.",
+      "trigger": "First quote approved / first order placed at a location.",
+      "segment": "New customers; branch by first product category (business cards, signage, direct mail) and by SMB vs. corporate/portal account.",
+      "rationale": "AlphaGraphics has no systematic post-order nurture, so first-time buyers get an order confirmation and nothing else — leaving the 'aha' (a flawless, on-brand finished product) and the full service range uncommunicated right when goodwill is highest.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the moment the order is placed: set production-process expectations, reassure on quality/color accuracy, and give one clear next action so the project moves without delay.",
+          "subject": "Your project's in good hands — here's what happens next",
+          "preview": "Proof, production, delivery — and your local team on it from start to finish.",
+          "cta": "Approve your proof to start production",
+          "keyPoints": [
+            "Map the steps to delivery (proof approval, production, pickup/delivery) so they know what to expect and by when",
+            "Reassure on the differentiators they came for: exact brand-color match, local support, and on-time turnaround vs. online-only printers",
+            "Name their local franchise owner/design contact and invite a direct reply with any file or spec questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-to-conversion",
+      "name": "Quote-to-Order Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a submitted free quote/estimate into an approved, paid order before the prospect defaults to a cheaper online printer.",
+      "trigger": "Quote/estimate requested via online form but not yet approved.",
+      "segment": "Open quote requests; branch by product type and by whether a design consultation is still needed.",
+      "rationale": "The free quote is AlphaGraphics' universal entry point, but unconverted requests get at most a follow-up call and no email — and the #1 reason quotes stall is the price-vs-commodity-printer objection, which a single well-aimed email can directly answer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Re-surface the pending quote and tackle the price objection head-on by reframing value (color accuracy, turnaround, local support, complex work online printers can't do), then make approval frictionless.",
+          "subject": "About your quote — why the cheapest print rarely costs less",
+          "preview": "Reprints, wrong colors, missed deadlines: the hidden price of online-only printers.",
+          "cta": "Approve your quote",
+          "keyPoints": [
+            "Acknowledge the price comparison directly, then contrast against the real cost of online-printer reprints, off-brand colors, and missed campaign deadlines",
+            "Reinforce the local-partner advantages: a real person who knows their files, faster turnaround, and handling of custom/large-format work",
+            "Offer a quick call or free design consultation to remove any remaining friction before they approve"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reorder-reminder-expansion",
+      "name": "Reorder Reminder & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Recapture predictable repeat purchases before the customer forgets or defaults to an online option, and expand the relationship into adjacent product categories.",
+      "trigger": "Time-based reorder window since last order (≈90 days for business cards/stationery; product-type dependent); usage/anniversary milestones.",
+      "segment": "Active repeat customers approaching a reorder window; branch by last product category to cross-sell adjacent services (signage, vehicle wraps, direct mail, promo products).",
+      "rationale": "Repeat purchase is AlphaGraphics' entire revenue engine, yet there is no triggered reorder reminder — the single highest-leverage gap for a brand whose churn is simply 'one-and-done customers who didn't think of us next time.'",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "90",
+          "purpose": "Prompt an effortless reorder of the same files at the reorder window, and use the moment to surface one adjacent category the customer likely doesn't know AlphaGraphics offers.",
+          "subject": "Running low on business cards? We've still got your files",
+          "preview": "Same brand colors, same specs — reorder in a couple of clicks.",
+          "cta": "Reorder now",
+          "keyPoints": [
+            "One-click reorder of the exact previous job — files, colors, and specs already on hand, no re-setup",
+            "Introduce one relevant adjacent product (e.g., matching signage, banners, or direct mail) most first-category customers don't realize is available",
+            "Keep the local-partner tone: a quick reply or call gets it handled, no online form maze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant accounts that haven't ordered in 6+ months and protect list deliverability by re-establishing the local relationship.",
+      "trigger": "No order in 6+ months (or primary local contact changed).",
+      "segment": "Dormant past customers; branch by what they previously ordered and whether their local owner/contact has changed.",
+      "rationale": "Dormant accounts get no re-engagement today, and the brand's biggest churn driver — forgetting AlphaGraphics for the next need — is exactly what a win-back addresses; win-back also recovers 5–15% of inactive contacts and cleans the list.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the relationship warmly, remind them of the quality they got last time, and give a concrete reason to come back now (new capability, seasonal need, or a fresh local-team introduction).",
+          "subject": "It's been a while — your brand's been on our mind",
+          "preview": "New services, same on-time, on-brand work you remember.",
+          "cta": "Start your next project",
+          "keyPoints": [
+            "Reference the type of work they ordered before and the quality/turnaround they experienced",
+            "Give a reason to return now: a newer capability (e.g., vehicle wraps, large-format signage) or an upcoming seasonal window (trade show, Q4, grand opening)",
+            "Re-introduce their local team or new owner and invite a direct reply to pick up where they left off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-nurture",
+      "name": "Quote-Magnet Nurture",
+      "priority": 5,
+      "stage": "Nurture / Consideration",
+      "objective": "Keep cold or stalled quote requesters warm over a longer cycle with proof and education until they're ready to commit.",
+      "trigger": "Quote requested but not converted by the conversion sequence; or free design-guide / consultation download.",
+      "segment": "Unconverted leads below sales-readiness; branch by industry (retail, real estate, restaurant, non-profit) and by product interest.",
+      "rationale": "Some quote requesters aren't ready to buy immediately, and with no nurture they go cold and revert to online printers — a stage-matched proof-and-education drip keeps AlphaGraphics top-of-mind for the eventual deadline-driven need.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Earn re-engagement with concrete social proof — a relatable local-business case showing real turnaround and color accuracy — to move an evaluation-stage lead toward reopening their quote.",
+          "subject": "How a local business got trade-show-ready in 48 hours",
+          "preview": "Tight deadline, exact brand match — what working with us actually looks like.",
+          "cta": "Pick your quote back up",
+          "keyPoints": [
+            "Tell a short, believable customer story matched to the lead's industry, emphasizing speed and exact brand-color match under deadline pressure",
+            "Contrast the supported, local experience against the no-help online-printer alternative they may be weighing",
+            "Low-friction invitation to revisit their existing quote or book a free design consultation"
+          ]
+        }
+      ]
+    }
+  ]
+}
