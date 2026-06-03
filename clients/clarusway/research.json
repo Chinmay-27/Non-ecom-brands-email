@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Clarusway",
+    "url": "https://www.clarusway.com",
+    "slug": "clarusway",
+    "vertical": "Education / IT Bootcamp",
+    "tagline": "Get job ready in 5 to 9 months! No IT background required.",
+    "colors": {
+      "primary": "#E8392A",
+      "accent": "#FF6B35",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Online IT bootcamp programs covering Cloud & DevOps Engineering (AWS), Data Science & Applied AI, Software Development (Full Stack), Salesforce, Cybersecurity, Web3 & Blockchain, and SDET. Programs range from 3 to 8 months, part-time (16–20 hrs/week), fully online with live classes and LMS access.",
+    "coreOutcome": "Career change into tech: graduates land IT jobs averaging $90K–$102K starting salary with a reported 91–92% job placement rate.",
+    "pricePoint": "$7,000–$8,000 per program. Payment options: upfront (30% discount), monthly installments (~$250/mo), ISA (12.5% of income for 18 months post-hire, kicks in above $40K salary, capped at $20K), 0% interest education credit, and loans via Meritize.",
+    "commitment": "Part-time, 3–8 months depending on track; 16–20 hours/week; fully online; 15-day risk-free trial with full refund.",
+    "leadMagnets": [
+      "CW Mini Bootcamp – Free (50+ hours of Python, Linux, Git, SQL)",
+      "2-minute Career Path Quiz (delivers personalized IT path + discount coupon)",
+      "Free Info Session (recorded webinar)",
+      "Free Career Consultation / Talk to an Advisor"
+    ]
+  },
+  "audience": {
+    "icp": "Career changers aged 25–45 with zero IT background — former delivery drivers, marketers, stay-at-home parents — who want a well-paying tech job but are overwhelmed by where to start and unsure they can afford or handle it.",
+    "painPoints": [
+      "No tech background or programming experience — feel unqualified",
+      "Afraid of wasting money on something they might not finish",
+      "Unclear which IT path (DevOps vs. cyber vs. data) suits them",
+      "Balancing study with a full-time job or family responsibilities",
+      "Skeptical about bootcamp job placement claims"
+    ],
+    "segments": [
+      "Complete career changers (no IT background) — core audience",
+      "Working IT professionals looking to upskill or certify",
+      "Corporate / enterprise clients seeking custom team training"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 2–3 weeks (awareness → free resource/info session → advisor call → application → enrollment)",
+    "trial": "Yes — 15-day risk-free trial with full refund. Also a free mini bootcamp (50+ hrs) as top-of-funnel trial and a free career consultation call.",
+    "closeMechanism": "Advisor-assisted: prospect books a free career consultation → discovery call → personalized program recommendation → application form → payment/ISA agreement. Self-serve application also available.",
+    "topObjection": "\"I have no IT background / I'm not technical enough\" — closely followed by cost and time commitment concerns."
+  },
+  "ahaMoment": "Completing the first live hands-on project in the free mini bootcamp or early in the paid program — the moment a total beginner successfully runs code or configures a cloud service and realizes it is learnable. Career Management System orientation (resume, LinkedIn, mock interview) also triggers a high-value second aha for graduates.",
+  "retention": {
+    "recurring": "Non-recurring per enrollment; revenue is one-time per course. Alumni can enroll in additional certifications or advanced courses.",
+    "expansion": "Upsell to longer/combined tracks (e.g., AWS & DevOps 8-month flagship vs. DevOps-only 3-month); corporate custom training (enterprise arm); alumni referring new students.",
+    "churnRisk": "Mid-program dropout due to overwhelm, life events, or falling behind in live sessions. No-show on advisor consultation calls before enrollment is the top pre-purchase churn signal."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: likely thin — new enrollees may not receive a structured email sequence driving them to the activation event (first class / LMS login)",
+    "Lead-Magnet Nurture: Mini Bootcamp and Quiz leads likely under-nurtured; need a conversion sequence turning free users into paid applicants",
+    "Trial/Consult Conversion: Prospects who book but haven't enrolled (post-advisor-call drop-off) likely lack a structured follow-up sequence",
+    "Booking & Reminder: No-show reduction for free consultation and info session bookings",
+    "Value Newsletter: Blog content exists but email newsletter engagement is unknown — likely inconsistent",
+    "Renewal / Expansion: Alumni progression to next certification or referral ask — almost certainly missing",
+    "Win-Back / Re-Engagement: Lapsed leads (took quiz, downloaded mini bootcamp, never applied) — likely no re-engagement automation"
+  ],
+  "toneVoice": "Motivational, accessible, and results-obsessed. Copy leans into transformation stories and outcome specificity ('$102K average salary', '92% job placement'). Warmly direct — not salesy or corporate. Speaks to the hesitant beginner with reassurance ('No IT background? No problem'). Uses plain language; avoids jargon unless teaching a concept. Community and mentor-forward.",
+  "compliance": "CAN-SPAM compliant (US-based email); ISA agreements governed by applicable state lending/education finance law; standard ed-tech data handling. No HIPAA, no financial advice constraints. GDPR consideration for any EU learners."
+}

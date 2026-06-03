@@ -1,0 +1,151 @@
+{
+  "brand": {
+    "name": "Clarusway",
+    "slug": "clarusway",
+    "url": "https://www.clarusway.com",
+    "vertical": "Education / IT Bootcamp",
+    "colors": {
+      "primary": "#E8392A",
+      "accent": "#FF6B35",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Clarusway is an online IT bootcamp that retrains career changers with no tech background into job-ready professionals in Cloud & DevOps, Data Science & AI, Full Stack Development, Salesforce, Cybersecurity, and more over 3-8 months of part-time study. Programs cost $7,000-$8,000 with flexible financing (ISA, installments, 30% upfront discount) and the company markets an outcome: graduates reportedly land tech jobs averaging $90K-$102K. Its funnel runs on free lead magnets (a 50+ hour mini bootcamp, a career-path quiz, info sessions) feeding advisor-assisted consultations that close enrollments.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new free signup to their first hands-on win — running their first line of code — proving to a total beginner that tech is learnable for someone like them.",
+      "trigger": "Free Mini Bootcamp signup / account created (send instantly).",
+      "segment": "New contacts who signed up for the free Mini Bootcamp, the Career Path Quiz, or an info session; branch by the IT track they expressed interest in.",
+      "rationale": "Clarusway's whole conversion thesis hinges on the aha moment — a beginner successfully completing a hands-on exercise. Driving new free signups to that first win immediately is the single biggest predictor of whether they ever enroll or refer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, kill the 'I'm not technical enough' fear, and drive to the one first action — running their first script inside the free Mini Bootcamp.",
+          "subject": "You're in — let's run your first line of code today",
+          "preview": "No IT background needed. Your free Mini Bootcamp (Python, Linux, Git, SQL) is unlocked.",
+          "cta": "Start the Mini Bootcamp",
+          "keyPoints": [
+            "Reassure directly: zero tech background required — thousands of former drivers, parents, and career changers started exactly here",
+            "One clear first action: log in and complete the first hands-on Python exercise (most beginners do it in under 15 minutes)",
+            "Set expectations for the next few short emails and offer a real human reply-to if they get stuck"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move warm-but-unconverted free leads (Mini Bootcamp users, quiz takers) toward booking a free advisor consultation by dismantling the #1 objection — 'I have no IT background.'",
+      "trigger": "Mini Bootcamp signup or Career Path Quiz completion; lead has not yet booked an advisor call.",
+      "segment": "Free-resource leads below the enrollment-ready threshold; branch the middle emails by the IT track from their quiz answer or Mini Bootcamp activity.",
+      "rationale": "The Mini Bootcamp and quiz generate a large pool of motivated leads who stall on self-doubt and cost. A proof-led nurture turning that fear into 'people like me did this' is Clarusway's highest-leverage free-to-enrolled conversion play.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Evaluation-stage proof: a transformation story from a non-technical career changer that directly answers 'can someone like me really do this?' and drives to a free advisor call.",
+          "subject": "She drove for Uber. 8 months later: $96K cloud engineer.",
+          "preview": "No degree, no IT background — here's exactly how she made the switch.",
+          "cta": "Talk to an advisor — free",
+          "keyPoints": [
+            "Lead with a relatable grad: a complete career changer with zero tech background, told in her own words",
+            "Address the objection head-on — the part-time format and live mentor support are built for working beginners",
+            "Cite the reported ~91-92% job placement and $90K-$102K average starting salary with an honest 'results vary' disclaimer (FTC-safe)",
+            "Low-friction next step: a free 15-minute career consultation to map their personal path"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Enrollment Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert prospects who took the free advisor call or started the 15-day risk-free trial but haven't enrolled — by neutralizing the cost and commitment objections.",
+      "trigger": "Free advisor consultation completed OR 15-day risk-free trial started; no application/payment submitted.",
+      "segment": "Post-consult non-converters and active trials; branch by stated track and by which objection surfaced on the call (cost vs. time vs. confidence).",
+      "rationale": "After the advisor call, the deal stalls on affordability and 'can I commit?' Clarusway's strongest answer is its financing menu plus the 15-day full refund — surfacing both at the moment of hesitation is the core revenue lever.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Remove the cost barrier by laying out every payment option and the risk-free guarantee, then drive to the application.",
+          "subject": "Your tech career — and 5 ways to actually pay for it",
+          "preview": "ISA, 30% off upfront, or ~$250/mo. Plus 15 days risk-free to change your mind.",
+          "cta": "Complete your application",
+          "keyPoints": [
+            "Reframe price as investment against the $90K-$102K outcome — the program pays for itself fast",
+            "Spell out the financing menu: ISA (pay 12.5% of income only after you earn $40K+, capped at $20K), 30% upfront discount, ~$250/mo installments, 0% education credit, Meritize loans",
+            "De-risk the decision: 15-day risk-free trial with a full refund — start, attend live classes, and only commit if it's right",
+            "Include required ISA disclosures and a 'results vary' placement disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attendance at free advisor consultations and info sessions — the make-or-break revenue events in Clarusway's funnel.",
+      "trigger": "Advisor consultation or info session booked; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled free consultation or info session registration.",
+      "rationale": "No-shows on the advisor call are the top pre-purchase churn signal for Clarusway. Reminders cut no-shows by ~35% on average, recovering enrollment-ready prospects who'd otherwise vanish before the close conversation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "24-hour reminder that confirms the call, builds anticipation for the value, and lowers no-show risk with an easy reschedule path.",
+          "subject": "Your free career call is tomorrow at {{time}}",
+          "preview": "15 minutes to map your personal path into tech. Here's how to make it count.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate the payoff: a personalized track recommendation and a realistic plan to land a tech job — no pressure, no obligation",
+            "Tell them how to prep: bring their goals, current schedule, and any cost questions so the advisor can tailor it",
+            "One-click reschedule link to remove friction if their time changed (better a moved call than a no-show)",
+            "Reference the advisor by name and the specific track they're exploring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed free leads — quiz takers and Mini Bootcamp users who never applied — and clean the list to protect deliverability.",
+      "trigger": "60-90 days of inactivity (no opens/clicks/logins) after a free-resource signup with no application.",
+      "segment": "Dormant free leads who took the quiz or started the Mini Bootcamp but never booked or enrolled.",
+      "rationale": "A large pool of motivated-then-stalled leads sits dormant after grabbing a free resource. A re-engagement nudge tied to the original dream — escaping a job they're stuck in — recovers 5-15% at near-zero cost and sunsets the rest to protect sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reconnect to the core motivation, remind them the free resources and the outcome are still waiting, and offer a frictionless way back in.",
+          "subject": "Still want out of the job you're stuck in?",
+          "preview": "Your free Mini Bootcamp is still here — and so is the $90K+ tech career.",
+          "cta": "Pick up where you left off",
+          "keyPoints": [
+            "Reconnect emotionally to why they signed up: the goal of a better-paying, more fulfilling tech career hasn't changed",
+            "Remind them the free Mini Bootcamp and Career Path Quiz are still unlocked — restarting takes minutes",
+            "Add a fresh reason to return: a recent grad win or a newly added track relevant to their original interest",
+            "Offer a low-pressure free advisor call as the alternative next step for the ready-but-hesitant"
+          ]
+        }
+      ]
+    }
+  ]
+}
