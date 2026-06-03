@@ -1,0 +1,147 @@
+{
+  "brand": {
+    "name": "Hall Street Media (The Hall Street Journal)",
+    "slug": "hall-street-media",
+    "url": "https://www.hallstreetmedia.com",
+    "vertical": "Education/nonprofit/membership",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#C9A84C",
+      "background": "#F5F5F0",
+      "text": "#1C1C1C"
+    }
+  },
+  "summary": "Hall Street Media publishes The Hall Street Journal, a free, ad/sponsorship-funded online publication and digital media brand covering money, health, faith, family, news, and culture. It serves upwardly mobile adults (25-45), primarily Black/African American professionals, who want one trusted, culturally resonant source that translates complex topics into plain language and builds a community that grows together.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation by getting a new subscriber to their first 'this was written for me' read fast, and learn which content pillar matters most to them.",
+      "trigger": "Newsletter signup / list join — send instantly (open rates drop ~50% if delayed).",
+      "segment": "All new subscribers; branch on the pillar they self-select (money / health / faith / family / news & culture).",
+      "rationale": "Every backbone flow is missing and discovery is social-driven, so the welcome is the first owned touch that proves the brand is different and captures the one preference (pillar) that powers all later personalization.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver an immediate 'written for me' win by letting the reader self-select the pillar they came for.",
+          "subject": "Welcome to The Hall Street Journal — pick what you came for",
+          "preview": "Money, health, faith, or family — tell us where you want to grow first.",
+          "cta": "Choose your first read",
+          "keyPoints": [
+            "Affirm why they're here: one trusted source for money, health, faith, and family — in language that actually sounds like us, no jargon",
+            "Offer a one-tap self-select (money / health / faith / family / news & culture) that routes them to a flagship plain-English piece and tags them for future sends",
+            "Set the cadence and promise no fluff; invite a real reply, and link the most-loved finance explainer as the instant first win"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The Hall Street Journal Weekly",
+      "priority": 2,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority with a consistent, reliable weekly edition that drives clicks back to the site — the core engagement metric that funds an ad/sponsorship model.",
+      "trigger": "Scheduled weekly cadence.",
+      "segment": "All engaged subscribers; suppress contacts still in the welcome flow and route recently-dormant readers to Win-Back instead.",
+      "rationale": "For a free publication the newsletter IS the product and the revenue engine, and inconsistent cadence is the brand's #1 churn risk — a dependable, well-formatted weekly fixes the gap that hurt past retention.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "recurring",
+          "purpose": "The flagship weekly digest template: one useful idea per pillar, a single primary CTA back to the site, and a recurring habit-building section.",
+          "subject": "This week in money, faith & family — the HSJ rundown",
+          "preview": "One plain-English money move, one faith note, one thing worth your time.",
+          "cta": "Read this week's Journal",
+          "keyPoints": [
+            "Lead with one practical, plain-English money or career move (with a standard 'not financial advice' note), then short hits across faith, family, and health",
+            "Recurring habit section ('This week's real-talk money tip') and dynamic blocks ordered by the reader's selected pillar; 80% value / 20% soft offer",
+            "Single clear primary CTA to read the week's feature on-site; warm community sign-off that invites replies and shares"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant subscribers and clean the list to protect sender reputation before pouring budget into growth.",
+      "trigger": "Inactivity threshold — 60-90 days with no opens/clicks.",
+      "segment": "Dormant subscribers (no engagement in 60+ days), separated from any never-engaged signups.",
+      "rationale": "A history of irregular publishing likely left a tail of lapsed readers; reclaiming 5-15% of them is fast, cheap, and improves deliverability for every other campaign before growth spend ramps.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you', remind them of the core value, and surface what they've missed.",
+          "subject": "Did we lose you? Your seat at the table's still here",
+          "preview": "We've been doing the work — here's what you've missed.",
+          "cta": "Come back to The Journal",
+          "keyPoints": [
+            "Warm, no-guilt 'we've been thinking about you' tone that reaffirms the community and the brand's reason for being",
+            "Show 2-3 of the strongest recent pieces (money, faith, family) as proof the cadence and quality are back and consistent",
+            "Single low-friction CTA to read one piece; set up the later sunset email so non-responders can be suppressed to protect deliverability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert social followers and casual visitors into committed subscribers by delivering a gated guide and nurturing them toward becoming regular, engaged readers.",
+      "trigger": "Download of a gated lead magnet (e.g., a plain-English money guide for the upwardly mobile).",
+      "segment": "New leads from the magnet; branch the middle of the sequence by the magnet topic (money / faith & family / health).",
+      "rationale": "Discovery is almost entirely social today with no downloadable assets; a signature gated guide gives the brand a top-of-funnel capture engine that turns scattered followers into owned, addressable subscribers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested guide and frame the real problem it solves to set up the rest of the nurture.",
+          "subject": "Your money guide's inside — let's talk about the real problem",
+          "preview": "Why 'just budget better' has never worked for us — and what does.",
+          "cta": "Get the guide",
+          "keyPoints": [
+            "Deliver the download immediately and name the deeper problem: generic finance advice that ignores our reality and starting point",
+            "Frame HSJ as the source that explains money (and the rest of a well-rounded life) in language that sounds like us, with a 'not financial advice' note",
+            "Tease the next emails (the framework, then proof) and invite a reply with the one money question they most want answered"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-advocacy",
+      "name": "Referral / Advocacy",
+      "priority": 5,
+      "stage": "Advocacy / Referral",
+      "objective": "Turn engaged readers into the brand's primary growth channel by making sharing The Journal natural at moments of value.",
+      "trigger": "Value moment — a reader clicks/reads several pieces, finishes a guide, or hits an engagement milestone.",
+      "segment": "Highly engaged subscribers and advocates (repeat clickers, guide finishers).",
+      "rationale": "This is a community-minded, word-of-mouth-driven brand with no paid tier to expand, so advocacy — not renewal — is the natural retention-stage growth lever and amplifies the social momentum that already drives signups.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "trigger",
+          "purpose": "Catch the reader at a value high and ask them to bring someone else into the community.",
+          "subject": "Know someone who needs to hear this? Bring them in",
+          "preview": "The Journal grows by word of mouth — share it with someone climbing too.",
+          "cta": "Share The Journal",
+          "keyPoints": [
+            "Acknowledge they've been getting real value lately and tie it to the mission of developing and rising together as a community",
+            "Make sharing one tap: a personal forward, a ready-to-post social link, and a simple 'invite a friend to subscribe' link",
+            "Frame the ask around the friend's benefit ('someone who could use plain-talk money and life advice'), not a transactional reward"
+          ]
+        }
+      ]
+    }
+  ]
+}
