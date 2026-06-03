@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Level up Lady",
+    "url": "https://www.theleveluplady.com",
+    "slug": "the-level-up-lady",
+    "vertical": "Education / Women's Personal-Development Coaching",
+    "tagline": "A Women's Empowerment School Dedicated To Helping You Unlock Your Full Potential And Attract Success!",
+    "colors": {
+      "primary": "#E84493",
+      "accent": "#C9A96E",
+      "background": "#FFF0F2",
+      "text": "#2B2B2B"
+    }
+  },
+  "offer": {
+    "what": "Women's empowerment blog (100+ articles), free self-improvement eBooks/courses, and life coaching by certified coach Brittany Cherrell; hosted on Teachable school. Primary domain (theleveluplady.com) appears to be in transition/rebuild; active school at level-up-lady-school.teachable.com.",
+    "coreOutcome": "Women unlock their full potential, build confidence, and attract the life they want — with practical inner-work tools that don't cost a fortune.",
+    "pricePoint": "Free tier dominant (free ebook, free blog). Budget-conscious paid courses implied but not currently listed. 1:1 coaching likely available by inquiry; price unknown.",
+    "commitment": "Self-paced, no long-term contract implied; ad-hoc or course-by-course",
+    "leadMagnets": [
+      "30 Days of Quotes to Live by and WHY eBook + Workbook (free, via Teachable)"
+    ]
+  },
+  "audience": {
+    "icp": "Women of all ages and life stages who feel stuck, under-confident, or not living up to their potential — especially budget-conscious women who want personal development without expensive coaching fees.",
+    "painPoints": [
+      "Living a life that's hard to get up to in the morning",
+      "Lack of confidence and self-belief",
+      "Feeling stuck or not reaching full potential",
+      "Can't afford expensive coaching programs",
+      "Need inner-work support but don't know where to start"
+    ],
+    "segments": [
+      "Early-stage personal development seekers (brand new to self-improvement)",
+      "Women in transition (career, relationship, life stage shifts)",
+      "Budget-conscious learners who consume free/low-cost content",
+      "Women entrepreneurs / ambitious women (based on Women Helping Women Entrepreneurs directory listing)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Unknown; likely days-to-weeks for low-ticket digital products; potentially months for 1:1 coaching",
+    "trial": "Yes — free ebook and blog content serve as the top-of-funnel trial/sample",
+    "closeMechanism": "Self-serve signup on Teachable for free resources; direct email inquiry (brittany@leveluplady.co) for coaching",
+    "topObjection": "Price sensitivity — the brand explicitly addresses affordability ('without paying a fortune'), suggesting cost is the primary barrier"
+  },
+  "ahaMoment": "Completing the free 30-day eBook/workbook and experiencing a mindset shift — or reading a blog article that reframes a personal struggle. First value is purely content-led.",
+  "retention": {
+    "recurring": "Not confirmed; no membership or subscription tier visible. Repeat engagement through blog readership and future course releases.",
+    "expansion": "Unknown; potential upgrade path from free blog/ebook → paid courses → 1:1 coaching, but no visible paid tier currently.",
+    "churnRisk": "High passive churn — free content consumers have no financial commitment and can disengage silently. No re-engagement mechanism visible."
+  },
+  "lifecycleGaps": [
+    "No visible welcome/onboarding email sequence for new Teachable signups",
+    "No lead-magnet nurture sequence to convert free ebook downloaders",
+    "No trial/consult conversion flow (no discovery call CTA visible)",
+    "No booking/reminder flow (no booking system found)",
+    "No regular value newsletter (blog exists but no email distribution confirmed)",
+    "No renewal or expansion flow (no paid recurring product visible)",
+    "No win-back/re-engagement sequence",
+    "No referral or advocacy campaign"
+  ],
+  "toneVoice": "Warm, sisterly, and conversational ('Hey Lady!'). Encouraging and empathetic — Brittany speaks from personal struggle. Accessible and non-judgmental. Motivational without being pushy. Budget-conscious positioning keeps tone humble and inclusive rather than aspirational/premium.",
+  "compliance": "No specific compliance constraints identified. General CAN-SPAM and GDPR apply. No healthcare, finance, or legal content noted."
+}

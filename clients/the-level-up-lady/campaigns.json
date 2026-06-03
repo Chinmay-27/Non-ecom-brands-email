@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Level up Lady",
+    "slug": "the-level-up-lady",
+    "url": "https://www.theleveluplady.com",
+    "vertical": "Education / Women's Personal-Development Coaching",
+    "colors": {
+      "primary": "#E84493",
+      "accent": "#C9A96E",
+      "background": "#FFF0F2",
+      "text": "#2B2B2B"
+    }
+  },
+  "summary": "Level up Lady is a women's personal-development brand run by certified life coach Brittany Cherrell, offering a 100+ article blog, free self-improvement eBooks and workbooks, and (implied) low-cost courses and 1:1 coaching, hosted on a Teachable school. It serves budget-conscious women of any age who feel stuck or under-confident and want practical inner-work tools without paying for expensive coaching.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new eBook downloader to her first mindset win and set expectations for what Level up Lady is.",
+      "trigger": "Free '30 Days of Quotes' eBook + workbook signup on Teachable (list join).",
+      "segment": "All new contacts; no survey data yet, so lead with the universal 'stuck / hard to get up in the morning' pain.",
+      "rationale": "Right now new downloaders get only Teachable's default receipt and then silence — this is the single biggest leak. The welcome email is the most-opened send a brand makes and converts a one-time download into an ongoing relationship.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm sisterly welcome, deliver the eBook link, and walk her through Day 1 so she gets an immediate mindset win.",
+          "subject": "Hey Lady — your 30-Day workbook is inside (start with Day 1)",
+          "preview": "Two minutes today and you'll feel the shift. I'll show you exactly where to begin.",
+          "cta": "Open your workbook & do Day 1",
+          "keyPoints": [
+            "Open warm and personal in Brittany's voice ('Hey Lady!') — name the shared feeling of waking up to a life that's hard to get up for",
+            "Give the direct download/access link to the 30 Days of Quotes eBook + workbook so there's zero friction",
+            "Point to ONE action: read today's quote and answer the Day 1 workbook prompt — frame it as a 2-minute first win",
+            "Set expectations: a few short emails coming with free tools and blog reads, no fluff, no big price tags",
+            "Invite a real reply to brittany@leveluplady.co — a real person reads every one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Keep new downloaders engaged past Day 1, build trust with free blog value, and warm them toward working more closely with Brittany.",
+      "trigger": "Completion of (or 3+ days into) the 30-day eBook; runs after the welcome sequence.",
+      "segment": "eBook downloaders below any 'ready to invest' signal; branch later by which blog topics they click (confidence, transitions, motivation).",
+      "rationale": "The eBook is the whole top of funnel and 100+ blog articles sit unused in email — nurture turns a one-time freebie into a habit and is the bridge to the brand's first paid conversions. A buyer-journey-mapped nurture has beaten plain newsletters by +650% CTR.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "10",
+          "purpose": "Education email that teaches one repeatable inner-work framework and reframes the 'I'm stuck' problem, pulling in a relevant free blog article.",
+          "subject": "The real reason mornings feel so heavy (it's fixable)",
+          "preview": "Confidence isn't something you're born with — here's the small daily practice that builds it.",
+          "cta": "Read the full breakdown on the blog",
+          "keyPoints": [
+            "Name the pain in her words — a life that's hard to get up to — then reframe it as a fixable mindset pattern, not a personality flaw",
+            "Teach one concrete, free practice she can do today (e.g. a confidence or reframe ritual) drawn from the 30-day work",
+            "Link to one resonant blog article that goes deeper, building the habit of coming back to Level up Lady",
+            "Keep it budget-conscious and non-pushy — value first, no ask beyond reading",
+            "Soft thread toward 'there's more if you want to go deeper' to set up the conversion campaign"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trial-consult-conversion",
+      "name": "Consultation-to-Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Turn an engaged free reader into a paying client by inviting her to a low-friction next step with Brittany.",
+      "trigger": "Engagement milestone — finished the eBook and/or clicked multiple blog/nurture links (sales-ready signal).",
+      "segment": "Warmed nurture contacts showing repeated engagement; address the explicit #1 objection: 'I can't afford coaching.'",
+      "rationale": "There's currently no conversion path at all — coaching is inquiry-only with no visible CTA, so engaged readers have nowhere to go. A soft, affordability-forward invite to a free discovery chat (or low-ticket course) creates the brand's first real revenue motion.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Invite the warmed reader to a free, no-pressure discovery chat (or next low-cost offer), directly disarming the price objection.",
+          "subject": "Want to do this together? (no big price tag, promise)",
+          "preview": "You've done the inner work solo — here's a free, no-pressure chat about what's next for you.",
+          "cta": "Reply or book a free chat with Brittany",
+          "keyPoints": [
+            "Acknowledge how far she's already come on her own through the free content — credit her effort",
+            "Tackle the affordability objection head-on: working with Brittany is built to be budget-conscious, this first chat is free",
+            "Make the next step tiny — reply to this email or grab a free discovery call to talk through where she feels stuck",
+            "Use proof of transformation (Brittany's own story / a peer's reframe) to handle the 'will this work for me' doubt",
+            "One clear CTA only; warm, sisterly, zero hard-sell pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and keep the list warm between launches by delivering one useful inner-work idea on a steady cadence.",
+      "trigger": "Scheduled cadence (weekly or biweekly); suppress contacts still in the welcome sequence and route dormant ones to win-back.",
+      "segment": "All engaged contacts who've finished onboarding; later segment editions by interest tag (confidence, transitions, entrepreneurship).",
+      "rationale": "The email list is the brand's primary retention lever and it's underused, while 100+ blog articles give endless newsletter fuel. A recurring 'Lady, this week' habit fights the brand's high passive churn without ever needing a discount.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable newsletter template with one actionable tip and a single primary CTA to read more.",
+          "subject": "This week, Lady: the 5-minute confidence reset",
+          "preview": "One small practice to start your week feeling a little more like yourself.",
+          "cta": "Read this week's full tip",
+          "keyPoints": [
+            "Open with a recurring, habit-building section ('This week, Lady…') so she learns to expect and open it",
+            "Deliver ONE useful idea — a quick tip, mini-reframe, or behind-the-scenes from Brittany's own week",
+            "80% value / 20% soft offer — point to a blog article or free resource, not a hard sell",
+            "Single primary CTA (read / reply), keep it short and skimmable",
+            "Sisterly, encouraging tone with an open invitation to reply and share what she's working on"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant downloaders who went quiet and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold — 60–90 days with no opens or clicks.",
+      "segment": "Dormant free-content subscribers who never converted; lean on fresh value and a reminder of why she signed up.",
+      "rationale": "Free-content consumers have zero financial commitment and disengage silently — this is the brand's stated #1 churn risk. A short win-back recovers 5–15% of them and sunsets the rest so the small list stays deliverable.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a warm 'we miss you' that reminds her of the outcome she came for.",
+          "subject": "Did we lose you, Lady?",
+          "preview": "You came here to feel more like yourself again. That offer still stands.",
+          "cta": "Come back & pick one thing to read",
+          "keyPoints": [
+            "Lead with warmth, not guilt — remind her of the change she wanted when she first downloaded the eBook",
+            "Offer one fresh, high-value reason to return (a new or best-of blog article / refreshed free resource)",
+            "Make returning effortless — a single low-commitment click to one resource",
+            "Reaffirm the budget-conscious promise: it's all still free to come back to",
+            "Set up the rest of the sequence to escalate to a soft sunset ('should we stop emailing you?') for non-responders"
+          ]
+        }
+      ]
+    }
+  ]
+}
