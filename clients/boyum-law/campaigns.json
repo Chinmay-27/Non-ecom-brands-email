@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Boyum Law",
+    "slug": "boyum-law",
+    "url": "https://www.boyumlaw.com",
+    "vertical": "Local & service / B2B professional (legal — estate planning & probate)",
+    "colors": {
+      "primary": "#1a3a5c",
+      "accent": "#c49a3c",
+      "background": "#ffffff",
+      "text": "#2d2d2d"
+    }
+  },
+  "summary": "Boyum Law is a solo, Nebraska-licensed law firm in the Omaha metro (attorney Brad Boyum) handling estate planning — wills, living trusts, special needs and pet trusts, farm succession, and asset protection — plus probate administration, elder law, powers of attorney, and Medicaid planning. It serves Omaha-area families aged roughly 45–70 with accumulated assets who haven't formalized a plan, and adult children or spouses navigating probate after a death. Engagements are one-off, project-based legal fees, and the free initial consultation is the primary way clients are won.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a new inquiry or consultation request into a confident, prepared lead who shows up to the free consultation knowing exactly what to expect.",
+      "trigger": "Contact form submitted / free-consultation requested / email list join.",
+      "segment": "New contacts; branch by stated need (pre-planning family vs. post-loss probate vs. farm/business owner) where the intake form captures it.",
+      "rationale": "Every backbone campaign is missing today, so the playbook's #1 priority applies cleanly: this is the highest-engagement, fastest-to-value send and it sets the trust that a sensitive, family-first legal purchase depends on. For Boyum, the inquiry-to-consultation moment is where intent is hottest and where most leads currently fall silent.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome the moment someone reaches out: reassure them, set expectations for the free consultation, and deliver one quick win (clarity on what the meeting covers and that there is zero obligation).",
+          "subject": "We got your message — here's what your free consultation covers",
+          "preview": "No legal jargon, no obligation. Just a clear plan for protecting your family.",
+          "cta": "Confirm your free consultation time",
+          "keyPoints": [
+            "Reassure: reaching out is the hard part, and there's no cost and no obligation to retain after the consultation",
+            "Set expectations for the 30–60 min meeting with Brad — he reviews your specific situation and shows you exactly which documents (will, trust, POA) you actually need and why",
+            "Tell them what to bring (rough list of assets, who they'd name) so the meeting is productive",
+            "Plain-English, family-first tone; a real reply-to (Brad/firm) and the firm name + Omaha address for CAN-SPAM and NE Bar compliance",
+            "Disclaimer: this email does not create an attorney-client relationship"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Free-Consultation Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert inquiries who haven't yet booked — and fence-sitters weighing DIY tools — into a booked, retained free consultation by answering the #1 objection head-on.",
+      "trigger": "Inquiry made but consultation not yet booked, or lead engaged with content but stalled before booking.",
+      "segment": "Unbooked / stalled leads; branch by whether they cited cost concern vs. 'not urgent yet' procrastination.",
+      "rationale": "The free consultation is Boyum's entire close mechanism, so the core revenue play (playbook #2) is to get unbooked leads into that meeting. The single biggest blocker is 'do I really need a lawyer, or is LegalZoom enough?' — answering that with candor is what moves an Omaha family from curious to committed.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "The hero send: meet the LegalZoom/DIY objection honestly, show the real cost of getting it wrong in Nebraska, and make booking the no-risk next step.",
+          "subject": "LegalZoom or a lawyer? An honest answer for Nebraska families",
+          "preview": "When a $99 template is fine — and when it quietly costs your heirs far more.",
+          "cta": "Book your free, no-obligation consultation",
+          "keyPoints": [
+            "Lead with candor: name when a simple online will genuinely is enough — this honesty builds the trust the brand is known for",
+            "Then the real risk: a generic template that isn't properly executed or funded under Nebraska law can send the house through probate anyway, costing heirs time and money",
+            "Reframe the consultation as the low-risk way to find out which camp you're in — free, no obligation, 30–60 minutes with Brad",
+            "Gently counter procrastination: planning is easiest before a health event forces the issue",
+            "No outcome guarantees (NE Bar rules); firm name/address + not-legal-advice disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-noshow",
+      "name": "Booking Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize consultation show-up rate and recover the appointments that slip, protecting the firm's primary revenue event.",
+      "trigger": "Consultation booked; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled free consultation with Brad.",
+      "rationale": "Because the free consultation IS the close, a missed appointment is lost revenue — and reminders cut no-shows ~35% on average. The playbook ranks appointment-driven reminders #3 for exactly this kind of brand, and Boyum has no reminder automation today.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Hero send: the 24-hour-before reminder that locks in attendance — confirms time, lowers anxiety about a sensitive topic, gives prep + easy reschedule so a conflict becomes a rebook instead of a no-show.",
+          "subject": "See you tomorrow, {{first_name}} — your consultation with Brad",
+          "preview": "A few things to have handy so we make the most of your time.",
+          "cta": "Add to calendar / need to reschedule?",
+          "keyPoints": [
+            "Confirm date, time, and location (1227 S 119th St, Omaha) or phone-call details",
+            "Quick prep: jot down your assets and who you'd want to make decisions — no homework stress, just helps Brad tailor the review",
+            "Reassure: this is a relaxed, judgment-free conversation, not a sales pitch; no obligation to retain",
+            "One-click reschedule link to convert conflicts into rebooks rather than no-shows",
+            "Firm name/address and not-legal-advice disclaimer for compliance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Estate-Planning Lead-Magnet Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold contacts and content consumers — who downloaded a guide or listened to the audio interviews but aren't ready to book — toward consultation-readiness over a longer cycle.",
+      "trigger": "Gated guide downloaded or audio-interview signup (e.g., 'The Omaha Family's Estate Planning Starter Guide').",
+      "segment": "Leads below the consultation-ready threshold; branch by topic (basic estate planning vs. probate help vs. farm/business succession).",
+      "rationale": "Boyum already has low-friction content (resources page, expert audio interviews) but no sequence to convert those passive consumers. The playbook puts nurture at #4 once a magnet feeds the funnel; for a long-procrastination purchase like estate planning, patient education is what eventually triggers the booking.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Hero send: deliver the requested guide instantly and frame the real problem behind it — most Nebraska families assume a will covers them, and that gap is what costs heirs.",
+          "subject": "Your estate planning guide is inside, {{first_name}}",
+          "preview": "The one assumption that quietly sends a Nebraska home through probate.",
+          "cta": "Download your guide",
+          "keyPoints": [
+            "Deliver the asset immediately with a clear download/link — fulfill the promise first",
+            "Frame the core problem: a will alone often still means probate in Nebraska; many families don't realize the gap until it's too late",
+            "Set the cadence: over the next few weeks, short plain-English emails on wills vs. trusts, protecting the farm/business, and what probate really involves",
+            "Soft, no-pressure invite to the free consultation whenever they're ready — no urgency manufactured",
+            "Firm name/address, unsubscribe, and not-legal-advice disclaimer for CAN-SPAM / NE Bar compliance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-plan-review",
+      "name": "Win-Back & Plan-Review Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement / Retention",
+      "objective": "Reactivate dormant past clients and cold leads, and surface the families whose lives have changed and whose estate plan now needs updating — protecting list deliverability while recovering revenue.",
+      "trigger": "Inactivity threshold (60–90 days no engagement) for cold leads; 2–3 years since last engagement for past clients.",
+      "segment": "Dormant subscribers/leads (lean on fresh value); separately, past planning clients (lean on life-change plan review).",
+      "rationale": "Win-back is the playbook's #5 — quick to ship and it protects deliverability — and for Boyum it doubles as the answer to the firm's biggest churn risk: one-and-done clients who never update documents and become someone else's probate problem. Reactivating them is both retention and new revenue.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Hero send: the gentle 'has your life changed?' nudge that reminds past clients an estate plan isn't set-and-forget — and re-opens the door for a review without pressure.",
+          "subject": "Has your life changed since we last talked, {{first_name}}?",
+          "preview": "A new grandchild, a home, a move — small changes your plan may need to catch up on.",
+          "cta": "Schedule a quick plan review",
+          "keyPoints": [
+            "Warm, no-guilt reconnect: it's been a while, and that's normal — but plans should keep pace with life",
+            "List the common triggers that make a plan outdated: marriage/divorce, a new child or grandchild, a major asset or home purchase, a move, or a death in the family",
+            "Make the next step low-friction: a short review to confirm everything still reflects their wishes — no obligation",
+            "For cold leads (separate branch): lead with fresh value/content rather than a review ask, and include a clean opt-out to sunset non-responders and protect deliverability",
+            "Firm name/address, unsubscribe, and not-legal-advice disclaimer for compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}

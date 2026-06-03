@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Boyum Law",
+    "url": "https://www.boyumlaw.com",
+    "slug": "boyum-law",
+    "vertical": "Local & service / B2B professional (legal)",
+    "tagline": "Your Family's Peace of Mind is Our Business",
+    "colors": {
+      "primary": "#1a3a5c",
+      "accent": "#c49a3c",
+      "background": "#ffffff",
+      "text": "#2d2d2d"
+    }
+  },
+  "offer": {
+    "what": "Estate planning (wills, living trusts, special needs trusts, farm succession, asset protection) and probate administration, plus elder law, power of attorney, and Medicaid planning — all delivered by a single Nebraska-licensed attorney (Brad Boyum) in the Omaha metro",
+    "coreOutcome": "Families legally protect and transfer their assets to the next generation without losing wealth to probate, taxes, or administrative chaos",
+    "pricePoint": "Not publicly disclosed; typical Nebraska estate planning legal fees range $1,000–$5,000+ per engagement; one-off project fees, not subscription",
+    "commitment": "Project-based one-off engagements (estate plan or probate administration); probate cases can run 6–18 months",
+    "leadMagnets": [
+      "Free initial consultation (no obligation)",
+      "Expert audio interviews / resources section on website"
+    ]
+  },
+  "audience": {
+    "icp": "Omaha-metro Nebraska families, typically 45–70 years old, with accumulated assets (home, savings, farm, business) who have not yet formalized an estate plan, OR families navigating probate after the loss of a loved one",
+    "painPoints": [
+      "Fear that hard-earned assets will be lost to probate costs or taxes",
+      "Confusion about which documents (will vs. trust vs. POA) are actually needed",
+      "Emotional overwhelm when dealing with a loved one's estate after death",
+      "Bank accounts frozen at death, creating immediate cash-flow crises for families",
+      "Uncertainty about whether an attorney is worth the cost vs. DIY online tools",
+      "Procrastination — 'we'll do it later' — until a health event forces the issue"
+    ],
+    "segments": [
+      "Pre-planning families: middle-aged adults who want to protect their estate proactively",
+      "Post-loss families: adult children or spouses navigating probate after a death",
+      "Farmers / agricultural landowners: need specialized succession planning",
+      "Elderly individuals: elder law, Medicaid planning, long-term care asset protection",
+      "Small business owners: business succession and asset protection via LLCs/trusts"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to 2–3 weeks from first contact to retained client",
+    "trial": "Free initial consultation — no cost, no obligation to retain",
+    "closeMechanism": "Booked in-office consultation → personalized review of situation → engagement letter / retainer signed",
+    "topObjection": "'Do I really need a lawyer for this? Can I just use LegalZoom?' — cost and perceived complexity vs. DIY alternatives"
+  },
+  "ahaMoment": "The free consultation itself: Brad walks the client through their specific situation and shows them exactly what documents they need and why — transforming a vague, scary topic into a clear, actionable plan. The moment a client understands their exposure (e.g., 'without a trust, your house goes through probate and costs your heirs X') is the activation event.",
+  "retention": {
+    "recurring": "Not subscription-based; repeat business comes from estate plan updates as life changes (marriage, divorce, new child, major asset purchase), or when a previously planned client needs probate services",
+    "expansion": "Upsell from simple will to full revocable living trust; add-on elder law / Medicaid planning as clients age; farm succession planning for landowners",
+    "churnRisk": "One-and-done clients who don't update documents for years; families who used a different attorney for estate planning then go elsewhere for probate; clients who postpone recommended updates until a crisis"
+  },
+  "lifecycleGaps": [
+    "No visible welcome / onboarding email sequence after someone books or inquires",
+    "No lead-magnet nurture sequence to convert free-consultation no-shows or cold leads",
+    "No post-engagement re-engagement cadence (e.g., 'It's been 3 years — has your life changed? Time to review your estate plan')",
+    "No automated booking reminder / no-show recovery for consultation appointments",
+    "No referral or advocacy program to activate satisfied clients",
+    "No value newsletter to stay top-of-mind with past clients and referral partners (CPAs, financial advisors)"
+  ],
+  "toneVoice": "Professional yet warm and compassionate; family-first language; plain English over legal jargon; reassuring during emotionally difficult moments (death, aging, family conflict); honest about when an attorney is and isn't needed — builds trust through candor",
+  "compliance": "Nebraska State Bar attorney advertising rules (no false or misleading claims, must include firm name/address); CAN-SPAM compliance required; no attorney-client privilege created by email; must avoid specific legal guarantees or outcome promises; GDPR unlikely to apply (local Nebraska focus)"
+}
