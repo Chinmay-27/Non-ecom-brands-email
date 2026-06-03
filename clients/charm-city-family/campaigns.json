@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Charm City Family",
+    "slug": "charm-city-family",
+    "url": "https://www.charmcityfamily.com",
+    "vertical": "Local & service / community membership (hyperlocal parenting community)",
+    "colors": {
+      "primary": "#6B4FA0",
+      "accent": "#F4A426",
+      "background": "#FFF8F0",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "Charm City Family is a free hyperlocal Baltimore parenting community and blog that curates kid-friendly events, family activity guides, and peer support for local parents — primarily moms with children ages 0–12. It runs mainly through a Facebook page and group, celebrates the city's diversity, and earns through sponsorships, partnerships, and occasional creative services like caricature art rather than a paid membership.",
+  "campaigns": [
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Baltimore Family Guide — Lead-Magnet Nurture",
+      "priority": 1,
+      "stage": "Awareness / Lead capture → Nurture",
+      "objective": "Convert Facebook followers and organic visitors into owned email subscribers by giving away a high-value Baltimore family resource, then warm them toward active community membership.",
+      "trigger": "Download of the gated lead magnet (\"50 Free Things to Do in Baltimore with Kids\").",
+      "segment": "New email subscribers acquired via the lead magnet who have not yet joined the Facebook group or engaged with a send.",
+      "rationale": "This brand's #1 goal this quarter is building an owned list from zero — with a parked website and Facebook-only reach, the lead magnet is the only thing that creates an email relationship and reduces dependence on the algorithm.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly deliver the downloadable guide, frame the real problem it solves (no one place for trustworthy, current Baltimore family plans), and set the tone of a warm local neighbor.",
+          "subject": "Your 50 free things to do in Baltimore with the kids 🎡",
+          "preview": "The list we wish someone handed us when we started — no more scrolling 12 tabs Friday night.",
+          "cta": "Download your free Baltimore family guide",
+          "keyPoints": [
+            "Deliver the PDF/link immediately with a one-line 'here's your guide' so the value lands within seconds of signup",
+            "Name the pain: finding vetted, up-to-date, inclusive family activities in Baltimore is scattered and exhausting",
+            "Tease what's coming next (curated weekend picks straight to their inbox) so they expect and welcome future sends",
+            "Warm, community-first voice with light emoji — 'from one Charm City parent to another'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome to Charm City Family",
+      "priority": 2,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a brand-new subscriber to their first 'aha' — discovering a local activity they didn't know about — and bring them into the Facebook group so they become an active community member, not a passive name on a list.",
+      "trigger": "New subscriber added to the list (immediately after the lead-magnet delivery).",
+      "segment": "All new subscribers; lead with the activity type matching the guide section they engaged with if known.",
+      "rationale": "With no triggered onboarding today, new followers depend entirely on the algorithm surfacing a relevant post — this email guarantees every new subscriber reaches first value and joins the group, the core activation event for this community.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, hand them one ready-to-use weekend plan as a quick win, and drive the single most important first action: joining the Facebook group.",
+          "subject": "Welcome, neighbor — here's your first Baltimore weekend plan 👋",
+          "preview": "One thing to do with the kids this weekend, plus where 360+ local parents are hanging out.",
+          "cta": "Join the Charm City Family group",
+          "keyPoints": [
+            "Open warmly and reassure they're now in the loop — they'll never miss a great local thing to do again",
+            "Deliver one specific, doable weekend activity as the instant first win (the 'aha' moment)",
+            "Drive the primary action: join the Facebook group to meet other Baltimore parents and ask questions",
+            "Invite a real reply ('hit reply and tell me your kids' ages and your neighborhood') to start a human relationship and gather segment data"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "This Weekend in Charm City",
+      "priority": 3,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build the habit of opening Charm City Family every week, keeping the new list engaged and turning it into a compounding owned asset.",
+      "trigger": "Scheduled weekly cadence (e.g., every Thursday morning ahead of the weekend).",
+      "segment": "All engaged subscribers; suppress brand-new contacts still in the welcome sequence and route long-dormant contacts to win-back.",
+      "rationale": "The list only becomes valuable if it stays warm — a reliable weekly 'what to do this weekend' send is the retention engine that protects this community from Facebook reach drops and proves the brand is active, directly answering the 'is this still going?' objection.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "weekly (Thursday)",
+          "purpose": "Deliver the flagship recurring edition: a curated, scannable shortlist of the best family-friendly things happening in Baltimore this weekend, with one community highlight.",
+          "subject": "3 things to do with the kids in Baltimore this weekend",
+          "preview": "A free festival, a rainy-day backup, and the hidden gem a group member found.",
+          "cta": "See this weekend's picks",
+          "keyPoints": [
+            "Lead with 3 vetted weekend picks including at least one free option and one rainy-day/indoor backup",
+            "Include a recurring community section ('what a Charm City parent loved last week') to build habit and social proof",
+            "Note which spots are stroller-friendly, low-cost, and welcoming for diverse families — the trust signal this audience values",
+            "Single clear CTA, 80% value / 20% soft ask (join group, reply with a tip, or share)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-advocacy",
+      "name": "Bring a Fellow Baltimore Parent",
+      "priority": 4,
+      "stage": "Advocacy / Referral",
+      "objective": "Turn engaged subscribers into the brand's primary growth channel by making it easy and natural to share Charm City Family with other local parents.",
+      "trigger": "Engagement milestone — subscriber has opened/clicked several newsletters or attended a recommended event and reported back.",
+      "segment": "Active, engaged subscribers and group members (high-value advocates), excluding brand-new and dormant contacts.",
+      "rationale": "Growth here is purely organic and word-of-mouth, and the community's whole value proposition is connection — a deliberate referral ask turns its most enthusiastic members into a recruiting engine, the most realistic path to scaling the list without ad spend.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Acknowledge the member's engagement, frame sharing as helping a friend (not promoting a brand), and give a frictionless way to forward the list and the guide.",
+          "subject": "Know a Baltimore parent who'd love this? 💜",
+          "preview": "Every great find is better shared — pass the weekend list to a friend who needs it.",
+          "cta": "Share Charm City Family with a friend",
+          "keyPoints": [
+            "Lead with genuine appreciation — 'you're exactly the kind of parent that makes this community great'",
+            "Frame the ask around the friend's benefit: a stressed or new-to-Baltimore parent who needs trustworthy plans and community",
+            "Give a dead-simple share path (forwardable email, copyable group link, and a link to the free guide as the hook)",
+            "Reinforce the inclusive mission — the more diverse families join, the stronger and more welcoming the community gets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "We Miss You at Charm City Family",
+      "priority": 5,
+      "stage": "Re-engagement / Win-back",
+      "objective": "Reactivate subscribers who've gone quiet, and cleanly sunset the truly unengaged to protect deliverability on a brand-new sending domain.",
+      "trigger": "No opens or clicks in ~60 days.",
+      "segment": "Dormant subscribers; a separate variant for those who joined for the guide but never engaged after.",
+      "rationale": "On a fledgling list and new sending reputation, dead weight is dangerous — a quick win-back recovers 5–15% of lapsed parents (life with young kids gets busy) and protects inbox placement for everyone still engaged.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a warm, no-guilt 'we miss you,' remind them of the core value, and offer a single compelling reason to come back this weekend.",
+          "subject": "Did we lose you, Baltimore? 🥺",
+          "preview": "Life with little ones gets wild — here's the best thing happening in the city this weekend.",
+          "cta": "Catch up on what's happening",
+          "keyPoints": [
+            "Lead with empathy, not guilt — 'we know parenting is chaos; we're still here when you've got a free weekend'",
+            "Remind them of the one thing they signed up for: never missing a great, inclusive family activity in Baltimore",
+            "Offer a strong fresh hook (a standout upcoming event or an updated version of the free guide) as the reason to re-engage",
+            "Set up the sunset: if this email goes unopened, a final 'should we stop emailing you?' follows before suppression"
+          ]
+        }
+      ]
+    }
+  ]
+}

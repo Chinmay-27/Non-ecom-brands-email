@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "name": "Charm City Family",
+    "url": "https://www.charmcityfamily.com",
+    "slug": "charm-city-family",
+    "vertical": "Local & service / Education-nonprofit-membership",
+    "tagline": "A safe place for local parents and families to celebrate our differences thru support & share joys of living in Baltimore.",
+    "colors": {
+      "primary": "#6B4FA0",
+      "accent": "#F4A426",
+      "background": "#FFF8F0",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "Hyperlocal Baltimore family community and blog — curated local event recommendations, kid-friendly activity guides, community discussion, and occasional creative services (e.g. caricature art). Primary distribution via Facebook page and group.",
+    "coreOutcome": "Baltimore parents discover fun, inclusive things to do with their kids and feel connected to a supportive local parenting community.",
+    "pricePoint": "Free community / no stated paid tier (donation or sponsorship revenue model likely; creative services priced separately)",
+    "commitment": "No formal commitment — free to join/follow",
+    "leadMagnets": ["Free local events roundups", "Kid-friendly Baltimore activity lists"]
+  },
+  "audience": {
+    "icp": "Baltimore City parents (primarily moms) with children ages 0–12, looking for vetted local activities, family-friendly events, and peer community support",
+    "painPoints": [
+      "Hard to find up-to-date, trustworthy info on family-friendly Baltimore events",
+      "Feeling isolated or lacking a local parenting support network",
+      "Not knowing which neighborhoods/venues are safe and welcoming for diverse families",
+      "Screen-time guilt without enriching alternatives"
+    ],
+    "segments": [
+      "New or expectant Baltimore parents seeking community",
+      "Established Baltimore families wanting curated weekend plans",
+      "Diverse families specifically seeking inclusive, affirming spaces"
+    ]
+  },
+  "salesCycle": {
+    "length": "Immediate — community join/follow is frictionless",
+    "trial": "N/A — free community; no paid trial structure identified",
+    "closeMechanism": "Organic social follow / Facebook group join; word-of-mouth and algorithmic reach",
+    "topObjection": "\"Is this active / up to date?\" — domain is parked and Facebook has modest follower counts (150 page, 361 group members), raising credibility concerns for new visitors"
+  },
+  "ahaMoment": "A new follower sees a post about a local event or activity they didn't know about, goes with their family, and reports back to the group — converting passive follower to active community member.",
+  "retention": {
+    "recurring": "Ongoing community membership (Facebook group/page follows); no paid recurring product identified",
+    "expansion": "Potential: sponsored posts, event partnerships, paid newsletters, or local brand collaborations; creative services (caricatures) as add-on revenue",
+    "churnRisk": "Low posting cadence / domain inactivity can trigger audience disengagement; algorithm de-prioritizes low-engagement pages"
+  },
+  "lifecycleGaps": [
+    "No functioning website or email list — zero owned-channel audience",
+    "No welcome/onboarding sequence for new followers",
+    "No lead-magnet nurture path to convert social followers to email subscribers",
+    "No consistent newsletter or value email cadence",
+    "No win-back or re-engagement flow for lapsed community members",
+    "No referral or advocacy program to grow the community organically"
+  ],
+  "toneVoice": "Casual, warm, and community-first. Uses conversational language and light emoji. Celebrates Baltimore's diversity. Feels like a knowledgeable neighbor sharing a tip, not a brand broadcasting.",
+  "compliance": "CAN-SPAM / standard email compliance applies. No HIPAA, financial, or legal compliance needs identified. Content involves minors so standard child-safe practices apply."
+}
