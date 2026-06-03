@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Hall Street Media (The Hall Street Journal)",
+    "url": "https://www.hallstreetmedia.com",
+    "slug": "hall-street-media",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Educate, Edify, Enlighten & Entertain",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#C9A84C",
+      "background": "#F5F5F0",
+      "text": "#1C1C1C"
+    }
+  },
+  "offer": {
+    "what": "Free online publication and digital media brand covering personal finance, health/fitness, faith, family/relationships, news/politics, and style/entertainment — delivered via newsletter, social content (Reels, posts), and an online magazine-style platform",
+    "coreOutcome": "Upwardly mobile readers gain practical insights and informed perspectives across the topics that shape their personal and professional lives",
+    "pricePoint": "Free (likely ad-supported or sponsorship-funded); potential premium membership tier unknown — not confirmed on live site",
+    "commitment": "None required; free subscription/follow model",
+    "leadMagnets": [
+      "Free newsletter subscription",
+      "Free article access (online publication)",
+      "Social media content (Instagram Reels, posts)"
+    ]
+  },
+  "audience": {
+    "icp": "Upwardly mobile adults (likely 25–45) in urban U.S. markets, particularly Washington DC — professionals and aspirational earners who want practical, relatable guidance on money, health, faith, and family",
+    "painPoints": [
+      "Lack of media that speaks directly to their lived experience as upwardly mobile people of color",
+      "Information overload with no trusted, digestible source for finance/health/faith guidance",
+      "Feeling disconnected from media that doesn't reflect their values or community",
+      "Need for practical, actionable advice — not just entertainment"
+    ],
+    "segments": [
+      "Finance-focused readers (money management, investing, career)",
+      "Faith & family readers (relationships, inspiration, spiritual growth)",
+      "Health & wellness readers (fitness, mental health)",
+      "News & culture readers (current events, style, entertainment)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — content is free and immediately accessible; email subscription is a zero-friction sign-up",
+    "trial": "N/A — the product is free content; no trial needed",
+    "closeMechanism": "Self-serve sign-up (email subscription form, social follow)",
+    "topObjection": "\"I already get too many emails\" / \"There are too many news sources competing for my attention\""
+  },
+  "ahaMoment": "Reading or watching their first piece of HSJ content that feels personally relevant — a finance tip they can act on, a faith story that resonates, or a health insight that sticks. Ideally triggered within the first welcome email.",
+  "retention": {
+    "recurring": "Newsletter open/click cadence — unknown frequency; social media engagement (Instagram Reels active)",
+    "expansion": "Potential upsell to premium membership, sponsored events, or branded courses (not confirmed on live site)",
+    "churnRisk": "High email unsubscribe risk if content feels generic or cadence is irregular; inactive periods (their website is currently down) signal past gaps in publishing consistency"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — almost certainly missing; no live website means no formal onboarding flow",
+    "Lead-Magnet Nurture — unknown; likely absent given site being down",
+    "Trial/Consult Conversion — N/A for free publication model",
+    "Booking, Reminders & No-Show — N/A unless they run events",
+    "Value Newsletter — social content exists but email newsletter regularity is unknown",
+    "Renewal, Anniversary & Expansion — likely absent; no confirmed paid tier",
+    "Win-Back / Re-Engagement — likely absent",
+    "Referral / Advocacy — likely absent"
+  ],
+  "toneVoice": "Warm, empowering, and community-minded — speaks like a trusted older sibling or mentor who has done their research. Conversational but substantive. Uses \"real talk\" framing (#realtalk hashtag). Avoids corporate jargon; leans into authenticity and practical wisdom. Culturally aware and unapologetically affirming of upwardly mobile Black American identity.",
+  "compliance": "Standard CAN-SPAM / GDPR compliance required. No special vertical constraints (not healthcare, finance advisory, or legal). Content touching faith/politics should stay non-divisive and community-affirming per brand mission."
+}
