@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "The Omniverse",
+    "slug": "the-omniverse",
+    "url": "https://theomniverse.city",
+    "vertical": "Gaming / Metaverse SaaS",
+    "colors": {
+      "primary": "#7B2FBE",
+      "accent": "#00E5FF",
+      "background": "#0B0B14",
+      "text": "#F0F0FF"
+    }
+  },
+  "summary": "The Omniverse runs a subscription 3D virtual-world platform ('Omniverse City', built on Unreal Engine and playable in-browser) with persistent districts, an in-game OCX credit economy, AI citizens (DigOzens), creator tools, and event hosting. It serves gaming enthusiasts, content creators, and digital entrepreneurs aged 18-35 who want a persistent virtual identity and a way to build, host, and earn inside an immersive world. Users enter free via the Explorer tier and self-serve upgrade to paid tiers (OmniFolk $12.99/mo, OmniPreneur $39.99/mo, and higher) as they hit the ceiling on residences, businesses, and OCX allocation.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — First Steps in the City",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get new Explorer signups to their first meaningful in-world moment (attend a live event, earn first OCX, or step into a district) within 48 hours.",
+      "trigger": "Explorer license claimed / account created. Send email 1 within seconds of signup.",
+      "segment": "New Explorer signups; branch on signup intent (player vs. creator/entrepreneur) where captured.",
+      "rationale": "There is no structured onboarding today and the free Explorer tier IS the trial — the entire paid funnel depends on activating new arrivals fast. The platform feels real only once a user attends an event or earns OCX, so the first session is the whole game.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome from a fellow citizen, set expectations, and drive the single highest-value first action: step into the city and join a live event or eventure.",
+          "subject": "You're in the city — here's your first move",
+          "preview": "One live eventure tonight, and you're already on the guest list.",
+          "cta": "Enter Omniverse City",
+          "keyPoints": [
+            "Welcome them as a new Explorer ('We Are All Players') and frame the city as a place to live, build, and earn — not just another game",
+            "Point to ONE concrete first action: jump into the next live eventure or walk a district so the world feels inhabited within their first session",
+            "Tease that participation earns OCX platform credits (described as credits, never as money or an investment)",
+            "Set the cadence: a few short notes over the next two weeks on getting the most out of the city, with a real human on reply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explorer-to-paid-conversion",
+      "name": "Explorer → Paid Conversion (OmniFolk / OmniPreneur)",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert active free Explorers into paying OmniFolk or OmniPreneur subscribers by showing what they've already built and what's locked one tier up.",
+      "trigger": "Activation milestone (first event attended, first OCX earned, or repeat session) — runs in parallel with day-7/14/30 nudges for users who hit the free-tier ceiling.",
+      "segment": "Activated free Explorers; branch by intent — social/home-base users to OmniFolk, creators/sellers to OmniPreneur.",
+      "rationale": "Explorer→paid is the core revenue play and there is no conversion email today. With no hard trial expiry, the strongest lever is a usage-review nudge that reflects their real activity back to them at the moment they bump the free-tier ceiling (wanting a residence, higher OCX, or to host).",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "on-ceiling",
+          "purpose": "Reflect their real in-world activity back, show exactly what OmniFolk/OmniPreneur unlocks, and make claiming a residence the obvious next step.",
+          "subject": "You've earned your place — now claim your address",
+          "preview": "Your residence, 800 OCX a month, and a permanent home in the city.",
+          "cta": "Claim your residence",
+          "keyPoints": [
+            "Recap what they've already done as an Explorer (events attended, OCX earned, districts explored) so the upgrade feels deserved, not sold",
+            "Spell out the OmniFolk ceiling-breakers: 1 free residence, 800 OCX/mo, full inventory — and name the OmniPreneur path (a business + retail tools + 2,500 OCX/mo) for creators",
+            "Anchor on $12.99/mo, no contract, cancel anytime in one click — low-risk because it's monthly",
+            "Frame the upgrade as going from visitor to resident: 'a home base your community can actually show up to'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "explorer-nurture",
+      "name": "Explorer Nurture — Proof the City Is Real & Here to Stay",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move not-yet-ready Explorers toward upgrade by proving the platform has real community and momentum — directly defusing the longevity objection.",
+      "trigger": "Explorer signup with no upgrade after onboarding (or day-7 low activity); ~5 emails over ~50 days.",
+      "segment": "Engaged-but-unconverted Explorers below the upgrade-ready threshold; branch by player vs. creator interest.",
+      "rationale": "The #1 objection is 'is this alpha platform going to stick around?' — users hesitate to pay monthly for a world that might shut down. The nurture's hero send answers that head-on with resident stories and visible momentum, the single biggest unblocker for this brand.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Show real residents and entrepreneurs building lives and earning OCX inside the city, proving the community is alive and the platform is being built — the proof + longevity-reassurance email.",
+          "subject": "Real people are already building lives here",
+          "preview": "Meet the OmniPreneurs running shops and the residents filling the districts.",
+          "cta": "See who's building in the city",
+          "keyPoints": [
+            "Lead with concrete resident/OmniPreneur stories — someone who opened a shop, hosted a packed eventure, or earned meaningful OCX through participation",
+            "Address the longevity objection directly: show the update cadence, growing district roster, and partnerships (e.g. gaming crossovers) as evidence the city is growing, not stalling",
+            "Use 'We Are All Players' / pioneering framing — getting in early on something real that's actually delivering where past metaverses didn't",
+            "Soft CTA to explore a featured district or creator space; no hard sell yet, just proof that the world is inhabited and worth committing to"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back — Come See How Far the City Has Grown",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant Explorers and churned subscribers by countering the 'this platform is dying' perception with concrete new-content momentum.",
+      "trigger": "Inactivity threshold (e.g. 14-30 days no login/opens) or subscription cancellation; ~4 emails over ~3 weeks, then sunset.",
+      "segment": "Dormant Explorers and churned paid members (separate message for each); branch on what they used most.",
+      "rationale": "Monthly billing means zero switching cost and the biggest churn driver is the sense that momentum has stalled. A pattern-interrupt 'here's everything new since you left' email is the highest-leverage win-back for an alpha platform whose survival narrative is its retention story.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "7",
+          "purpose": "Pattern-interrupt with everything that's launched since they went quiet — new districts, events, features, and partnerships — proving the city is more alive than when they left.",
+          "subject": "The city grew while you were gone",
+          "preview": "New districts, new eventures, and OCX waiting on you.",
+          "cta": "See what's new in the city",
+          "keyPoints": [
+            "Lead with the strongest momentum signals since they lapsed: new districts, upcoming live eventures, new creator tools or DigOzen features, notable partnerships",
+            "Directly counter the 'is this dying?' read — show an active, growing world rather than a quiet one",
+            "Reference what they used most (events, their residence, their shop) and what's changed there since",
+            "One-click return CTA; for churned subscribers, note their residence/business and OCX standing can be picked back up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Omniverse Dispatch — Weekly City Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind, build authority, and keep the community warm by proving steady platform momentum without discounting.",
+      "trigger": "Scheduled cadence (weekly to bi-weekly); repurposes existing blog content (updates, creator spotlights, partnerships).",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route recently-dormant users to Win-Back instead.",
+      "rationale": "Blog content exists but isn't distributed by email. For an alpha platform where 'visible progress' is the antidote to churn, a recurring dispatch is the always-on engine that keeps Explorers and paid members feeling the city is alive between their own sessions.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "The flagship weekly edition — one useful idea plus a momentum digest (events, creator spotlight, what shipped) with a single soft upgrade/return CTA.",
+          "subject": "This week in Omniverse City: 3 eventures + a new district",
+          "preview": "Plus the OmniPreneur turning a corner shop into a crowd.",
+          "cta": "Read this week's dispatch",
+          "keyPoints": [
+            "Recurring habit section ('This week in the city') listing upcoming live eventures and the newest district or feature drop",
+            "One creator/resident spotlight that doubles as social proof and an OCX-earning idea — 80% value, 20% soft offer",
+            "A single primary CTA per edition (attend an event, read the spotlight, or upgrade) rather than competing asks",
+            "Keep the fellow-citizen voice and pioneering tone; describe OCX strictly as platform credits, never as money or investment"
+          ]
+        }
+      ]
+    }
+  ]
+}

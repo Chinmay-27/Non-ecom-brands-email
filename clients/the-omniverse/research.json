@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "The Omniverse",
+    "url": "https://theomniverse.city",
+    "slug": "the-omniverse",
+    "vertical": "Gaming / Metaverse SaaS",
+    "tagline": "Where Participation Becomes Progression",
+    "colors": {
+      "primary": "#7B2FBE",
+      "accent": "#00E5FF",
+      "background": "#0B0B14",
+      "text": "#F0F0FF"
+    }
+  },
+  "offer": {
+    "what": "Subscription-based 3D pixel-streaming virtual world platform with persistent districts, in-game economy (OCX currency), AI digital citizens (DigOzens), creator tools, event hosting, and cross-platform game publishing",
+    "coreOutcome": "A persistent digital identity and economic presence — a virtual city where users can live, work, build, and earn in an immersive cross-platform world",
+    "pricePoint": "Free (Explorer) → $12.99/mo (OmniFolk) → $39.99/mo (OmniPreneur) → OmniPro (early access, price TBD) → Producer (limited 10 licenses per game, price TBD)",
+    "commitment": "Monthly subscription, no annual option listed; free Explorer tier is perpetual",
+    "leadMagnets": [
+      "Free Explorer license (limited early-access signup)",
+      "Email newsletter / platform update signup",
+      "Discord community access"
+    ]
+  },
+  "audience": {
+    "icp": "Gaming enthusiasts, content creators, and digital entrepreneurs aged 18–35 who want a meaningful virtual presence and economic opportunity inside an immersive world — early adopters disappointed by previous metaverse-era promises",
+    "painPoints": [
+      "Existing metaverse platforms (Meta Horizon, Decentraland) failed to deliver real community or practical utility",
+      "No viable way to monetize creative skills inside virtual games without being a AAA studio",
+      "Fragmented gaming identity across platforms with no persistent virtual home base",
+      "High barrier to 3D creation — Omniverse explicitly lowers this (no prior experience required)",
+      "Virtual events and communities feel hollow with low real attendance"
+    ],
+    "segments": [
+      "Explorers: casual free users discovering the platform and attending events",
+      "Residents (OmniFolk): community members wanting a digital home, social presence, and in-game currency access",
+      "Virtual entrepreneurs (OmniPreneur): creators and small business owners monetizing shops, services, or experiences inside the world",
+      "Professional creators / publishers (OmniPro + Producer): indie studios and developers building and distributing games or large-scale experiences on the platform"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day for Explorer signup; days-to-weeks for upgrade to paid after experiencing the platform",
+    "trial": "Yes — free Explorer tier is a perpetual limited-access free tier that acts as the trial",
+    "closeMechanism": "Self-serve upgrade from within the platform; monetization, event hosting, and higher OCX allocations locked behind paid tiers create natural upgrade pressure",
+    "topObjection": "Is this platform stable and long-term viable? Alpha/early-access status raises trust and longevity concerns — users hesitate to invest time or money in something that might shut down"
+  },
+  "ahaMoment": "First meaningful session inside the virtual world — attending a live event, earning OCX through participation, or publishing a first shop/space — making the digital city feel real, inhabited, and worth committing to",
+  "retention": {
+    "recurring": "Monthly subscriptions across OmniFolk ($12.99), OmniPreneur ($39.99), and OmniPro tiers",
+    "expansion": "Tier upgrades (Explorer → OmniFolk → OmniPreneur → OmniPro → Producer); OCX spending on marketplace; revenue sharing as a Producer; affiliate/partner program",
+    "churnRisk": "Platform is in alpha — users disengage if update cadence slows, live events are sparse, or the peer community feels thin; monthly billing means zero switching cost"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no evidence of structured email onboarding sequence for new Explorer signups",
+    "Lead-Magnet Nurture — free Explorer users need a nurture sequence converting them to OmniFolk or OmniPreneur",
+    "Trial/Consult Conversion — no clear conversion email flow from free to paid tier visible",
+    "Value Newsletter — blog content exists but no evidence of regular email distribution to subscribers",
+    "Renewal & Expansion — no evident upgrade-nudge or monthly engagement campaigns to push tier advancement",
+    "Win-Back / Re-Engagement — no evidence of lapsed-user reactivation flow for inactive Explorers or churned subscribers"
+  ],
+  "toneVoice": "Energetic, aspirational, community-first; inclusive framing (no prior 3D experience required); uses world-building language (Explorers, OmniFolk, OmniPreneur, districts, eventures, DigOzens); sense of pioneering — 'We Are All Players'; professional enough for entrepreneur segment but playful enough for gaming audience",
+  "compliance": "Standard CAN-SPAM and GDPR apply; no HIPAA or financial-services constraints; in-game currency (OCX) should be described as platform credits, not investment instruments, to avoid regulatory issues"
+}
