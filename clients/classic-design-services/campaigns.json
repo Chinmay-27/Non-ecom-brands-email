@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Classic Design Services",
+    "slug": "classic-design-services",
+    "url": "https://www.clsssicdesignservices.com",
+    "vertical": "Local & service / B2B professional",
+    "colors": {
+      "primary": "#1e3a6e",
+      "accent": "#8b7255",
+      "background": "#ffffff",
+      "text": "#333333"
+    }
+  },
+  "summary": "Classic Design Services is an Atlanta-based white-glove logistics company that provides receiving, climate-controlled warehouse storage, delivery, installation, crating, and fine art handling for interior designers, trade professionals, businesses, and homeowners. Through three divisions (Classic Design Services, CV Fine Art Services, and FabriGuard) it handles high-value furnishings, antiques, and art so designers and their clients never manage logistics themselves. It sells custom-quoted, per-project engagements that often grow into ongoing relationships with the design trade.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a first estimate request or first booked job into a confident, trusting client by setting expectations, naming a single point of contact, and proving the white-glove difference fast.",
+      "trigger": "First estimate request submitted via quote form, or first job booked.",
+      "segment": "New contacts; branch on company name (design trade vs. residential homeowner) captured on the quote form.",
+      "rationale": "CDS has no onboarding sequence at all, and in a referral-driven trade community the first impression is the whole relationship — one reassuring welcome converts an anxious first-timer into a repeat designer.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the moment they reach out: confirm we received their request, set expectations for the estimate, and give them their first win — one dedicated point of contact instead of juggling vendors.",
+          "subject": "Welcome to Classic Design Services — your white-glove team is ready",
+          "preview": "One dedicated contact for receiving, storage, delivery, and install. No logistics to juggle.",
+          "cta": "Tell us about your project",
+          "keyPoints": [
+            "Confirm the request is received and a dedicated CDS representative now owns the whole project end to end",
+            "Set expectations: how and when the custom estimate arrives, and what details speed it up",
+            "Reassure on the core outcome — irreplaceable furnishings, antiques, and art arrive undamaged, on time, perfectly placed",
+            "Introduce all three divisions (Classic Design Services, CV Fine Art Services, FabriGuard) so they know the full scope available",
+            "Human reply-to: a real person reads every reply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "estimate-to-booking",
+      "name": "Estimate-to-Booking Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a delivered free estimate into a booked job by answering the cost-vs-value objection head-on and surfacing designer proof before the move/install date passes.",
+      "trigger": "Estimate delivered to prospect via email or phone; expiry tied to their stated move/project date.",
+      "segment": "Prospects with an open estimate who haven't booked; branch by trade vs. residential and by project value.",
+      "rationale": "The estimate is CDS's one and only conversion event, yet follow-up today is manual phone-only — a structured sequence that reframes 'white-glove premium' as insurance against a ruined installation is the core revenue play.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Reinforce the estimate and resolve the #1 objection — why a specialist is worth more than a standard mover — using a concrete designer testimonial and the real cost of one damaged piece.",
+          "subject": "Your estimate — and why designers trust us with the irreplaceable",
+          "preview": "What white-glove actually buys you, and what one damaged antique really costs.",
+          "cta": "Book your project date",
+          "keyPoints": [
+            "Restate the estimate and what's included (receiving, climate-controlled storage, delivery, installation)",
+            "Reframe the premium: one damaged heirloom or missed install deadline costs far more than the difference vs. a standard mover",
+            "Designer testimonial — 'everything arrived perfectly' / 'my designer recommended them' — as social proof",
+            "Highlight the 100,000 sq ft climate-controlled facility and specialist handling that standard movers can't match",
+            "Create gentle urgency: secure the crew and the date before their move/install window fills"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & Prep",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize flawless, on-schedule job completion by confirming details and prepping the site so delivery and installation day goes perfectly — the activation moment the whole relationship rides on.",
+      "trigger": "Job booked and scheduled; reminders fire ahead of the delivery/installation date.",
+      "segment": "Any client with a confirmed scheduled job — receiving, delivery, installation, or fine art handling.",
+      "rationale": "The 'aha' for CDS is the first flawless install, and a single access mix-up or unready site can derail it; a day-before prep reminder protects the one experience that earns the next project and the word-of-mouth referral.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before confirmation and prep checklist so the crew arrives to a ready site, with an easy reschedule path if plans change.",
+          "subject": "Tomorrow's delivery & install — a quick prep checklist",
+          "preview": "Confirm site access and we'll handle the rest. Reschedule in one click if plans change.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Confirm date, arrival window, and the scope of tomorrow's job",
+            "Prep checklist: site access, parking/elevator/loading details, clear placement areas, point of contact on site",
+            "Name the lead handler/crew so the client knows who to expect",
+            "One-click reschedule link to remove friction and prevent no-access delays",
+            "Direct number to the dedicated representative for last-minute questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Repeat Project & Cross-Division Expansion",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Protect and grow high-value trade relationships by recapping flawless work delivered and opening the door to the next project and additional divisions (fine art handling, repair, FabriGuard).",
+      "trigger": "Project completed and quiet period reached, or account anniversary; quarterly cadence for active trade clients.",
+      "segment": "Past and active clients; branch by engagement health — active designers get expansion offers, dormant clients get a re-onboard nudge.",
+      "rationale": "CDS revenue is operationally recurring (designers and showrooms reuse them project after project) and every service is an upsell, yet there's zero proactive outreach — a value recap plus cross-division offer is the highest-leverage retention move.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Recap the work delivered for this client — every piece handled damage-free and on schedule — then surface services they haven't used yet to expand the relationship.",
+          "subject": "Your year with Classic Design Services — every piece, delivered flawlessly",
+          "preview": "A recap of what we handled together, plus services you haven't tried yet.",
+          "cta": "Plan your next project",
+          "keyPoints": [
+            "Quantify the partnership: projects handled, items received/stored/installed, damage-free record",
+            "Reinforce the peace-of-mind outcome the client built their reputation on",
+            "Expansion offer: CV Fine Art Services for art installation/crating, in-house furniture repair, and FabriGuard fabric/upholstery/rug protection",
+            "Make repeat booking effortless — same dedicated contact, project already understood",
+            "Invite the next project and offer a planning call for upcoming installations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "The Design Trade Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority with the Atlanta design trade so CDS is the name designers reach for and refer — without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged trade and residential contacts; suppress clients in active onboarding and route dormant contacts to a re-engagement track.",
+      "rationale": "In a referral-driven community, mind-share is the growth engine — a useful monthly send positions CDS as the trusted authority on protecting fine furnishings and keeps them first to recommend.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship issue delivering one genuinely useful, authority-building idea for designers: how to protect high-value pieces through receiving, storage, and on-site installation.",
+          "subject": "3 mistakes that cost designers a client on installation day",
+          "preview": "Field-tested tips from 100,000 sq ft of climate-controlled experience.",
+          "cta": "Read the full guide",
+          "keyPoints": [
+            "One useful idea per send: the most common avoidable causes of damage during receiving, staging, and install",
+            "Practical, brand-credible tips drawn from handling fine furnishings, antiques, and art",
+            "Light proof of expertise — climate-controlled storage, specialist crating, fine art handling",
+            "80% value / 20% soft offer: a single subtle nudge to request an estimate for an upcoming project",
+            "Recurring 'protecting what matters' section to build a reading habit with the trade"
+          ]
+        }
+      ]
+    }
+  ]
+}

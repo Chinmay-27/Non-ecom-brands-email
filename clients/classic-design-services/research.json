@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Classic Design Services",
+    "url": "https://www.classicdesignservices.com",
+    "slug": "classic-design-services",
+    "vertical": "Local & service / B2B professional",
+    "tagline": "The one-stop source for all your transit, installation, and warehousing needs",
+    "colors": {
+      "primary": "#1e3a6e",
+      "accent": "#8b7255",
+      "background": "#ffffff",
+      "text": "#333333"
+    }
+  },
+  "offer": {
+    "what": "White-glove moving, receiving, warehouse storage, delivery, installation, crating, and fine art handling services for interior designers, trade professionals, businesses, and homeowners — Atlanta-based with nationwide reach.",
+    "coreOutcome": "Valuable possessions and fine furnishings arrive undamaged, on time, and perfectly installed so interior designers and clients never have to worry about logistics.",
+    "pricePoint": "Custom quotes only; no published pricing. Mid-to-high range given white-glove positioning, specialized handling, and 100,000 sq ft climate-controlled facility.",
+    "commitment": "Per-project / one-off engagements; evolves into ongoing retainer-like relationships with trade clients (designers, manufacturers, showrooms).",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Interior designers and design trade professionals (Atlanta, GA and surrounding region) who need a single trusted logistics partner for receiving, storing, and installing high-value furnishings, antiques, and fine art for client projects.",
+    "painPoints": [
+      "Damaged or delayed deliveries ruining a client installation",
+      "No climate-controlled storage for staged or overflow items",
+      "Unreliable standard movers unfamiliar with fine furnishings and art",
+      "Managing multiple vendors across a single project",
+      "No single accountable point of contact for end-to-end logistics"
+    ],
+    "segments": [
+      "Interior designers & design trade (core/primary)",
+      "Homeowners planning residential moves",
+      "Builders & remodelers needing staging/storage during construction",
+      "Manufacturers & showrooms needing overflow storage and delivery",
+      "Museums & galleries requiring fine art installation and handling",
+      "Film & entertainment productions needing on-set item management"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to a few weeks for residential; weeks to months to establish ongoing trade relationships",
+    "trial": "No trial; free estimates via online form or phone call",
+    "closeMechanism": "Quote request (web form or phone) → estimate delivered via email/phone → booked job",
+    "topObjection": "Uncertainty about cost and whether the white-glove premium is justified over a standard moving company"
+  },
+  "ahaMoment": "The first flawless installation — when a designer sees their client's high-value items arrive damage-free, on schedule, and perfectly placed without managing a single logistics detail themselves.",
+  "retention": {
+    "recurring": "Yes — project-by-project relationships with design trade clients become de facto retainers; manufacturers and showrooms use them for ongoing warehousing and delivery.",
+    "expansion": "Receiving → storage → installation → fine art handling (CV Fine Art Services division) → furniture repair/restoration → fabric/upholstery cleaning (FabriGuard division).",
+    "churnRisk": "A single damaged piece or missed installation deadline can permanently end a designer relationship; word-of-mouth cuts both ways in the design trade community."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no apparent email sequence for new trade or residential clients",
+    "Lead-Magnet Nurture — no lead magnet exists; quote form is the only capture mechanism",
+    "Trial/Consult Conversion — no structured follow-up sequence after estimate requests",
+    "Value Newsletter — no visible educational content, tips, or newsletter for the design trade",
+    "Renewal / Anniversary & Expansion — no proactive outreach to past clients for repeat or expanded services",
+    "Win-Back / Re-Engagement — no visible re-engagement campaign for lapsed relationships",
+    "Referral / Advocacy — no structured program despite referrals being a key growth channel (designers refer clients)"
+  ],
+  "toneVoice": "Professional and authoritative with a warm, reassuring quality. Communicates trust, expertise, and meticulous care. Not stuffy — approachable yet clearly premium. Centers messaging on reliability, peace of mind, and protecting what clients value most.",
+  "compliance": "CAN-SPAM / standard email compliance applies. No HIPAA, financial, or legal special requirements identified. Serves general public and B2B trade — standard opt-out and list hygiene practices apply."
+}
