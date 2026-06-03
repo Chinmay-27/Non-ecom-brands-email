@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "United Against Fentanyl",
+    "url": "https://www.unitedagainstfentanyl.org",
+    "slug": "united-against-fentanyl",
+    "vertical": "Education/Nonprofit/Advocacy",
+    "tagline": "Together, We Can Stop Fentanyl",
+    "colors": {
+      "primary": "#1B3C6B",
+      "accent": "#FF6B35",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Nonprofit advocacy, community support, and educational programs fighting the fentanyl epidemic — including the Fentanyl Families Network (peer support + weekly trauma-informed grief sessions), Walk for Lives national events, a Thought Leadership podcast series, and policy advocacy campaigns targeting Congress",
+    "coreOutcome": "Turning grief into purpose: connecting bereaved families, driving congressional action, reducing fentanyl deaths, and eliminating stigma around addiction loss",
+    "pricePoint": "Free to join; funded by donations (no publicly disclosed giving tiers)",
+    "commitment": "Free network membership and event participation; recurring donation option available",
+    "leadMagnets": [
+      "Newsletter signup ('Get vital updates to help educate and advocate')",
+      "State-by-state resource directory (all 50 states + DC)",
+      "Walk for Lives event registration and volunteer hub",
+      "Fentanyl Families Network membership (monthly emails + weekly grief sessions)"
+    ]
+  },
+  "audience": {
+    "icp": "Families who have lost a loved one to fentanyl poisoning — especially parents of 18–45-year-olds — seeking community, healing, and a channel to turn grief into legislative advocacy",
+    "painPoints": [
+      "Grief and isolation after losing a family member to fentanyl poisoning",
+      "Feeling powerless against an epidemic driven by supply-chain and policy failures",
+      "Stigma around addiction making loss harder to discuss publicly",
+      "Lack of local peer support networks for bereaved families",
+      "Fear for children's safety in an era of counterfeit pill proliferation",
+      "Frustration that Congress has not passed meaningful fentanyl legislation"
+    ],
+    "segments": [
+      "Bereaved families (lost a loved one) — core Fentanyl Families Network members",
+      "Concerned parents and community leaders — preventative advocates",
+      "Young adults and teenagers at risk — awareness and education audience",
+      "Policy advocates, lawmakers, and media — outreach and amplification targets",
+      "Corporate sponsors and organizational partners — funding and capacity"
+    ]
+  },
+  "salesCycle": {
+    "length": "Immediate to short — free to join/sign up; donation conversion is a longer, trust-based journey",
+    "trial": "No trial; all core resources are free (network membership, grief sessions, event participation, resource directory)",
+    "closeMechanism": "Newsletter signup → Fentanyl Families Network membership → recurring donation ask; Walk for Lives participation → deeper volunteer/organizer engagement → advocacy spokesperson",
+    "topObjection": "Cynicism that advocacy will produce real legislative change; or emotional inability to re-engage due to active grief and burnout"
+  },
+  "ahaMoment": "Attending a weekly trauma-informed grief support session or a Walk for Lives event and realizing they are not alone — that a nationwide community of families understands their loss and is channeling it into tangible policy change",
+  "retention": {
+    "recurring": "Monthly curated email updates on the crisis and policy developments; weekly grief support sessions; annual Walk for Lives events (July 11 multi-city + September 26 Washington DC)",
+    "expansion": "Newsletter subscriber → Fentanyl Families Network member → Walk organizer/volunteer → recurring donor → national advocacy spokesperson sharing story with lawmakers",
+    "churnRisk": "Emotional burnout from sustained grief engagement; loss of hope that policy change is achievable; disengagement after initial crisis urgency fades"
+  },
+  "lifecycleGaps": [
+    "No apparent automated Welcome & Onboarding email sequence after newsletter signup",
+    "No lead-magnet nurture converting newsletter subscribers into network members or first-time donors",
+    "No donor conversion or upgrade sequence (one-time gift → recurring giving)",
+    "No post-event follow-up sequence after Walk for Lives participation to deepen engagement",
+    "No advocacy campaign drip moving passive supporters to active congressional outreach",
+    "No win-back / re-engagement campaign for lapsed subscribers or inactive network members"
+  ],
+  "toneVoice": "Earnest, urgent, and deeply human — nonpartisan, community-first, emotionally resonant without being exploitative. Language centers lived experience ('grief becomes purpose'). Direct calls to action ('Demand Congress Act') paired with empathy and hope. Avoids partisan framing; emphasizes that 'fentanyl is not a left vs. right issue — it is a human issue.'",
+  "compliance": "Nonprofit (501c3 assumed); sensitive audience requires careful handling of grief, loss, and addiction stigma; CAN-SPAM compliance required; no HIPAA obligation (not a healthcare provider, though grief support sessions involve vulnerable populations); mental health messaging best practices recommended; nonpartisan language must be maintained in all advocacy content"
+}

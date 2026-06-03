@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "United Against Fentanyl",
+    "slug": "united-against-fentanyl",
+    "url": "https://www.unitedagainstfentanyl.org",
+    "vertical": "Education/Nonprofit/Advocacy",
+    "colors": {
+      "primary": "#1B3C6B",
+      "accent": "#FF6B35",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "United Against Fentanyl is a nonpartisan 501(c)(3) nonprofit fighting the fentanyl epidemic through peer grief support, national awareness events, education, and congressional advocacy. It serves families who have lost a loved one to fentanyl poisoning — primarily parents of 18-45-year-olds — along with concerned community members, offering a free network (the Fentanyl Families Network with weekly trauma-informed grief sessions), Walk for Lives events, and campaigns pressing Congress for bipartisan legislation. The organization is funded by donations and runs entirely on free, low-barrier participation.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new newsletter or network signup to their first 'aha' moment — attending a weekly grief support session or finding a local Walk for Lives — within 7 days.",
+      "trigger": "Newsletter signup or Fentanyl Families Network membership form submitted; email 1 fires instantly.",
+      "segment": "All new contacts; branch on the form field capturing their connection to the crisis (bereaved family member vs. concerned community member).",
+      "rationale": "There is no automated welcome series today, yet the activation event — realizing you are not alone in a nationwide community — is fast, free, and self-serve. The fastest path to retention is getting a grieving newcomer into their first peer-led session before isolation pulls them away.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm, trauma-informed welcome that honors why they came, sets expectations, and delivers one quick win: reserving a spot at this week's grief support session.",
+          "subject": "Welcome to United Against Fentanyl — you are not alone in this",
+          "preview": "Your first step: a free, trauma-informed grief session this week, led by families who understand.",
+          "cta": "Reserve your seat at this week's session",
+          "keyPoints": [
+            "Acknowledge their loss or fear with empathy, without exploiting grief; affirm 'no other family should have to go through this'",
+            "Set expectations: free membership, weekly peer-led grief sessions, monthly crisis and policy updates — no barriers, no cost",
+            "Single first action: register for the next weekly trauma-informed session led by people with lived experience (not clinicians), so the first 'aha' lands within days",
+            "Point to a local Walk for Lives (July 11 multi-city; Sept 26 Washington DC) as an alternate entry point",
+            "Real human reply-to so a grieving newcomer can reach a person, not a no-reply address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscriber-to-advocate-nurture",
+      "name": "Lead-Magnet Nurture (Subscriber to Member, Donor & Advocate)",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a passive newsletter subscriber up the engagement ladder — into network membership, a first advocacy action, and a first gift — over a multi-week cycle.",
+      "trigger": "Newsletter signup or resource-directory download with no further engagement; lead score below the 'active supporter' threshold.",
+      "segment": "Subscribers who have not yet joined the network, taken an advocacy action, or donated; branch by stated connection to the crisis.",
+      "rationale": "No nurture currently converts subscribers into members or first-time donors, and the audience's #1 objection — cynicism that advocacy produces real change — must be answered with proof before any ask lands. This sequence is the funding and advocacy engine.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "The proof-and-decision hero send: counter cynicism with concrete evidence that families like theirs are moving federal policy, then offer one low-friction action.",
+          "subject": "Your voice already moved Congress — here's the proof",
+          "preview": "Bereaved families are the reason fentanyl bills are advancing. Here's how to add yours.",
+          "cta": "Add your name — demand Congress act",
+          "keyPoints": [
+            "Lead with specific, verifiable legislative momentum driven by family advocates to defeat the 'nothing will change' objection head-on",
+            "Hold strict nonpartisan framing: 'fentanyl is not a left vs. right issue — it is a human issue'",
+            "Show how individual stories compound into collective pressure, making participation feel consequential, not symbolic",
+            "Primary CTA is a low-friction advocacy action (sign / contact Congress); secondary soft path invites recurring giving that funds the advocacy work",
+            "Use a consented spokesperson family's story to make the proof human, never exploitative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "session-walk-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attendance at weekly grief support sessions and Walk for Lives events, and gently recover those who miss.",
+      "trigger": "Session or walk registration confirmed; reminder fires 24 hours before.",
+      "segment": "Anyone registered for an upcoming grief session or Walk for Lives event.",
+      "rationale": "Attendance is the activation event for this brand — the realization of community happens in the room, not the inbox — so a no-show is a lost 'aha.' Reminders cut no-shows by roughly 35%, directly protecting the moment that drives retention and the time-bound July 11 and Sept 26 walks.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "The 24-hour reminder that secures attendance at the weekly grief session, framed with zero pressure for a grieving registrant.",
+          "subject": "Your grief support session is tomorrow — we've saved you a seat",
+          "preview": "Tomorrow at 7pm ET. Come as you are — you don't need to have words ready.",
+          "cta": "Confirm your spot & add to calendar",
+          "keyPoints": [
+            "State the exact session time and the join link clearly up top",
+            "Reassure that attending without speaking is welcome — remove the emotional barrier that drives no-shows in a grieving audience",
+            "Remind them sessions are peer-led by people with lived experience, reinforcing it is a safe, non-clinical space",
+            "Offer a one-click reschedule and an easy way to ask a question beforehand",
+            "Reuse the same structure for Walk for Lives reminders (July 11 / Sept 26) with directions and what to bring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-the-fight-continues",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed subscribers and disengaged network members without guilt, and clean the list to protect deliverability.",
+      "trigger": "60-90 days of no opens, clicks, session attendance, or event activity.",
+      "segment": "Dormant subscribers and inactive network members; branch churned-after-burnout vs. never-fully-activated.",
+      "rationale": "Emotional burnout is the explicitly named #1 churn risk — sustained grief engagement is exhausting and supporters who joined during a news spike fade when the cycle moves on. A trauma-informed 'the fight continues, and rest is okay too' hook re-opens the door without shame.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a no-guilt 'we understand if you needed to step back' message that honors burnout while reminding them the movement — and the door — is still here.",
+          "subject": "The fight didn't stop — and we understand if you needed to step back",
+          "preview": "No guilt. Just an open door, whenever you're ready to return.",
+          "cta": "Come back when you're ready",
+          "keyPoints": [
+            "Name burnout and grief fatigue directly and validate stepping away — no shame, no pressure",
+            "Remind them of the core value: a community of families who still understand their loss",
+            "Share one piece of forward progress since they went quiet to rekindle hope that change is possible",
+            "Offer a gentle re-entry: rejoin a session, or simply downshift to quiet monthly updates instead of unsubscribing",
+            "Set up the sunset path for non-responders to protect sender reputation and list health"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sustainer-impact-expansion",
+      "name": "Renewal, Anniversary & Expansion (Recurring Giving)",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Convert one-time donors and active members into monthly sustainers and grow giving, protecting recurring revenue.",
+      "trigger": "Donation anniversary, year-end impact moment, or a usage milestone signaling deep engagement (repeat session attendance, walk participation).",
+      "segment": "Active members and prior donors; branch high-engagement (sustainer upgrade) vs. low-engagement (re-onboard before asking).",
+      "rationale": "The organization runs on donations but has no structured recurring-giving program or upgrade journey, so committed supporters are never invited to the next rung of the ladder. A gratitude-first impact recap is the natural moment to turn episodic gifts into the sustained funding the advocacy work needs.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "The impact-recap hero send: quantify the collective good the supporter helped make possible, then invite them to make it last year-round as a monthly sustainer.",
+          "subject": "Because of you, families across the country found each other this year",
+          "preview": "Your impact, by the numbers — and how to keep the fight going every month.",
+          "cta": "Become a monthly sustainer",
+          "keyPoints": [
+            "Lead with gratitude and concrete numbers: families supported, grief sessions held, walkers mobilized, advocacy actions sent",
+            "Tie their specific past gift or participation to real outcomes so impact feels personal, not generic",
+            "Frame recurring giving as steady fuel for advocacy that outlasts any single news cycle — countering crisis-fade disengagement",
+            "Keep it gratitude-first and nonpartisan; honor lives lost without exploiting grief",
+            "Offer a clear, low-friction monthly amount and a human contact for questions about giving"
+          ]
+        }
+      ]
+    }
+  ]
+}
