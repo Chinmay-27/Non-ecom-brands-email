@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Nora Michalski",
+    "slug": "nora-michalski",
+    "url": "https://noramichalski.com",
+    "vertical": "B2B/professional services — psychology-based performance protocol for high-achievers",
+    "colors": {
+      "primary": "#2A7A4B",
+      "accent": "#5CB87A",
+      "background": "#FFFFFF",
+      "text": "#1C1C2E"
+    }
+  },
+  "summary": "Nora Michalski sells The Greenlight Method, a private 1–2 session psychological protocol (explicitly 'not coaching, not therapy') that removes the emotional charge behind procrastination and self-sabotage on high-leverage business actions, for a one-time $2,000 fee. It serves established entrepreneurs, executives, coaches, consultants, and senior professionals who know what to do but keep avoiding it. Leads enter through a free 15-question self-assessment and an application-gated alignment call that Nora closes personally.",
+  "campaigns": [
+    {
+      "id": "assessment-nurture",
+      "name": "Assessment-to-Call Nurture",
+      "priority": 1,
+      "stage": "Nurture / Consideration",
+      "objective": "Move high-intent assessment completers from self-diagnosis to applying for a free alignment call.",
+      "trigger": "Completion of the free 15-question 'Find Out What's Stopping You' assessment.",
+      "segment": "Assessment completers who have not yet applied for a demo/alignment call; branch by the dominant block their answers reveal (visibility, sales avoidance, decision paralysis).",
+      "rationale": "The assessment is Nora's main inbound entry point, and completers who don't book a call fall into a cold black hole — closing that gap is the single fastest revenue lever for a days-to-weeks sales cycle.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reframe the assessment result — name that the block is an emotional charge, not a discipline problem — and point to the free alignment call as the way to drop it.",
+          "subject": "Your assessment results: what's actually stopping you",
+          "preview": "It's not discipline. It's an emotional charge — and it's droppable.",
+          "cta": "Apply for your free alignment call",
+          "keyPoints": [
+            "Mirror their answers back: 'You already know exactly what to do — so why does this specific action keep getting avoided?'",
+            "Reframe avoidance as a removable emotional charge in the nervous system, not a willpower or productivity failure — this is the category-education the buyer needs",
+            "Position The Greenlight Method as 'not coaching, not therapy' and tease the felt, in-the-body shift that happens in 1–2 sessions",
+            "Single low-friction CTA to apply for the free, application-gated alignment call with Nora"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Alignment Call → Enrollment",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert applicants and post-call prospects who haven't enrolled by resolving the price and category-skepticism objections.",
+      "trigger": "Demo/alignment call applied for or completed without enrollment.",
+      "segment": "Applicants and post-call prospects who have not enrolled; branch by whether the call happened (warm recap) or was missed (re-book first).",
+      "rationale": "The alignment call is the only close mechanism, and the two objections that stall a $2,000 one-time decision — 'is this worth it?' and 'what exactly am I buying?' — are predictable and answerable in email between touches.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Handle the #1 objection head-on — define exactly what the protocol is and de-risk the $2,000 decision with the guarantees.",
+          "subject": "Not coaching, not therapy — here's exactly what you're buying",
+          "preview": "And why the price reflects the result, not the hours.",
+          "cta": "Reply to claim your spot (or ask Nora anything)",
+          "keyPoints": [
+            "Define the mechanism plainly: a private protocol that removes the emotional charge on a specific avoided action in 1–2 sessions — distinct from coaching and therapy",
+            "Address price directly in the brand's own framing: 'not the cheapest, the most effective' — anchor the $2,000 against months of avoided money-generating action",
+            "Stack the de-risk: 7-day money-back guarantee, protocol guarantee (extra sessions free if the charge doesn't drop), bonus audio suite, and 30-day accountability support",
+            "Include one short 'results not typical' client proof point and an invitation to reply with the exact action they've been avoiding"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-onboarding",
+      "name": "New-Client Welcome & Session Priming",
+      "priority": 3,
+      "stage": "Onboarding / Activation",
+      "objective": "Prime newly enrolled clients to notice and trust the somatic shift so the first session lands as a felt 'aha'.",
+      "trigger": "Enrollment confirmed ($2,000 paid).",
+      "segment": "New clients between enrollment and their first private session.",
+      "rationale": "The aha is a visceral, in-the-body drop in emotional charge during session one; clients who arrive primed to notice it activate faster and are far more likely to implement while momentum is high.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for the first session, and give one quick prep action that makes the shift easier to feel.",
+          "subject": "You're in — let's make your first session land",
+          "preview": "A 2-minute prep so the shift is impossible to miss.",
+          "cta": "Pick the one action you'll bring to session 1",
+          "keyPoints": [
+            "Welcome them by name and affirm the decision — high-achievers want reassurance they chose the effective path, not the cheap one",
+            "Set the expectation that the result is felt in the body, not figured out intellectually, so they know what to watch for",
+            "One prep action: name the single high-stakes action they've been avoiding and notice the charge around it before the session",
+            "Reassure with the support that comes built in — bonus audio suite, 30-day accountability, and a real human reply address"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "call-reminders",
+      "name": "Alignment Call Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion",
+      "objective": "Maximize attendance at the alignment call — the revenue event — and recover the ones that slip.",
+      "trigger": "Alignment call booked; upcoming call; no-show event.",
+      "segment": "Anyone with a scheduled alignment call with Nora.",
+      "rationale": "Nora closes personally on the call, so a missed call is a lost sale; reminders cut no-shows by roughly 35%, recovering revenue immediately on an already application-gated, high-intent audience.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "24-hour reminder that confirms the time, primes them for the conversation, and removes friction with an easy reschedule link.",
+          "subject": "Your call with Nora is tomorrow at [time]",
+          "preview": "Come with the one action you've been avoiding in mind.",
+          "cta": "Confirm or reschedule your time",
+          "keyPoints": [
+            "Confirm the exact date and time with an add-to-calendar link and the join details",
+            "Prime the call: have in mind the specific high-leverage action they keep avoiding — that's what the conversation will work on",
+            "Reassure it's a no-pressure alignment call to see if the protocol fits, not a hard pitch — lowers the avoidance that causes no-shows",
+            "One-click reschedule link so a conflict becomes a new time, not a silent drop-off"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Cold Lead Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate assessment takers and lapsed inquiries who went cold without booking or enrolling, and clean the list.",
+      "trigger": "60–90 days of no clicks/replies since assessment completion or last inquiry.",
+      "segment": "Dormant assessment completers and lapsed prospects who never applied or never enrolled.",
+      "rationale": "Cold assessment takers self-identified a real, costly block and have no re-entry point; win-back recovers 5–15% of inactive leads and protects sender reputation before sunsetting non-responders.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt that reminds them of the cost of the unresolved block and reopens the door with a low-friction next step.",
+          "subject": "Still avoiding that one thing?",
+          "preview": "Your assessment said it was costing you. Want to finally drop it?",
+          "cta": "Book your free alignment call",
+          "keyPoints": [
+            "Acknowledge time has passed and reconnect to what their assessment surfaced — the specific action they've kept avoiding",
+            "Name the quiet cost of another quarter of avoidance (lost momentum, eroded self-trust, the energy it drains) without guilt-tripping",
+            "Reassure the path is still short and low-risk: a free alignment call, a 1–2 session protocol, and guarantees if it doesn't land",
+            "Offer a graceful exit option to protect deliverability — a soft 'should we stop emailing you?' for true non-responders"
+          ]
+        }
+      ]
+    }
+  ]
+}

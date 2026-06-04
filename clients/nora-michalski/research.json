@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Nora Michalski",
+    "url": "https://noramichalski.com",
+    "slug": "nora-michalski",
+    "vertical": "B2B/professional services — psychology-based performance protocol for high-achievers",
+    "tagline": "Goal Breakthrough for High-Achievers",
+    "colors": {
+      "primary": "#2A7A4B",
+      "accent": "#5CB87A",
+      "background": "#FFFFFF",
+      "text": "#1C1C2E"
+    }
+  },
+  "offer": {
+    "what": "The Greenlight Method™ — a proprietary 1–2 session private psychological protocol that removes emotional resistance and self-sabotage blocking high-leverage business actions. Positioned as 'not coaching, not therapy.'",
+    "coreOutcome": "High-achievers take aligned, unblocked action on previously avoided money-generating activities — with restored self-trust, more energy, and no internal struggle.",
+    "pricePoint": "$2,000 one-time",
+    "commitment": "1–2 private sessions (extra sessions included at no charge if needed) + bonus audio suite + 30-day email accountability support + follow-up result-stabilization audit at day 30. 7-day money-back guarantee.",
+    "leadMagnets": [
+      "Free 15-question online assessment: 'Find Out What's Stopping You'",
+      "Free demo/alignment call (application-gated)"
+    ]
+  },
+  "audience": {
+    "icp": "Established entrepreneurs, executives, coaches, consultants, and senior professionals — people who are educated, capable, and accomplished but stuck in procrastination or avoidance on specific high-leverage or money-generating business actions.",
+    "painPoints": [
+      "Procrastinating on high-stakes actions despite knowing exactly what to do",
+      "Emotional resistance and self-sabotage killing momentum",
+      "Eroded self-trust from repeated avoidance cycles",
+      "Low energy and poor sleep tied to unresolved internal tension",
+      "Avoiding visibility, sales conversations, or other business-critical tasks"
+    ],
+    "segments": [
+      "Entrepreneurs and business owners",
+      "Executives and senior corporate professionals",
+      "Coaches and consultants",
+      "Content creators and thought leaders"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to a few weeks (assessment or outreach → demo call application → alignment call → enrollment)",
+    "trial": "Free 15-question self-assessment + free demo/alignment call (requires application)",
+    "closeMechanism": "Application-gated alignment call — Nora qualifies and closes prospects personally on the call",
+    "topObjection": "Price ($2,000 premium; site pre-empts with 'not the cheapest — the most effective') and category skepticism (not traditional coaching or therapy, so buyers need education on the mechanism)"
+  },
+  "ahaMoment": "A measurable drop in emotional charge on a previously avoided high-stakes action during the first private session — felt in the body, not just intellectually understood.",
+  "retention": {
+    "recurring": "No subscription; one-time protocol with built-in 30-day email support and a day-30 follow-up audit to stabilize results",
+    "expansion": "Unknown publicly; protocol guarantee provides additional sessions at no charge if needed — natural upsell/referral surface post-result",
+    "churnRisk": "Post-program drift if client doesn't implement actions while momentum is high; the 30-day accountability window and audit are the primary guardrails"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: no visible post-enrollment sequence to prime clients before session 1",
+    "Lead-Magnet Nurture: assessment completers who don't book a call likely fall into a cold black hole",
+    "Trial/Consult Conversion: no-show or non-converting demo call applicants need a follow-up sequence",
+    "Value Newsletter: no visible ongoing nurture content for warm audience building",
+    "Renewal / Expansion: no referral or alumni re-engagement path visible",
+    "Win-Back / Re-Engagement: cold leads and lapsed assessment takers have no re-entry point"
+  ],
+  "toneVoice": "Professional and empathetic with earned authority; conversational and direct; Nora shares personal vulnerability (her own self-sabotage story); avoids therapy or coaching clichés; positions the method as a distinct category; results-focused language that speaks to high-achiever identity.",
+  "compliance": "Not in a regulated healthcare or finance vertical. Standard CAN-SPAM / GDPR applies. Site carries a testimonial disclaimer ('results not typical'). 1% of profits donated to anti-trafficking and homeless-youth charities — worth acknowledging in brand voice but not a compliance constraint."
+}
