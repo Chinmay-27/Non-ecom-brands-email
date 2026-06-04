@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Leadership Books",
+    "url": "https://www.leadershipbooks.com",
+    "slug": "leadership-books",
+    "vertical": "Education/membership + B2B professional services (publishing)",
+    "tagline": "Become More — Author | Speaker | Thought Leader",
+    "colors": {
+      "primary": "#1C3557",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Two-sided platform: (1) curated leadership/business/finance/Christian book retailer with a quarterly Better Book Club membership, and (2) professional author publishing services (editorial, cover design, distribution, marketing, speakers bureau, book launch mastermind). Built on Shopify.",
+    "coreOutcome": "Readers: stay ahead as a leader through curated, high-impact books. Authors: transform a message into a professionally published book that builds a platform, speaking career, and movement.",
+    "pricePoint": "Books: ~$15–$45 each. Better Book Club: ~$60/quarter (6 curated books + author events + LinkedIn group + free shipping). Author Representation listing: ~$97–$1,170. Premium Publishing Package: $15,197. Book Launch Mastermind VIP: ~$1,170. First-order discount: $10 off with code FIRST10.",
+    "commitment": "Books: one-off purchase. Book Club: recurring quarterly subscription. Publishing packages: one-off high-ticket contract ($1,170–$15,197+).",
+    "leadMagnets": [
+      "Free Publishing Services Webcast (webinar for aspiring authors)",
+      "Free Book Consultation with Acquisitions Team (discovery call)",
+      "$10 off first order — code FIRST10"
+    ]
+  },
+  "audience": {
+    "icp": "Two distinct ICPs: (1) Avid leader/reader — business executives, entrepreneurs, managers, and high-achievers who consume 40–60 books/year and want curated, high-signal recommendations. (2) Aspiring author/thought leader — business leaders, coaches, speakers, pastors, and professionals who have a message to share and want professional publishing support without surrendering their rights.",
+    "painPoints": [
+      "Readers overwhelmed by book volume and can't identify which titles are worth their time",
+      "Leaders want peer-level curation and community around reading, not just Amazon algorithms",
+      "Authors locked out of traditional publishing or burned by poor self-publishing platforms",
+      "Authors lose rights, earn low royalties, and receive no real marketing or platform support",
+      "Aspiring speakers/thought leaders lack the publishing credential and media exposure to grow influence"
+    ],
+    "segments": [
+      "Book buyers — individual leaders/executives purchasing titles one-off",
+      "Book Club members — recurring readers seeking curated quarterly selections",
+      "Aspiring authors — professionals ready to write/publish their first book",
+      "Published authors seeking re-launch, representation, or speaking engagements",
+      "Pastors/ministry leaders (Christian leadership books collection is prominent)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Books: same-day self-serve. Book Club: days (low friction subscription). Publishing packages: weeks to months (webcast → discovery call → proposal → purchase).",
+    "trial": "Free Publishing Webcast and Free Book Consultation serve as trial/demo for publishing services. $10 off first order lowers barrier for first book purchase.",
+    "closeMechanism": "Books/Book Club: self-serve Shopify checkout. Publishing services: booked discovery/consultation call with Acquisitions Team, then proposal.",
+    "topObjection": "For authors: 'Why not Amazon KDP or traditional publishing?' (cost vs. control/quality trade-off). For readers: 'Why pay for curation when I can pick books myself?'"
+  },
+  "ahaMoment": "Readers: first curated book from the Better Book Club arrives — quality selection validates the membership. Authors: the free webcast or discovery call where they realize they'll have a true creative co-pilot, keep 100% of rights, and get a real marketing strategy — not just a print button.",
+  "retention": {
+    "recurring": "Better Book Club — quarterly subscription. Renewal cadence = every 90 days.",
+    "expansion": "Book Club member → Author Publishing Package. One-time book buyer → Book Club subscriber. Published author → Book Launch Mastermind, Speakers Bureau representation, Author Summit ticket.",
+    "churnRisk": "Book Club members who accumulate unread books and cancel. Publishing clients who complete one package and don't re-engage for launch mastermind or second book. One-off book buyers who never return after first purchase."
+  },
+  "lifecycleGaps": [
+    "No visible welcome/onboarding sequence for new Book Club subscribers to drive early engagement (discuss first book, join LinkedIn group)",
+    "No apparent automated nurture sequence converting free webcast viewers or consultation leads into publishing package buyers",
+    "No win-back/re-engagement flow for lapsed Book Club subscribers",
+    "No referral or advocacy program visible for satisfied authors or Book Club members",
+    "No value newsletter cadence surfaced — blog/content presence not prominently featured",
+    "One-off book buyers likely fall into a black hole with no follow-up to upsell Book Club"
+  ],
+  "toneVoice": "Aspirational and empowering — 'Become More', 'Let Your Story Shine', 'Turn your book into a movement.' Warm but professional. Mission-driven and purpose-forward. Speaks to ambition without arrogance. Blends entrepreneurial energy with publishing gravitas. Uses first-person plural ('we') when describing services — positions the team as a creative co-pilot, not a vendor.",
+  "compliance": "Standard e-commerce CAN-SPAM / GDPR. No healthcare, finance, or legal vertical constraints. Shopify platform with likely Klaviyo or Shopify Email for ESP."
+}

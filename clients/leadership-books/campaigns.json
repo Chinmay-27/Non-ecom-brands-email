@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Leadership Books",
+    "slug": "leadership-books",
+    "url": "https://www.leadershipbooks.com",
+    "vertical": "Education/membership (curated book retail + Better Book Club) + B2B professional services (hybrid author publishing)",
+    "colors": {
+      "primary": "#1C3557",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Leadership Books is a dual-sided company built on Shopify: a curated retailer of leadership, business, finance, and Christian titles with a quarterly Better Book Club subscription, and a hybrid author publishing house offering editorial, design, distribution, marketing, speakers-bureau representation, and a book launch mastermind. It serves two audiences on one platform: avid leader-readers who want high-signal, peer-curated reading, and aspiring author/thought-leaders who want professional publishing while keeping 100% of their rights.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new contact to first value fast — for readers, the first curated pick + Book Club; for new subscribers, joining the members LinkedIn group; for buyers, a confident first order with FIRST10.",
+      "trigger": "Email signup / first order placed / Better Book Club subscription started. Send the hero email within seconds of signup.",
+      "segment": "All new contacts; branch on entry point (signup-only, first-time book buyer, new Book Club member) and surveyed interest (reader vs. aspiring author).",
+      "rationale": "The intake shows no visible onboarding for new Book Club members or first-time buyers, and one-off buyers fall into a black hole. Welcome emails are the highest-engagement send and set the reader-to-Club and reader-to-author paths the whole program depends on.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver one quick win — the next book worth their time plus a low-friction first order.",
+          "subject": "Welcome to Leadership Books — your next great read is inside",
+          "preview": "The one book top leaders are reading right now (and $10 off to start).",
+          "cta": "Claim $10 off your first order with FIRST10",
+          "keyPoints": [
+            "Open on the brand promise — 'Become More' — and that top executives read ~60 books a year; we cut the noise so you read the right ones",
+            "Give an immediate win: one hand-picked, high-signal title to start with, framed as a curator's recommendation, not an algorithm",
+            "Apply FIRST10 for $10 off the first order to remove purchase friction",
+            "Tease the Better Book Club (6 curated books/quarter, member events, LinkedIn group, free shipping) as the natural next step",
+            "Set cadence expectations and invite a real reply — a human reads every one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "publishing-lead-nurture",
+      "name": "Author Publishing Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move an aspiring-author lead from free webcast viewer toward booking a free consultation and ultimately a publishing package.",
+      "trigger": "Free Publishing Services Webcast registration/view or other gated author asset download.",
+      "segment": "Aspiring-author leads below the sales-ready threshold; branch by book stage (idea vs. manuscript) and by motivation (speaking platform, ministry, business authority).",
+      "rationale": "This is the highest-ticket revenue engine ($1,170–$15,197 packages) and the intake flags it as a clear gap — webcast and consult leads have no nurture path. A buyer-journey-mapped sequence is the proven play to warm long-cycle, high-consideration leads.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver/recap the webcast value and frame the real problem behind it — the cost of letting your message stay unpublished or settling for DIY.",
+          "subject": "Your message deserves more than a print button",
+          "preview": "Why most aspiring authors stall — and the path that keeps you in control.",
+          "cta": "Book your free consultation with the Acquisitions Team",
+          "keyPoints": [
+            "Reconnect to the webcast and the aspiration: turn your book into a platform, speaking career, and movement",
+            "Name the real problem — traditional publishing locks you out; DIY self-publishing costs you rights, royalties, and marketing support",
+            "Position Leadership Books as a creative co-pilot: you keep 100% of your rights and get a real launch strategy",
+            "Pre-empt the top objection ('why not Amazon KDP?') by reframing cost as control + quality + media reach",
+            "Drive to the single highest-intent action: a free, no-pressure consultation with the Acquisitions Team"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Publishing Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert a completed free discovery consultation into a signed publishing package.",
+      "trigger": "Free Book Consultation completed with the Acquisitions Team (post-call follow-up).",
+      "segment": "Leads who attended a consultation; branch by package fit discussed (representation listing vs. Bestsellers vs. Premium Publishing) and engagement level.",
+      "rationale": "The consult is this brand's 'trial/demo,' and the intake notes the post-call follow-up sequence is likely missing — exactly where high-ticket deals are won or lost. A timely recap + proposal email is the core revenue conversion step.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day recap of the call, restate their vision back to them, and present the recommended package path with a clear next step.",
+          "subject": "Your book, your plan — here's what we mapped out",
+          "preview": "A recap of our call and the next step to bring your book to life.",
+          "cta": "Review your recommended publishing path",
+          "keyPoints": [
+            "Lead by mirroring their stated goal from the call (speaking platform, authority, ministry impact) to show they were heard",
+            "Recap the recommended package and what's included — editorial, design, distribution, marketing, media, speakers bureau",
+            "Reinforce the differentiators: 100% rights retained, real marketing strategy, creative co-pilot, not a vendor",
+            "Handle the cost objection with proof — author outcomes (national media, launched speaking careers) and the value vs. KDP trade-off",
+            "Offer a frictionless next step: confirm the package or grab time to finalize the proposal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed Book Club members and dormant one-off buyers, and clean the list to protect deliverability.",
+      "trigger": "Book Club cancellation, or 60–90 days of no opens/clicks/purchases.",
+      "segment": "Churned Book Club members (reference what they read most) separate from dormant one-off buyers (lead with fresh value).",
+      "rationale": "The intake calls out classic book-subscription churn — members who accumulate unread books cancel — and no win-back exists today. Re-engagement recovers 5–15% of inactive contacts and is quick to ship while protecting sender reputation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "'We miss you' — remind them of the core value and surface a personalized reason to come back.",
+          "subject": "Still reading what top leaders read?",
+          "preview": "A fresh pick chosen for you — and a reason to come back to the Club.",
+          "cta": "See this quarter's curated picks",
+          "keyPoints": [
+            "Acknowledge the gap warmly without guilt — life and the to-read pile got busy",
+            "Reconnect to the identity payoff: 'I'm reading what top leaders are reading' and growing every quarter",
+            "Surface a personalized recommendation based on their past reading or category (e.g., Christian leadership, business)",
+            "Address the unread-pile churn reason head-on — curation means fewer, better books, not more clutter",
+            "Make return effortless with one click to the new quarter's selections (or to restart their membership)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long cycle, driving Book Club awareness and reader-to-author crossover without discounting.",
+      "trigger": "Scheduled cadence (monthly or biweekly).",
+      "segment": "All engaged contacts; suppress active onboarding and route recently-dormant contacts to Win-Back. Branch editions by reader vs. aspiring-author interest.",
+      "rationale": "The intake found no email newsletter cadence despite active YouTube/TikTok content — a missed always-on retention engine. A recurring value send repurposes that content, keeps the brand present between purchases, and seeds both the Book Club and publishing offers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the recurring format with one genuinely useful idea — a curated reading pick or leadership insight — and a single soft CTA.",
+          "subject": "3 books every leader should read this quarter",
+          "preview": "Our team's hand-picked shortlist — plus the one most leaders skip.",
+          "cta": "Get the full shortlist",
+          "keyPoints": [
+            "Anchor on a habit-forming recurring section ('This quarter's leadership shortlist') readers will come to expect",
+            "Lead with 80% value — three high-signal picks with a one-line 'why it matters' for each",
+            "Repurpose YouTube/TikTok content into a quick read/watch link to extend reach into email",
+            "Soft 20% offer — frame the Better Book Club as the easiest way to never miss a pick",
+            "Single primary CTA (read the shortlist) with an invitation to reply with what they're reading"
+          ]
+        }
+      ]
+    }
+  ]
+}
