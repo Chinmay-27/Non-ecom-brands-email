@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "LeadStoke",
+    "slug": "leadstoke",
+    "url": "https://leadstoke.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#8B1B14",
+      "accent": "#F5820D",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "LeadStoke sells done-for-you and DIY lead-generation programs to local small businesses (restaurants, retail, salons/spas, fitness, and home-service trades) under founder Dr. Jay Herrera. Its programs — Yelp Help, Review Tap, Birthday Marketing Formula, Coupon Club, and email/SMS marketing — help owners build a customer list they own and bring people back, sold month-to-month with no contracts and a free trial so clients pay only after they see results.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new free-trial signup to their first tangible result — a fresh review, a redeemed birthday coupon, or a customer who came back — before the trial window closes.",
+      "trigger": "Free-trial signup / program activated",
+      "segment": "New trial users; branch by program started (Review Tap, Birthday Marketing Formula, Coupon Club) and business type.",
+      "rationale": "LeadStoke's whole model is 'try before you buy,' so the trial-to-first-result gap is the single highest-risk moment — owners who don't see a quick early win never convert to paid.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm, founder-voice welcome that sets expectations and gets the owner to do the one setup step that produces their first review or lead.",
+          "subject": "You're in — let's get your first review this week",
+          "preview": "One 3-minute setup step and the results start rolling in.",
+          "cta": "Finish your 3-minute setup",
+          "keyPoints": [
+            "Hi from Jay — you signed up to build a customer list you actually own, so let's not waste your time getting there",
+            "The single first action (connect your profile / send your first review request) takes about 3 minutes and is what kicks off your first real result",
+            "Set the expectation: most owners see a new review or lead inside the first week — and you don't pay a dime until you do",
+            "No agency jargon, no contracts — just reply to this email and a real person (me) answers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trial-to-paid",
+      "name": "Trial-to-Paid Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert an engaged free-trial user into a paying monthly client by showing the result they already got and handling the 'I've been burned by agencies' objection.",
+      "trigger": "Trial activation event (first review/lead generated) plus trial-period progress",
+      "segment": "Active trials; branch by activated (saw a result) vs. stalled (no result yet).",
+      "rationale": "Converting free-trial users to paying monthly clients is LeadStoke's stated primary goal and core revenue event, and the proof is already in their own results — no discount needed.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "trial activation",
+          "purpose": "Reflect the owner's own trial results back at them, tie it to monthly revenue, and make staying on as easy as a reply — directly answering the 'agencies burned me' fear.",
+          "subject": "You just got 4 new reviews — here's what that's worth",
+          "preview": "This is the system working. Here's how to keep it running.",
+          "cta": "Keep my program running",
+          "keyPoints": [
+            "Show their actual trial numbers (reviews collected, coupons redeemed, customers reached) — proof the system works for THEIR business, not a case study",
+            "Connect those wins to repeat revenue: more reviews mean more people finding you, more redemptions mean customers coming back",
+            "Handle the #1 objection head-on: month-to-month, no contract, cancel anytime — the opposite of the agency that locked you in and disappeared",
+            "Low-friction next step: reply or grab a 10-minute call with Jay to switch on the paid program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-booking-reminders",
+      "name": "Consult Booking & Reminders",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultation calls with Jay and recover the ones that slip, so high-intent owners actually get on the phone.",
+      "trigger": "Consultation call booked; upcoming call; no-show event",
+      "segment": "Anyone who booked a call with Jay (trial setup, results review, or program questions).",
+      "rationale": "Deals close on a founder-led phone call with Jay, so a missed call is a missed sale — reminders cut no-shows ~35% and protect the brand's main close mechanism.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "24h before",
+          "purpose": "Remind the owner of tomorrow's call, set a clear agenda so it feels worth their time, and make rescheduling one click instead of a no-show.",
+          "subject": "See you tomorrow — quick call about your customer list",
+          "preview": "15 minutes with Jay. Here's what we'll cover.",
+          "cta": "Confirm or pick a better time",
+          "keyPoints": [
+            "Confirm the day and time and that it's a real conversation with Jay, not a sales script",
+            "Set the agenda: review your trial results, answer your questions, and map which program brings customers back fastest for your type of business",
+            "Reassure on time: it's about 15 minutes and there's no obligation and no contract",
+            "One-click reschedule link so a conflict becomes a new time instead of a missed call"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-trial-nurture",
+      "name": "Free-Trial Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a hesitant trial signup who hasn't fully engaged toward their first result and sales-readiness over a short cycle.",
+      "trigger": "Trial started but key setup step not completed",
+      "segment": "Signed-up trial users who haven't activated; branch by program and business type.",
+      "rationale": "Many owners start the free trial then stall because 'marketing feels complicated' — a warm nurture that removes friction is what turns a dormant trial into a paying client.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Re-engage a stalled trial by shrinking the perceived effort and showing a peer business owner who got results without the marketing headache.",
+          "subject": "Marketing felt complicated? This part takes 3 minutes",
+          "preview": "How a salon down the street filled its slow days — without an agency.",
+          "cta": "Start your first result",
+          "keyPoints": [
+            "Meet the owner where they are: you're busy and you've heard 'marketing' a hundred times — this isn't that",
+            "Short peer story: a local business like theirs got their first wave of reviews/repeat customers from one simple setup step",
+            "Remove the friction — point them to the single 3-minute action that starts results, and offer to do it for them on a quick call",
+            "Reinforce zero risk: still free, still no contract, you only pay once it works"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed trial users and cancelled clients, and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold (no engagement 60–90 days) or program cancellation",
+      "segment": "Dormant trial signups who never converted; separately, churned clients (different message referencing what they used).",
+      "rationale": "Lapsed trials and cancelled month-to-month clients are a recoverable, low-cost segment — and a clean re-engagement pass protects sender reputation for the active list.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "A warm, no-pressure 'we miss you' that reminds the owner of the core value and what's new, with an easy door back in.",
+          "subject": "Still want more customers coming back?",
+          "preview": "It's Jay. No pitch — just an easy way back if you're ready.",
+          "cta": "Pick up where you left off",
+          "keyPoints": [
+            "Plain, human check-in from Jay — no guilt, just a reminder of what they came for: a customer list they own and repeat business",
+            "Show what's changed since they left (a new program like Birthday Marketing Formula, or an easier setup)",
+            "Make the return frictionless — one click to restart the free trial, still no contract and no cost until it works",
+            "Respect their inbox: if it's not the right time, the next email will ask if they'd like to stop hearing from us"
+          ]
+        }
+      ]
+    }
+  ]
+}

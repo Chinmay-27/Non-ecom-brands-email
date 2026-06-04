@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "LeadStoke",
+    "url": "https://leadstoke.com",
+    "slug": "leadstoke",
+    "vertical": "Local & service",
+    "tagline": "We Help You Build Your Customer List!",
+    "colors": {
+      "primary": "#8B1B14",
+      "accent": "#F5820D",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "Done-for-you and DIY lead generation programs for local small businesses: Yelp Help™ (review management), Review Tap™ (review generation), Birthday Marketing Formula™, Coupon Club™, email/SMS marketing, and digital display advertising",
+    "coreOutcome": "Build a owned buyer list that generates a steady stream of repeat customers without relying on expensive agencies or long-term contracts",
+    "pricePoint": "Unknown exact tiers; positioned as affordable for 'any budget'; no contracts, month-to-month",
+    "commitment": "No long-term contracts; cancel anytime",
+    "leadMagnets": [
+      "Free trial on most programs (no upfront fee)",
+      "Try-before-you-buy approach across all services"
+    ]
+  },
+  "audience": {
+    "icp": "Local small business owners (restaurants, retail, personal services, wellness) who are frustrated with expensive marketing agencies and have no reliable system for growing a customer list",
+    "painPoints": [
+      "Marketing feels complicated and out of reach",
+      "Burned by expensive agency retainers with no results",
+      "No owned customer list — dependent on walk-ins or word of mouth",
+      "Don't know how to get online reviews or leverage them",
+      "Lack of repeat customer systems"
+    ],
+    "segments": [
+      "Restaurants and food service",
+      "Retail / boutique shops",
+      "Personal service businesses (salons, spas, fitness)",
+      "Home service / trades"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to a couple of weeks — founder-led consultative sale via phone or email",
+    "trial": "Yes — free trial offered on most/all programs with no upfront cost",
+    "closeMechanism": "Direct phone call or email with founder Dr. Jay Herrera (956-203-9533 / Jay@LeadStoke.com)",
+    "topObjection": "Marketing is too complicated and I've already wasted money on agencies that didn't deliver"
+  },
+  "ahaMoment": "First real lead, new customer visit, or online review generated through one of the programs — confirms the system works before any payment is required",
+  "retention": {
+    "recurring": "Yes — ongoing monthly programs (review management, birthday marketing, coupon club, SMS/email campaigns)",
+    "expansion": "Cross-sell additional LeadStoke programs (e.g., start with Review Tap, add Birthday Marketing Formula, then Coupon Club)",
+    "churnRisk": "Business owners who don't engage with the program, don't see quick early wins, or who feel they can't dedicate even minimal time to DFY follow-up"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely informal or absent; no structured activation sequence",
+    "Lead-Magnet / Free-Trial Nurture — prospects who start a trial need email support to convert to paid",
+    "Trial-to-Paid Conversion — critical gap given free-trial-first model",
+    "Booking / Consultation Reminders — no-show risk on initial calls with Jay",
+    "Value Newsletter — educational content to keep subscribers warm between programs",
+    "Renewal & Expansion — upsell cadence to move single-program clients to multi-program",
+    "Win-Back / Re-Engagement — lapsed trial users or cancelled clients"
+  ],
+  "toneVoice": "Warm, plain-spoken, founder-led. Empathetic to small business frustration with marketing. Anti-jargon, anti-corporate. Conversational and direct — feels like advice from a fellow business owner, not a pitch from an agency.",
+  "compliance": "CAN-SPAM / TCPA (email + SMS marketing services). No healthcare, financial, or legal vertical constraints evident."
+}
