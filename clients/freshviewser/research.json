@@ -1,0 +1,59 @@
+{
+  "brand": {
+    "name": "FreshView Services",
+    "url": "https://www.freshviewser.com",
+    "slug": "freshviewser",
+    "vertical": "Local & service",
+    "tagline": "Love the Way Your Home Looks Again",
+    "colors": {
+      "primary": "#1E6FBE",
+      "accent": "#3CB8D8",
+      "background": "#FFFFFF",
+      "text": "#2D3748"
+    }
+  },
+  "offer": {
+    "what": "Professional exterior cleaning services: house/siding washing, paver cleaning & restoration, roof washing, and commercial power washing",
+    "coreOutcome": "A visibly clean, bright, cared-for property exterior — restored curb appeal without the homeowner lifting a finger",
+    "pricePoint": "Quote-based (no published prices); free no-obligation quote via form or phone; one-off job tickets typical of local service businesses",
+    "commitment": "One-off per job; repeat seasonal bookings (not a subscription)",
+    "leadMagnets": ["Free no-obligation quote"]
+  },
+  "audience": {
+    "icp": "Homeowners in Acworth / Marietta, GA (30–60 yo) who notice their siding, driveway, pavers, or roof has become visibly dirty and want it handled quickly and reliably",
+    "painPoints": [
+      "Embarrassed by dingy siding, stained pavers, or a dark streaky roof",
+      "Too busy or physically unable to DIY pressure washing",
+      "Worried about damaging surfaces with the wrong technique or equipment",
+      "Preparing home for sale, rental, or a special event",
+      "HOA or municipality pressure to maintain property appearance"
+    ],
+    "segments": [
+      "Residential homeowners (primary)",
+      "Small commercial property owners / landlords (secondary)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days — lead submits quote request, receives follow-up with pricing, books a job date",
+    "trial": "Free no-obligation quote (no paid trial or free service)",
+    "closeMechanism": "Quote request form or phone/text → manual follow-up call/email with pricing → customer confirms and books a date",
+    "topObjection": "Price vs. renting equipment and DIYing it; uncertainty about trusting a stranger on/around their property"
+  },
+  "ahaMoment": "The completed job walk-around — customer sees the dramatic before/after transformation of their home's exterior for the first time",
+  "retention": {
+    "recurring": "Seasonal repeat bookings (spring prep, fall cleanup); no formal subscription model",
+    "expansion": "Upselling additional services per visit — e.g., add roof washing or paver sealing to a house exterior clean",
+    "churnRisk": "One-and-done customers who don't think to re-book the following season; no automated re-engagement in place"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no post-booking confirmation or pre-job prep email sequence",
+    "Lead-Magnet Nurture — no formal nurture for quote requests that don't convert immediately",
+    "Trial/Consult Conversion — quote follow-up appears to be manual with no automated drip",
+    "Booking, Reminders & No-Show — likely no automated appointment reminders or no-show recovery",
+    "Value Newsletter — no educational content cadence keeping past customers warm",
+    "Renewal, Anniversary & Expansion — no seasonal re-booking or upsell sequence",
+    "Win-Back / Re-Engagement — no lapsed-customer reactivation flow"
+  ],
+  "toneVoice": "Friendly, warm, and reassuring — conversational without being casual. Uses relatable homeowner language ('Sound familiar?'). Emphasizes trust, local roots, and satisfaction guarantee. Not corporate or salesy.",
+  "compliance": "Standard CAN-SPAM / CASL (local service business; no HIPAA, financial, or legal compliance constraints)"
+}

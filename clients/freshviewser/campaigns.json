@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "FreshView Services",
+    "slug": "freshviewser",
+    "url": "https://www.freshviewser.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#1E6FBE",
+      "accent": "#3CB8D8",
+      "background": "#FFFFFF",
+      "text": "#2D3748"
+    }
+  },
+  "summary": "FreshView Services is a local exterior-cleaning company serving homeowners in Acworth and Marietta, GA, offering house/siding washing, paver cleaning and restoration, roof washing, and commercial power washing. It runs on a quote-to-booking model: customers request a free no-obligation quote, receive pricing, and book one-off jobs, with repeat revenue coming from informal seasonal re-bookings. Its primary audience is residential homeowners (30-60), with small commercial property owners and landlords as a secondary segment.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Build trust before the crew arrives and set expectations so job day goes smoothly, driving toward the 'aha' walk-around and a 5-star review.",
+      "trigger": "Job booked / date confirmed (fires within seconds of confirmation).",
+      "segment": "New customers with a confirmed first job; branch by service type (house wash, roof, pavers, commercial).",
+      "rationale": "FreshView is greenfield with no post-booking sequence, and its biggest pre-job hesitation is trusting a stranger around the property — a warm, reassuring welcome converts that anxiety into confidence and sets up the dramatic before/after that earns reviews and re-bookings.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Confirm the booking, set expectations for job day, and pre-empt the trust objection by introducing the crew and the satisfaction guarantee.",
+          "subject": "You're booked! Here's exactly what happens on job day",
+          "preview": "Meet your crew, a 2-minute prep checklist, and our satisfaction guarantee.",
+          "cta": "See your job-day checklist",
+          "keyPoints": [
+            "Confirm the service, date, and rough arrival window so they know what to expect",
+            "Introduce the local FreshView crew by name and reassure them their property is in careful, insured hands",
+            "Simple prep checklist: move vehicles, unlock the gate, bring in pets, clear the work area",
+            "Restate the satisfaction guarantee and a direct phone/text (678-223-0550) to reach a real person before the visit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-to-booking-conversion",
+      "name": "Quote-to-Booking Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert free no-obligation quote requests that haven't booked within 48 hours into confirmed jobs.",
+      "trigger": "Quote request submitted; no booking confirmed within 48 hours (plus behavioral nudges in parallel).",
+      "segment": "Quote requesters who haven't booked; branch by quoted service type and by residential vs. commercial.",
+      "rationale": "Quote follow-up today is fully manual with no drip, so warm leads go cold — this is the single biggest revenue leak and directly serves FreshView's stated #1 goal of turning quote requests into booked jobs.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Re-engage a stalled quote by handling the DIY-vs-pro and price objection with proof, and remove all friction from booking a date.",
+          "subject": "Still weighing that quote for your siding?",
+          "preview": "DIY rentals add up fast — here's why your Acworth neighbors let us handle it.",
+          "cta": "Reply to lock in your date",
+          "keyPoints": [
+            "Acknowledge the real decision: renting equipment and a weekend of risky DIY vs. a done-for-you crew",
+            "Show a local before/after and a short homeowner quote ('My house looks brand new') to build trust",
+            "Reassure on safe, surface-appropriate techniques so they won't risk damaging siding, pavers, or roof",
+            "Make booking effortless — reply, call, or text to confirm a date; quote stays valid and no-obligation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Booking Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Protect scheduled jobs by ensuring the property is accessible and ready, cutting last-minute cancellations and wasted truck rolls.",
+      "trigger": "Booking confirmed (24h-before reminder); cancellation/no-access event (recovery branch).",
+      "segment": "Any customer with a scheduled job; branch into no-access/cancellation recovery if the crew can't complete the visit.",
+      "rationale": "An in-home exterior job fails if cars block the driveway, gates are locked, or the customer cancels last-minute — a timed reminder protects revenue immediately, the same way appointment reminders cut no-shows by ~35%.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "Job date − 1 day",
+          "purpose": "Confirm tomorrow's visit, deliver the final prep steps, and offer a one-tap reschedule so a conflict becomes a new date instead of a no-show.",
+          "subject": "We'll see you tomorrow — a quick prep before we arrive",
+          "preview": "Move the cars, unlock the gate, bring in pets — and we'll handle the rest.",
+          "cta": "Need to reschedule? Tap here",
+          "keyPoints": [
+            "Confirm the service, date, and arrival window for tomorrow",
+            "Final prep checklist so the crew can start on time: clear vehicles, unlock side gates, secure pets, close windows",
+            "Note that someone doesn't need to be home for most exterior work, but how to reach the crew if questions come up",
+            "Friction-free reschedule/cancel link plus the direct phone/text line"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal-rebook-expansion",
+      "name": "Seasonal Re-Booking & Expansion",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Win back one-and-done customers with a seasonal refresh re-booking and upsell additional services (roof, pavers, sealing).",
+      "trigger": "Job completed + 6 months (spring/fall season change); branch by services already purchased.",
+      "segment": "Past customers ~6-12 months post-job; high-satisfaction customers get an expansion offer for services they haven't yet tried.",
+      "rationale": "FreshView's #1 churn risk is customers who simply forget to re-book the next season, and there's no seasonal outreach in place — a timed recap that reminds them how good their home looked recaptures repeat revenue and naturally upsells add-on services.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "Last job + ~180 days",
+          "purpose": "Trigger a seasonal re-booking by reminding the customer of their last result, framing why now (pollen/mildew season), and offering an easy add-on.",
+          "subject": "Remember how good your home looked last time?",
+          "preview": "Georgia pollen and mildew creep back fast — let's keep that just-cleaned look.",
+          "cta": "Book your seasonal refresh",
+          "keyPoints": [
+            "Remind them of their last service and the transformation they loved",
+            "Frame the timing: spring pollen / fall mildew and algae build back up on siding, pavers, and roofs every season",
+            "Offer an easy add-on they haven't booked — e.g., add roof washing or paver sealing to this visit",
+            "One-tap re-book or reply to grab a spot before the busy season fills up"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed customers who haven't booked in 12+ months and clean the list of unresponsive contacts.",
+      "trigger": "12+ months since last job with no re-booking or engagement.",
+      "segment": "Dormant past customers; final-email sunset branch for non-responders to protect deliverability.",
+      "rationale": "With no lapsed-customer reactivation flow, a year-plus of past customers are sitting dormant — a low-cost win-back recovers 5-15% of them, and FreshView's exterior surfaces visibly degrade over a year, giving an honest, concrete reason to return.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a warm 'we miss you,' remind them of the value, and lower the barrier with a fresh free quote.",
+          "subject": "It's been a while — your siding's probably ready",
+          "preview": "Come back and we'll make your home look brand-new again.",
+          "cta": "Get a fresh quote",
+          "keyPoints": [
+            "Warm, no-pressure 'it's been about a year since we cleaned your home'",
+            "Honest reminder that dirt, algae, and roof streaks build back up over a year in the Acworth/Marietta climate",
+            "Reassure them returning is easy — same trusted local crew, same satisfaction guarantee",
+            "Low-friction free no-obligation quote, with a small returning-customer incentive to tip the decision"
+          ]
+        }
+      ]
+    }
+  ]
+}
