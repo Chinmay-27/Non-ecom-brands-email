@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "All Point Consultants",
+    "slug": "all-point-consultants",
+    "url": "https://www.allpointconsultants.com",
+    "vertical": "B2B/Professional services — financial wellness & business formation consulting",
+    "colors": {
+      "primary": "#1a2b4a",
+      "accent": "#c8a44b",
+      "background": "#ffffff",
+      "text": "#1a2b4a"
+    }
+  },
+  "summary": "All Point Consultants is a Florida-based, founder-led consulting firm (Glenn Grahl) that helps individuals and small business owners untangle their personal and business finances through structured service tracks — a one-time Clarity assessment, ongoing Guided support, and a Business Readiness track for entity structuring, business credit, and funding. It serves people who feel overwhelmed by damaged or thin credit, intertwined personal/business finances, and unclear paths to funding, often after a triggering event like a loan denial or business launch. The firm leads with education over urgency, offering free guides and a free 15-minute assessment as the entry point to mid-to-high-ticket engagements.",
+  "campaigns": [
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 1,
+      "stage": "Nurture / Consideration",
+      "objective": "Move PDF downloaders from curious to a booked free 15-minute assessment by framing the real problem behind their funding/credit question and building trust over a long, education-first cycle.",
+      "trigger": "Download of a gated PDF ('27 Killer Ways to Get Cash' or 'The Ultimate Business Credit & Financing Guide').",
+      "segment": "Leads below the sales-ready threshold; branch by which guide they downloaded (personal/cash-access vs. business-credit/funding).",
+      "rationale": "Both free PDFs are live and almost certainly generating downloads with zero automated follow-up — the single fastest revenue unlock for this brand, bridging cold downloaders to the free assessment that is the conversion event.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested guide instantly and reframe the surface question ('how do I get cash/credit?') into the real problem All Point solves — how personal credit, business credit, and structure interconnect — then offer the free 15-minute assessment as the no-pressure next step.",
+          "subject": "Your '27 Killer Ways to Get Cash' guide is inside",
+          "preview": "Plus the one thing the guide can't tell you about your situation.",
+          "cta": "Download your guide → then book a free 15-minute assessment",
+          "keyPoints": [
+            "Deliver the PDF immediately with a clear download button — this is the most-opened email they'll get from All Point",
+            "Reframe: cash and credit aren't separate problems — your personal credit, business structure, and funding readiness are one connected system, and tactics without that map backfire",
+            "Acknowledge the skepticism head-on: this is education, not a quick-fix credit-repair scheme — no obligations, no auto-enrollment",
+            "Soft CTA to the free 15-minute assessment via TidyCal, framed as 'see your own picture mapped,' in Glenn's calm advisor voice",
+            "Include standard financial-consulting disclaimer (not registered investment advice) and CAN-SPAM footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Assessment-to-Track Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a completed free 15-minute assessment into a paid Clarity, Guided, or Business Readiness track engagement.",
+      "trigger": "Free assessment completed (attended), with behavioral nudges for those who booked but stalled.",
+      "segment": "Leads who completed an assessment; branch by recommended track (one-time Clarity vs. ongoing Guided vs. Business Readiness).",
+      "rationale": "This is the core revenue play — the assessment is the 'aha,' and the window right after it is when the client can see their mapped picture and is most ready to commit to a structured path forward.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day recap that captures the clarity from the assessment in writing — their mapped financial picture and the specific prioritized next steps — then recommends the right track and makes committing low-friction.",
+          "subject": "Your financial picture — and the 3 steps we mapped together",
+          "preview": "Here's the written plan from our call, and where to go from here.",
+          "cta": "Review your recommended track and reserve your spot",
+          "keyPoints": [
+            "Recap THEIR specific situation discussed on the call — how their personal credit, business structure, and funding readiness connect — so the value feels tangible, not generic",
+            "Restate the prioritized next steps in writing; the written plan IS the product they came for",
+            "Recommend the fitting track (Clarity / Guided / Business Readiness) and explain why it matches their stage, addressing cost uncertainty with a clear what-you-get framing",
+            "Disarm the 'I can figure this out myself' objection with the cost of guessing vs. a structured path; offer a reply-to-Glenn line for questions",
+            "Single primary CTA to start; calm and reassuring, never urgent or pressuring"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Assessment Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended free assessments and recover the ones that slip, since the assessment is both the first-value moment and the gateway to every paid track.",
+      "trigger": "Assessment booked via TidyCal; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled free 15-minute assessment.",
+      "rationale": "The assessment is the 'aha' moment and the single conversion event for this brand — reminders cut no-shows by ~35%, and a value-add prep email raises both show rate and session quality so clients arrive ready to act.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that doubles as prep — confirms the time, tells them exactly what to bring and expect, and primes them to get maximum value so the session converts.",
+          "subject": "Your free assessment is tomorrow at [time] — here's how to prep",
+          "preview": "Bring these 3 things and we'll map your full picture in 15 minutes.",
+          "cta": "Confirm, add to calendar, or reschedule",
+          "keyPoints": [
+            "Confirm date/time with add-to-calendar and a frictionless reschedule link to prevent silent no-shows",
+            "Set expectations: in 15 minutes Glenn will help map where your personal credit, business structure, and funding readiness stand — you'll leave with clear next steps",
+            "Short prep checklist (e.g., a rough sense of current credit situation, whether a business entity exists, your top financial goal) so the call is high-value",
+            "Reassure: it's a conversation, not a sales pitch — no obligation, no auto-enrollment",
+            "Personalize with the assessment type and Glenn's name; calm, welcoming founder voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welcome-onboarding",
+      "name": "Client Welcome & Onboarding",
+      "priority": 4,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new client through the secure portal intake and oriented to the 4-phase engagement (Discovery → Plan → Implementation → Review) so they reach first value and stay engaged between sessions.",
+      "trigger": "Paid track started / client portal account created.",
+      "segment": "New clients; branch by track (Clarity, Guided, or Business Readiness).",
+      "rationale": "New clients face long multi-phase cycles with unclear milestones — the top churn risk — so a structured welcome that anchors the process and drives the first portal action protects the engagement from day one.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome that sets expectations for the structured journey and drives the single most important first action — completing the portal intake — so the work can begin.",
+          "subject": "Welcome to All Point — your plan starts here",
+          "preview": "One quick step to set up your portal and kick off Discovery.",
+          "cta": "Complete your portal intake",
+          "keyPoints": [
+            "Warm, founder-led welcome from Glenn; thank them for trusting the process and reassure they're no longer guessing alone",
+            "Walk through the 4 phases (Discovery → Plan → Implementation → Review) so the road ahead feels clear and milestones are visible",
+            "Single first action: finish the secure portal intake so Glenn can prepare before the first working session",
+            "Set the cadence and 'hit reply anytime — a real person reads it' expectation to keep momentum between sessions",
+            "Calm, plain-language tone; financial-consulting disclaimer and CAN-SPAM footer included"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long sales cycle with education-first content, keeping cold downloaders warm and existing clients engaged between sessions without discounting.",
+      "trigger": "Scheduled cadence (monthly to start, given unknown list health).",
+      "segment": "All engaged contacts; suppress active onboarding sequences and route long-dormant contacts to a separate win-back motion.",
+      "rationale": "All Point is an education-first brand with no visible newsletter and a large cold PDF-download list — a recurring value send is the always-on engine that builds the trust this trust-driven category runs on and re-warms leads toward an assessment.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship inaugural edition that teaches one genuinely useful idea — why mixing personal and business credit quietly blocks funding — establishing the recurring 'one clear idea' format and the brand's authority.",
+          "subject": "The wall between your personal and business credit (and why it's leaking)",
+          "preview": "A 3-minute read that explains what most owners learn too late.",
+          "cta": "Read the breakdown (or book a free assessment to map your own)",
+          "keyPoints": [
+            "Lead with one clear, useful idea: how commingled personal and business credit silently caps your funding and raises your risk — explained with a plain-language analogy, no jargon",
+            "Give one concrete, do-it-yourself takeaway so the email earns its place even if they never buy (80% value / 20% soft offer)",
+            "Establish a recurring habit-building section (e.g., 'This month's clarity tip') so readers learn to expect value",
+            "Single soft CTA: read more, or book a free 15-minute assessment to map their own picture",
+            "Calm, authoritative advisor voice; financial-consulting disclaimer and one-click unsubscribe per CAN-SPAM"
+          ]
+        }
+      ]
+    }
+  ]
+}

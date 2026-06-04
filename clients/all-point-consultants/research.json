@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "All Point Consultants",
+    "url": "https://www.allpointconsultants.com",
+    "slug": "all-point-consultants",
+    "vertical": "B2B/Professional services — financial wellness & business formation consulting",
+    "tagline": "Clarity. Structure. Support.",
+    "colors": {
+      "primary": "#1a2b4a",
+      "accent": "#c8a44b",
+      "background": "#ffffff",
+      "text": "#1a2b4a"
+    }
+  },
+  "offer": {
+    "what": "One-on-one financial consulting and business formation guidance delivered through structured service tracks (Clarity Track, Guided Track, Business Readiness Track) plus business credit building and financing matchmaking via a sub-brand (go.allpointconsultants.com). Supported by a secure client portal, learning platform, and vetted professional network.",
+    "coreOutcome": "Clients move from financial confusion and reactive decision-making to a clear, structured plan — understanding how their personal credit, business credit, and financial systems interconnect so they can act with confidence.",
+    "pricePoint": "Unknown — no public pricing. Likely mid-to-high ticket consulting retainer or project-based engagement. Business financing/credit programs may include referral/commission model.",
+    "commitment": "Multi-phase engagement: Discovery → Plan → Implementation → Review. Ongoing 'Guided Track' implies recurring relationship; 'Clarity Track' appears to be a one-time assessment/report.",
+    "leadMagnets": [
+      "Free PDF: '27 Killer Ways to Get Cash — What Banks Won't Tell You'",
+      "Free PDF: 'The Ultimate Business Credit & Financing Guide'",
+      "Free 15-minute assessment/consultation (booked via TidyCal)",
+      "Free client portal access with guided intake process"
+    ]
+  },
+  "audience": {
+    "icp": "Individuals and small business owners in the US who feel overwhelmed by overlapping personal/business finances, damaged or thin credit, and unclear paths to funding. Often reacting to a financial event (denied loan, business launch, credit problem) rather than proactively planning.",
+    "painPoints": [
+      "Receiving financial advice without understanding the underlying systems",
+      "Personal and business finances dangerously intertwined",
+      "Credit challenges blocking access to business funding",
+      "Not knowing where to start with business formation or funding readiness",
+      "Past bad experiences with quick-fix credit repair or predatory lenders",
+      "Decision paralysis from information overload"
+    ],
+    "segments": [
+      "Individuals: personal credit repair/rebuild, budgeting clarity, general financial wellness",
+      "Business owners: entity structuring, business credit establishment, funding readiness",
+      "Personal-business crossover: entrepreneurs whose personal credit is tied to business liabilities"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks — typically a few touchpoints from lead magnet download or assessment to paid engagement",
+    "trial": "Yes — free 15-minute assessment consultation (TidyCal booking). Also free downloadable PDFs as top-of-funnel entry.",
+    "closeMechanism": "Discovery call → structured proposal or track recommendation → client portal onboarding. Low-pressure, education-first positioning; no auto-enrollment.",
+    "topObjection": "Skepticism about real results vs. promises ('Is this just another credit repair scam?'), cost uncertainty (no public pricing), and belief they can figure it out alone."
+  },
+  "ahaMoment": "The first consultation where the client sees their full financial picture mapped clearly — credit, business structure, and funding readiness — and walks away with a written plan and specific next steps rather than vague advice.",
+  "retention": {
+    "recurring": "Ongoing 'Guided Track' consulting sessions and client portal access. Business financing programs may generate repeat engagement as client scales.",
+    "expansion": "Upsell from Clarity Track (assessment only) to Guided Track (ongoing support); cross-sell from personal financial wellness to business formation and business credit tracks; professional network referrals.",
+    "churnRisk": "Long cycles with unclear milestones leading to disengagement; clients who don't take action between sessions; price sensitivity if value isn't made tangible early."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely minimal; new clients need a structured sequence that anchors the first-value moment (the consultation) and sets expectations for the 4-phase process",
+    "Lead-Magnet Nurture — free PDF downloads likely receive no automated follow-up; prime opportunity to move leads from curious to booked-assessment",
+    "Trial/Consult Conversion — no-show prevention and follow-up sequence after free assessment to convert to paid track",
+    "Booking & Reminders — assessment scheduling confirmation, reminders, and pre-meeting prep email to increase show rates",
+    "Value Newsletter — ongoing financial education content to maintain trust and authority with dormant/nurture list",
+    "Renewal / Anniversary & Expansion — re-engage past clients, trigger expansion conversations at natural milestones",
+    "Win-Back / Re-Engagement — large segment of leads who downloaded PDFs or booked then went cold"
+  ],
+  "toneVoice": "Calm, authoritative, and educational — never salesy or fear-based. Speaks plainly about complex financial topics. Emphasizes understanding over urgency. Think 'trusted advisor in your corner' rather than 'consultant pitching services.' Slight warmth; founder-led voice (Glenn Grahl). Avoids jargon; prefers clear analogies.",
+  "compliance": "Financial consulting (not registered investment advice). Must include standard financial disclaimer language. CAN-SPAM compliant. No HIPAA. Should avoid specific yield/return promises or claims that could be construed as regulated financial advice. Florida-based LLC — state-level disclosure considerations."
+}
