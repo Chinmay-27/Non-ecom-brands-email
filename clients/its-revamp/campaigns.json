@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Revamp",
+    "slug": "its-revamp",
+    "url": "https://www.itsrevamp.com",
+    "vertical": "B2B/professional services — digital marketing agency (SEO, web design, lead generation)",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#00C853",
+      "background": "#F5F5F5",
+      "text": "#212121"
+    }
+  },
+  "summary": "Revamp (by JCE SEO, San Antonio) is a digital marketing agency that sells an integrated, outcome-based retainer it calls a 'Digital Revenue Engine' — combining SEO-optimized web design, local/national SEO, lead generation, PPC, and social media into one system. It serves owner-operated local and regional service businesses (HVAC, roofing, plumbing, law firms, med-spas, restaurants) who are invisible on Google and want predictable, measurable leads rather than commodity SEO. The entry point is a free Google Maps ranking assessment / SEO audit that leads into a strategy call and a monthly retainer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — The 90-Day Ramp",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate new retainer clients by setting realistic 90-day SEO expectations, establishing the reporting cadence, and celebrating early wins — directly attacking the brand's #1 churn driver (slow first-90-days results with no communication).",
+      "trigger": "New client signs the retainer / onboarding kickoff scheduled (account created). Send email 1 within seconds of signing.",
+      "segment": "Newly onboarded retainer clients; branch by primary service vertical (home-service contractor, legal/professional, healthcare/med-spa, restaurant/retail) captured at intake.",
+      "rationale": "SEO has an unavoidable 60–90 day ramp, and the intake names 'slow results + no proactive communication' as the top churn risk. Framing the timeline up front and showing a clear progress path is the cheapest way to protect a $1,500–$5,000/mo retainer through its most fragile period.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the 90-day expectation honestly, explain the reporting cadence, and give them one quick first action so they feel momentum on day one.",
+          "subject": "Welcome to Revamp — here's exactly what the next 90 days look like",
+          "preview": "Your first win is one quick step away (and no, you don't have to wait 90 days for it).",
+          "cta": "Complete your 5-minute onboarding form",
+          "keyPoints": [
+            "Set the honest expectation: real ranking and lead movement shows up in 60–90 days — and explain why that's a feature, not a delay (Google rewards durable authority, not quick tricks)",
+            "Lay out the cadence: what we're doing in month 1, when your first report lands, and who their dedicated point of contact is",
+            "Give one immediate action (complete the onboarding/access form) so they get a sense of progress on day one",
+            "Reassure on the burned-by-past-agencies fear: 'You'll see what we're doing and what it's producing, every step' — reply to a real human anytime"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Free Audit Nurture — From Audit to Booked Call",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert cold free-audit / Google Maps assessment leads into booked strategy calls by quantifying the leads they're losing to competitors and building trust over a multi-email cycle.",
+      "trigger": "Free SEO audit or Google Maps ranking assessment requested/delivered (gated-content download).",
+      "segment": "Audit leads below the sales-ready threshold who haven't booked a call; branch by service vertical and by audit severity (e.g., not in the Maps 3-pack vs. page-2 rankings).",
+      "rationale": "The intake names converting free-audit leads to booked calls as the brand's primary revenue lever, and these leads currently fall into a cold bucket with no follow-up. The audit itself is the perfect personalized hook — it shows the prospect exactly what they're losing.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the audit results and frame the real problem behind them — the high-intent local searches happening right now that are going to competitors instead of them.",
+          "subject": "Your SEO audit is ready — here's who's getting the leads you're not",
+          "preview": "We found where your competitors are outranking you in San Antonio. The fix is more doable than you think.",
+          "cta": "Book your free 20-minute strategy call",
+          "keyPoints": [
+            "Lead with the gap: 'You're not showing up in the Google Maps 3-pack for [service] in [city] — your top 3 competitors are, and that's where ~70% of clicks go'",
+            "Translate rankings into revenue: frame missed rankings as missed phone calls and jobs, not abstract SEO metrics",
+            "Frame the audit as the diagnosis, the strategy call as the prescription — no obligation, just a plan",
+            "Pre-empt the 'burned before' objection: this is a custom look at your business, not a templated report blast"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Audit-to-Retainer Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert prospects who completed the free audit and strategy call into a signed monthly retainer by presenting a custom revenue plan and removing the ROI-risk objection.",
+      "trigger": "Strategy call completed / custom proposal prepared; runs in parallel with a follow-up nudge for prospects who went quiet after the audit.",
+      "segment": "Post-call prospects with a custom proposal pending; branch by hot (engaged on call) vs. stalled (no reply after proposal).",
+      "rationale": "Days-to-weeks sales cycle closes on a proposal after the strategy call — but there's no automated push to close or re-engage the ghosters. This is the email that turns a free audit into recurring revenue.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the custom Digital Revenue Engine proposal, make the ROI math concrete, and dismantle the 'I got burned last time' objection with proof and a clear, low-risk next step.",
+          "subject": "Your custom growth plan is inside — built from your audit numbers",
+          "preview": "What ranking page 1 for your top keywords is actually worth in monthly revenue.",
+          "cta": "Approve your plan & lock in your start date",
+          "keyPoints": [
+            "Tie the proposal back to their audit: 'Based on the searches we found in your market, here's the lead and revenue picture once you're ranking'",
+            "Handle the top objection head-on: how Revamp's reporting and transparent milestones differ from the agency that took their money and showed nothing",
+            "Show proof — a comparable local client's before/after (rankings → leads) in the same kind of vertical",
+            "Lower the risk: clear month-by-month deliverables, a real point of contact, and an easy way to ask questions before signing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Strategy Call Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended strategy calls and recover no-shows so audit-stage leads actually make it to the conversation that closes them.",
+      "trigger": "Strategy/discovery call booked; upcoming-appointment reminders; no-show event.",
+      "segment": "Anyone with a scheduled strategy or discovery call.",
+      "rationale": "The entire conversion motion hinges on the booked strategy call — every no-show is a lost retainer. Reminders cut no-shows by ~35% on average, making this the fastest way to protect pipeline that's already been earned.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "The 24-hour-before reminder — confirm the call, prime them with what we'll cover, and make rescheduling frictionless so a conflict becomes a reschedule, not a no-show.",
+          "subject": "See you tomorrow — your Revamp strategy call at [time]",
+          "preview": "We'll walk through your audit and the exact plan to get your phone ringing. Need to move it? One click.",
+          "cta": "Confirm or reschedule in one click",
+          "keyPoints": [
+            "Confirm date, time, and join/dial-in details with an add-to-calendar link",
+            "Set the agenda so it feels worth showing up: 'We'll cover your audit findings, where your competitors are winning, and a clear 90-day plan'",
+            "Make rescheduling one click — a conflict should reschedule, never ghost",
+            "Tell them what to bring: their current marketing spend and their #1 service they want more of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back — Cold Audit Leads & Churned Clients",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant free-audit leads and churned retainer clients with fresh proof of value, and sunset non-responders to protect deliverability.",
+      "trigger": "Inactivity threshold (90+ days no opens/clicks/booking) or client cancellation.",
+      "segment": "Dormant audit leads who never booked; separately, churned clients (different message referencing what changed and what they last achieved).",
+      "rationale": "Old audit leads and churned clients currently get zero re-engagement. Their market position has likely slipped further since they went quiet — a fresh 'here's where you stand now' hook recovers 5–15% at almost no cost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the conversation by reminding dormant leads what they're still losing and offering a fresh, no-strings look at their current rankings.",
+          "subject": "Still invisible on Google? Let's check where you stand now",
+          "preview": "A lot can change in 90 days — usually not in your favor. Here's a fresh look, free.",
+          "cta": "Get an updated free ranking check",
+          "keyPoints": [
+            "Pattern-interrupt: 'It's been a while — and your competitors haven't slowed down. Want to see where you rank today?'",
+            "Offer a fresh, updated audit/ranking check as a low-friction reason to re-engage (new data, not a repeat of the old report)",
+            "For churned clients, reference the results they last saw and what's new at Revamp since (new services, reporting, packages)",
+            "Keep it light and no-pressure — the goal is a single click, with a clean unsubscribe for those who are truly done"
+          ]
+        }
+      ]
+    }
+  ]
+}

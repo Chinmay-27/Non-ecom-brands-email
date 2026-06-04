@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Revamp (Its Revamp)",
+    "url": "https://www.itsrevamp.com",
+    "slug": "its-revamp",
+    "vertical": "B2B/professional services — digital marketing agency (SEO, web design, lead generation)",
+    "tagline": "Digital Revenue Engines",
+    "colors": {
+      "primary": "#1A1A2E",
+      "accent": "#00C853",
+      "background": "#F5F5F5",
+      "text": "#212121"
+    }
+  },
+  "offer": {
+    "what": "Integrated digital marketing retainer combining SEO-optimized website design, local/national SEO, lead generation, PPC advertising, and social media marketing — packaged as a 'Digital Revenue Engine' rather than a menu of standalone services",
+    "coreOutcome": "Predictable, consistent leads and revenue growth; clients achieve measurable market leadership and a robust sales pipeline",
+    "pricePoint": "Custom/undisclosed; web design engagements estimated $5,000–$25,000+; full-service retainers likely $1,500–$5,000/month",
+    "commitment": "Ongoing retainer (recurring); project-based web design as entry point",
+    "leadMagnets": [
+      "Free Google Maps ranking assessment",
+      "Free SEO audit / initial consultation"
+    ]
+  },
+  "audience": {
+    "icp": "Local and regional business owners in competitive service verticals (law firms, HVAC, roofing, plumbing, tree services, professional services) primarily in San Antonio / Texas, seeking revenue-focused digital marketing rather than commodity SEO",
+    "painPoints": [
+      "Invisible on Google — losing leads to better-ranked competitors",
+      "Paying for marketing that can't demonstrate ROI",
+      "Inconsistent or unpredictable lead flow",
+      "No unified digital strategy — disjointed website, SEO, and ads",
+      "Too busy running the business to manage digital marketing themselves"
+    ],
+    "segments": [
+      "Home-service contractors (HVAC, roofers, plumbers) — high local search volume, seasonal urgency",
+      "Legal / professional services (law firms, accountants) — high ticket, reputation-sensitive",
+      "Healthcare / med-spa / wellness — local competition, trust-driven",
+      "Restaurants and retail — Google Maps & reviews-dependent"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — initial free audit/assessment → consultation call → proposal → close",
+    "trial": "Free Google Maps ranking assessment and free SEO audit serve as the entry-point trial offer",
+    "closeMechanism": "Booked discovery/strategy call; proposal delivered after audit; salesperson or founder closes",
+    "topObjection": "'I've been burned by SEO agencies before and didn't see results' — credibility and proof of ROI is the primary barrier"
+  },
+  "ahaMoment": "Client sees their business rank on page 1 of Google (or Google Maps pack) for a high-intent local keyword and receives their first organic lead — typically within 60–90 days of onboarding",
+  "retention": {
+    "recurring": "Yes — monthly retainer for ongoing SEO, content, ads management, and reporting",
+    "expansion": "Upsell from SEO-only to full 'Revenue Engine' (add PPC, social media, content marketing, reputation management); add additional service-area campaigns",
+    "churnRisk": "Slow ranking progress in first 90 days; client not seeing leads yet; mis-set expectations on SEO timeline; lack of communication/reporting"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — new clients need a structured onboarding sequence explaining the 90-day ramp, what to expect, and how to track progress",
+    "Lead-Magnet Nurture — free audit leads likely fall into a cold bucket with no follow-up sequence to convert them to paid clients",
+    "Trial/Consult Conversion — no evidence of an automated follow-up sequence post-free-audit to move prospects to a booked call",
+    "Value Newsletter — no regular educational/authority content keeping past clients and warm leads engaged",
+    "Renewal & Expansion — no structured sequence to present upsell packages at key milestones (e.g., 6-month, 1-year mark)",
+    "Win-Back / Re-Engagement — churned clients and old audit leads likely receive no re-engagement outreach"
+  ],
+  "toneVoice": "Professional and authoritative with a results-first edge — confident, direct, outcome-obsessed. Speaks in revenue and ROI language rather than marketing jargon. Consultative but not academic. Slight 'big agency energy' for a local firm.",
+  "compliance": "CAN-SPAM compliant (US-based B2B); no HIPAA or financial compliance triggers; standard unsubscribe and physical address required"
+}
