@@ -5,6 +5,24 @@ import type { BrandSummary, CampaignsFile } from "@/lib/data";
 
 const DEVICE = { desktop: 600, mobile: 375 };
 
+// Map campaign id + name → canonical type tag
+const CAMPAIGN_TYPES: { label: string; pattern: RegExp; color: string }[] = [
+  { label: "Welcome & Onboarding", pattern: /welcome|onboard/,               color: "#3ecf8e" },
+  { label: "Win-Back",             pattern: /win.back|re.engag|reengag/,      color: "#f97316" },
+  { label: "Lead Nurture",         pattern: /lead.magnet|nurture|drip/,       color: "#a78bfa" },
+  { label: "Newsletter",           pattern: /newsletter|value.news|journal/,  color: "#38bdf8" },
+  { label: "Retention",            pattern: /retention|renewal|expansion|anniversary|upgrade|loyalty/, color: "#facc15" },
+  { label: "Booking",              pattern: /booking|reminder|no.show|appointment|confirmation/, color: "#fb7185" },
+  { label: "Referral",             pattern: /referral|advocacy|review|ugc/,   color: "#e879f9" },
+  { label: "Conversion",           pattern: /consult|quote|conversion|trial|free.to.paid|purchase|proposal/, color: "#60a5fa" },
+];
+
+function getCampaignType(id: string, name: string) {
+  const text = `${id} ${name}`.toLowerCase();
+  return CAMPAIGN_TYPES.find((t) => t.pattern.test(text))
+    ?? { label: "Campaign", color: "#9aa0ad" };
+}
+
 export default function Viewer({
   brands,
   selectedSlug,
@@ -104,6 +122,7 @@ export default function Viewer({
             {campaigns.campaigns.map((c) => {
               const isActive = c.id === activeCampId;
               const email = c.emails?.[0];
+              const type = getCampaignType(c.id, c.name);
               return (
                 <div
                   key={c.id}
@@ -122,6 +141,12 @@ export default function Viewer({
                         <div className="camp-card-subject">{email.subject}</div>
                       )}
                       <div className="camp-card-meta">
+                        <span
+                          className="type-tag"
+                          style={{ color: type.color, borderColor: type.color + "44" }}
+                        >
+                          {type.label}
+                        </span>
                         {c.stage && <span className="stage-tag">{c.stage}</span>}
                       </div>
                     </div>
@@ -150,6 +175,14 @@ export default function Viewer({
                 <span className="prio">{activeCamp.priority}</span>
                 {activeCamp.name}
               </div>
+              {(() => {
+                const t = getCampaignType(activeCamp.id, activeCamp.name);
+                return (
+                  <span className="type-tag ip-type-tag" style={{ color: t.color, borderColor: t.color + "44" }}>
+                    {t.label}
+                  </span>
+                );
+              })()}
               <div className="ip-obj">{activeCamp.objective}</div>
 
               <div className="idea-meta-grid">
