@@ -1,0 +1,67 @@
+{
+  "brand": {
+    "name": "NBCOS — National Board for Certification in the Orthopedic Specialties",
+    "url": "https://www.nbcos.org",
+    "slug": "nbcos",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Elevating the Clinical Specialty in Orthopedics",
+    "colors": {
+      "primary": "#0B2D6E",
+      "accent": "#C9932A",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "Board-recognized specialty certification exams (OPE-C®, OPE-SC, OPE-Radiography, ROT) plus a continuing education library for orthopedic allied health professionals — bundled under an annual NBCOS Full Membership",
+    "coreOutcome": "A nationally recognized credential that proves orthopedic clinical competency, unlocking employment across 9K+ orthopedic offices, 6K hospitals, and 10K+ urgent care centers",
+    "pricePoint": "$179/year Full Membership (includes all exam access + 150+ Category A CEUs); $37 for 50+ CEU bundle; $79 for 100+ CEU bundle; $197/year for program director educators ($127 renewal)",
+    "commitment": "Annual recurring membership; $50 exam retake fee",
+    "leadMagnets": [
+      "Free OPE Candidate Guide (downloadable)",
+      "Free sample OPE-C exam questions",
+      "Free ROT exam for ASOP members"
+    ]
+  },
+  "audience": {
+    "icp": "Certified Athletic Trainers (ATC) who want to transition into or advance within orthopedic clinical settings and need a board-recognized specialty credential to differentiate themselves",
+    "painPoints": [
+      "No universally recognized orthopedic specialty credential makes it hard to stand out to orthopedic employers",
+      "General AT certification doesn't document competency in casting, imaging, surgical support, or orthopedic diagnosis",
+      "Annual CEU requirements feel burdensome without a focused specialty pathway",
+      "Career plateau without differentiation — employers at orthopedic practices want documented specialty skills",
+      "Uncertainty about whether a niche credential is worth the time and cost"
+    ],
+    "segments": [
+      "Certified Athletic Trainers seeking career pivot into orthopedic office/hospital settings",
+      "Early-career ATs wanting a competitive edge in the job market",
+      "Practicing ATs pursuing specialty CEUs to satisfy recertification while building credentials",
+      "Athletic training program directors and faculty building OPE curriculum for students",
+      "Orthopedic allied professionals (OTs, surgical techs) seeking the ROT credential"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to a few weeks — professional credential decision requiring research but no lengthy approval process",
+    "trial": "Free OPE Candidate Guide and sample exam questions; free ROT exam for ASOP members; no paid trial tier",
+    "closeMechanism": "Self-serve online signup via 'JOIN NOW' button; membership unlocks exam registration immediately",
+    "topObjection": "Is the OPE-C® credential recognized by employers and worth $179/year? Uncertainty about how widely orthopedic practices know and accept the designation."
+  },
+  "ahaMoment": "Passing the OPE-C® exam and downloading the board credential — the moment the designation is real and can go on a résumé and LinkedIn profile",
+  "retention": {
+    "recurring": "Annual membership renewal; 2-year CEU reporting cycle (24 hours in year 1, 12 hours in year 2) drives ongoing engagement with the CEU library",
+    "expansion": "Stacking all three exams to earn the OPE-CS (Clinical Specialist) combined credential; educator/program director membership tier; upgrading CEU bundle from 50+ to 100+",
+    "churnRisk": "Members who don't log required CEUs before the December 31 deadline risk losing certification; members whose employers don't actively reward the credential see little reason to renew"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: likely basic or missing — no documented exam-prep email sequence after signup",
+    "Lead-Magnet Nurture: free Candidate Guide and sample questions likely not followed by an email nurture track",
+    "Trial/Consult Conversion: no free trial — but free resources (guide, samples) need a conversion sequence into paid membership",
+    "Exam Milestone & Celebration: no apparent credential-earned celebration or share-your-badge email",
+    "CEU Deadline Reminder: renewal cycle deadlines (Dec 31) are a natural trigger series that likely isn't automated",
+    "Renewal & Anniversary: membership renewal reminders and upgrade prompts to OPE-CS are likely manual or absent",
+    "Win-Back / Re-Engagement: lapsed members who didn't renew have no documented reactivation campaign",
+    "Educator Onboarding: program director segment likely has no separate nurture track"
+  ],
+  "toneVoice": "Authoritative and credentialing-precise, but warm and career-motivating. Speaks peer-to-peer with healthcare professionals — never dumbed down, never cold. Uses 'you' language tied to career outcomes ('your credential', 'your patients', 'your next role'). Formal enough to signal legitimacy; encouraging enough to move people to act.",
+  "compliance": "CAN-SPAM required. No HIPAA exposure (organization handles no patient data). Non-profit credentialing body — avoid specific salary or employment guarantees. Standard unsubscribe and physical address footer required."
+}

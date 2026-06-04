@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "NBCOS — National Board for Certification in the Orthopedic Specialties",
+    "slug": "nbcos",
+    "url": "https://www.nbcos.org",
+    "vertical": "Education / Nonprofit / Membership (professional credentialing)",
+    "colors": {
+      "primary": "#0B2D6E",
+      "accent": "#C9932A",
+      "background": "#FFFFFF",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "NBCOS is a not-for-profit credentialing body that administers board-recognized specialty certification exams (OPE-C, OPE-SC, OPE-Radiography, ROT) and a 150+ course continuing-education library for orthopedic allied health professionals, bundled into a $179/year Full Membership. Its core audience is Certified Athletic Trainers who need a documented orthopedic specialty credential to compete for clinical roles across orthopedic offices, hospitals, and urgent care centers. Revenue is recurring annual membership, sustained by a two-year CEU reporting cycle and credential-stacking expansion toward the OPE-CS Clinical Specialist designation.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — Signup to Exam Pass",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive new members from signup to their first real value: passing the OPE-C exam and earning the board credential.",
+      "trigger": "New Full Membership created / portal account activated. Send within seconds of signup.",
+      "segment": "New members; branch by signup credential status (ATC candidate vs. program director/educator).",
+      "rationale": "NBCOS's aha moment is passing the OPE-C exam and downloading the credential — but study is self-directed, so without an onboarding sequence new members stall before sitting the exam and never reach the value they paid for. This is the highest-engagement, fastest-to-show-a-win flow.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, confirm portal access is live, and point to the single first step that starts the path to the OPE-C credential.",
+          "subject": "Welcome to NBCOS — let's get you OPE-C® certified",
+          "preview": "Your member portal is open. Here's the fastest first step toward the credential.",
+          "cta": "Start your OPE-C® study path",
+          "keyPoints": [
+            "Confirm membership is active: exam registration, the OPE Candidate Guide, and 150+ Category A CEUs are all unlocked now",
+            "One clear first action — open the Candidate Guide and run the sample exam questions to gauge readiness",
+            "Set the goal plainly: pass the OPE-C exam (125 questions, 70% to pass) and put the board credential on your résumé and LinkedIn",
+            "Real human reply-to for exam or study questions; preview the short onboarding emails to come"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "resource-to-membership-conversion",
+      "name": "Free Resource → Full Membership Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert free Candidate Guide and sample-question downloaders into paid $179/year Full Members.",
+      "trigger": "Downloaded the free OPE Candidate Guide or sample exam questions; has not yet joined.",
+      "segment": "Non-member free-resource users; branch by credential status (practicing ATC vs. early-career/student).",
+      "rationale": "NBCOS has no paid trial — the free Candidate Guide and sample questions are the only on-ramp, so the free-resource-to-membership sequence IS the core revenue play. The hero send must defuse the #1 objection (is the OPE-C actually recognized by employers?) with concrete proof before asking for the join.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Answer the make-or-break objection — employer recognition and worth — then make the self-serve join the obvious next step.",
+          "subject": "Is the OPE-C® worth it? What orthopedic employers actually look for",
+          "preview": "The specialty credential that sets ATs apart across 9,000+ orthopedic offices.",
+          "cta": "Join NBCOS — $179/year",
+          "keyPoints": [
+            "Name the objection directly: general AT certification doesn't document casting, imaging, surgical support, or orthopedic diagnosis — the OPE-C does",
+            "Ground recognition in scale: orthopedic offices, hospitals, and urgent care centers increasingly want documented specialty competency",
+            "$179/year unlocks all exam access plus 150+ Category A CEUs — the credential and recertification path in one membership",
+            "Low-friction close: self-serve JOIN NOW, immediate portal and exam access, no sales call required"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ceu-deadline-reminders",
+      "name": "CEU Deadline Reminders — Protect the Credential",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Get members to log required Category A CEUs before the December 31 deadline so their credential stays active.",
+      "trigger": "Approaching December 31 CEU reporting deadline; member is below the required hours for their reporting year.",
+      "segment": "Active members with incomplete CEU hours; branch by gap size (slightly short vs. far behind).",
+      "rationale": "The hard December 31 CEU deadline is NBCOS's appointment-reminder analog — missing it means credential lapse and a lost renewal. Reminders are the highest-ROI retention move (≈35% fewer missed deadlines), and the 150+ CEU library is already included, so completion is friction-free once they act.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Surface exactly how many hours remain and route the member straight into the included CEU library to finish before the deadline.",
+          "subject": "Your CEUs are due Dec 31 — don't let your OPE-C® lapse",
+          "preview": "Log your Category A hours from the portal. The courses are already included.",
+          "cta": "Complete your CEUs now",
+          "keyPoints": [
+            "State the requirement clearly: 24 hours in year one, 12 in year two, audited by April 1 — and the stakes if hours aren't logged",
+            "Remove the cost objection: 150+ Category A CEUs are already part of your membership, no extra purchase needed",
+            "Make it concrete and quick — start, complete, and self-report hours directly in the member portal",
+            "Reassurance + human help: link to support if you're unsure which hours you still owe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion-ope-cs",
+      "name": "Renewal & Expansion — Renew + Stack Toward OPE-CS",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Protect recurring annual membership revenue and grow accounts by nudging credential-stacking toward the OPE-CS Clinical Specialist designation.",
+      "trigger": "Renewal date − 45 days; or member has passed one or two of the three specialty exams (OPE-CS upsell readiness).",
+      "segment": "Active members approaching renewal; branch by health (high engagement / exams passed = expansion, low engagement = save/re-onboard).",
+      "rationale": "Membership is annual recurring revenue, and the natural expansion path — passing all three exams to earn OPE-CS — is a built-in upsell that NBCOS currently leaves to chance. A value-recap renewal that frames the next credential is how you keep the renewal and grow account value at the same time.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Recap the value earned this year, prompt an early renewal, and frame the OPE-CS as the obvious next step for members who've already passed an exam.",
+          "subject": "Renew your NBCOS membership — and stack toward OPE-CS",
+          "preview": "Keep your credential active and turn it into the Clinical Specialist designation.",
+          "cta": "Renew + plan your next exam",
+          "keyPoints": [
+            "Quantify their year: credential active, CEU hours logged, exams passed — the proof renewal is worth it",
+            "Renewing keeps exam access and the full 150+ CEU library live, so recertification stays effortless",
+            "Expansion path: pass all three specialty exams (OPE-SC, OPE-Radiography) to earn the combined OPE-CS Clinical Specialist credential",
+            "Low-friction self-serve renewal with a human contact for educators/program directors weighing the institutional tier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-lapsed-members",
+      "name": "Win-Back — Reinstate a Lapsed Credential",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate members who didn't renew or let their credential lapse, and clean the list to protect deliverability.",
+      "trigger": "Membership lapsed / renewal missed; or credential lapsed due to incomplete CEUs.",
+      "segment": "Lapsed members; branch by reason (didn't renew vs. missed CEU deadline) and by whether the OPE-C exam was ever passed.",
+      "rationale": "Lapsed members are a flagged gap with no current reactivation path, and an earned OPE-C credential is a sunk investment they're motivated to protect — making win-back both quick to ship and high-yield (typically recovers 5–15% of inactive contacts).",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Remind the lapsed member what an inactive credential costs them and make reinstatement a one-click, low-friction return.",
+          "subject": "Your OPE-C® lapsed — but it's not too late to reinstate",
+          "preview": "Reactivate your credential and stay competitive for orthopedic roles.",
+          "cta": "Reinstate your membership",
+          "keyPoints": [
+            "Name what lapsing means: the credential you earned no longer reads as current to orthopedic employers",
+            "Reconnect to the original motivation — documented specialty competency that differentiates you in clinical hiring",
+            "Make return frictionless: reinstate membership and immediately regain exam access and the 150+ CEU library to catch up on hours",
+            "Final-step respect: if NBCOS is no longer relevant, an easy way to update preferences or unsubscribe"
+          ]
+        }
+      ]
+    }
+  ]
+}
