@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "None",
+    "slug": "none",
+    "url": "https://none.com",
+    "vertical": "unknown (placeholder record — none.com serves a blank page)",
+    "colors": {
+      "primary": "#1a1a1a",
+      "accent": "#4a90e2",
+      "background": "#ffffff",
+      "text": "#333333"
+    }
+  },
+  "summary": "No verifiable information exists for this brand: none.com returns a completely blank page and web searches surface nothing. This is a placeholder/test record, so the campaigns below follow the playbook's default priority order for a non-ecom brand rather than brand-specific signals.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get a new contact to first value (the 'aha' moment) as fast as possible.",
+      "trigger": "Signup / account created / list join — send within seconds of the event.",
+      "segment": "All new contacts; branch on signup-survey answer (goal, role, or use case) once that data exists.",
+      "rationale": "Welcome is the highest-engagement send and fastest path to proving value, so it is the default first build for any new non-ecom brand — especially one with no existing lifecycle to evaluate.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for the sequence, and deliver one quick first win with a single primary action.",
+          "subject": "Welcome to None — your first win is inside",
+          "preview": "Two minutes to the outcome you came here for.",
+          "cta": "Do your single most important first action",
+          "keyPoints": [
+            "Thank them for joining and reassure them they're in the right place",
+            "Point to one specific first action that produces a fast, concrete payoff",
+            "Set expectations: a few short, no-fluff emails over the next two weeks",
+            "Invite a real reply — a human reads every one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trial-consult-conversion",
+      "name": "Trial / Consultation-to-Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a free trial, freemium user, or free consultation into a paying customer.",
+      "trigger": "Trial start / freemium signup / free-consult booked, with behavioral milestones and an expiry countdown running in parallel.",
+      "segment": "Active trials or booked consults; branch by usage depth (activated vs. stalled).",
+      "rationale": "Conversion is the core revenue play and the standard second build wherever a trial, demo, or consult motion exists — it turns the activation from Campaign 1 into paid customers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "expiry-3",
+          "purpose": "Expiry warning that frames what they stand to lose and lays out a clear, low-friction upgrade path plus an offer of help.",
+          "subject": "Your None trial ends Friday — keep what you've built",
+          "preview": "Upgrade in one click, or grab time with us first.",
+          "cta": "Upgrade now (or book 15 minutes)",
+          "keyPoints": [
+            "State the exact expiry date and what access/results end with it",
+            "Recap the value they've already gotten during the trial",
+            "Give one obvious upgrade button plus a human-contact fallback",
+            "Address the top objection (price/risk) in one line"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended meetings/appointments and recover the ones that slip.",
+      "trigger": "Booking confirmed; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled meeting, demo, consult, or appointment.",
+      "rationale": "If the brand runs on appointments or demos, reminders recover revenue immediately (~35% fewer no-shows on average) — the cheapest, fastest ROI win after onboarding and conversion.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "appointment-1",
+          "purpose": "The 24-hour-before reminder — the single highest-leverage send for cutting no-shows — with prep and a frictionless reschedule link.",
+          "subject": "See you tomorrow at None — quick prep inside",
+          "preview": "Here's the time, the link, and what to have ready.",
+          "cta": "Add to calendar (or reschedule)",
+          "keyPoints": [
+            "Confirm the exact date, time, and join link or address",
+            "Tell them what to bring or prepare so the session is productive",
+            "Offer a one-click reschedule to reduce silent no-shows",
+            "Name the rep/practitioner they'll be meeting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a cold lead toward sales-readiness over a long cycle without discounting.",
+      "trigger": "Gated-content download (guide, checklist, webinar, ROI calculator, or free tool).",
+      "segment": "Leads below the sales-ready lead-score threshold; branch by the topic of the magnet they downloaded.",
+      "rationale": "Once a lead magnet feeds the top of funnel, this always-on nurture compounds — a comparable B2B sequence beat the client's newsletter by +650% CTR and +32.6% conversion.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the downloaded asset instantly and reframe the real problem it solves to start the buyer-journey at problem recognition.",
+          "subject": "Your None guide is here — plus the real problem behind it",
+          "preview": "The download, and the mistake it's actually fixing.",
+          "cta": "Open your guide",
+          "keyPoints": [
+            "Deliver the promised asset above the fold with a clear link",
+            "Frame the underlying problem the asset addresses",
+            "Set up the next emails as a short, useful series",
+            "Keep it value-first — no pitch yet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant contacts and churned customers, and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold (e.g., 60–90 days with no opens/clicks/logins) or cancellation.",
+      "segment": "Dormant subscribers; separately, churned customers get a different message.",
+      "rationale": "Win-back is quick to ship, recovers 5–15% of inactive contacts, and protects sender reputation by sunsetting non-responders — a low-effort, high-protection addition to the core flows.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the re-engagement sequence with a 'we miss you' that reminds the contact of the core value and invites them back with low friction.",
+          "subject": "Did we lose you?",
+          "preview": "Still want what brought you to None? One click back in.",
+          "cta": "Pick up where you left off",
+          "keyPoints": [
+            "Acknowledge the gap warmly, without guilt",
+            "Restate the core value/outcome they originally wanted",
+            "Make returning a single, obvious action",
+            "Signal that the next emails will show what's new"
+          ]
+        }
+      ]
+    }
+  ]
+}

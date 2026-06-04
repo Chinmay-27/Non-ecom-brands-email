@@ -1,13 +1,573 @@
 {
   "brands": [
     {
-      "slug": "shangri-la-chi-the-spa-bengaluru",
-      "name": "CHI, The Spa at Shangri-La Bengaluru",
-      "url": "https://www.shangri-la.com/bengaluru/shangrila/health-leisure/chi-the-spa/",
-      "vertical": "Luxury hospitality / wellness spa",
+      "slug": "brooklyn-spectacles",
+      "name": "Brooklyn Spectacles",
+      "url": "https://www.brooklynspectacles.com",
+      "vertical": "Local & service — independent eyewear retail (DTC + brick-and-mortar)",
       "campaignCount": 5,
-      "emailCount": 22
+      "emailCount": 5
+    },
+    {
+      "slug": "strategic-cfo-advisory",
+      "name": "Strategic CFO Advisory",
+      "url": "https://www.strategiccfoadvisory.com",
+      "vertical": "B2B / Professional Services — Financial Advisory",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "portcity251",
+      "name": "Port City 251",
+      "url": "https://www.portcity251.com",
+      "vertical": "Local media / community newsletter (Mobile, AL) + SMB advertising",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "ai-for-christians",
+      "name": "AI for Christians",
+      "url": "https://aiforchristians.ai",
+      "vertical": "Education/nonprofit/membership (faith-based digital education)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "homegrown-atlanta",
+      "name": "Homegrown Atlanta",
+      "url": "https://linktr.ee/homegrown_atlanta",
+      "vertical": "Local & service — residential real estate",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "travel-adventure-center",
+      "name": "Travel Adventure Center",
+      "url": "https://www.traveladventurecenter.com",
+      "vertical": "Travel & Tourism (independent adventure travel operator)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "hall-street-media",
+      "name": "Hall Street Media (The Hall Street Journal)",
+      "url": "https://www.hallstreetmedia.com",
+      "vertical": "Education/nonprofit/membership",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "clarusway",
+      "name": "Clarusway",
+      "url": "https://www.clarusway.com",
+      "vertical": "Education / IT Bootcamp",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "alphagraphics",
+      "name": "AlphaGraphics",
+      "url": "https://www.alphagraphics.com",
+      "vertical": "B2B/professional (print & marketing services) with a local/service franchise layer",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "sarah-carroll-design",
+      "name": "Sarah Carroll Design",
+      "url": "https://www.sarahcarrolldesign.com",
+      "vertical": "B2B/professional — freelance graphic design studio",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "paymentum",
+      "name": "Paymentum Payment Solutions",
+      "url": "https://www.paymentum.net",
+      "vertical": "B2B/professional — merchant services / fintech",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "iamh3r",
+      "name": "IAmH3r",
+      "url": "https://www.iamh3r.net",
+      "vertical": "Women's empowerment / personal brand / lifestyle community",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "the-omniverse",
+      "name": "The Omniverse",
+      "url": "https://theomniverse.city",
+      "vertical": "Gaming / Metaverse SaaS",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "gaba-printing",
+      "name": "Gaba Printing",
+      "url": "https://www.gabaprinting.com",
+      "vertical": "Local & service (B2B commercial printing)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "charm-city-family",
+      "name": "Charm City Family",
+      "url": "https://www.charmcityfamily.com",
+      "vertical": "Local & service / community membership (hyperlocal parenting community)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "boyum-law",
+      "name": "Boyum Law",
+      "url": "https://www.boyumlaw.com",
+      "vertical": "Local & service / B2B professional (legal — estate planning & probate)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "stephanie-april",
+      "name": "Stephanie April Photography",
+      "url": "https://stephanieapril.com",
+      "vertical": "Local & service — wedding/event photography",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "getfinancehere",
+      "name": "Get Car Finance Here",
+      "url": "https://www.getfinancehere.com",
+      "vertical": "Automotive finance / used-car dealership (consumer lending)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "dns-realty-group",
+      "name": "DNS Realty Group",
+      "url": "https://www.dnsrealtygroup.com",
+      "vertical": "Local & service — residential real estate brokerage",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "psychic-wayne",
+      "name": "Psychic Wayne",
+      "url": "https://www.psychicwayne1.com",
+      "vertical": "Local & service — spiritual/metaphysical readings (tarot, astrology)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "classic-design-services",
+      "name": "Classic Design Services",
+      "url": "https://www.clsssicdesignservices.com",
+      "vertical": "Local & service / B2B professional",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "zippy-is-funny",
+      "name": "Zippy Entertainment",
+      "url": "https://www.zippyisfunny.com",
+      "vertical": "Local & service (mobile event entertainment)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "karen-s-botanicals",
+      "name": "Karen's Botanicals",
+      "url": "https://www.karensbotanicals.com",
+      "vertical": "Organic skincare & wellness (ecommerce)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "statements-by-j",
+      "name": "Statements by J",
+      "url": "https://www.statementsbyj.com",
+      "vertical": "Home furnishings e-commerce (online nationwide + appointment showroom in Commerce, CA)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "randolph-home-store",
+      "name": "Randolph Home Store",
+      "url": "https://www.randolphhomestore.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "dynamic-wellness",
+      "name": "Dynamic Wellness",
+      "url": "https://www.dynamicwellness.vip",
+      "vertical": "Health & Wellness / Network Marketing (Vital Health Global affiliate)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "michael-roach-creative",
+      "name": "Michael Roach Creative",
+      "url": "https://www.michaelroachcreative.com",
+      "vertical": "B2B/professional services — creative & marketing agency",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "united-against-fentanyl",
+      "name": "United Against Fentanyl",
+      "url": "https://www.unitedagainstfentanyl.org",
+      "vertical": "Education/Nonprofit/Advocacy",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "old-landmark-publishing",
+      "name": "Old Landmark Publishing",
+      "url": "https://www.oldlandmarkpublishing.com",
+      "vertical": "Independent ebook publishing — retail ebook store (religious, AI/business, cozy fantasy) plus end-to-end author publishing & marketing services",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "pvg-us",
+      "name": "Paradigm Venture Group",
+      "url": "https://www.pvgus.com",
+      "vertical": "B2B/professional — enterprise tech consulting with healthcare specialization",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "ninjaclick",
+      "name": "NinjaClick",
+      "url": "https://www.ninjaclick.com",
+      "vertical": "SaaS/tech — visitor intelligence",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "blessing-mouth",
+      "name": "Blessing Mouth",
+      "url": "https://www.blessingmouth.com",
+      "vertical": "Faith-based app / Membership (freemium)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "twf-home-loans",
+      "name": "TWF Home Loans (Trans World Financial)",
+      "url": "https://www.twfhomeloans.com",
+      "vertical": "Local & service — mortgage brokerage (B2C)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "the-level-up-lady",
+      "name": "Level up Lady",
+      "url": "https://www.theleveluplady.com",
+      "vertical": "Education / Women's Personal-Development Coaching",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "best-headshots-in-atlanta",
+      "name": "Best Headshots In Atlanta",
+      "url": "https://bestheadshotsinatlanta.com",
+      "vertical": "Local & Service – Professional Photography",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "usoo-app",
+      "name": "USOO",
+      "url": "https://usooapp.com",
+      "vertical": "SaaS/tech — B2C consumer dating app (video speed dating, 18+)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "frog-music",
+      "name": "Frog Music Press",
+      "url": "https://www.frogmusic.com",
+      "vertical": "Education/nonprofit/membership",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "iamcomput0r",
+      "name": "IAmComput0r",
+      "url": "https://www.iamcomput0r.com",
+      "vertical": "Creative / Digital Art & Tech Persona",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "the-kleaning-kompany",
+      "name": "The Kleaning Kompany",
+      "url": "https://www.thekleaningkompany.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "rca-tax-services",
+      "name": "RCA Tax Services",
+      "url": "https://rcataxservices.com",
+      "vertical": "B2B/professional — year-round tax planning & advisory for high-income earners and business owners",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "taj-and-bro",
+      "name": "Taj & Bro",
+      "url": "https://www.tajandbro.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "jeenie-jolie",
+      "name": "Jeenie Jolie",
+      "url": "https://jeeniejolie.com",
+      "vertical": "DTC organic / artisanal skincare & body care (wellness & beauty)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "housebuildr",
+      "name": "HouseBuildr",
+      "url": "https://www.housebuildr.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "famsa-furniture",
+      "name": "FAMSA Furniture",
+      "url": "https://www.famsafurniture.com",
+      "vertical": "Local & service — brick-and-mortar furniture, appliances, and in-house financing retail",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "affiliate-mentor",
+      "name": "Affiliate Mentor",
+      "url": "https://www.affiliatementor.com",
+      "vertical": "Education / Membership — affiliate marketing training + done-for-you list-building platform",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "pain-relief-products",
+      "name": "Pain Relief Products / Healed by Farm",
+      "url": "https://www.painreliefproducts.net",
+      "vertical": "Health & Wellness — DTC CBD / Natural Supplement",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "actalent-services",
+      "name": "Actalent Services",
+      "url": "https://www.actalentservices.com",
+      "vertical": "B2B/professional — engineering & sciences staffing and technical services",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "pinnacle-investments",
+      "name": "Pinnacle Investments",
+      "url": "https://www.pinnacle-investments.com",
+      "vertical": "B2B/professional — financial services (mortgage note buying)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "2-dogs-treats",
+      "name": "2 Dogs Treats",
+      "url": "https://www.2dogstreats.com",
+      "vertical": "DTC Pet Food / Dog Treats",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "warbay",
+      "name": "Warbay",
+      "url": "https://warbay.com",
+      "vertical": "B2B / Agency — full-service email marketing",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "nora-michalski",
+      "name": "Nora Michalski",
+      "url": "https://noramichalski.com",
+      "vertical": "B2B/professional services — psychology-based performance protocol for high-achievers",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "leadstoke",
+      "name": "LeadStoke",
+      "url": "https://leadstoke.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "its-revamp",
+      "name": "Revamp",
+      "url": "https://www.itsrevamp.com",
+      "vertical": "B2B/professional services — digital marketing agency (SEO, web design, lead generation)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "ray-media",
+      "name": "Ray Media",
+      "url": "https://www.raymedia.cc",
+      "vertical": "B2B/professional services — digital marketing agency",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "think-energy",
+      "name": "Think+ (Think Energy Plus)",
+      "url": "https://office2.thinkenergy.plus",
+      "vertical": "Network marketing / clean energy retail (B2C & MLM advisor channel)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "boptv",
+      "name": "BOP TV (Black on Purpose Television Network)",
+      "url": "https://www.boptv.com",
+      "vertical": "Streaming media / Entertainment / Membership",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "all-point-consultants",
+      "name": "All Point Consultants",
+      "url": "https://www.allpointconsultants.com",
+      "vertical": "B2B/Professional services — financial wellness & business formation consulting",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "beyond-the-ordinary-show",
+      "name": "Beyond The Ordinary Show",
+      "url": "https://www.beyondtheordinaryshow.com",
+      "vertical": "Education / membership / spiritual media",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "nexgen-yachts",
+      "name": "NexGen Yachting",
+      "url": "https://nexgen.yachts",
+      "vertical": "Luxury / High-ticket B2C (fractional yacht co-ownership)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "leadership-books",
+      "name": "Leadership Books",
+      "url": "https://www.leadershipbooks.com",
+      "vertical": "Education/membership (curated book retail + Better Book Club) + B2B professional services (hybrid author publishing)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "apollo-peptide-sciences",
+      "name": "Apollo Peptide Sciences",
+      "url": "https://www.apollopeptidesciences.com",
+      "vertical": "Research chemicals / peptide supplier (e-commerce)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "swift-financial-group",
+      "name": "Swift Financial Group, LLC",
+      "url": "https://swiftfinancialgroup.net",
+      "vertical": "B2B/professional — financial services (seller-financed mortgage note buying)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "baby-drew-berry-clothing",
+      "name": "Baby Drew Berry Clothing",
+      "url": "https://www.babydrewberryclothing.com",
+      "vertical": "E-commerce / Baby & Toddler Apparel",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "nbcos",
+      "name": "NBCOS — National Board for Certification in the Orthopedic Specialties",
+      "url": "https://www.nbcos.org",
+      "vertical": "Education / Nonprofit / Membership (professional credentialing)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "freshviewser",
+      "name": "FreshView Services",
+      "url": "https://www.freshviewser.com",
+      "vertical": "Local & service",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "the-varnado-group",
+      "name": "The Varnado Group LLC",
+      "url": "https://www.thevarnadogroup.com",
+      "vertical": "B2B/professional",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "top-tier-coffees",
+      "name": "Top Tier Coffees",
+      "url": "https://www.toptiercoffees.com",
+      "vertical": "DTC / specialty food & beverage",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "the-ballot-beacon",
+      "name": "The Ballot Beacon",
+      "url": "https://www.theballotbeacon.com",
+      "vertical": "Education/nonprofit/membership — civic news newsletter",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "powerful-wellness",
+      "name": "Powerful Wellness",
+      "url": "https://www.powerful-wellness.com",
+      "vertical": "Health coaching — women's midlife wellness (telehealth-adjacent)",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "spenceforth",
+      "name": "Spenceforth",
+      "url": "https://spenceforth.tumblr.com",
+      "vertical": "Independent content creator / blog (Tumblr-hosted) — exact niche unconfirmed",
+      "campaignCount": 5,
+      "emailCount": 5
+    },
+    {
+      "slug": "none",
+      "name": "None",
+      "url": "https://none.com",
+      "vertical": "unknown (placeholder record — none.com serves a blank page)",
+      "campaignCount": 5,
+      "emailCount": 5
     }
   ],
-  "generatedAt": "2026-06-03T11:09:47.854Z"
+  "generatedAt": "2026-06-04T04:25:21.818Z"
 }

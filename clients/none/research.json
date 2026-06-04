@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "None",
+    "url": "https://none.com",
+    "slug": "none",
+    "vertical": "unknown",
+    "tagline": "unknown",
+    "colors": {
+      "primary": "#1a1a1a",
+      "accent": "#4a90e2",
+      "background": "#ffffff",
+      "text": "#333333"
+    }
+  },
+  "offer": {
+    "what": "unknown — none.com serves a blank page with no content",
+    "coreOutcome": "unknown",
+    "pricePoint": "unknown",
+    "commitment": "unknown",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "unknown",
+    "painPoints": [],
+    "segments": []
+  },
+  "salesCycle": {
+    "length": "unknown",
+    "trial": "unknown",
+    "closeMechanism": "unknown",
+    "topObjection": "unknown"
+  },
+  "ahaMoment": "unknown",
+  "retention": {
+    "recurring": "unknown",
+    "expansion": "unknown",
+    "churnRisk": "unknown"
+  },
+  "lifecycleGaps": [],
+  "toneVoice": "unknown",
+  "compliance": "unknown"
+}
