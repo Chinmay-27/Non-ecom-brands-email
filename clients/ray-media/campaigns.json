@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Ray Media",
+    "slug": "ray-media",
+    "url": "https://www.raymedia.cc",
+    "vertical": "B2B/professional services — digital marketing agency",
+    "colors": {
+      "primary": "#1B2E4B",
+      "accent": "#F5A623",
+      "background": "#F8F9FA",
+      "text": "#212529"
+    }
+  },
+  "summary": "Ray Media is a boutique digital marketing agency that sells SEO, video marketing, lead generation, and social media management as monthly retainers to small and medium businesses. It serves local service businesses and online entrepreneurs who have a product worth selling but lack the digital presence or expertise to generate consistent inbound leads. Its entire funnel converges on a single free discovery/strategy call that closes to a custom proposal and an ongoing retainer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate a newly signed retainer client by setting clear expectations, establishing the approval-and-feedback loop, and framing the SEO ramp timeline so they don't churn before results compound.",
+      "trigger": "Retainer agreement signed / new client account created. Send within minutes of onboarding.",
+      "segment": "New paying clients; branch by primary service (local SEO vs. social/video) to lead with the right first-value timeline.",
+      "rationale": "Ray Media's #1 churn risk is the 'patience gap' — clients cancel in months 1–2 because SEO takes 3–6 months to pay off. The welcome email is the one place to pre-frame that timeline and lock in trust before doubt sets in.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the 60-day expectation, show the first quick win, and establish what Ray Media needs from the client.",
+          "subject": "You're in — here's your roadmap to getting seen",
+          "preview": "Your first 60 days with Ray Media, step by step — plus the one thing we need from you.",
+          "cta": "Review your 60-day game plan",
+          "keyPoints": [
+            "Reframe the timeline up front: quick-win tactics surface in 30–60 days, compounding SEO lift lands in months 3–6 — so early patience is the strategy, not a delay",
+            "Deliver an instant win: the initial visibility audit / baseline so they see value on day one",
+            "Set the feedback loop clearly — your only jobs are to approve content fast and answer the phone when leads come in",
+            "Open a real reply-to channel ('hit reply, Ray reads every one') to build founder-level trust early"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Discovery-Call to Retainer Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a completed free discovery call into a signed retainer by delivering the custom proposal and dismantling the ROI-skepticism objection.",
+      "trigger": "Free discovery/strategy call completed; runs in parallel with a follow-up nudge if no reply within a few days.",
+      "segment": "Prospects who took the call but haven't signed; branch by stated goal (more local calls vs. online lead gen).",
+      "rationale": "The whole business bottlenecks at the consult, and the proposal email is the literal revenue moment. Ray Media's top objection — 'we paid for marketing before and it didn't work' — must be answered here with proof, or the deal stalls.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the custom growth plan tied to the call, quantify the upside, and neutralize the ROI objection with a relevant result.",
+          "subject": "Your custom growth plan is inside, {{firstName}}",
+          "preview": "Exactly how we'll get you seen — and what it's worth to your bottom line.",
+          "cta": "Approve your plan & book kickoff",
+          "keyPoints": [
+            "Recap their exact goal from the call so the plan feels built for them, not boilerplate",
+            "Lay out the specific services and the 30/60/90-day milestones tied to lead and ranking outcomes",
+            "Hit the ROI objection head-on with a comparable business result — 'here's what happened for a business like yours'",
+            "Lower the risk: clarify the month-to-month commitment and a single, friction-free next step to start"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Call Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended discovery calls and instantly recover the ones that slip, protecting the single highest-leverage event in the funnel.",
+      "trigger": "Discovery call booked (reminder sequence); no-show event (recovery sequence).",
+      "segment": "Anyone with a scheduled strategy call.",
+      "rationale": "Every no-show is a lost retainer, and reminders cut no-shows by ~35%. For a founder-led agency where the call is the only conversion event, a day-before reminder is the cheapest revenue Ray Media can capture.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that confirms the time, primes the prospect to show up prepared, and offers a one-tap reschedule instead of a silent no-show.",
+          "subject": "Your strategy call is tomorrow at {{time}} — one thing to bring",
+          "preview": "Five minutes of prep turns this into a call that actually moves your leads.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate the date, time, and join/dial-in details so attending is effortless",
+            "Give one piece of prep — 'come with your #1 lead goal' — which both raises show-up intent and makes the call convert better",
+            "Offer a no-penalty one-click reschedule link to convert would-be no-shows into a kept slot",
+            "Reinforce the payoff of showing up: a free, tailored plan to get found on Google with no obligation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Get Seen Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind with leads and keep active clients engaged during the slow SEO ramp by delivering one useful visibility tip per send — building authority without discounting.",
+      "trigger": "Scheduled cadence (biweekly).",
+      "segment": "All engaged contacts — unconverted leads and active clients; suppress contacts in active onboarding.",
+      "rationale": "A regular value email does double duty for Ray Media: it nurtures the leads who haven't booked yet and keeps signed clients engaged through the months-1–2 patience gap, directly countering the early-churn risk while reinforcing expertise.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship recurring edition — a single actionable local-visibility tip business owners can act on today, ending in a soft offer.",
+          "subject": "The one thing keeping you off page one of Google",
+          "preview": "This week's Get Seen tip: a 10-minute fix most local businesses miss.",
+          "cta": "Get your free visibility audit",
+          "keyPoints": [
+            "Lead with one concrete, plain-English fix (e.g., an unclaimed or half-finished Google Business Profile) — no jargon",
+            "Show the stakes in customer terms: this is why competitors show up when someone searches your service nearby",
+            "Keep it 80% value / 20% offer with a single CTA to a free audit",
+            "Use a consistent recurring section so it builds a habit and trains the list to open"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Results Recap & Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect monthly recurring revenue and grow accounts by quantifying the results each client got and teeing up the single-service-to-bundle upsell.",
+      "trigger": "Monthly billing cycle / results-reporting date; expansion offer gated on a healthy results trend.",
+      "segment": "Active retainer clients; branch by health — high-performing accounts get the expansion offer, slow-ramp accounts get a reassurance/save message.",
+      "rationale": "The retainer is the entire business model, and the recurring revenue is most fragile in the early months. A monthly recap that proves the outcome in the client's own numbers is the strongest defense against cancellation and the natural on-ramp to adding video or social.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Monthly value recap that quantifies the client's real visibility and lead gains, then proposes the next growth lever.",
+          "subject": "Your results this month: more people found {{businessName}}",
+          "preview": "Here's exactly what your Ray Media investment delivered — and where we go next.",
+          "cta": "See your full report",
+          "keyPoints": [
+            "Lead with their real numbers — ranking gains, Google impressions, calls/leads attributed — so the retainer's value is undeniable",
+            "Tie the trend to the timeline: 'this is the compounding effect we talked about kicking in' to defend against the patience gap",
+            "Gate the expansion ask on health: for winning accounts, suggest adding video or social to amplify the momentum",
+            "For slow-ramp accounts, swap the upsell for a reassurance + a help touch so they don't churn before the payoff"
+          ]
+        }
+      ]
+    }
+  ]
+}

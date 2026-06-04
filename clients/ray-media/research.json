@@ -1,0 +1,59 @@
+{
+  "brand": {
+    "name": "Ray Media",
+    "url": "https://www.raymedia.cc",
+    "slug": "ray-media",
+    "vertical": "B2B/professional services — digital marketing agency",
+    "tagline": "Get Seen, Get Sold",
+    "colors": {
+      "primary": "#1B2E4B",
+      "accent": "#F5A623",
+      "background": "#F8F9FA",
+      "text": "#212529"
+    }
+  },
+  "offer": {
+    "what": "Digital marketing services including SEO, video marketing, lead generation, and social media management",
+    "coreOutcome": "More online visibility and a steady stream of inbound leads that turn into paying customers",
+    "pricePoint": "unknown — custom quotes; likely $500–$2,000/mo retainer typical for boutique agencies at this scale",
+    "commitment": "Monthly retainer (inferred); no public pricing tiers found",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Small-to-medium local or online businesses that have a product/service worth selling but lack the digital presence or expertise to generate consistent leads online",
+    "painPoints": [
+      "Invisible on Google — losing customers to competitors who rank higher",
+      "Tried running ads or posting on social but saw no ROI",
+      "No time or in-house expertise to manage digital marketing",
+      "Unclear how to turn online attention into actual sales"
+    ],
+    "segments": [
+      "Local service businesses (restaurants, contractors, salons, healthcare) needing local SEO",
+      "Online businesses/e-commerce needing social media growth and lead gen",
+      "Entrepreneurs and founders who are good at their trade but not at marketing"
+    ]
+  },
+  "salesCycle": {
+    "length": "days to weeks",
+    "trial": "Free discovery/strategy call (primary CTA on site: 'Schedule a call with our experts')",
+    "closeMechanism": "Consultation call → custom proposal → retainer agreement",
+    "topObjection": "Skepticism about ROI — 'We've paid for marketing before and it didn't work'"
+  },
+  "ahaMoment": "Client sees their first meaningful organic ranking improvement or their first inbound lead attributed to Ray Media's work — typically within 30–60 days for quick-win tactics",
+  "retention": {
+    "recurring": "Monthly retainer (SEO and social management are inherently ongoing)",
+    "expansion": "Upsell from single-service (SEO only) to bundled packages (SEO + video + social); increase content volume or ad spend management",
+    "churnRisk": "Slow early results — SEO takes 3–6 months to show meaningful lift; clients may disengage before the payoff"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no evidence of a structured onboarding email sequence",
+    "Lead-Magnet Nurture — no known lead magnets; all capture goes straight to consult CTA",
+    "Trial/Consult Conversion — no drip sequence evident for leads who booked but didn't convert",
+    "Booking Reminders & No-Show Recovery — no evidence of automated pre-call or post-no-show follow-up",
+    "Value Newsletter — no evidence of a regular educational email to the list",
+    "Renewal & Expansion — no evidence of upsell/anniversary touchpoints",
+    "Win-Back / Re-Engagement — no evidence of a lapsed-client reactivation flow"
+  ],
+  "toneVoice": "Confident and results-focused but accessible — speaks plainly to business owners who are not marketers. Avoids jargon; leads with outcomes ('more leads', 'get seen') over process ('keyword density', 'engagement metrics'). Entrepreneurial energy, not corporate polish.",
+  "compliance": "Standard CAN-SPAM and GDPR requirements. No special vertical compliance (no healthcare, finance, or legal content on the core service pages)."
+}
