@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "FAMSA Furniture",
+    "url": "https://www.famsafurniture.com",
+    "slug": "famsa-furniture",
+    "vertical": "Local & service — brick-and-mortar furniture, appliances, and in-house financing retail",
+    "tagline": "Buy Now and Pay in Monthly Installments",
+    "colors": {
+      "primary": "#CC0000",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Furniture (living room, bedroom, dining, home office, outdoor), appliances (refrigerators, washers, dryers, ranges), and mattresses sold across 10 Texas stores, plus FAMSA in-house installment credit and personal cash loans",
+    "coreOutcome": "A fully furnished home today without needing upfront cash — approved financing lets families move in and live comfortably while paying monthly",
+    "pricePoint": "$319–$4,259 on individual items; bedroom sets from ~$729, living room packages to ~$4,259; installment plans spread cost into monthly payments (exact APR/terms require application)",
+    "commitment": "Financed purchases create a recurring monthly payment relationship; one-time cash purchases also available",
+    "leadMagnets": [
+      "Email newsletter signup for exclusive sales and promotions",
+      "Text Club opt-in for SMS offers",
+      "FAMSA Credit / Loan application (in-store and online)"
+    ]
+  },
+  "audience": {
+    "icp": "Budget-conscious Texas families — often Hispanic/Latino households — who need to furnish a home now but lack the cash or traditional credit to do so upfront; skew toward first-time homeowners, apartment renters upgrading, or families replacing worn furniture",
+    "painPoints": [
+      "Cannot afford large upfront furniture purchases",
+      "Limited or poor credit history blocks traditional financing",
+      "Language barrier when shopping at English-only retailers",
+      "Uncertainty about credit approval slows decision-making",
+      "Need multiple rooms furnished at once (bedroom + living room + appliances)"
+    ],
+    "segments": [
+      "Spanish-speaking / bilingual households (primary differentiator)",
+      "Young families with children (youth beds, dining, multi-room needs)",
+      "First-time homeowners or new apartment residents",
+      "Low-to-moderate income earners seeking installment access to mid-range brands",
+      "FAMSA Loans borrowers (personal cash loans, separate from furniture purchase)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days — in-store credit approval is positioned as fast and easy; online application possible then in-store pickup or delivery",
+    "trial": "No free trial; credit pre-qualification serves as the low-friction entry point — apply online for free to see approval before committing",
+    "closeMechanism": "In-store visit + credit application completed with a salesperson, or online application followed by store visit for delivery scheduling",
+    "topObjection": "Will I get approved? / Can I actually afford the monthly payments? — credit anxiety is the primary purchase barrier"
+  },
+  "ahaMoment": "Furniture is delivered to (or picked up and placed in) the customer's home — the physical moment when an empty room becomes a furnished living space they bought on their own terms",
+  "retention": {
+    "recurring": "Yes — installment loan repayment creates a 6–24+ month financial relationship; FAMSA Loans extends this beyond the furniture purchase itself",
+    "expansion": "Adding rooms (a bedroom set after a living room purchase), upgrading appliances, taking out a FAMSA personal cash loan, or referring family members",
+    "churnRisk": "Payment default or payoff with no re-purchase prompt; customers defecting to Rooms To Go, Ashley Furniture direct, or Amazon/Wayfair after credit improves; no visible loyalty or rewards program to incentivize return"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no visible post-purchase email series to confirm delivery, explain payment process, or cross-sell complementary items",
+    "Lead-Magnet Nurture — email/text subscribers are captured but almost certainly receive only promotional blasts, not an educational nurture sequence",
+    "Trial/Consult Conversion — credit applicants who don't complete a purchase likely receive no follow-up sequence",
+    "Value Newsletter — rich blog content (room design tips, furniture care, seasonal guides) exists but is not surfaced to the email list",
+    "Renewal / Expansion — no visible outreach to paid-off customers prompting a next purchase or loan offer",
+    "Win-Back / Re-Engagement — no apparent campaign targeting lapsed customers (1+ year since purchase) or dormant email subscribers"
+  ],
+  "toneVoice": "Warm, accessible, and family-forward — conversational without being casual, bilingual-friendly (English and Spanish), solution-oriented (lead with the outcome/benefit, not the product), empowering rather than salesy; positions FAMSA as a knowledgeable neighbor helping families make their house a home",
+  "compliance": "CAN-SPAM (email) and TCPA (Text Club SMS); financial advertising rules apply to the FAMSA Loans and installment credit messaging — avoid implying guaranteed approval or omitting required APR/terms disclosures in loan-specific emails; standard retail no specific HIPAA/GDPR concerns"
+}

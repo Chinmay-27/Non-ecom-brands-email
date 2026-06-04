@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "FAMSA Furniture",
+    "slug": "famsa-furniture",
+    "url": "https://www.famsafurniture.com",
+    "vertical": "Local & service — brick-and-mortar furniture, appliances, and in-house financing retail",
+    "colors": {
+      "primary": "#CC0000",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "FAMSA Furniture is a 10-store Texas retailer selling furniture, appliances, and mattresses with in-house installment credit and FAMSA personal cash loans. It serves budget-conscious, largely Hispanic/Latino Texas families who need to furnish a home now but lack the upfront cash or traditional credit to do so. Its real product is access: approved financing lets families move in and pay monthly instead of all at once.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Bridge the gap between approval/purchase and a settled home — confirm the order, set delivery expectations, explain the monthly payment process, and begin the warm-up for the next room.",
+      "trigger": "Purchase completed or credit approved (order created / first financed purchase).",
+      "segment": "New financed customers; branch by language preference (English / Spanish) and by what they bought (bedroom, living room, appliances).",
+      "rationale": "FAMSA has no post-purchase sequence today, so a new family goes silent between 'approved in the store' and 'furniture arrives' — exactly the anxious window where payment confusion and buyer's remorse live. A warm onboarding email sets the tone for a 6–24 month payment relationship and is the fastest, highest-engagement win.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome: confirm the purchase/approval, set delivery expectations, and demystify the first monthly payment so the new customer feels secure.",
+          "subject": "You're approved, {{first_name}} — here's when your home arrives",
+          "preview": "Your delivery, your first payment, and a real person to call — all in one place.",
+          "cta": "See your delivery & payment details",
+          "keyPoints": [
+            "Congratulate and confirm: their purchase is approved and on its way — the empty room is about to become a real living space",
+            "Set delivery expectations clearly (what to expect, typical 1–7 day window, how scheduling works)",
+            "Explain the monthly payment process plainly — when the first payment is due and how to pay — without implying any rate/terms not in approved copy",
+            "Offer a real human: reply to this email or call your store; 'Hablamos Español' so it's easy to get help in your language",
+            "Soft tease that once you're settled, FAMSA can help with the next room — no pressure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "credit-application-conversion",
+      "name": "Credit Pre-Qualification Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Turn a free credit pre-qualification or started-but-unfinished application into a completed in-store purchase by killing credit anxiety and removing friction.",
+      "trigger": "Credit pre-qualification submitted / approved online, or credit application started but not completed, with no purchase yet.",
+      "segment": "Pre-qualified or applied leads who have not yet bought; branch by approved vs. stalled application.",
+      "rationale": "The free credit pre-qualification is FAMSA's true low-friction entry point, and 'Will I get approved?' is the #1 purchase blocker — so a lead who already cleared that gate but never came in is the single most recoverable revenue in the funnel. Today they get no follow-up.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Reassure the applicant their approval is real and waiting, show the monthly payment is manageable, and drive a low-friction next step (visit a store / finish online).",
+          "subject": "Good news, {{first_name}} — you're pre-approved. Now pick your pieces",
+          "preview": "The hard part's done. Bring your approval to any Texas FAMSA and walk out furnished.",
+          "cta": "Find your nearest FAMSA store",
+          "keyPoints": [
+            "Lead with the reassurance that answers their biggest fear: the approval is already cleared — no second guessing",
+            "Reframe cost as a manageable monthly payment they can plan around, not a lump sum (no specific APR/terms claims without approved copy)",
+            "Make the next step tiny: bring your approval to any of the 10 Texas stores, or finish online in minutes",
+            "Add gentle urgency: pre-qualification offers don't stay open forever — come in while it's ready",
+            "Reassure with help in English or Spanish and a no-pressure salesperson on the floor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Financing-Made-Simple Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert promotional email/SMS subscribers into credit applicants by educating them on how FAMSA financing actually works and removing the mystery around approval.",
+      "trigger": "Newsletter / Text Club opt-in, or download of a 'How FAMSA financing works' guide.",
+      "segment": "Subscribers who have opted in but never applied or purchased; branch by language preference and stated room interest.",
+      "rationale": "FAMSA captures subscribers but almost certainly only blasts promotions, so cold leads never learn that financing puts a fully furnished home within reach. An educational nurture that demystifies access turns 'someday' browsers into applicants — the top-of-funnel engine the brand is missing.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the financing-made-simple guide and frame the real problem: you shouldn't have to wait years or save a lump sum to furnish your home.",
+          "subject": "How Texas families furnish a whole home without paying all at once",
+          "preview": "How FAMSA financing works, what monthly payments look like, and how to get started.",
+          "cta": "Read the financing guide",
+          "keyPoints": [
+            "Frame the real problem: an empty home shouldn't have to wait until you've saved thousands — access is the point",
+            "Explain in plain language how in-house installment financing works and how monthly payments make a full home affordable",
+            "Show it's for families like theirs — credit rebuilders and first-time buyers welcome (never imply guaranteed approval)",
+            "Soft, low-commitment CTA: read the guide now, with a free pre-qualification as the natural next step when ready",
+            "Bilingual-friendly framing and a warm 'knowledgeable neighbor' tone, not a hard sell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed customers (12+ months since purchase or recently paid off) and dormant subscribers with a 'your next room is waiting' message and a fresh application path.",
+      "trigger": "12+ months of no purchase / loan paid off with no re-purchase, or 60–90 days of email inactivity.",
+      "segment": "Lapsed past customers (reference prior purchase) separated from never-purchased dormant subscribers.",
+      "rationale": "A paid-off FAMSA customer with a proven payment history is the easiest sale in the building, yet there's no campaign prompting their next room — so they drift to Rooms To Go, Ashley, or Wayfair once their credit improves. Win-back recovers that established-trust revenue cheaply.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Remind a lapsed customer of the value they got, signal their good standing makes the next purchase easy, and invite them back for the next room.",
+          "subject": "Your living room's set, {{first_name}} — ready for the bedroom?",
+          "preview": "It's been a while. Your history with FAMSA makes your next room easier than ever.",
+          "cta": "See what you can furnish next",
+          "keyPoints": [
+            "Reference what they bought before to make it personal ('your living room' / 'your last set')",
+            "Reassure that as a returning customer with payment history, the next approval is smoother — without promising guaranteed approval",
+            "Paint the next-room outcome: the bedroom, dining set, or appliance they've been putting off",
+            "Lower friction with a fresh pre-qualification CTA and a reminder they can do it online or at any Texas store",
+            "Warm, family-forward, bilingual welcome-back tone — 'we'd love to help your family again'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "payoff-renewal-expansion",
+      "name": "Loan Payoff, Anniversary & Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect and grow the recurring installment relationship by celebrating loan payoff and converting that milestone into the next purchase or loan.",
+      "trigger": "Installment balance fully paid off; account/purchase anniversary; or a usage milestone signaling expansion readiness.",
+      "segment": "Active and recently-paid-off financed customers; branch by health — strong payment history = expansion offer, struggling = save/help.",
+      "rationale": "FAMSA's installment model is its recurring revenue, and loan payoff is a completely untapped re-purchase trigger — the exact moment a trusted customer has freed-up monthly budget and proven they can pay. Celebrating it and inviting the next room turns one-time buyers into repeat accounts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Celebrate the payoff milestone, reinforce the trust built, and frame their established history as the door to furnishing the next room or accessing a FAMSA loan.",
+          "subject": "You did it, {{first_name}} — your FAMSA balance is paid off 🎉",
+          "preview": "Congratulations on finishing strong. Here's a thank-you and what your history unlocks.",
+          "cta": "Furnish your next room",
+          "keyPoints": [
+            "Genuinely celebrate the payoff — it's a real accomplishment for a budget-conscious family and a relationship milestone, not just a transaction",
+            "Reinforce the trust: their on-time history with FAMSA is exactly what makes the next purchase easier (no guaranteed-approval claims)",
+            "Surface the expansion paths: add a room, upgrade an appliance, or a FAMSA personal cash loan for other needs",
+            "Include a thank-you incentive or VIP gesture to reward loyalty and prompt a return visit",
+            "Warm, proud, bilingual tone that treats them as a valued returning family — and an easy CTA to start the next room online or in-store"
+          ]
+        }
+      ]
+    }
+  ]
+}
