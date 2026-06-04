@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "HouseBuildr",
+    "url": "https://www.housebuildr.com",
+    "slug": "housebuildr",
+    "vertical": "Local & service",
+    "tagline": "Build Better, Together",
+    "colors": {
+      "primary": "#1A4F3A",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#1C2B2D"
+    }
+  },
+  "offer": {
+    "what": "Residential and commercial solar installation, solar panel maintenance, HVAC, roofing, and windows services",
+    "coreOutcome": "Lower electricity bills and clean energy independence — homeowners eliminate or dramatically cut utility costs while qualifying for the 30% federal tax credit",
+    "pricePoint": "High-ticket, custom-quoted (residential solar typically $15k–$30k+); one-time installation fee plus optional maintenance",
+    "commitment": "One-time installation project (weeks to complete); recurring maintenance contracts available",
+    "leadMagnets": [
+      "Energy incentives guide (30% federal tax credit information)",
+      "Free quote / site assessment (implied by solar industry standard)"
+    ]
+  },
+  "audience": {
+    "icp": "California homeowners in upper-middle to affluent income brackets (Beverly Hills / greater LA area), ages 35–65, environmentally conscious and financially motivated by long-term ROI on energy bills",
+    "painPoints": [
+      "Among the highest electricity rates in the US — California utility bills are a constant frustration",
+      "Confusion and overwhelm around the solar buying process (permits, financing, equipment choices)",
+      "Distrust of solar installers — fear of poor installation quality or hidden costs",
+      "Not knowing how to navigate federal and state tax incentives before deadlines",
+      "Uncertainty about ROI timeline and whether solar is worth it for their specific home"
+    ],
+    "segments": [
+      "Residential homeowners (primary) — single-family homes seeking energy savings",
+      "Commercial property owners / small businesses — cost reduction and sustainability goals",
+      "Whole-home improvement buyers — interested in bundled solar + roofing + HVAC + windows packages"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months — requires site assessment, custom proposal, financing/incentive navigation, permits, then installation",
+    "trial": "Free site assessment / quote (standard in solar industry; explicitly referenced on homepage)",
+    "closeMechanism": "Sales rep outreach → site assessment → custom proposal → financing options → signed contract",
+    "topObjection": "High upfront cost and uncertainty about ROI timeline / payback period"
+  },
+  "ahaMoment": "First utility bill after system activation showing dramatic savings (or net-zero / net-positive generation) — typically 30–90 days post-installation",
+  "retention": {
+    "recurring": "Annual / periodic solar maintenance contracts; system monitoring and performance check-ups",
+    "expansion": "Upsell from solar-only to bundled services: HVAC replacement, roofing, windows — whole-home efficiency upgrade",
+    "churnRisk": "System underperformance (shading, panel degradation), slow post-install support, or customer going elsewhere for maintenance"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no apparent sequence to guide new leads from inquiry to site assessment",
+    "Lead-Magnet Nurture — energy incentives guide likely not followed up with an email sequence",
+    "Trial/Consult Conversion — no evident email journey to convert free-quote recipients into signed contracts",
+    "Booking, Reminders & No-Show — site assessment appointments likely managed manually with no automated reminders",
+    "Value Newsletter — no content marketing email program evident (educational content on solar ROI, incentives, etc.)",
+    "Renewal, Anniversary & Expansion — no lifecycle trigger emails to existing customers for maintenance upsells or referral asks",
+    "Win-Back / Re-Engagement — no apparent re-engagement flow for cold leads or past quote recipients"
+  ],
+  "toneVoice": "Professional yet approachable; forward-thinking and values-driven; emphasizes sustainability and community impact; confident without being salesy — positions as a trusted partner rather than a vendor",
+  "compliance": "California contractor license CSLB# 1025901; standard CAN-SPAM compliance required; no HIPAA or financial regulation exposure; solar incentive claims must be accurate and current (federal tax credit percentages/deadlines)"
+}

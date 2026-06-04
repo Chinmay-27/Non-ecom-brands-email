@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "HouseBuildr",
+    "slug": "housebuildr",
+    "url": "https://www.housebuildr.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#1A4F3A",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#1C2B2D"
+    }
+  },
+  "summary": "HouseBuildr is a Beverly Hills-based, licensed (CSLB# 1025901) solar installation and home-improvement contractor serving California homeowners and commercial property owners, with offerings spanning residential/commercial solar, panel maintenance, HVAC, roofing, and windows. It sells high-ticket, custom-quoted projects (residential solar typically $15k–$30k+) through a high-touch sales motion: free site assessment, custom proposal, financing, then installation. Its core promise is dramatically lower electricity bills and energy independence for upper-middle to affluent LA-area homeowners.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a new quote/inquiry lead into a booked site assessment, and set expectations across the multi-week permitting-to-go-live journey for signed customers.",
+      "trigger": "Quote request / free-assessment form submitted on housebuildr.com.",
+      "segment": "New leads who requested a quote or downloaded a guide; branch by monthly-bill amount and homeowner vs. commercial.",
+      "rationale": "HouseBuildr has no sequence bridging inquiry to site assessment, and the aha moment (first low utility bill) lands 30–90 days post-install — the longest, riskiest gap in the funnel. A fast, warm welcome captures intent at its peak and books the one action that starts the deal.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome, set expectations for the solar journey, and drive the single most valuable first action: booking the free site assessment.",
+          "subject": "Welcome to HouseBuildr — your free solar assessment is the first step",
+          "preview": "Here's exactly what happens next (and what your roof could be saving you).",
+          "cta": "Book my free site assessment",
+          "keyPoints": [
+            "Thank them for reaching out and reaffirm the outcome they want: lower (or near-zero) LA electricity bills and energy independence",
+            "Demystify the process up front — site assessment, custom proposal, financing options, permits, then installation — so the multi-week timeline feels guided, not overwhelming",
+            "One clear CTA to book the free, no-obligation site assessment; reinforce trust with CSLB# 1025901, 10+ years, and 1000+ installations",
+            "Invite a real reply for questions; tease that the proposal will show their specific payback timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Quote-to-Contract Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert free-quote and site-assessment recipients into signed contracts by removing the cost/ROI objection that stalls high-ticket solar decisions.",
+      "trigger": "Site assessment completed / custom proposal delivered but no signed contract.",
+      "segment": "Active opportunities with a proposal out; branch by engaged (opened proposal, asked questions) vs. stalled (no response).",
+      "rationale": "This is the core revenue play — HouseBuildr currently relies entirely on sales reps to close, with no email support. The #1 objection is 'that's a lot of money — how long until I break even?', so the hero email must answer payback directly with their own numbers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Directly handle the upfront-cost and ROI-timeline objection by quantifying payback and financing, moving the lead from interested to ready-to-sign.",
+          "subject": "How long until your solar pays for itself? Here's your real number",
+          "preview": "Most LA homeowners break even faster than they expect — let's run yours.",
+          "cta": "Review my proposal & payback timeline",
+          "keyPoints": [
+            "Lead with the math: against some of the highest utility rates in the US, monthly savings often cover the system and turn the roof into a return",
+            "Reframe upfront cost with $0-down financing options so the decision is monthly-savings vs. monthly-bill, not a $15k–$30k wall",
+            "Defuse installer distrust — licensed CSLB# 1025901, 1000+ installations, workmanship and post-install support spelled out",
+            "Low-friction next step: a quick call to walk through their specific proposal and lock in the timeline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Site Assessment Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended site assessments and installation appointments and recover the ones that slip.",
+      "trigger": "Site assessment or installation appointment confirmed; upcoming appointment; no-show event.",
+      "segment": "Anyone with a scheduled site assessment, install, or service visit.",
+      "rationale": "Site assessments are HouseBuildr's revenue event and are likely managed manually with no automated reminders — every no-show is a stalled high-ticket deal. Reminders cut no-shows ~35% on average, recovering pipeline immediately at near-zero cost.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that confirms the appointment, preps the homeowner, and offers a one-tap reschedule so a scheduling conflict becomes a rebook instead of a no-show.",
+          "subject": "See you tomorrow — your HouseBuildr solar assessment",
+          "preview": "A 2-minute prep so we can give you the most accurate quote.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate the appointment time, address, and the assessor's name to make it feel personal and real",
+            "Quick prep list — recent electricity bill on hand, roof/attic access, and any questions about financing or incentives",
+            "Reassure: it's free, no-obligation, and takes about an hour; set expectation for what they'll learn",
+            "Frictionless reschedule link to capture conflicts instead of losing the slot to a silent no-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Solar Savings Guide Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move guide downloaders who aren't yet ready for a quote toward sales-readiness over a weeks-long consideration cycle.",
+      "trigger": "Download of the energy/solar savings guide (refreshed for 2026 incentive schedules).",
+      "segment": "Leads who downloaded the guide but haven't booked an assessment; branch by homeowner vs. commercial interest.",
+      "rationale": "HouseBuildr's incentives guide isn't followed by any email sequence, and solar is a considered, weeks-to-months purchase where trust is earned through education. A stage-matched nurture warms cold downloaders and feeds qualified leads into the conversion campaign.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly deliver the guide and frame the real problem behind it — rising CA utility costs and the confusion that keeps homeowners from acting.",
+          "subject": "Your solar savings guide — and the real reason your LA bill keeps climbing",
+          "preview": "What CA utility rate hikes mean for your home (and how to get ahead of them).",
+          "cta": "Read the guide",
+          "keyPoints": [
+            "Deliver the download immediately and confirm they're set",
+            "Frame the problem: California's utility rates are among the highest in the US and keep rising — waiting costs money every billing cycle",
+            "Position HouseBuildr as the trusted, licensed guide through the complexity (permits, financing, equipment, current 2026 incentives) rather than a hard sell",
+            "Soft next step — when they're ready, a free site assessment turns the guide's general numbers into their specific savings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Cold Quote Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate warm leads who received a quote but never signed, and dormant past contacts, before they go to a competitor or go silent for good.",
+      "trigger": "60–90 days of no engagement after a quote/assessment with no signed contract.",
+      "segment": "Aged quote recipients and dormant leads; separate branch for past customers who never expanded.",
+      "rationale": "HouseBuildr has no re-engagement of warm leads who got a quote but didn't convert — a large, high-intent pool already past the hardest step. Win-back recovers 5–15% of inactive contacts and protects sender reputation by sunsetting the rest.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the conversation with lapsed quote leads by reminding them of the savings still on the table and what's changed since they last looked.",
+          "subject": "Still paying full price for power? Your solar quote is still good",
+          "preview": "Rates went up again — here's what your roof could be doing instead.",
+          "cta": "Refresh my quote",
+          "keyPoints": [
+            "Acknowledge the gap warmly and lead with the cost of inaction: every month without solar is another full CA utility bill",
+            "Pattern interrupt — what's new since they last looked (updated 2026 incentives, financing options, battery storage adjacency)",
+            "Make returning easy: refresh their existing quote with no need to start over, no obligation",
+            "Reassurance via track record (licensed, 1000+ installs) to rebuild trust with a lead who cooled off"
+          ]
+        }
+      ]
+    }
+  ]
+}
