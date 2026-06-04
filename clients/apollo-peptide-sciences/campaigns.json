@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Apollo Peptide Sciences",
+    "slug": "apollo-peptide-sciences",
+    "url": "https://www.apollopeptidesciences.com",
+    "vertical": "Research chemicals / peptide supplier (e-commerce)",
+    "colors": {
+      "primary": "#0D1B2A",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Apollo Peptide Sciences sells third-party-tested, research-grade peptides and chemicals in lyophilized powder form, direct-to-consumer via e-commerce (23+ SKUs including BPC-157, GHK-Cu, NAD+, Semaglutide, Tirzepatide, and Retatrutide). It serves independent researchers, academic and institutional lab professionals, and scientifically-literate biohackers who need HPLC-verified purity (≥98%) with transparent Certificates of Analysis. All products are sold strictly for laboratory research use, not human consumption.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Convert a new newsletter subscriber into a first-time buyer by delivering the discount, building immediate trust around purity, and pre-selling the COA 'aha' moment.",
+      "trigger": "Newsletter signup / list join (send within seconds of subscribing).",
+      "segment": "New subscribers who have not yet placed a first order.",
+      "rationale": "Apollo's only entry offer today is a bare 10%-off code, and trust (verifiable purity) is the single biggest barrier to a first order — the welcome send is where the discount and the COA proof story must arrive together to earn that first purchase.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, deliver the 10% code + free-shipping unlock, and frame the COA transparency that proves purity before the buyer ever pays.",
+          "subject": "Welcome to Apollo — your 10% code + the COA behind every vial",
+          "preview": "Your discount's inside. So is the third-party HPLC data that backs every peptide we ship.",
+          "cta": "Shop HPLC-verified peptides",
+          "keyPoints": [
+            "Deliver the 10% storewide code and confirm free shipping unlocks at $200",
+            "Lead with the trust hook: every SKU ships with an independent Certificate of Analysis verifying ≥98% (often ≥99%) HPLC purity",
+            "Set expectations — a short series ahead covering how to read a COA and how to store lyophilized vials",
+            "Include the required 'For research purposes only — not for human consumption' disclaimer and a clear opt-out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Move trust-hesitant subscribers toward a first purchase by teaching them to verify purity for themselves — turning Apollo's COA transparency into a competitive proof point.",
+      "trigger": "Subscriber joins the list but does not purchase; enters educational nurture track.",
+      "segment": "Non-purchasing subscribers below the buy-ready threshold; branch by peptide interest (longevity vs. metabolic GLP class).",
+      "rationale": "The #1 objection is 'is the purity actually what they claim?' — an educational sequence that teaches researchers how to read a real COA converts the skepticism that kills first orders into the exact reason Apollo wins.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Evaluation-stage proof email: teach the buyer how to read a peptide COA and what separates a documented vendor from one hiding behind a label.",
+          "subject": "How to read a peptide COA — and spot the vendors hiding one",
+          "preview": "HPLC, mass spec, and the three numbers that actually decide your results.",
+          "cta": "See a real Apollo COA",
+          "keyPoints": [
+            "Walk through the anatomy of a Certificate of Analysis: HPLC purity %, mass-spec identity confirmation, and the issuing independent lab",
+            "Contrast transparent documentation against the murky, COA-free sourcing common in the space",
+            "Link directly to a live Apollo COA so the reader can verify a real product spec themselves",
+            "Frame strictly as research-input quality (no therapeutic or dosing language) and include the research-only disclaimer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate one-time buyers who never reordered — the largest recoverable revenue pool given there is no subscription lock-in.",
+      "trigger": "No purchase or engagement in 60–90 days.",
+      "segment": "Lapsed buyers (purchased once, dormant); branch separately from never-purchased dormant subscribers.",
+      "rationale": "With no subscription or loyalty hook, Apollo's default is single-transaction relationships, so lapsed buyers quietly pile up — a win-back is fast to ship and targets the biggest recoverable revenue with people who already trust the purity.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Remind a lapsed researcher of Apollo's core value (verified purity at a fair price) and surface what's new since their last order to pull them back to the bench.",
+          "subject": "Still running studies? Here's what's new on the bench",
+          "preview": "New SKUs, fresh COAs, and your subscriber discount still works.",
+          "cta": "Restock your research",
+          "keyPoints": [
+            "Open with the relationship, not a guilt trip: 'it's been a while — your research may have moved on'",
+            "Surface what's new since they left: added SKUs (e.g., Retatrutide), fresh batch COAs, and continued ≥98% HPLC verification",
+            "Reinstate a reason to return — reactivate their discount and note free shipping over $200",
+            "Include the research-only disclaimer and a clear opt-out / sunset path for non-responders"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reorder-expansion",
+      "name": "Reorder & Expansion",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Drive repeat purchase before a researcher's supply runs out, and grow order value through multi-pack and complementary-peptide expansion.",
+      "trigger": "Estimated reorder window (~30–90 days after last purchase) based on product type and quantity.",
+      "segment": "Active past buyers approaching their likely restock point; branch by what they bought (single vial vs. bulk; longevity vs. GLP class).",
+      "rationale": "Reconstituted peptides have a short usable window and lyophilized stock depletes as studies continue, so a timed reorder nudge captures predictable repeat revenue that Apollo currently leaves to chance with no reorder flow in place.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "45",
+          "purpose": "Prompt a timely reorder and lift AOV by surfacing bulk savings and complementary peptides as research scope expands.",
+          "subject": "Running low? Reorder before your study stalls",
+          "preview": "Lyophilized vials keep for months — reconstituted, only weeks. Time to restock.",
+          "cta": "Reorder in two clicks",
+          "keyPoints": [
+            "Anchor the timing to research reality: reconstituted material has a limited usable window, so restocking ahead avoids a stalled study",
+            "Offer the expansion path — multi-packs (Box of 10, 5-pack) and bulk vial sizes for volume savings",
+            "Cross-sell complementary peptides relevant to their last order and nudge toward the $200 free-shipping threshold",
+            "Keep framing strictly as research supply; include the research-only disclaimer and opt-out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long research cycle and reinforce Apollo's authority on purity and sourcing — without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding and route recently-dormant contacts to Win-Back instead.",
+      "rationale": "Repeat purchase here is driven by ongoing research needs rather than a subscription, so an always-on authority newsletter keeps Apollo the default trusted supplier between orders and feeds both reorders and expansion.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the recurring flagship issue that delivers one useful, on-brand research idea and a soft path back to the catalog.",
+          "subject": "The Apollo Bench: what ≥99% purity actually changes in vitro",
+          "preview": "This month's purity breakdown, plus a freshly published Retatrutide COA.",
+          "cta": "Read this month's issue",
+          "keyPoints": [
+            "One useful idea per send — this issue: why HPLC purity above 99% matters for reproducible in-vitro work",
+            "Recurring habit section ('The Apollo Bench') with a new batch COA spotlight each month",
+            "80% value / 20% soft offer — a single primary CTA back to the relevant catalog page, no discount push",
+            "Maintain scientific, non-therapeutic framing; include the research-only disclaimer and opt-out"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "name": "Apollo Peptide Sciences",
+    "url": "https://apollopeptidesciences.com",
+    "slug": "apollo-peptide-sciences",
+    "vertical": "Research chemicals / peptide supplier (e-commerce)",
+    "tagline": "Where Science and Innovation Meet",
+    "colors": {
+      "primary": "#0D1B2A",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Third-party-tested research peptides and chemicals in lyophilized powder form sold D2C via e-commerce; 23+ SKUs including BPC-157, GHK-Cu, SNAP-8, NAD+, Semaglutide (GLP-1 S), Tirzepatide (GLP-2 T), Retatrutide, Epitalon, IGF-1 LR3, and FOX04-DRI",
+    "coreOutcome": "Researchers receive pharmaceutical-grade purity (≥98% HPLC-verified, often ≥99%) peptides with transparent Certificates of Analysis — dependable inputs for credible laboratory research",
+    "pricePoint": "$40–$300+ per vial; BPC-157 10mg at $59.99; free shipping on orders over $200; accepts credit cards and cryptocurrency",
+    "commitment": "One-off purchase; no subscription; multi-unit packs and bulk sizes available for volume savings",
+    "leadMagnets": ["Newsletter signup: 10% off storewide + free shipping unlock"]
+  },
+  "audience": {
+    "icp": "Independent researchers, academic/institutional lab professionals, and biohackers sourcing research-grade peptides for in-vitro or laboratory studies — particularly those focused on longevity, metabolic, and performance peptides",
+    "painPoints": [
+      "Difficulty verifying purity — most vendors don't publish transparent COAs",
+      "Concerns about vendor legitimacy and product authenticity in a loosely regulated space",
+      "Established suppliers charge premium prices with no affordable alternative that maintains quality",
+      "Slow shipping, poor support, and opaque sourcing from larger competitors"
+    ],
+    "segments": [
+      "Academic/institutional researchers who need documented COAs for study records",
+      "Independent biohackers and longevity enthusiasts (GHK-Cu, NAD+, Epitalon, FOX04-DRI focus)",
+      "Repeat bulk buyers studying GLP-1/GLP-2 analogs (Semaglutide, Tirzepatide, Retatrutide)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day to a few days (self-serve e-commerce; no consultative sales cycle)",
+    "trial": "None — no free sample or consult; newsletter discount (10% off) serves as the conversion entry point",
+    "closeMechanism": "Self-serve add-to-cart; newsletter discount code is the primary conversion nudge; COA transparency and review reputation reduce purchase hesitation",
+    "topObjection": "Is the purity actually what they claim? (Countered via third-party HPLC COAs, ≥98% purity guarantee, and independent lab documentation)"
+  },
+  "ahaMoment": "Receiving the order and reviewing the Certificate of Analysis confirming ≥98% HPLC-verified purity — proof the product matches the published spec and the research can proceed confidently",
+  "retention": {
+    "recurring": "No subscription model; repeat purchase driven by ongoing research restocking needs; no identified loyalty program",
+    "expansion": "Larger vial sizes, multi-pack bundles (e.g., Box of 10 packs), adding new peptide types to cart as research scope expands",
+    "churnRisk": "One-time buyers who never reorder; price-shoppers switching to lower-cost competitors; no subscription or loyalty hook to anchor repeat behavior"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely a bare discount-code delivery email only; no research onboarding sequence",
+    "Lead-Magnet Nurture — no identified educational content sequence after newsletter signup",
+    "Post-Purchase Follow-Up — no visible reconstitution/storage guidance or usage-tips sequence for new buyers",
+    "Repeat Purchase / Reorder Trigger — no identified reorder reminder flow for lapsed buyers",
+    "Win-Back / Re-Engagement — no identified campaign for customers who haven't bought in 60–90 days",
+    "Referral / Advocacy — no visible referral or affiliate program for researchers to recommend the brand"
+  ],
+  "toneVoice": "Scientific and authoritative with approachable clarity; premium but not exclusionary; confident in quality claims without hyperbole; research-community lexicon; strictly avoids therapeutic, medical, or dosing language",
+  "compliance": "All email communications must include a 'For research purposes only — not for human consumption' disclaimer. Cannot make health, therapeutic, or dosing claims. Brand is a chemical supplier, not a pharmacy or compounding facility (not 503A/503B). Must comply with CAN-SPAM opt-out requirements. FDA regulatory environment for research peptides is active — messaging must stay strictly within research framing."
+}
