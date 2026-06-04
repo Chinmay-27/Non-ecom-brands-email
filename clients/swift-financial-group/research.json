@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Swift Financial Group, LLC",
+    "url": "https://swiftfinancialgroup.net",
+    "slug": "swift-financial-group",
+    "vertical": "B2B/professional — financial services (note buying / note brokerage)",
+    "tagline": "Have all your money now instead of waiting years to collect monthly payments",
+    "colors": {
+      "primary": "#1A3C6E",
+      "accent": "#2E7D52",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "offer": {
+    "what": "Purchases seller-financed mortgage notes from note holders, converting their stream of monthly payments into a single lump-sum cash payment. Also offers partial note purchases (sell a set number of future payments for cash, then get the note back).",
+    "coreOutcome": "Immediate, full liquidity — all the money from a seller-financed deal today, not spread across years of monthly installments.",
+    "pricePoint": "No cost to the seller — Swift covers all closing costs. They pay 70–90 cents on the dollar for the note (industry standard discount). Transaction size is determined by note balance, typically ranging from tens of thousands to several hundred thousand dollars.",
+    "commitment": "One-time transaction; no ongoing relationship required. Partial note sales are also available for note holders who want some cash now but want to resume collecting payments later.",
+    "leadMagnets": [
+      "Free, no-obligation quote request (online or phone)"
+    ]
+  },
+  "audience": {
+    "icp": "Individuals who hold a seller-financed (owner-financed) mortgage note — typically someone who sold a home or property without a bank and is currently receiving monthly payments from the buyer. Often retirees, small landlords, or property investors who want liquidity.",
+    "painPoints": [
+      "Waiting years (sometimes decades) to collect all the money from a property sale",
+      "Anxiety that the buyer will default or stop making payments",
+      "Administrative burden of managing monthly payment collection and borrower relationships",
+      "Urgent cash need: medical bills, college tuition, estate distributions, new investment opportunities",
+      "Uncertainty about the process and fear of losing too much money in the sale"
+    ],
+    "segments": [
+      "Retirees who financed a home sale and want a lump sum for living expenses or estate planning",
+      "Landlords/investors who routinely create and sell owner-financed notes",
+      "Heirs who inherited a mortgage note and have no interest in being a lender",
+      "Property sellers who did a one-time owner-finance deal and now regret waiting"
+    ]
+  },
+  "salesCycle": {
+    "length": "30–45 days from quote acceptance to funded close (industry standard for note purchases); the quote itself can be delivered same-day or within days",
+    "trial": "Yes — free, no-obligation quote. Note holder submits basic note details; Swift provides a cash offer with no obligation to proceed.",
+    "closeMechanism": "Step-by-step: (1) request quote → (2) accept offer and submit paperwork → (3) Swift conducts due diligence (title, appraisal, borrower credit) → (4) close at title company / attorney or via notary sent to seller's home/office. Swift pays all closing costs.",
+    "topObjection": "\"I'll lose too much money selling at a discount\" — note holders worry the lump sum will be significantly less than the total they'd collect over time and need education on time-value of money and risk trade-offs."
+  },
+  "ahaMoment": "Receiving the lump-sum check at closing — the moment the note holder holds all their money at once after years of waiting for small monthly payments. Pre-close, the micro-aha is accepting the offer and realizing the process is simple and the company covers all costs.",
+  "retention": {
+    "recurring": "Primarily one-time transactions; not a subscription or retainer model. Repeat business possible if a client has multiple notes or does a partial sale followed by a future full sale.",
+    "expansion": "Referrals to other note holders in the seller's network (friends, family, attorneys, real estate agents who facilitate owner-financed deals). Partial-to-full note upgrade path.",
+    "churnRisk": "Lead attrition between quote and close if process feels slow or unclear, or if a competitor offers a slightly higher price. No ongoing churn risk post-transaction."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: No evidence of a nurture sequence explaining the process to new quote inquiries before they accept",
+    "Lead-Magnet Nurture: No clear educational content series (e.g., 'Is selling your note right for you?') to move fence-sitters",
+    "Trial/Consult Conversion: Quote requesters likely go cold — no follow-up email sequence evident",
+    "Win-Back / Re-Engagement: People who got a quote but didn't sell are a warm audience; no evidence of a re-engagement campaign",
+    "Referral / Advocacy: Strong referral potential (real estate attorneys, CPAs, sellers' networks) but no visible referral program or trigger"
+  ],
+  "toneVoice": "Professional, trustworthy, and reassuring — the brand deals with people making significant, often stressful financial decisions. Plain-language explanations of a complex process. Authority through 20+ years of experience. Warm but not casual; confident without being salesy. Avoid jargon; emphasize simplicity, speed, and the seller's peace of mind.",
+  "compliance": "Financial services — subject to applicable state and federal note-purchase regulations, securities/lending disclosure requirements, and CAN-SPAM. Email marketing must avoid misleading subject lines, include physical address, and offer clear unsubscribe. No HIPAA. Standard financial compliance language advisable in promotional copy ('not a guarantee of offer,' 'terms vary by note')."
+}

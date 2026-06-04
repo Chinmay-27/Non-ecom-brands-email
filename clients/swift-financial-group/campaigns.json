@@ -1,0 +1,154 @@
+{
+  "brand": {
+    "name": "Swift Financial Group, LLC",
+    "slug": "swift-financial-group",
+    "url": "https://swiftfinancialgroup.net",
+    "vertical": "B2B/professional — financial services (seller-financed mortgage note buying)",
+    "colors": {
+      "primary": "#1A3C6E",
+      "accent": "#2E7D52",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "summary": "Swift Financial Group buys seller-financed (owner-financed) mortgage notes, converting a note holder's stream of future monthly payments into a single lump-sum cash payment at no cost to the seller. It serves individuals who financed a property sale themselves — retirees, small landlords, real estate investors, and heirs — who want immediate liquidity instead of waiting years to collect, including partial-note purchases for those who want some cash now and the note back later.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Quote Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Convert a fresh quote inquiry into an engaged, trusting prospect by setting expectations and delivering the first reassurance win before they go cold or shop competitors.",
+      "trigger": "Quote request submitted (online form or phone) — send within seconds.",
+      "segment": "New note holders who just requested a quote; branch later by stated reason for selling (retirement/estate, investor, heir, first-time seller).",
+      "rationale": "New quote requesters currently get a number and silence — the single biggest conversion leak. An instant, plain-language welcome that explains the simple, cost-free process builds trust at the exact moment doubt sets in.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome: confirm the request is received, set expectations for the offer timeline, and deliver the first 'win' — the relief that the process is simple and costs them nothing.",
+          "subject": "Your note quote is on its way — here's what happens next",
+          "preview": "No cost, no obligation. Here's exactly how we turn your monthly payments into a lump sum.",
+          "cta": "See your 4-step path to cash",
+          "keyPoints": [
+            "Confirm we received their note details and a no-obligation cash offer is being prepared (same-day to a few days)",
+            "Walk the 4 simple steps: get your quote, accept, we handle due diligence and paperwork, you get paid — Swift covers all closing costs",
+            "Reassure with 20+ years in business and that they are never obligated to proceed; a real person reads every reply",
+            "Set the relationship: a few short, helpful emails ahead — no pressure, just clarity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-conversion",
+      "name": "Quote Follow-Up & Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Move a delivered-but-unaccepted quote to acceptance by dismantling the #1 objection ('I'll lose too much selling at a discount') and reinforcing simplicity and speed.",
+      "trigger": "Offer sent but not accepted after 3–7 days; runs in parallel with a light urgency/expiry nudge.",
+      "segment": "Prospects who received a cash offer and have not responded; branch by note size and stated reason for selling.",
+      "rationale": "This is the core revenue play and the highest-leverage gap — quote requesters go cold with no follow-up. The discount objection is the make-or-break unlock, and only education on time-value and risk transfer overcomes it.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "4",
+          "purpose": "Reframe the discount objection: show why a lump sum today can beat years of monthly payments once risk, inflation, and the time value of money are accounted for — then make accepting feel safe and easy.",
+          "subject": "Worried the discount means losing money? Here's the real math",
+          "preview": "Cash today vs. 20 years of payments — what the discount actually buys you.",
+          "cta": "Review your offer with us",
+          "keyPoints": [
+            "Name the fear directly: a lump sum looks smaller than the total of all future payments — here's why that comparison is misleading",
+            "Explain time-value plainly: money now is worth more than money spread over decades, and waiting carries real default and inflation risk you currently absorb",
+            "The discount transfers that borrower-default risk and collection burden to Swift — you trade uncertainty for certainty",
+            "Low-pressure close: your offer stands with no obligation, and a partial sale is available if you want some cash now and the note back later",
+            "Include standard disclosure: offers vary by note terms; not a guarantee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Quoted-But-Didn't-Sell Win-Back",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate warm leads who got a quote but never closed, by tying a fresh offer to changing life circumstances and current rates.",
+      "trigger": "90+ days of inactivity after a quote that didn't convert; re-run on a 3–6 month cadence.",
+      "segment": "Dormant prior quote recipients who still hold their note; suppress anyone who already sold.",
+      "rationale": "People who got a quote and didn't move forward are the warmest cold audience this brand has, and there is no re-engagement in place. Life events (retirement, health, an investment opportunity, a buyer falling behind) change readiness — a low-cost periodic touch recovers 5–15%.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the conversation without pressure: remind them of the core value, acknowledge that circumstances change, and offer a fresh, updated quote.",
+          "subject": "Still holding that mortgage note?",
+          "preview": "Life changes — and so can your offer. Get a fresh, no-obligation quote in minutes.",
+          "cta": "Refresh my no-obligation quote",
+          "keyPoints": [
+            "Gentle re-open: it's been a while — your note, and your reasons for keeping it, may look different now",
+            "Surface the triggers that change the math: retirement, medical or tuition costs, an estate to settle, a buyer who's slowing down on payments, or a new opportunity needing cash",
+            "Offer is free and updated to today's terms; partial sale still available if full feels like too much",
+            "Reassure: still no cost to you, still no obligation, still the same 20+ year team — just reply or click to get a new number"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "\"Should You Sell Your Note?\" Educational Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move fence-sitting note holders toward readiness by educating them on when selling makes sense, building authority and trust over a longer cycle.",
+      "trigger": "Download of the decision guide / educational lead magnet ('Should You Sell Your Mortgage Note?').",
+      "segment": "Leads who downloaded the guide but are below sales-ready intent; branch by reason for selling and note size if known.",
+      "rationale": "The brand has no educational content and no top-of-funnel asset beyond the quote, so undecided prospects have nothing to engage with between curiosity and commitment. A decision-guide nurture captures earlier-stage holders and warms them before they ever request a quote.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the downloaded guide and frame the core decision honestly — that selling isn't always right, which is exactly what builds the trust that makes them choose Swift when it is.",
+          "subject": "Should you sell your mortgage note? A straight answer",
+          "preview": "The 5 questions every note holder should ask before selling — and when waiting costs you.",
+          "cta": "Read the decision guide",
+          "keyPoints": [
+            "Deliver the guide link up front and set an honest frame: selling isn't right for everyone — here's how to tell",
+            "Preview the 5 questions: Do you need liquidity now? How solid is your buyer? How much management is it costing you? What would the cash unlock? Full or partial sale?",
+            "Establish authority with plain-language teaching, not a pitch — 20+ years buying notes",
+            "Soft next step: when you want to see what your specific note is worth, a free no-obligation quote is one click away"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-expansion",
+      "name": "Post-Close Referral & Partial-to-Full Expansion",
+      "priority": 5,
+      "stage": "Retention / Advocacy",
+      "objective": "Turn satisfied note sellers into an acquisition channel and surface repeat business from partial-note clients and multi-note investors.",
+      "trigger": "Close completed (lump-sum funded); for partial sales, a follow-up touch as the retained note matures.",
+      "segment": "Recently funded clients at their peak-satisfaction moment; branch investors/multi-note holders and partial-sale clients separately.",
+      "rationale": "Referrals from sellers, real estate attorneys, CPAs, and agents are explicitly the highest-potential untapped channel, and there's no referral program at all. The just-funded moment — when the client has the cash in hand — is the strongest possible time to ask, and partial-sale clients are a built-in repeat path.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Capitalize on the peak-value moment after funding to request a warm referral and remind partial-sale clients that Swift can buy the rest of the note later.",
+          "subject": "You've got your cash — know someone else holding a note?",
+          "preview": "Most note holders know another. A quick intro could put cash in their hands too.",
+          "cta": "Refer a note holder",
+          "keyPoints": [
+            "Celebrate the close: you have all your money now and the waiting is over — congratulations",
+            "Make the ask natural: note holders tend to know others (neighbors who owner-financed, family, attorneys, agents, fellow investors) who'd value the same relief",
+            "Frame referral as a favor to them, not a sales pitch — a simple intro or forward is all it takes",
+            "For partial-sale clients: a reminder that when you're ready to cash out the remaining payments, we're here to buy the rest",
+            "Keep it warm and low-pressure, consistent with a trust-first, 20+ year brand"
+          ]
+        }
+      ]
+    }
+  ]
+}
