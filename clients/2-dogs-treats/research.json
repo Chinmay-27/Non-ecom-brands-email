@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "2 Dogs Treats",
+    "url": "https://www.2dogstreats.com",
+    "slug": "2-dogs-treats",
+    "vertical": "DTC Pet Food / Dog Treats",
+    "tagline": "Not just a treat, a daily thank you",
+    "colors": {
+      "primary": "#1C4E7F",
+      "accent": "#D07832",
+      "background": "#FAFAF8",
+      "text": "#2C2C2C"
+    }
+  },
+  "offer": {
+    "what": "Single-ingredient, human-grade dog treats and chews made in small batches in a Boston commercial kitchen — chicken, beef, turkey, pork, fish skins, organic sweet potatoes, and Summit chews. Also a Build-a-Box customization option and gift boxes.",
+    "coreOutcome": "Peace of mind: owners know exactly what their dog is eating; dogs with sensitivities, allergies, or pickiness finally have treats they love and thrive on.",
+    "pricePoint": "$13.95–$20.95 per product; Meat Lover's Box from $83.80; Gift Box $43.95; free shipping over $66; subscription option available",
+    "commitment": "One-time purchase or recurring subscription; no contract; satisfaction guarantee with full refund if dogs don't approve",
+    "leadMagnets": [
+      "Email newsletter signup ('latest on sales, new releases and more')"
+    ]
+  },
+  "audience": {
+    "icp": "Health-conscious dog owner, 30–55, treats their dog like family; prioritizes clean, transparent ingredients; likely has a dog with sensitivities, allergies, or a picky eater; mid-to-upper income, willing to pay premium for quality they can trust",
+    "painPoints": [
+      "Fear of mystery ingredients and fillers in mainstream treats",
+      "Dog has allergies, digestive sensitivities, or food intolerances",
+      "Previous bad experience with imported/low-quality treats",
+      "Senior dog needs softer, easy-to-chew options",
+      "Puppy owner wants to start with clean, simple foods"
+    ],
+    "segments": [
+      "Dog owners with sensitive/allergy-prone dogs (single-protein elimination)",
+      "Senior dog owners needing soft-texture options (Chicken Rounds)",
+      "Gift-givers (gift boxes, eGift cards)",
+      "New puppy owners establishing healthy habits",
+      "Multi-dog households buying in bulk or subscription"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — impulse or considered DTC e-commerce purchase",
+    "trial": "No free trial; however, a full satisfaction guarantee (refund if dog doesn't love it) removes purchase risk",
+    "closeMechanism": "Self-serve e-commerce; product pages, Build-a-Box, social proof (1,162 reviews, 97% positive), and free-shipping threshold drive conversion",
+    "topObjection": "Price premium vs. store-brand treats — 'why pay $20 for a bag of chicken strips?' Overcome by single-ingredient transparency, USA sourcing, human-grade quality, and the satisfaction guarantee"
+  },
+  "ahaMoment": "The moment the dog goes crazy for the treat AND the owner flips the bag to find just one ingredient — validates both palatability and purity in one instant. Happens on first delivery; entirely self-serve.",
+  "retention": {
+    "recurring": "Subscription model available (frequency options exist, specific intervals not published); repeat purchase driven by 'same enthusiasm 9 years later' loyalty pattern",
+    "expansion": "Build-a-Box upsell to try new proteins; Summit chews as add-on; gift boxes for pet-owner gifting occasions; eGift card for referrals",
+    "churnRisk": "Switching to cheaper supermarket alternatives; dog loses interest in a single flavor (solved by variety); lapsed subscribers who forget to reorder"
+  },
+  "lifecycleGaps": [
+    "No gated lead magnet — newsletter is the only opt-in, limiting top-of-funnel segmentation",
+    "Welcome & onboarding sequence: unknown/likely absent or thin",
+    "Post-purchase education sequence (ingredients, benefits, how to use) likely missing",
+    "Subscription conversion flow (nudging one-time buyers to subscribe) likely absent",
+    "Win-back / re-engagement campaign for lapsed buyers likely absent",
+    "Referral/advocacy program not surfaced on site",
+    "Renewal/anniversary or loyalty email not surfaced"
+  ],
+  "toneVoice": "Warm, personal, founder-led. Conversational and approachable — uses 'pup,' 'tail-wag approved,' 'woof.' Balances emotional dog-love storytelling (founder Mike Christian, dog Riley's origin story) with credible, educational ingredient transparency. Never clinical or salesy. Think: a knowledgeable dog-loving neighbor, not a pet-industry marketer.",
+  "compliance": "Standard CAN-SPAM / GDPR email compliance. No HIPAA, financial, or legal constraints. Standard DTC e-commerce — include unsubscribe, physical address, honest claims about pet health (avoid disease-cure language per FTC/AAFCO pet marketing guidelines)."
+}

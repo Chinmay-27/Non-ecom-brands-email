@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "2 Dogs Treats",
+    "slug": "2-dogs-treats",
+    "url": "https://www.2dogstreats.com",
+    "vertical": "DTC Pet Food / Dog Treats",
+    "colors": {
+      "primary": "#1C4E7F",
+      "accent": "#D07832",
+      "background": "#FAFAF8",
+      "text": "#2C2C2C"
+    }
+  },
+  "summary": "2 Dogs Treats is a Boston-based direct-to-consumer brand that makes single-ingredient, human-grade dog treats and chews in small batches (Just Chicken, Just Beef, fish skins, organic sweet potato, Summit chews), plus a Build-a-Box and gift boxes. It serves health-conscious dog owners who want full ingredient transparency, especially those whose dogs have allergies, sensitivities, or picky palates, and who will pay a premium for treats they can trust. Revenue is self-serve e-commerce with an available subscription, backed by a full satisfaction-guarantee refund.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate a new subscriber or first-time buyer by pre-framing the 'aha' moment (dog goes wild + owner flips the bag to one ingredient) and driving the first or second order.",
+      "trigger": "Newsletter signup or first order placed; send instantly.",
+      "segment": "New contacts (newsletter signups and first-time buyers); branch on whether they've purchased yet.",
+      "rationale": "There's no welcome flow today beyond a likely-thin Shopify default, and welcome emails are the most-opened a brand sends. This is the fastest way to set the single-ingredient philosophy and remove first-purchase hesitation with the satisfaction guarantee.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm founder welcome, set the single-ingredient promise, and pre-frame the first-delivery 'aha' moment so the customer knows what to watch for.",
+          "subject": "Welcome to the pack — flip the bag, every time",
+          "preview": "One ingredient. That's the whole list. Here's why that matters for your pup.",
+          "cta": "Shop single-ingredient treats",
+          "keyPoints": [
+            "Founder-led hello from Mike & Riley's story; warm, neighbor-not-marketer tone",
+            "The promise: every bag is ONE ingredient — no fillers, preservatives, or mystery meat, made in our Boston kitchen",
+            "Pre-frame the aha: 'When your order lands, watch your pup's reaction, then flip the bag and read the whole ingredient list in two seconds'",
+            "Risk reversal: full refund if your dog doesn't love it — zero risk to try",
+            "Reply-to is a real person at woof@2dogstreats.com"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-purchase-conversion",
+      "name": "Newsletter Subscriber to First Purchase",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert engaged newsletter subscribers who haven't yet bought into a first order, using the satisfaction guarantee as the brand's trial substitute.",
+      "trigger": "Subscriber on list 5+ days with no purchase; behavioral nudge on product-page or reviews-page visits.",
+      "segment": "Non-purchasing subscribers; branch by browsed protein/category if known (allergy/sensitive, senior-soft, gifting).",
+      "rationale": "Newsletter-to-first-purchase is a named primary goal and the core revenue play; with no free trial, the deciding email must neutralize the #1 objection (price premium) with verifiable transparency, 1,162 reviews at 97% positive, and the no-risk refund.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Handle the price objection head-on with proof and the guarantee — the single most decisive email for turning a curious subscriber into a buyer.",
+          "subject": "Why $20 for chicken? Open the bag and you'll get it",
+          "preview": "1,162 reviews, 97% positive, and a refund if your dog says no. Here's the honest math.",
+          "cta": "Try a bag risk-free",
+          "keyPoints": [
+            "Name the objection plainly: store-brand is cheaper, here's exactly what your dog isn't eating in ours",
+            "Human-grade, USA-sourced, single ingredient you can verify by reading the label — no imported mystery meat",
+            "Social proof: 1,162 reviews / 97% positive, 'vet noticed her coat,' 'same enthusiasm 9 years later'",
+            "De-risk: satisfaction guarantee = full refund if your dog doesn't love it",
+            "Nudge to free shipping over $66 with a Build-a-Box to sample multiple proteins"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subscription-conversion-expansion",
+      "name": "Subscription Conversion & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Lift LTV by converting happy one-time buyers into subscribers and expanding them into new proteins and Summit chews.",
+      "trigger": "~14 days after first order delivered (enough time for the aha to land, before the bag runs low).",
+      "segment": "One-time buyers not on subscription; branch high-usage/multi-dog (push subscribe + bulk) vs single-protein buyers (push variety).",
+      "rationale": "One-time buyers lapse silently and dogs reorder every 4-8 weeks — converting the post-aha buyer to subscribe-and-save is the highest-leverage retention win, and a fast one given subscription tooling already exists.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "14",
+          "purpose": "Catch the buyer right after their dog's first rave reaction and make reordering automatic — frame subscription as never running out plus a try-a-new-protein expansion.",
+          "subject": "Did Riley- I mean YOUR pup- already inhale the bag?",
+          "preview": "Never run out, save on every order, and let your dog try a new protein on us.",
+          "cta": "Set up subscribe & save",
+          "keyPoints": [
+            "Lead with the moment: if the first bag was a hit, you've already passed the hardest test",
+            "Subscription = never run out between the 4-8 week reorder cycle, with savings on every shipment",
+            "No contract, change or cancel anytime — same satisfaction guarantee applies",
+            "Expansion nudge: rotate proteins to beat flavor fatigue (loved Just Beef? add Just Turkey) or add a Summit chew",
+            "Multi-dog/bulk angle for high-volume households"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed one-time buyers and dormant subscribers before they default back to supermarket treats.",
+      "trigger": "60-90 days since last order with no reorder, or a cancelled subscription.",
+      "segment": "Lapsed buyers (reference the protein they bought most); separately, churned subscribers; suppress to sunset if non-responsive.",
+      "rationale": "Lapsed buyers are a known, warm revenue gap and win-back recovers 5-15% of inactives; a 'your pup misses these' nudge that reminds them of the clean-ingredient peace of mind is quick to ship and protects deliverability.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the relationship by reminding the lapsed buyer of the core value their dog loved, with a frictionless one-click reorder of their go-to protein.",
+          "subject": "Is your pup giving you the side-eye yet?",
+          "preview": "It's been a while. Your dog's favorite single-ingredient treat is one click away.",
+          "cta": "Reorder my pup's favorite",
+          "keyPoints": [
+            "Warm, no-guilt 'we miss your pup' open in the brand's neighborly voice",
+            "Remind of the value: still one ingredient, still human-grade, still made small-batch in Boston",
+            "Personalize to the protein they bought most last time for a one-click reorder",
+            "Reassurance the satisfaction guarantee still stands if they want to try something new",
+            "Soft check-in: hit reply if your dog's needs changed (new allergy, senior, picky) and we'll recommend"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority on clean dog nutrition without discounting, keeping the list engaged between orders.",
+      "trigger": "Scheduled cadence (biweekly to monthly).",
+      "segment": "All engaged contacts; suppress active onboarding and route dormant contacts to win-back instead.",
+      "rationale": "Blog content exists but there's no evidence of a regular value email; an always-on newsletter is the retention engine that keeps the brand present across the 4-8 week reorder gap and reinforces the ingredient-transparency authority that justifies the premium.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable hero edition: one genuinely useful ingredient-education idea, lightly tied to a product, that builds the habit of opening 2 Dogs emails.",
+          "subject": "The 3 words hiding on most 'healthy' treat labels",
+          "preview": "If you can't pronounce it, your dog probably shouldn't eat it. Here's how to read a label.",
+          "cta": "Read the 2-minute label guide",
+          "keyPoints": [
+            "One useful idea per send: how to actually read a dog-treat ingredient label and spot fillers/preservatives",
+            "80% value / 20% soft offer — teach first, then point to our single-ingredient range as the easy alternative",
+            "Recurring habit section: 'This issue's pup-nutrition tip'",
+            "Compliant framing — 'supports a healthy coat,' never disease-cure claims",
+            "Single primary CTA to the guide; reply invited with your dog's label questions"
+          ]
+        }
+      ]
+    }
+  ]
+}
