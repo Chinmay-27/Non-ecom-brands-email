@@ -1,0 +1,44 @@
+{
+  "brand": {
+    "name": "Spenceforth",
+    "url": "https://spenceforth.tumblr.com",
+    "slug": "spenceforth",
+    "vertical": "unknown — Tumblr blog (login-required; could not access content)",
+    "tagline": "unknown",
+    "colors": {
+      "primary": "#2C3E50",
+      "accent": "#E67E22",
+      "background": "#FAFAFA",
+      "text": "#2D2D2D"
+    }
+  },
+  "offer": {
+    "what": "unknown — site is private/login-required on Tumblr; content not accessible",
+    "coreOutcome": "unknown",
+    "pricePoint": "unknown",
+    "commitment": "unknown",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "unknown",
+    "painPoints": [],
+    "segments": []
+  },
+  "salesCycle": {
+    "length": "unknown",
+    "trial": "unknown",
+    "closeMechanism": "unknown",
+    "topObjection": "unknown"
+  },
+  "ahaMoment": "unknown",
+  "retention": {
+    "recurring": "unknown",
+    "expansion": "unknown",
+    "churnRisk": "unknown"
+  },
+  "lifecycleGaps": [
+    "Cannot assess — all lifecycle data unknown due to private Tumblr blog"
+  ],
+  "toneVoice": "unknown",
+  "compliance": "unknown — no industry vertical identified; standard CAN-SPAM applies at minimum"
+}

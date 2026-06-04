@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Spenceforth",
+    "slug": "spenceforth",
+    "url": "https://spenceforth.tumblr.com",
+    "vertical": "Independent content creator / blog (Tumblr-hosted) — exact niche unconfirmed",
+    "colors": {
+      "primary": "#2C3E50",
+      "accent": "#E67E22",
+      "background": "#FAFAFA",
+      "text": "#2D2D2D"
+    }
+  },
+  "summary": "Spenceforth is an independent content brand published on Tumblr (spenceforth.tumblr.com), where the blog requires login and is not publicly indexed, so the specific niche, offer, and pricing could not be confirmed from research. Based on the platform and format, it serves readers and followers who subscribe to follow the creator's posts and updates, with email used to bring that audience off-platform onto an owned list. This campaign program is built on the playbook's default no-trial, no-booking content-creator path; subjects and segments should be re-grounded once the brand confirms its actual topic and offer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new subscriber to their first piece of real value fast — read or open the best existing post — and set the expectation that email is the best way to follow Spenceforth.",
+      "trigger": "New email subscription / list join (sent within seconds of signup).",
+      "segment": "All new subscribers; branch later by which entry point or interest tag they signed up through.",
+      "rationale": "Spenceforth lives on a login-walled Tumblr where reach is fragile; the welcome email is the one moment a new follower is most engaged, and it's the fastest way to convert a fleeting Tumblr visit into an owned, durable subscriber relationship.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for what and how often you'll send, and deliver one immediate win by pointing them to the single best post to start with.",
+          "subject": "You're in — here's the one Spenceforth post to read first",
+          "preview": "A two-minute read that tells you exactly what you signed up for.",
+          "cta": "Read the starter post",
+          "keyPoints": [
+            "Thank them for subscribing and confirm what Spenceforth is about in one honest sentence",
+            "Link to one flagship/most-loved post as the immediate first win — no other distractions",
+            "Tell them the cadence (how often email lands) and that email is the most reliable way to follow, since Tumblr reach is unreliable",
+            "Invite a reply — a real person reads every one — to learn what they're here for and tag their interest"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Turn a cold contact who grabbed a free resource into an engaged, regular reader who trusts the creator's point of view over a long, low-pressure cycle.",
+      "trigger": "Download of a gated free resource (guide, archive collection, or signup freebie).",
+      "segment": "Contacts who downloaded the magnet but are not yet regular openers; branch by the topic of the resource they grabbed.",
+      "rationale": "With no trial or sales motion, the conversion play for Spenceforth is attention and trust — a nurture that delivers the promised resource and then teaches the creator's best thinking is the realistic top-of-funnel engine for a content brand.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the downloaded resource instantly and frame the real problem it solves so the contact reads it instead of forgetting it.",
+          "subject": "Here's your Spenceforth download — and the reason it matters",
+          "preview": "Grab the file, then read the 30-second note on how to actually use it.",
+          "cta": "Get your download",
+          "keyPoints": [
+            "Deliver the promised resource above the fold with a single clear button",
+            "Frame the underlying problem the resource solves so the value is obvious",
+            "Set up the next few emails: what they'll learn from Spenceforth over the coming weeks",
+            "Keep one CTA only and a human reply-to so the relationship starts warm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 3,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build the creator's authority on a dependable cadence, turning subscribers into a habitual audience that opens by name.",
+      "trigger": "Scheduled recurring cadence (e.g., weekly or biweekly).",
+      "segment": "All engaged subscribers; suppress active onboarding contacts and route recently-dormant readers to Win-Back instead.",
+      "rationale": "For a blog-first brand, the newsletter is effectively the product itself — the always-on send is what keeps an off-Tumblr list alive and is where retention and word-of-mouth are actually earned.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable hero edition: one genuinely useful idea or post per send with a single primary CTA, so subscribers learn what to expect each week.",
+          "subject": "This week from Spenceforth: the one idea worth your inbox",
+          "preview": "One post, one takeaway, no filler — your weekly Spenceforth read.",
+          "cta": "Read this week's post",
+          "keyPoints": [
+            "Lead with one useful idea, post, or behind-the-scenes note — never a roundup of everything",
+            "Keep an 80% value / 20% soft ask balance and a single primary CTA",
+            "Use a recurring named section so the format becomes a habit subscribers recognize",
+            "Optimize for clicks and replies, not opens, given Apple MPP inflation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate subscribers who've gone quiet and cleanly sunset the truly dead ones to protect sender reputation and deliverability.",
+      "trigger": "Inactivity threshold — no opens or clicks in 60–90 days.",
+      "segment": "Dormant subscribers (no recent engagement); handle hard-bounced or never-engaged contacts on a separate sunset track.",
+      "rationale": "A login-walled Tumblr makes it easy for readers to drift away silently; a win-back both recovers 5–15% of them and keeps the owned list deliverable so the newsletter actually reaches the people who do still care.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the re-engagement sequence with a direct, no-guilt 'did we lose you?' that reminds them of the core value and gives one reason to come back.",
+          "subject": "Did we lose you, or should we keep writing?",
+          "preview": "You haven't opened Spenceforth in a while — one quick question.",
+          "cta": "Yes, keep sending",
+          "keyPoints": [
+            "Acknowledge they've been quiet without guilt-tripping",
+            "Remind them in one line what they're missing and link the best recent post",
+            "Give a single, frictionless choice to stay subscribed",
+            "Set up the sunset: if no response across the sequence, suppress to protect deliverability"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal, Anniversary & Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect recurring support and deepen the relationship with the most loyal readers — renew memberships and invite light expansion (paid tier, support, or referral).",
+      "trigger": "Membership/support renewal date − 60/90 days; subscriber anniversary; or a loyalty milestone.",
+      "segment": "Long-tenured, highly-engaged subscribers and any paying supporters approaching renewal; branch by engagement health.",
+      "rationale": "If Spenceforth monetizes via membership or reader support (the common model for an independent Tumblr creator), this is where recurring revenue is protected; even absent paid tiers, the anniversary recap converts loyal readers into advocates and referrers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Send the value-recap hero: show the loyal reader what a year of Spenceforth gave them, then make the renew/support/share ask feel earned.",
+          "subject": "Your year of Spenceforth — and what's coming next",
+          "preview": "A quick look back at the posts you stuck around for.",
+          "cta": "Keep it going",
+          "keyPoints": [
+            "Recap their year as a reader — favorite or most-read posts, time following along",
+            "Quantify the value the creator delivered before any ask",
+            "Make one clear next-step ask: renew support, upgrade a tier, or share with one friend",
+            "Thank them genuinely — loyal readers are the referral channel"
+          ]
+        }
+      ]
+    }
+  ]
+}
