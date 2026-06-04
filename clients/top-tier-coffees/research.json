@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Top Tier Coffees",
+    "url": "https://www.toptiercoffees.com",
+    "slug": "top-tier-coffees",
+    "vertical": "DTC / specialty food & beverage",
+    "tagline": "Small-Batch Roasted to a Higher Standard",
+    "colors": {
+      "primary": "#2C1810",
+      "accent": "#C9893A",
+      "background": "#FAF7F2",
+      "text": "#1C1C1C"
+    }
+  },
+  "offer": {
+    "what": "Small-batch roasted specialty coffee (50+ varieties: single-origin, blends, flavored, functional), premium teas (8+ varieties), K-cup pods, and curated sample packs — shipped same day as roasting",
+    "coreOutcome": "Fresh, craft coffee you can actually taste the difference in — no stale supermarket bags, no mystery sourcing",
+    "pricePoint": "$19.99–$23.99 per bag one-time; sample packs $21.99; K-cup 60-pack $59.99; subscription available (flexible frequency, cancel anytime, no fees)",
+    "commitment": "One-off purchase or recurring subscription; subscription requires 48-hour cancellation notice before next shipment",
+    "leadMagnets": [
+      "Email newsletter signup for exclusive offers and new collection announcements",
+      "Sample packs ($21.99) as low-risk trial/exploration entry point"
+    ]
+  },
+  "audience": {
+    "icp": "Home coffee enthusiast, 25–45, who values freshness and craft over convenience — owns specialty brewing gear, fed up with stale grocery-store bags, willing to pay $20–$24 for a bag they can trust",
+    "painPoints": [
+      "Stale, over-roasted coffee from grocery store or big chains",
+      "No transparency into roast date or sourcing",
+      "Hard to discover new varieties without committing to a large bag",
+      "Subscription lock-in anxiety — fear of being stuck or overcharged"
+    ],
+    "segments": [
+      "Single-origin aficionados — want traceability and terroir",
+      "Blend/flavored casual drinkers — want consistent, enjoyable daily cup",
+      "K-cup convenience buyers — need pod format for office or ease",
+      "Gift buyers — looking for premium gifting option for coffee lovers"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to 2–3 days (low-consideration DTC e-commerce purchase)",
+    "trial": "Sample packs ($21.99) serve as a 6-variety tasting kit; no free trial but low price point reduces risk",
+    "closeMechanism": "Self-serve e-commerce checkout (Shopify); free US shipping removes final friction",
+    "topObjection": "Is this actually fresher/better than what I can find locally, and is the price justified?"
+  },
+  "ahaMoment": "First sip of a freshly roasted bag received within days of roasting — 'I can actually taste the difference' (same-day-roasted freshness is the activation proof point)",
+  "retention": {
+    "recurring": "Subscription model — flexible frequency, skip/pause up to 3 months, swap products anytime, cancel anytime with no fees",
+    "expansion": "Upgrade to larger bag, add tea products, explore new single-origins, gift subscriptions to others",
+    "churnRisk": "Missing the 48-hour cancel window causing frustration; discovering a preferred local roaster; price sensitivity if quality difference isn't felt quickly"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no evidence of a post-purchase sequence reinforcing freshness story or guiding first brew",
+    "Sample Pack → Subscription conversion — no nurture between trial purchase and recurring upsell",
+    "Lead-Magnet Nurture — newsletter signup has no visible drip sequence to convert browsers",
+    "Value Newsletter — no active content/education cadence visible (blog appears inactive)",
+    "Renewal / Re-engagement — no evidence of win-back for lapsed subscribers or one-time buyers",
+    "Referral / Advocacy — no visible referral program despite strong product-driven word-of-mouth potential"
+  ],
+  "toneVoice": "Confident and aspirational without being elitist. Educational about craft/sourcing but never pretentious. Direct, clean copy — lets the product do the talking. Warm and honest (founder-accessible: dave@toptiercoffees.com visible publicly).",
+  "compliance": "Standard CAN-SPAM / GDPR compliance required. No HIPAA, financial, or legal vertical constraints. Food product — no health claims. Subscription emails must include clear cancellation instructions per FTC guidelines."
+}

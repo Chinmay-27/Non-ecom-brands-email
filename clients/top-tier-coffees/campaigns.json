@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Top Tier Coffees",
+    "slug": "top-tier-coffees",
+    "url": "https://www.toptiercoffees.com",
+    "vertical": "DTC / specialty food & beverage",
+    "colors": {
+      "primary": "#2C1810",
+      "accent": "#C9893A",
+      "background": "#FAF7F2",
+      "text": "#1C1C1C"
+    }
+  },
+  "summary": "Top Tier Coffees is a direct-to-consumer specialty coffee roaster that ships small-batch coffee the same day it's roasted, alongside premium teas, K-cup pods, and curated sample packs. It serves home coffee enthusiasts (roughly 25–45) who own real brewing gear and are tired of stale, opaque grocery-store coffee, selling both one-off bags ($19.99–$23.99) and a flexible cancel-anytime subscription.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Pre-sell the unboxing and first-brew moment, deliver the same-day-roast freshness story, and guide the new buyer to their 'I can taste the difference' aha before the bag even arrives.",
+      "trigger": "First purchase / account created (fires within seconds of checkout).",
+      "segment": "New first-time customers; branch by what they bought (sample pack vs. full bag vs. K-cup) to tailor the brew guidance.",
+      "rationale": "There is currently no post-purchase sequence at all, so the brand's core proof point — freshness you can taste — lands unguided. Priming the senses and brew method before delivery is the fastest way to convert a one-time buyer into a believer who subscribes.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the instant they order: confirm the bag is being roasted today, set the freshness expectation, and give one concrete first action (the brew guide) so the first cup lands perfectly.",
+          "subject": "Your coffee is being roasted today, not last month",
+          "preview": "A 2-minute brew guide so your first cup tastes the way we intended.",
+          "cta": "Get your brew guide",
+          "keyPoints": [
+            "Lead with the differentiator: it ships the same day it's roasted, so the first sip is the proof — no stale supermarket bag",
+            "Tell them what to expect on arrival (roast date on the bag, aroma out of the seal) so they're primed to notice the difference",
+            "Give one action — open the matched brew guide (pour-over / AeroPress / drip) so the first brew shows the coffee at its best",
+            "Founder-warm sign-off from Dave with a real reply-to address; no fluff, one CTA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sample-to-subscription",
+      "name": "Sample Pack → Subscription Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert the warmest possible lead — a sample-pack or first-bag buyer who has now tasted the difference — into a full-bag reorder and a flexible subscription.",
+      "trigger": "Sample pack ($21.99) or first full bag purchased; hero send fires ~5–7 days post-purchase, timed to land just after the first brews.",
+      "segment": "Sample-pack and one-time buyers who have received their order; branch by which varieties they bought to make a specific full-bag recommendation.",
+      "rationale": "Sample buyers have self-selected as serious and have just experienced the aha — yet nothing nudges them from a $21.99 trial to recurring revenue. This is the single highest-leverage revenue play given the stated goal of converting one-time buyers into subscribers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "6",
+          "purpose": "Check in on the flavor reaction, recommend the full bag of their likely favorite, and frame the subscription as freshness-on-autopilot with explicit no-lock-in reassurance to kill the subscription-anxiety objection.",
+          "subject": "Which one stopped you mid-sip?",
+          "preview": "Found your favorite? Lock in fresh — skip, swap, or cancel anytime.",
+          "cta": "Make it a subscription",
+          "keyPoints": [
+            "Open with the sensory recap — 'now that you've tasted what days-fresh actually means' — to reinforce the aha they just had",
+            "Recommend a specific full bag based on the sample varieties they tried, removing the discovery friction",
+            "Reframe subscription as never running out of fresh coffee, not a commitment trap: skip deliveries, pause up to 3 months, swap products, cancel anytime with no fees",
+            "State the 48-hour-before-shipment notice clearly and honestly (FTC negative-option compliance) so the trust message holds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "newsletter-signup-nurture",
+      "name": "Lead-Magnet Nurture (Newsletter Signup)",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert a homepage newsletter signup who hasn't yet bought into a first order, by answering the core trust objection: is this really fresher/better and worth $20–$24 vs. the grocery store?",
+      "trigger": "Newsletter signup with no purchase on record.",
+      "segment": "Non-buyer subscribers below the purchase threshold; branch later emails by any clicked interest (single-origin vs. flavored vs. K-cup).",
+      "rationale": "Newsletter signups currently get exclusive-offer blasts but no structured drip, so curious browsers go cold. A short nurture that proves the freshness claim and points them to the low-risk sample pack is the cheapest path to first revenue from existing list traffic.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver on the signup, frame the real problem (most coffee is stale before it's opened), and prove how Top Tier is different — then offer the low-risk sample pack as the obvious first step.",
+          "subject": "Most coffee is stale before you open the bag",
+          "preview": "Here's how to taste the difference for $21.99 — six varieties, no commitment.",
+          "cta": "Try the 6-variety sample pack",
+          "keyPoints": [
+            "Frame the problem behind the offer: grocery-store bags can sit for months, with no roast date and no sourcing transparency",
+            "Show the contrast — small-batch, roasted-and-shipped same day, roast date right on the bag — without being elitist about it",
+            "Tackle the price-vs-quality objection head-on by routing them to the $21.99 sample pack as a low-risk way to taste the difference for themselves",
+            "Set expectations for the newsletter: origin stories, brew tips, and new-collection drops — value, not just discounts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "replenishment-winback",
+      "name": "Replenishment & Win-Back",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Recover one-time buyers whose bag is running low and reactivate lapsed customers before they default back to grocery-store coffee or a competing roaster.",
+      "trigger": "One-time buyer at ~day 21–30 post-purchase (bag likely running low); or 60–90 days of no purchase / no engagement for the win-back branch.",
+      "segment": "One-time full-bag buyers approaching empty (replenishment branch); contacts dormant 60–90+ days (win-back branch).",
+      "rationale": "Never prompting one-time buyers to reorder is the brand's biggest revenue leak, and there's no lapsed-customer recovery at all. A well-timed 'your bag's about empty' nudge is both the highest-intent reorder moment and the most natural on-ramp to subscription.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "23",
+          "purpose": "Catch the buyer right as their bag runs low with a frictionless reorder of the exact coffee they bought, and offer to make it automatic so they never hit empty again.",
+          "subject": "Running low on the good stuff?",
+          "preview": "Reorder your last roast in one tap — or set it on repeat so you never run out.",
+          "cta": "Reorder fresh",
+          "keyPoints": [
+            "Time it to the ~2–3 week empty point for a 12oz bag — the precise moment intent is highest",
+            "Make reordering the exact same coffee a single tap to remove all friction",
+            "Offer the subscription as the upgrade: same coffee, always fresh, skip or cancel anytime with no fees",
+            "For the dormant branch, lead with what's new since they left (new single-origins, seasonal lots) plus a gentle 'we'd hate to leave you on stale coffee' nudge"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build craft authority across the long relationship cycle — driving repeat orders and assisted subscription conversions through education, not discounts.",
+      "trigger": "Scheduled cadence (biweekly or monthly).",
+      "segment": "All engaged contacts; suppress active onboarding (Welcome) and recently-dormant contacts (route those to Replenishment & Win-Back instead).",
+      "rationale": "The blog is inactive and there is no education cadence, leaving the brand's strongest asset — its craft and sourcing story — untold between purchases. A recurring value send keeps non-elitist coffee lovers engaged and primes the next order.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the repeatable newsletter template with one genuinely useful idea — a brew tip or origin story — and a single soft CTA, building the habit at roughly 80% value / 20% offer.",
+          "subject": "The grind size that's quietly ruining your morning cup",
+          "preview": "One small fix most home brewers miss — plus this month's featured single-origin.",
+          "cta": "Read the 2-minute fix",
+          "keyPoints": [
+            "Lead with one useful, non-pretentious idea per send (this edition: matching grind size to brew method) — teach, don't lecture",
+            "Include a recurring habit-building section like 'This month's roast' featuring a single-origin with its origin story",
+            "Keep it 80% value, 20% soft offer with a single primary CTA (read / shop the featured roast)",
+            "Reinforce the freshness brand promise subtly and invite replies to Dave to keep the founder-accessible, human tone"
+          ]
+        }
+      ]
+    }
+  ]
+}
