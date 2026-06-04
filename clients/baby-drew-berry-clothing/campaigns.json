@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Baby Drew Berry Clothing",
+    "slug": "baby-drew-berry-clothing",
+    "url": "https://www.babydrewberryclothing.com",
+    "vertical": "E-commerce / Baby & Toddler Apparel",
+    "colors": {
+      "primary": "#F4A8C7",
+      "accent": "#8DC5A8",
+      "background": "#FFF9F5",
+      "text": "#3D2B1F"
+    }
+  },
+  "summary": "Baby Drew Berry Clothing is a direct-to-consumer e-commerce boutique selling soft baby and toddler apparel — bodysuits, two-piece sets, dresses, pajamas, bamboo viscose garments, swimwear, and accessories for ages 0–3. It serves quality-conscious new and expecting parents (primarily moms 25–40) who care about fabric safety for sensitive skin, plus gift buyers and repeat parents. Discovery runs through Instagram and flash-sale urgency; purchases are one-off, same-day, self-serve checkout, with repeat buying driven organically by babies sizing up every 2–4 months.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Post-Purchase Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Reach first value — bridge the gap between checkout and first wear, reassure the parent they made a great choice, and prime the social-share moment.",
+      "trigger": "First purchase / order placed (send email 1 within seconds of checkout).",
+      "segment": "All new buyers; branch later by first-time buyer vs. gift buyer vs. repeat parent.",
+      "rationale": "Nothing exists today and the 3–7 day pre-delivery window is this brand's highest-anxiety, highest-engagement period — exactly when buyer's remorse forms and the 'can't feel the fabric' doubt peaks. A warm welcome that reassures the quality choice converts a one-off impulse buy into a relationship.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome + reassure the quality decision + set delivery expectations + plant the One Love story",
+          "subject": "Your little one's softest layer is on its way 💛",
+          "preview": "A note from our family to yours — and what to expect before it lands.",
+          "cta": "Track your order",
+          "keyPoints": [
+            "Thank them warmly, parent-to-parent, in the 'One Love' family voice — not a corporate receipt",
+            "Reassure the choice: bamboo-soft, made for sensitive skin, the softness they couldn't feel online is real",
+            "Set expectations: arriving in 3–7 days, with a gentle teaser that fabric-care tips are coming so it stays cloud-soft",
+            "One link only — track the order — keeping the moment calm and single-focus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Fabric Guide Lead-Magnet Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Build the email list that doesn't exist yet and move a pre-purchase subscriber toward their first order over a short cycle.",
+      "trigger": "Email opt-in via a gated lead magnet (e.g., 'Bamboo vs. Cotton: A Parent's Fabric Safety Guide' or a baby sizing guide).",
+      "segment": "New subscribers who have not yet purchased; branch by topic of the magnet downloaded.",
+      "rationale": "There is no email lead magnet or opt-in today — Instagram is the only soft capture, which the brand doesn't own. A fabric-education magnet directly defuses the #1 objection ('I can't feel the fabric before I buy'), turning the brand's core differentiator into a list-building and trust engine.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the asset instantly + frame the sensitive-skin problem it solves + introduce the brand's answer",
+          "subject": "Bamboo or cotton? Here's what actually touches your baby's skin",
+          "preview": "Your free fabric guide is inside — plus the one label detail most parents miss.",
+          "cta": "Open your fabric guide",
+          "keyPoints": [
+            "Deliver the promised guide above the fold — no friction, no upsell first",
+            "Frame the real problem: harsh synthetics irritate newborn skin and fast-fashion fabrics pill after a few washes",
+            "Address the top objection head-on — how to judge softness and safety when you can't touch it through a screen",
+            "Soft, single next step to browse the bamboo line; no discount, lead with value"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "size-up-reminders",
+      "name": "Size-Up & Milestone Repurchase",
+      "priority": 3,
+      "stage": "Retention / Expansion",
+      "objective": "Capture the natural repurchase cycle by reminding parents when their baby is ready for the next size, and expand basket value with the premium bamboo line and accessories.",
+      "trigger": "Time since first purchase / baby-age milestone (3m, 6m, 9m, 12m, 18m, 24m) — fires roughly every 2–4 months.",
+      "segment": "Past buyers approaching a size-up window; branch by purchased size and by buyer type.",
+      "rationale": "Babies outgrow a size every 2–4 months — the single biggest repeat-revenue lever this brand has — yet there is no system to catch it. The real churn risk is brand forgetting in that gap; a well-timed size-up nudge turns organic growth into reliable repeat orders.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "75",
+          "purpose": "Re-engage at the size-up moment, make the next size effortless to shop, and gently upsell the premium bamboo line",
+          "subject": "Growing fast? It's about time to size up the softness",
+          "preview": "Most babies outgrow a size every 2–3 months — here's what fits now.",
+          "cta": "Shop the next size up",
+          "keyPoints": [
+            "Lead with the milestone — celebrate how fast their little one is growing, not a hard sell",
+            "Make the next size one tap away; remove the friction that causes parents to drift to another brand",
+            "Upsell gently to the premium bamboo viscose line as the natural 'next stage' soft layer",
+            "Low-friction add-ons — hats, headbands, socks, mittens — framed as easy completers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Monthly Value Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long gaps between purchases and build authority without leaning on discounts.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding buyers and route recently-dormant contacts to win-back instead.",
+      "rationale": "The brand already produces SEO blog content (authored by Jill) that is never emailed — a ready-made authority asset going unused. A monthly note keeps the brand present during the 2–4 month purchase gap, the exact window where parents forget and shop elsewhere.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver one genuinely useful parenting/fabric idea (repurposed from the blog) with a single soft CTA",
+          "subject": "The 3-second softness test every parent should know",
+          "preview": "This month: a quick fabric check, a new drop, and a little love from our family.",
+          "cta": "Read this month's note",
+          "keyPoints": [
+            "One useful idea per send — a practical fabric-care or sensitive-skin tip, repurposed from existing blog content",
+            "80% value / 20% soft offer — earn the open with help, not a sale",
+            "A recurring habit-building section (e.g., 'This month's little-one tip') readers come to expect",
+            "Single primary CTA to read the full piece; weave in the One Love story to keep it warm and human"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Lapsed-Parent Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate parents who haven't purchased or engaged in months and clean the list to protect deliverability.",
+      "trigger": "Inactivity threshold — 90+ days with no purchase, opens, or clicks.",
+      "segment": "Dormant past buyers; branch separately from never-purchased dormant subscribers.",
+      "rationale": "With repeat buying purely organic and no re-engagement mechanism, lapsed parents quietly drift away — often just because the baby grew and the brand was forgotten. A gentle 'we've missed your little one' nudge with what's new recovers a meaningful slice (5–15%) before they're gone for good.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm 'we miss you' reconnection that reminds them of the core value and surfaces what's new since they left",
+          "subject": "We've missed your little one 💛",
+          "preview": "It's been a while — and your baby has grown. See what's new since your last visit.",
+          "cta": "See what's new",
+          "keyPoints": [
+            "Lead with warmth, no guilt — acknowledge that life with a growing baby gets busy",
+            "Remind them of the core value: the cloud-soft, sensitive-skin-safe fabric they came for",
+            "Surface fresh collections and new sizes — tie it to the likelihood their baby has grown into a new range",
+            "One gentle CTA back to the shop; reserve the sunset 'should we stop emailing you?' ask for a later email in the flow"
+          ]
+        }
+      ]
+    }
+  ]
+}

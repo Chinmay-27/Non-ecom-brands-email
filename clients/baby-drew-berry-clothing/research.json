@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Baby Drew Berry Clothing",
+    "url": "https://www.babydrewberryclothing.com",
+    "slug": "baby-drew-berry-clothing",
+    "vertical": "E-commerce / Baby & Toddler Apparel",
+    "tagline": "Feel Like Clouds, Wear Like Love",
+    "colors": {
+      "primary": "#F4A8C7",
+      "accent": "#8DC5A8",
+      "background": "#FFF9F5",
+      "text": "#3D2B1F"
+    }
+  },
+  "offer": {
+    "what": "Baby and toddler clothing (bodysuits, two-piece sets, dresses, bamboo viscose garments, swimwear, pajamas, accessories) sold direct-to-consumer via e-commerce boutique",
+    "coreOutcome": "Parents dress their baby in soft, safe, adorable clothing they feel good about — comfort for the baby, pride and peace of mind for the parent",
+    "pricePoint": "Budget-friendly to mid-range; flash sales from ~$6.99; estimated typical item $15–45; one-time purchase per transaction",
+    "commitment": "One-off purchases; no subscription or recurring model identified",
+    "leadMagnets": [
+      "Flash sales with countdown timers",
+      "Instagram follow for exclusive offers (@babydrewberry)"
+    ]
+  },
+  "audience": {
+    "icp": "New and expecting parents (primarily moms) aged 25–40, shopping for newborns to toddlers (0–3 years); quality-conscious, cares about fabric safety and eco-friendly materials; values authentic brand stories; active on Instagram",
+    "painPoints": [
+      "Worry about harsh synthetic fabrics irritating baby's sensitive skin",
+      "Frustrated by low-quality fast-fashion baby clothes that wear out after a few washes",
+      "Want clothing that photographs beautifully but remains practical for daily wear",
+      "Seeking brands with genuine values and purpose, not just marketing fluff"
+    ],
+    "segments": [
+      "New parents (first baby) — highest anxiety, most research-intensive, most persuadable by quality narrative",
+      "Gift buyers — grandparents, aunts/uncles buying for baby showers or birthdays; led by aesthetics and price",
+      "Repeat parents — brand trust already built, buy faster, respond to new collection drops"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — impulse-to-checkout driven by flash sales, emotional brand appeal, and Instagram traffic",
+    "trial": "None — direct purchase only; flash sale pricing and countdown timers reduce friction",
+    "closeMechanism": "Self-serve e-commerce checkout; countdown/flash sale urgency; Instagram drives discovery and traffic to shop",
+    "topObjection": "Can't feel the fabric before buying — skepticism about softness/quality claims for sensitive baby skin"
+  },
+  "ahaMoment": "First time baby wears the item — parent feels the fabric quality, sees baby's comfort, and loves how adorable it looks; frequently shared on social media as user-generated content",
+  "retention": {
+    "recurring": "No subscription; repeat purchase is organic — driven by baby's rapid growth (new sizes every 2–4 months) and seasonal collection drops",
+    "expansion": "Upsell to bamboo viscose premium line; seasonal and themed collection drops; accessories add-ons (hats, headbands, socks, mittens)",
+    "churnRisk": "Baby ages out of sizing range (0–3 years); long gaps between purchases cause brand forgetting; no identified re-engagement mechanism currently"
+  },
+  "lifecycleGaps": [
+    "No email lead magnet or formal list-building opt-in with an incentive",
+    "No welcome or post-purchase onboarding/thank-you sequence identified",
+    "No size-up or developmental milestone reminder emails (natural repurchase trigger every 2–4 months)",
+    "No value newsletter delivering parenting/fabric tips via email (blog content exists but not emailed)",
+    "No win-back or re-engagement campaign for lapsed buyers",
+    "No referral or advocacy program to leverage word-of-mouth from happy parents"
+  ],
+  "toneVoice": "Warm, intimate, and emotionally resonant — poetic yet honest; family-centered storytelling rooted in genuine grief and love ('One Love' ethos); avoids marketing noise and corporate speak; simple, clear, and authentic",
+  "compliance": "Standard CAN-SPAM / consumer e-commerce; no healthcare, financial, or HIPAA constraints; US-based operation"
+}
