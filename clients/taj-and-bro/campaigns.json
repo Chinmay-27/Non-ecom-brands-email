@@ -1,0 +1,153 @@
+{
+  "brand": {
+    "name": "Taj & Bro",
+    "slug": "taj-and-bro",
+    "url": "https://www.tajandbro.com",
+    "vertical": "Local & service",
+    "colors": {
+      "primary": "#0D0D0D",
+      "accent": "#C9A44A",
+      "background": "#F5F5F5",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Taj & Bro is a New Jersey/New York metro labor-only moving company operating since 2011. The customer rents their own truck (U-Haul, Penske, etc.) and Taj & Bro supplies an experienced, insured crew to load, unload, and move heavy items, including specialized piano moving. It serves budget-conscious residential movers, piano owners, and commercial/storage clients on a one-off, quote-based hourly basis.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Pre-Move Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Confirm the booking instantly, set move-day expectations, and reduce pre-move anxiety so the customer shows up prepared and the job runs smoothly.",
+      "trigger": "Job booked / quote accepted (verbal or form). Email 1 fires within seconds of the booking being confirmed.",
+      "segment": "Newly booked customers; branch by move type (residential, piano, commercial).",
+      "rationale": "Everything is missing and this is the fastest, highest-engagement win — for a same-day urgency purchase, an instant confirmation builds trust before the crew arrives and cuts day-of confusion that leads to no-shows.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant booking confirmation that delivers a first win (a simple move-day prep checklist), reassures on trust, and sets expectations for what happens next.",
+          "subject": "You're locked in — here's exactly how move day will go",
+          "preview": "Have the truck ready. We handle every pound of the rest.",
+          "cta": "See your move-day checklist",
+          "keyPoints": [
+            "Confirm the date, arrival window, and crew size so there are zero surprises",
+            "One quick win: a short prep checklist (park the truck close, clear the path, label fragile/piano items)",
+            "Trust reassurance: experienced, insured crew lifting since 2011 — not random day-laborers",
+            "Set expectations: your only job is to have the truck ready; reply to this email or call (908) 457-3846 with anything"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quote-to-booking-conversion",
+      "name": "Quote-to-Booking Conversion",
+      "priority": 2,
+      "stage": "Conversion / Booking",
+      "objective": "Convert a free quote that didn't book same-day into a confirmed job by killing the trust objection and creating real date-availability urgency.",
+      "trigger": "Quote requested (phone or form) but not booked within ~24 hours.",
+      "segment": "Open quotes with no confirmed date; branch by move type, leaning hard into piano for piano leads.",
+      "rationale": "The free quote is this brand's 'trial,' and the core revenue gap is quote requests that go cold with zero follow-up — one well-timed email that answers 'can I trust them and will they show up?' is the highest-leverage send.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Re-open the quote, dismantle the #1 objection (trusting strangers with valuables, will they show up), and push to lock the date before weekend slots fill.",
+          "subject": "Your quote's still good — but your date won't wait",
+          "preview": "Insured, lifting since 2011, and we actually show up. Lock your crew.",
+          "cta": "Lock in my date",
+          "keyPoints": [
+            "Answer the trust objection head-on: insured, specialized piano handling, real crew with a track record since 2011",
+            "Address 'will they show up?' directly — confirmed crew, confirmed time, no ghosting",
+            "Urgency: weekend and month-end move dates fill fast; reserve the slot now",
+            "Counter the 'just ask friends' objection — one dropped piano or thrown-out back costs more than the labor",
+            "One-tap path to confirm: reply or call (908) 457-3846"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Booking Reminders & No-Show Prevention",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended, on-time jobs by confirming the crew, sharing day-of logistics, and giving an easy reschedule path instead of a silent no-show.",
+      "trigger": "Confirmed job with an upcoming move date; reminder fires 24 hours before.",
+      "segment": "Anyone with a scheduled move; reference the specific move type and crew lead.",
+      "rationale": "This is an appointment-run business where a missed or confused move day is lost revenue on both sides — reminders cut no-shows ~35% on average and prevent day-of chaos (truck not ready, wrong address, blocked access).",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that confirms arrival time, lists last-minute prep, and offers a frictionless reschedule link to convert would-be no-shows into rebooks.",
+          "subject": "See you tomorrow — your crew arrives at [arrival time]",
+          "preview": "A 2-minute checklist so we hit the ground lifting.",
+          "cta": "Confirm or reschedule",
+          "keyPoints": [
+            "Restate the arrival window, crew size, and crew lead's name so they know who's knocking",
+            "Final prep checklist: truck parked and ready, walkway clear, fragile items and piano flagged",
+            "Direct line for day-of questions or a blocked entrance: (908) 457-3846",
+            "One-click reschedule link — a moved date beats a no-show for both sides"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "referral-advocacy",
+      "name": "Review & Referral",
+      "priority": 4,
+      "stage": "Advocacy / Referral",
+      "objective": "Capture post-move goodwill into a public review and a warm referral while the relief of a damage-free move is fresh.",
+      "trigger": "Job completed; email fires the day after a successful move (peak-goodwill value moment).",
+      "segment": "Customers whose move just finished; weight piano/commercial clients for higher-value referrals.",
+      "rationale": "Referral velocity is a stated primary goal and there's no structured ask today — residential moves are one-and-done, so the only durable growth from a happy customer is the review and the friend they know who's also moving.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Thank the customer, ask for a quick review on the platforms that drive new leads, and prompt a referral with a clear both-sides reason to share.",
+          "subject": "Nothing scratched, right? Do us one quick favor",
+          "preview": "60 seconds of your time keeps the next mover's piano safe too.",
+          "cta": "Leave a 60-second review",
+          "keyPoints": [
+            "Warm thank-you that names the outcome — everything arrived in one piece, stress gone",
+            "Ask for a short review where it counts: Google and U-Haul MovingHelp",
+            "Referral ask: everyone knows someone moving soon — send them our way",
+            "Make sharing effortless with the phone number and a forwardable line; mention a thank-you for referrals that book"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back & Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate past customers who may be moving again (or know someone who is) and recover quote leads that went cold, while keeping the list healthy.",
+      "trigger": "12+ months since last move (likely next-move window) or a quote lead dormant 60–90 days.",
+      "segment": "Past residential customers near a likely next move; separately, never-booked cold quote leads.",
+      "rationale": "Platform bookings and one-and-done residential moves mean most customers never return organically — a light periodic nudge recovers 5–15% of a list that would otherwise go fully dark.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a low-pressure 'moving again, or know someone who is?' nudge that points to a fast quote and an easy referral.",
+          "subject": "Moving again? Or know someone who is?",
+          "preview": "Same crew, still lifting since 2011. Fast quote, easy date.",
+          "cta": "Get a fast quote",
+          "keyPoints": [
+            "Reconnect with a friendly, no-pressure check-in tied to the likely next-move window",
+            "Remind them why they hired us: damage-free, on-time, specialized piano handling",
+            "Two easy paths: book your own next move, or refer a friend who's moving",
+            "Frictionless quote via form or (908) 457-3846; soft sunset for anyone who stays unresponsive"
+          ]
+        }
+      ]
+    }
+  ]
+}

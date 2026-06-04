@@ -1,0 +1,58 @@
+{
+  "brand": {
+    "name": "Taj & Bro",
+    "url": "https://www.tajandbro.com",
+    "slug": "taj-and-bro",
+    "vertical": "Local & service",
+    "tagline": "You Rent the Truck. We Lift.",
+    "colors": {
+      "primary": "#0D0D0D",
+      "accent": "#C9A44A",
+      "background": "#F5F5F5",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Labor-only moving services (loading/unloading) and specialized piano moving. Customer rents the truck; Taj & Bro provides the skilled heavy-lifting crew.",
+    "coreOutcome": "A damage-free, physically effortless move without paying full-service mover prices — handled by experienced specialists, not random day-laborers.",
+    "pricePoint": "Hourly labor rate; quote-based (no public pricing). NJ market benchmark ~$100–150/hr for a 2-person crew. One-off transaction per job.",
+    "commitment": "One-off / per-job; no subscription. Commercial/storage clients may book repeatedly.",
+    "leadMagnets": ["Free quote via phone or website form"]
+  },
+  "audience": {
+    "icp": "NJ/NY metro area homeowners and renters who have already rented a moving truck and need professional labor — or piano owners requiring specialized, insured transport.",
+    "painPoints": [
+      "Full-service movers are expensive for a local or short move",
+      "Friends and family can't safely lift heavy furniture or pianos",
+      "Fear of damage to valuable or fragile items",
+      "Not knowing if hired labor is experienced or trustworthy",
+      "Booking uncertainty — will they actually show up?"
+    ],
+    "segments": [
+      "Budget-conscious residential movers (truck-renters needing labor)",
+      "Piano owners / music schools needing specialty handling",
+      "Commercial and storage facility clients with recurring needs"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days — move date is usually imminent when they search",
+    "trial": "Free quote (phone call or online form) — low-friction entry point",
+    "closeMechanism": "Phone call or quote form; likely closes verbally once price and date are confirmed",
+    "topObjection": "Can I trust strangers with my piano / furniture? Will they show up? Is it cheaper to just ask friends?"
+  },
+  "ahaMoment": "The crew arrives on time, works efficiently, and the piano/furniture lands without a scratch — the customer realizes professional labor was worth every dollar and stress evaporated.",
+  "retention": {
+    "recurring": "Low for residential (moves are infrequent); moderate for commercial clients, storage facilities, and realtors with ongoing needs",
+    "expansion": "Additional crew members, extra hours booked day-of, referrals to friends/family moving soon",
+    "churnRisk": "One-and-done nature of residential moves; price comparison on U-Haul MovingHelp and similar platforms means they may not return to the website directly"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no post-booking confirmation or prep email series",
+    "Lead-Magnet Nurture — quote requests that don't convert same-day get no follow-up",
+    "Booking Reminders & No-Show Prevention — nothing to confirm the job, reduce no-shows, or prep the customer",
+    "Referral / Advocacy — no structured ask for reviews or referrals post-move",
+    "Win-Back — no re-engagement for past customers who may be moving again or know someone who is"
+  ],
+  "toneVoice": "Bold, direct, and confident. Premium without being stiff — 'elite' is their word but the vibe is capable blue-collar professionals who take pride in their craft. Short declarative sentences, no fluff, occasional swagger.",
+  "compliance": "Standard CAN-SPAM / CASL compliance. No HIPAA, financial, or legal constraints. Straightforward service business."
+}
