@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "Pinnacle Investments",
+    "url": "https://www.pinnacle-investments.com",
+    "slug": "pinnacle-investments",
+    "vertical": "B2B/professional — financial services (mortgage note buying)",
+    "tagline": "We Buy Mortgage Notes, Trust Deeds, and Contracts Nationwide!",
+    "colors": {
+      "primary": "#0D2B55",
+      "accent": "#C9963C",
+      "background": "#FFFFFF",
+      "text": "#1F2937"
+    }
+  },
+  "offer": {
+    "what": "Purchases seller-financed mortgage notes, trust deeds, land contracts, and promissory notes from private note holders — both performing and non-performing — in exchange for a lump-sum cash payment. Partial note purchases also available.",
+    "coreOutcome": "Immediate liquidity and freedom from the administrative burden of collecting monthly payments, chasing late payers, and managing note paperwork.",
+    "pricePoint": "Custom per-note offer (no published pricing); note holders receive a discounted lump sum based on down payment, interest rate, term, payer credit, and property condition. Ticket sizes vary widely based on note balance — typically tens to hundreds of thousands of dollars.",
+    "commitment": "One-time transaction; no ongoing relationship required. Partial-note options allow staged liquidity.",
+    "leadMagnets": [
+      "Free Note Analysis (no-obligation written offer)",
+      "Free Quote Request",
+      "Note Holder's Handbook (educational resource)"
+    ]
+  },
+  "audience": {
+    "icp": "Private individuals (often homeowners or real estate investors) who owner-financed a property sale and are now holding the resulting mortgage note — receiving monthly payments but wanting or needing immediate cash. Nationwide, skews toward retirees and older property owners.",
+    "painPoints": [
+      "Capital is locked in a note while life needs cash now (retirement, medical bills, college tuition, taxes)",
+      "Tired of chasing monthly payments and managing paperwork",
+      "Fear of payer default leaving them exposed",
+      "Unsure how much their note is actually worth",
+      "Uncertainty about the process of selling a note and whether it is safe or legitimate"
+    ],
+    "segments": [
+      "Retirees seeking lump-sum income from a held note",
+      "Note holders with urgent financial events (medical, education, inheritance planning)",
+      "Experienced real estate investors holding multiple notes wanting to redeploy capital",
+      "Accidental note holders (inherited or received in a settlement) who want to simplify finances"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — closing typically 10–15 working days once offer is accepted",
+    "trial": "Yes — free, no-obligation note analysis / written quote as the entry point",
+    "closeMechanism": "Phone/email consultation with an advisor leads to a customized written offer; deal closes through a title company with funds via cashier's check or wire transfer",
+    "topObjection": "Will I get fair market value for my note, or is the discount too steep? / Is this company trustworthy?"
+  },
+  "ahaMoment": "Receiving a concrete written offer with a real dollar amount — the moment the note holder sees liquidity is real and attainable within two weeks.",
+  "retention": {
+    "recurring": "Primarily one-time transactions; low inherent repeat rate per client",
+    "expansion": "Partial note sales (sell portions of the note stream over time); clients with multiple notes; referrals to other note holders in their network",
+    "churnRisk": "Prospect shops the quote against competitors and takes a higher bid elsewhere; quote requesters who go cold after initial inquiry"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely no formal sequence after quote request; strong gap",
+    "Lead-Magnet Nurture — no evident follow-up drip after Note Holder's Handbook download or free analysis request",
+    "Trial/Consult Conversion — converting free-quote requesters who haven't accepted an offer yet",
+    "Value Newsletter — no evidence of educational content email program",
+    "Win-Back / Re-Engagement — no evidence of re-engagement for cold quote prospects",
+    "Referral / Advocacy — 22,000+ past transactions with no visible referral program"
+  ],
+  "toneVoice": "Professional, authoritative, and reassuring. Credibility-forward (26 years, 22,000+ transactions, 8 certified planners). Plain-spoken and educational rather than salesy — the audience is financially unsophisticated about note markets and needs trust built before acting. Warm but not casual.",
+  "compliance": "Financial services — subject to CAN-SPAM/CASL for email. Note purchasing is not a securities activity but may carry state-specific disclosure requirements for financial transactions. No HIPAA. Should avoid language that constitutes investment advice. Disclosures on email footers re: not being a licensed broker-dealer are prudent."
+}

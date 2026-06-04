@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Pinnacle Investments",
+    "slug": "pinnacle-investments",
+    "url": "https://www.pinnacle-investments.com",
+    "vertical": "B2B/professional — financial services (mortgage note buying)",
+    "colors": {
+      "primary": "#0D2B55",
+      "accent": "#C9963C",
+      "background": "#FFFFFF",
+      "text": "#1F2937"
+    }
+  },
+  "summary": "Pinnacle Investments buys seller-financed mortgage notes, trust deeds, land contracts, and promissory notes from private note holders nationwide, paying a lump sum in exchange for the future payment stream. It serves individuals — often retirees and accidental note holders — who owner-financed a property sale and now want immediate cash instead of waiting years on monthly payments. The entry point is a free, no-obligation note analysis that produces a customized written offer, with closing through a title company in roughly 10–15 working days.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a free-quote / note-analysis request into an engaged prospect who reaches first value — a concrete written offer — by setting expectations, building trust, and removing the friction that makes prospects go cold.",
+      "trigger": "Quote request or free note analysis form submitted; send email 1 within seconds.",
+      "segment": "New leads from the quote/note-analysis forms; branch by note type (performing vs. non-performing) and stated urgency captured on the form.",
+      "rationale": "This is the brand's biggest gap and where most prospects go cold — there is no formal sequence after a quote request, yet the entire transaction hinges on getting from inquiry to a written offer while trust is still warm.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome that confirms the request, sets a clear timeline to the written offer, and delivers the first win: reassurance that the process is safe, free, and obligation-free.",
+          "subject": "Your free note analysis is underway — here's what happens next",
+          "preview": "An advisor reviews your note, then sends a real dollar offer — usually within a few days.",
+          "cta": "Reply with your note details (or upload them) so we can price your offer",
+          "keyPoints": [
+            "Confirm the request landed and a certified planner is already reviewing it; set the expectation of advisor contact within 1 business day and a written offer within a few days of receiving note documents",
+            "Build trust up front with credibility markers: 26 years in business, 22,000+ notes purchased, 8 certified planners, closing through a title company in 10–15 working days",
+            "Make the single first action obvious — send the note details we need (note type, balance, interest rate, payment history) so the offer is accurate and fast",
+            "Reassure: the analysis is free, no obligation to accept, and they keep collecting payments until they choose to sell; reply-to is a real advisor",
+            "Footer disclosure that Pinnacle is a note buyer, not a licensed broker-dealer, and that the email is not investment advice (CAN-SPAM compliant)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Quote-to-Offer Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert prospects who requested a quote — or already received a written offer — into accepted offers by reinforcing the value of the number, handling the fair-price objection head-on, and giving a clear, low-friction path to say yes.",
+      "trigger": "Written offer delivered but not yet accepted; behavioral milestones (offer email reopened, pricing/process pages revisited) and a soft urgency window run in parallel.",
+      "segment": "Active prospects with a delivered offer; branch by engagement (offer reviewed vs. gone quiet) and by note value tier.",
+      "rationale": "The stated primary goal is improving quote-to-close conversion, and the #1 objection — 'is the discount too steep / will I get a fair price?' — is exactly what kills these deals, so the core revenue play is an offer-reinforcement email that defends the number.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Re-present the written offer and disarm the fair-value objection by transparently explaining how the number was reached, then make accepting frictionless.",
+          "subject": "Your note offer — and exactly how we arrived at the number",
+          "preview": "Fair value, explained line by line. No obligation, and the offer still stands.",
+          "cta": "Accept your offer or get on a quick call to walk through it",
+          "keyPoints": [
+            "Restate their specific offer amount and the note it's for, so the dollar figure — their 'aha' moment — is front and center",
+            "Address the top objection directly: explain the factors that set the price (interest rate, down payment, remaining term, payer credit, payment history, property condition) so the discount feels reasoned, not arbitrary",
+            "Offer the partial-note option as an alternative — sell part of the payment stream now, keep the rest — for sellers hesitant to part with the whole note",
+            "Reinforce trust and ease: title-company closing, funds by wire or cashier's check, money in hand in about two weeks, 22,000+ notes purchased",
+            "Low-friction next step with a real advisor (accept, or book a 10-minute call to ask questions); no-pressure tone consistent with the brand's reassuring voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Advisor Call Booking & Reminders",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize completed advisor consultations and make each call productive, since the phone/email conversation is the mechanism that turns a quote request into a structured written offer.",
+      "trigger": "Advisor call scheduled; upcoming consultation; no-show event.",
+      "segment": "Any prospect with a scheduled advisor call or consultation.",
+      "rationale": "The deal only moves when a prospect actually talks to an advisor, so confirming the call and arming them with the right note details up front both reduces no-shows and gets them to an accurate offer in one conversation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Confirm the scheduled advisor call, add-to-calendar, and tell the prospect exactly what note details to have ready so the call produces a real offer.",
+          "subject": "Your call with your Pinnacle advisor is set — have these 3 details ready",
+          "preview": "A few note details on the call get you an accurate offer faster.",
+          "cta": "Add the call to your calendar (and gather your note documents)",
+          "keyPoints": [
+            "Confirm the date, time, and the named advisor/certified planner they'll speak with; include add-to-calendar and an easy reschedule link",
+            "List the 3–4 things to have on hand: the note/contract document, the payment history, the current balance and interest rate, and the property address — so the advisor can price accurately on the call",
+            "Set expectations for the call: it's a no-obligation conversation to understand the note and outline a written offer, not a sales pitch",
+            "Reassure with credibility (26 years, 22,000+ transactions) and a real reply-to so they can ask questions before the call",
+            "Note that a reminder will follow the day before; CAN-SPAM footer with non-broker-dealer disclosure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Note Holder's Handbook Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move educational, not-yet-ready leads toward sales-readiness over a longer cycle by building understanding of how note selling works and what a note is worth, until they're ready to request an offer.",
+      "trigger": "Note Holder's Handbook download (or non-converting free-analysis inquiry).",
+      "segment": "Leads who downloaded the Handbook but haven't requested an offer; branch by note type and by whether they're an accidental holder vs. an experienced investor.",
+      "rationale": "The audience is financially unsophisticated about note markets and needs trust and education before acting, so a Handbook-triggered drip warms the top of the funnel that currently has no follow-up at all.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the Handbook and frame the core problem it solves — most note holders have no idea what their note is actually worth or that selling is even an option.",
+          "subject": "Your Note Holder's Handbook is inside",
+          "preview": "What your mortgage note is really worth — and the 5 factors that decide it.",
+          "cta": "Read the Handbook (and request a free analysis when you're ready)",
+          "keyPoints": [
+            "Deliver the download link immediately and tell them the one chapter to read first — what determines a note's value",
+            "Frame the problem the Handbook solves: capital locked in a note, the hassle of chasing payments, and uncertainty about worth and process",
+            "Preview the 5 factors that set a note's price (rate, down payment, term, payer credit, property) so the eventual offer feels transparent rather than arbitrary",
+            "Set a soft, no-pressure expectation: a few short educational emails will follow, and a free no-obligation analysis is available anytime they want a real number",
+            "Establish authority and safety (26 years, 22,000+ notes, title-company closings); CAN-SPAM footer with non-broker-dealer disclosure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Cold Quote-Prospect Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate prospects who requested a quote or received an offer and then went silent — comparison-shopping or simply not ready — and clean the list of non-responders to protect deliverability.",
+      "trigger": "Inactivity threshold (e.g., 60–90 days with no reply or engagement after a quote request / offer).",
+      "segment": "Dormant quote prospects who never accepted; separate the offer-received group (lead with the standing number) from the inquiry-only group (lead with fresh value).",
+      "rationale": "Reactivation is an explicitly stated primary goal — quote requesters going cold is named as the primary lifecycle gap — and a win-back is fast to ship and recovers 5–15% of inactive contacts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the conversation warmly, remind them the core value (cash for their note) is still on the table, and make returning a single low-friction step.",
+          "subject": "Still holding that note? Your cash offer is still on the table",
+          "preview": "Whatever paused things, we can pick up right where we left off — no pressure.",
+          "cta": "Reply 'still interested' to refresh your offer",
+          "keyPoints": [
+            "Acknowledge time has passed without guilt; remind them why they reached out — a lump sum instead of waiting years on monthly payments",
+            "For the offer-received segment, note the offer can be refreshed to current numbers; for inquiry-only, re-extend the free no-obligation analysis",
+            "Re-address the lingering objection (fair price / trustworthiness) with proof: 22,000+ notes purchased over 26 years, title-company closings, funds in ~2 weeks",
+            "Make the return effortless — a one-line reply or a single click — and offer the partial-note option for those who weren't ready to sell the whole note",
+            "Signal this is a re-engagement touch with a clean opt-out, so non-responders can be sunset to protect deliverability; CAN-SPAM footer with non-broker-dealer disclosure"
+          ]
+        }
+      ]
+    }
+  ]
+}
