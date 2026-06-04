@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Actalent Services",
+    "slug": "actalent-services",
+    "url": "https://www.actalentservices.com",
+    "vertical": "B2B/professional — engineering & sciences staffing and technical services",
+    "colors": {
+      "primary": "#0C2D5E",
+      "accent": "#6B2D8B",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Actalent Services provides engineering and sciences staffing (contract, contract-to-hire, and direct placement) plus project-based technical services such as engineering services, clinical development, and quality/project management consulting. It serves engineering and R&D leaders, project management offices, and talent acquisition teams at mid-to-large enterprises in regulated industries — life sciences, aerospace, utilities, transportation, and semiconductor — who need specialized technical talent faster than internal recruiting can deliver. Deals are enterprise B2B, sold through account managers, with no self-serve path.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding-employer",
+      "name": "Welcome & Onboarding (Employer Inquiry)",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Activate a new employer inquiry by setting expectations, introducing the dedicated account manager, and driving toward a booked consultation call — the first-value moment.",
+      "trigger": "Contact form submission with inquiry type = Talent Solutions / Engineering / Sciences / Specialized (employer side); send within seconds.",
+      "segment": "New employer contacts; branch by primary-need category and timeline urgency (Immediate Need <1 month vs. Seeking Consultation).",
+      "rationale": "Actalent's post-inquiry follow-up is handled manually by account managers, leaving a window where high-intent buyers cool off. An instant, human-voiced welcome that names a real account manager captures urgency and routes the buyer straight to a consultation.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Confirm the inquiry was received, set expectations on what happens next, introduce the dedicated account manager by name, and deliver the first win — a booked consultation slot.",
+          "subject": "Your engineering talent request is in — here's your next step",
+          "preview": "A dedicated Actalent partner is already reviewing your need.",
+          "cta": "Book your consultation call",
+          "keyPoints": [
+            "Confirm receipt and reassure on speed — qualified candidate submittals typically begin within 48–72 hours of a defined requisition",
+            "Introduce a named account manager as a single point of contact, with a real reply-to address",
+            "Reference their stated need and timeline urgency to make it feel personally routed",
+            "One clear CTA to book the consultation; reply-to-this-email option for immediate needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Contract Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert employer prospects who completed a free consultation but haven't yet signed an SOW or MSA by handling the cost objection and reinforcing talent-pool quality.",
+      "trigger": "Consultation call completed; no signed agreement after a defined follow-up window.",
+      "segment": "Post-consult employer prospects; branch by industry (life sciences, aerospace, utilities, semiconductor) and by whether a proposal/SOW has been issued.",
+      "rationale": "This is Actalent's core revenue play — the deal is closed by a human, but a structured nurture keeps the proposal alive between touchpoints. The #1 objection is staffing markup vs. direct/offshore hire, so the hero send must reframe cost as risk-and-schedule protection with proof.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "2",
+          "purpose": "Recap the consultation, directly address the markup-vs-direct-hire cost objection by quantifying the cost of schedule slip and mis-hires, and back it with a relevant industry case study.",
+          "subject": "What a 90-day skills gap really costs your project",
+          "preview": "Why the right specialist beats the cheaper headcount.",
+          "cta": "Review your custom proposal",
+          "keyPoints": [
+            "Reframe markup as protection against schedule risk, compliance exposure, and the cost of a mis-hire in a niche discipline",
+            "Lead with a peer case study from their industry showing on-time delivery and protected margin",
+            "Reinforce talent-pool depth and vetting quality for their specific role type",
+            "Single CTA to review the proposal/SOW; offer a call with the account manager to walk through it"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-dormant-accounts",
+      "name": "Win-Back — Dormant Clients & Candidates",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate client accounts with no requisition in 90+ days and re-warm dormant candidate profiles before they join a competitor's roster.",
+      "trigger": "Client inactivity threshold (90+ days, no new requisition) or contractor between placements; cancellation/account-reset events.",
+      "segment": "Dormant employer accounts (often post-project-wrap or new procurement contact) handled separately from dormant candidates, who get a placement-focused message.",
+      "rationale": "Lapsed clients and a cold candidate pool are Actalent's biggest churn risks, and reactivation is fast to ship and protects deliverability. A market-intelligence hook re-opens the conversation without discounting — leading with value, which fits the B2B trust model.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with dormant client accounts using a fresh labor-market hook tied to their discipline, and offer a frictionless way to restart a requisition.",
+          "subject": "The engineering talent market shifted — here's what changed in your field",
+          "preview": "A quick read for the next time a project resource gap hits.",
+          "cta": "See this quarter's labor market report",
+          "keyPoints": [
+            "Lead with value — current hiring-difficulty and time-to-fill data for their specialty, not a sales ask",
+            "Acknowledge it's been a while and reintroduce their account manager / note any new point of contact",
+            "Remind them of the core value: specialized talent ready in days when the next project gap hits",
+            "Low-friction CTA — read the report, with a one-line option to reply and reopen a requisition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture (Market Reports & Whitepapers)",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold leads who downloaded a market report or whitepaper toward sales-readiness across a long cycle, then route high-intent leads to the consultation play.",
+      "trigger": "Gated-content download (Labor Market Intelligence report, clinical-trial or infrastructure-risk whitepaper, case study).",
+      "segment": "Leads below the sales-ready lead-score threshold; branch by the topic of the asset downloaded and by industry/role where known.",
+      "rationale": "Actalent already produces strong lead magnets but has no evidence of a nurture series following download, so high-intent content downloaders go untouched. A buyer-journey-mapped sequence with lead scoring focuses account managers on the leads most likely to convert.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested asset instantly and frame the real business problem behind it — the project and compliance risk of unfilled specialized roles.",
+          "subject": "Your labor market report is inside — plus the gap most teams miss",
+          "preview": "The data behind your hardest-to-fill engineering roles.",
+          "cta": "Download your report",
+          "keyPoints": [
+            "Deliver the downloaded asset immediately with a clean link, no friction",
+            "Frame the underlying problem the data exposes — rising time-to-fill and compliance risk in regulated disciplines",
+            "Set expectations for a short series of useful, no-fluff follow-ups over the coming weeks",
+            "Soft secondary path to a consultation for readers with an immediate need"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal & Account Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect relationship-recurring revenue ahead of placement end dates and MSA reviews, and grow accounts into adjacent service lines and added headcount.",
+      "trigger": "Placement end date or contract renewal − 60/90 days; annual MSA review; usage milestone signaling expansion readiness.",
+      "segment": "Active client accounts approaching a renewal or placement end; branch by account health (high engagement = expansion offer, low = save/re-onboard).",
+      "rationale": "Actalent's revenue is structurally recurring through rolling contracts and renewing MSAs, and contract end-dates are a high-value, automatable gap. A value-recap send ahead of renewal quantifies the outcome delivered and opens the door to extension and adjacent service lines before a competitor does.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "Renewal − 90",
+          "purpose": "Quantify the value delivered this period — placements made, roles filled, schedule risk avoided — and tee up extension plus adjacent service-line expansion.",
+          "subject": "Your year with Actalent, by the numbers",
+          "preview": "Placements delivered, gaps closed, and what's next for your team.",
+          "cta": "Plan next year's talent needs",
+          "keyPoints": [
+            "Lead with the account's real outcomes — contractors placed, niche roles filled, time-to-fill achieved",
+            "Connect those wins to upcoming project needs and a smooth contract extension path",
+            "Surface one adjacent service line (e.g., engineering services or sciences staffing) as a natural expansion",
+            "CTA to schedule a planning review with the account manager ahead of the renewal date"
+          ]
+        }
+      ]
+    }
+  ]
+}

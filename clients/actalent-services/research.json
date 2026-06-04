@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "Actalent Services",
+    "url": "https://www.actalentservices.com",
+    "slug": "actalent-services",
+    "vertical": "B2B/professional — engineering & sciences staffing and technical services",
+    "tagline": "Connecting Passion with Purpose",
+    "colors": {
+      "primary": "#0C2D5E",
+      "accent": "#6B2D8B",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Engineering and sciences staffing (contract, contract-to-hire, direct placement) plus project-based technical services (engineering services, clinical development, scientific support, project/quality management consulting)",
+    "coreOutcome": "Enterprises get the specialized engineering and sciences talent they need to execute complex projects on time; candidates get career-defining placements in high-impact roles",
+    "pricePoint": "Not publicly disclosed; staffing markup model (percentage of contractor bill rate) for talent solutions; project-based SOW pricing for technical services — both are enterprise-tier B2B contracts",
+    "commitment": "Varies: contract placements (weeks-to-years), direct hire (one-time fee), project SOW (defined scope/duration) — no self-serve; all require sales engagement",
+    "leadMagnets": [
+      "Monthly Labor Market Intelligence reports",
+      "Industry case studies and success stories",
+      "Whitepapers (clinical trial management, infrastructure risk, etc.)",
+      "Insights blog (engineering/sciences career and market content)"
+    ]
+  },
+  "audience": {
+    "icp": "Engineering directors, VP-level R&D and operations leaders, and HR/talent acquisition managers at mid-to-large enterprises in regulated industries (life sciences, aerospace, utilities, transportation, semiconductor) who have active hiring gaps or project resource shortfalls",
+    "painPoints": [
+      "Critical skills gaps slowing project delivery",
+      "Long time-to-fill for niche engineering and scientific roles",
+      "Compliance and quality risk in regulated environments (FDA, FAA, etc.)",
+      "Inability to scale headcount quickly for project spikes",
+      "High cost and risk of mis-hires in specialized disciplines"
+    ],
+    "segments": [
+      "Employer / client buyers (talent acquisition, engineering leadership, project management office)",
+      "Engineering job seekers (early-career to senior engineers seeking contract or perm roles)",
+      "Sciences / clinical candidates (CRAs, lab scientists, clinical research coordinators)",
+      "Current contractors on active placements (retention and expansion target)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months for new enterprise clients; days-to-weeks for repeat clients with active requisitions",
+    "trial": "Free consultation — contact form routes to a sales rep; no structured free trial or demo product",
+    "closeMechanism": "Inbound inquiry → sales rep qualification call → proposal/SOW → contract signature; closed by a human account manager",
+    "topObjection": "Staffing markup cost vs. direct hire or offshore alternative; trust that Actalent's talent pool quality justifies the margin"
+  },
+  "ahaMoment": "For employer clients: the first qualified candidate submittal that converts to a productive placement. For candidates: receiving a matched job opportunity that fits their discipline and career goals within days of registering.",
+  "retention": {
+    "recurring": "Ongoing staffing contracts (rolling contractor placements, master service agreements) and repeat project SOWs — revenue is largely relationship-recurring rather than subscription",
+    "expansion": "Adding new requisition types, expanding into adjacent service lines (e.g., client using talent solutions adds engineering services), or increasing contractor headcount on existing accounts",
+    "churnRisk": "Client switches to competing staffing firm or builds internal recruiting capacity; contractors accept a direct offer from client (conversion) or go dormant between placements"
+  },
+  "lifecycleGaps": [
+    "Welcome & onboarding sequence for new client contacts (no evidence of automated nurture post-inquiry)",
+    "Lead-magnet nurture series leveraging whitepapers/market reports to move prospects down funnel",
+    "Trial/consult conversion sequence following initial consultation call",
+    "Candidate engagement and re-engagement (between active placements — dormant talent pool)",
+    "Renewal / contract extension campaign before placement end dates",
+    "Win-back for lapsed client accounts that haven't submitted a requisition in 90+ days"
+  ],
+  "toneVoice": "Professional, forward-looking, and solution-oriented with a human touch — balances authoritative industry expertise with accessible, people-first language. Avoids heavy jargon; emphasizes partnership, progress, and measurable outcomes. Moderately formal (business-to-business) but warm enough to speak to individual contributors and candidates.",
+  "compliance": "CAN-SPAM / CASL compliant required; staffing industry touches employment law — avoid guarantees around placement timelines or compensation. No HIPAA or financial-sector constraints identified, but life sciences content should be careful around clinical claims. Standard B2B unsubscribe and consent practices apply."
+}
