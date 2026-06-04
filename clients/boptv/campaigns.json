@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "BOP TV (Black on Purpose Television Network)",
+    "slug": "boptv",
+    "url": "https://www.boptv.com",
+    "vertical": "Streaming media / Entertainment / Membership",
+    "colors": {
+      "primary": "#7B1313",
+      "accent": "#D4AF37",
+      "background": "#0F0F0F",
+      "text": "#FFFFFF"
+    }
+  },
+  "summary": "BOP TV is a Black-owned subscription streaming network offering 30+ channels of Black-created films, TV shows, cartoons, documentaries, and originals for $12.99/month or $99.99/year. It serves Black Americans and the global African diaspora (roughly 25-55) who feel underserved by mainstream platforms and want positive, culturally resonant content free of negative stereotypes. Secondary revenue comes from advertising packages for Black businesses, distribution for independent creators, production services, and a media-arts training center.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new subscriber streaming their first culturally resonant show within 48-72 hours, before passive churn sets in.",
+      "trigger": "Subscription created / account signup. Send email 1 within seconds.",
+      "segment": "All new subscribers; branch by content interest (Family / Culture & History / Inspirational / General) if captured at or after signup.",
+      "rationale": "With 30+ channels and no guided tour, new subscribers stall at the catalog and lapse before the aha moment of finding content they can't get anywhere else. Onboarding is BOP TV's single most critical and highest-leverage gap.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver one quick win — get them pressing play on a single curated channel immediately.",
+          "subject": "Welcome to the BOP TV family — press play on this first",
+          "preview": "30+ channels of Black TV the way it should be. Here's exactly where to start.",
+          "cta": "Start watching now",
+          "keyPoints": [
+            "Warm, proud welcome in BOP TV's voice ('Welcome to the family — where we love being Black')",
+            "Cut the 30-channel overwhelm: point to ONE can't-miss watch they won't find on Netflix or Hulu",
+            "One-tap 'Start watching now' button deep-linking into the player on web/Roku/Fire/Apple TV",
+            "Tease that a few short emails will guide them to their channels by interest (Family, Culture & History, Inspirational)",
+            "Real reply-to address — invite them to tell us what they want to see more of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-subscription-conversion",
+      "name": "Pre-Subscription Conversion Nurture",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert engaged site visitors and list subscribers who haven't paid into subscribers by handling the top objection and lowering risk.",
+      "trigger": "Visited pricing/homepage or joined the list without subscribing (Campaign 3 adapted — no free trial exists, so this nurture replaces the trial-conversion spine).",
+      "segment": "Non-paying contacts and pricing-page visitors; branch by interest if known (general viewer vs. family vs. African diaspora market).",
+      "rationale": "There is no free trial, so the only bridge from skeptic to subscriber is a value-led nurture. Conversion from visitors is the brand's stated primary growth goal, and the #1 objection ('why pay when Netflix has more?') goes unanswered today.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reframe the Netflix comparison and convert: it's not about library size, it's about content that exists nowhere else.",
+          "subject": "Netflix has more shows. It doesn't have these.",
+          "preview": "Black TV the way it should be — no stereotypes, no gatekeepers. $8.33/mo, cancel anytime.",
+          "cta": "Sign me up",
+          "keyPoints": [
+            "Meet the objection head-on: mainstream platforms have volume; BOP TV has the conscious, positive Black content they can't find anywhere else",
+            "Show 3-4 specific marquee titles/channels (History & Culture, Inspirational, BOP TV Originals, Kids) as concrete proof",
+            "Lead with the annual plan as best value ($99.99/yr ≈ $8.33/mo) but keep monthly ($12.99) visible; no contract, cancel anytime to kill risk",
+            "Social proof: pull a verbatim 5-star review ('Finally a place where I can watch content that looks like me')",
+            "Single direct CTA in the brand's voice — 'Sign Me Up'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "New on BOP TV — Weekly Spotlight",
+      "priority": 3,
+      "stage": "Nurture / Retention",
+      "objective": "Keep active subscribers engaged between sessions and pull them back to the app to reduce passive churn.",
+      "trigger": "Scheduled weekly cadence.",
+      "segment": "All active, engaged subscribers; suppress contacts still in onboarding and route recently-dormant subscribers to Win-Back instead.",
+      "rationale": "Passive churn is the biggest retention risk — subscribers who don't return simply let the subscription lapse. With new content added weekly, a recurring 'what's new' spotlight is the most natural always-on lever to drive the next streaming session.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Recurring hero send: surface this week's new arrivals and one editor's pick to drive an immediate watch.",
+          "subject": "New on BOP TV this week — your next watch is here",
+          "preview": "Fresh drops across History & Culture, Originals, and Kids. Pick one and press play.",
+          "cta": "See what's new",
+          "keyPoints": [
+            "Repeatable template: lead with this week's standout new title as the hero, with poster art and a one-line hook",
+            "3-5 fresh arrivals organized by channel/genre so the 30-channel breadth feels like a feature, not a maze",
+            "Recurring habit-building section ('This week on BOP TV') the audience learns to expect",
+            "Single primary CTA deep-linking into the app/player; 80% value / 20% soft cues toward annual upgrade",
+            "Community voice — celebrate Black creators behind the new releases"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-annual-upgrade",
+      "name": "Monthly-to-Annual Upgrade & Renewal",
+      "priority": 4,
+      "stage": "Retention",
+      "objective": "Lock in recurring revenue by converting monthly subscribers to the annual plan before churn risk compounds.",
+      "trigger": "Day ~25 for monthly subscribers (before the second monthly charge); annual renewal date - 45/14 days.",
+      "segment": "Active monthly subscribers (upgrade branch) and subscribers approaching annual renewal; branch by usage health.",
+      "rationale": "Monthly subscribers are the most churn-exposed and the annual plan ($99.99) both deepens commitment and improves cash flow. Catching them before the second charge — while the first month's value is fresh — is the highest-yield expansion moment.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "25",
+          "purpose": "Pitch the switch to annual using the value they've already gotten this month, before the second monthly charge hits.",
+          "subject": "You've watched a month free of stereotypes. Make it a year.",
+          "preview": "Switch to annual and pay just $8.33/mo — that's $56 off vs. monthly. Cancel anytime.",
+          "cta": "Switch to annual & save",
+          "keyPoints": [
+            "Recap the value of their first month — channels explored / what's new since they joined — to anchor the decision",
+            "Concrete math: annual $99.99 vs. monthly $12.99×12 = ~$56 saved a year (~$8.33/mo)",
+            "Frame as a commitment to the mission — backing the largest Black-owned streaming network for a full year",
+            "Reassure: still no contract, still cancel anytime, full access to all 30+ channels",
+            "Single CTA to the upgrade flow; offer a real reply for any questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate cancelled and dormant subscribers and protect sender reputation by sunsetting non-responders.",
+      "trigger": "Cancellation event, or inactivity threshold (60-90 days no logins/streams).",
+      "segment": "Churned subscribers (what's-new + comeback message) and dormant-but-active-list contacts (fresh-value message), handled separately.",
+      "rationale": "Cancelled subscribers have no reactivation path today, and streaming win-backs are proven performers (personalized genre-based reactivation drove 38% open / 2.53% CTR / 500% ROI in a comparable case). It's quick to ship and recovers 5-15% of inactive contacts.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you' tied to what they used to watch and what's new since they left.",
+          "subject": "We saved your seat — here's what's new on BOP TV",
+          "preview": "The family's not the same without you. Fresh shows are waiting. Come back?",
+          "cta": "Come back to BOP TV",
+          "keyPoints": [
+            "Warm, no-guilt 'we miss you' in BOP TV's family voice",
+            "Personalize where possible: reference the genre/channel they watched most when active",
+            "Pattern-interrupt with concrete new arrivals and channels added since they left",
+            "Low-friction reactivation — one tap to resubscribe, annual best-value option highlighted",
+            "Set up the rest of the sequence (incentive at day 14, sunset at day 21) without over-asking here"
+          ]
+        }
+      ]
+    }
+  ]
+}

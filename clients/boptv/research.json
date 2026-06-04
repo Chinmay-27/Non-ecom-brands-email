@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "BOP TV (Black on Purpose Television Network)",
+    "url": "https://www.boptv.com",
+    "slug": "boptv",
+    "vertical": "Streaming media / Entertainment / Membership",
+    "tagline": "Black TV The Way It Should Be!",
+    "colors": {
+      "primary": "#7B1313",
+      "accent": "#D4AF37",
+      "background": "#0F0F0F",
+      "text": "#FFFFFF"
+    }
+  },
+  "offer": {
+    "what": "Black-owned subscription streaming TV network with 30+ channels of Black-created films, TV shows, cartoons, documentaries, and originals. Secondary revenue from production services, advertising packages, content-creator distribution, media arts training, and an affiliate program.",
+    "coreOutcome": "Access to positive, conscious Black content free from negative stereotypes — entertainment that reflects and celebrates Black culture, excellence, and community worldwide.",
+    "pricePoint": "$12.99/month or $99.99/year (~$8.33/mo billed annually)",
+    "commitment": "No contract, cancel anytime. Monthly or annual subscription.",
+    "leadMagnets": [
+      "Affiliate referral program",
+      "Content submission program (for independent creators)",
+      "Center for Media, Arts & Technology training/classes"
+    ]
+  },
+  "audience": {
+    "icp": "Black Americans and global African diaspora aged 25–55 who feel underserved by mainstream streaming platforms and want positive, culturally resonant Black content without negative stereotypes.",
+    "painPoints": [
+      "Mainstream TV misrepresents or ignores Black people and culture",
+      "No single destination for positive, conscious Black content",
+      "Black content creators have no distribution path outside gatekept studios",
+      "Black businesses can't efficiently reach Black consumers through mainstream ad platforms",
+      "Frustration with racial gatekeeping in entertainment (Oscars So White era)"
+    ],
+    "segments": [
+      "General Black consumer — primary streaming subscriber",
+      "Black families with children (dedicated kids channel)",
+      "Black business owners seeking to advertise to Black consumers",
+      "Independent Black content creators seeking distribution",
+      "African market — Nigeria and Ghana (active expansion)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — fully self-serve signup",
+    "trial": "No free trial listed. Annual plan ($99.99/yr) is the only promotional offer, billed as 'Best Value' vs. $12.99/month.",
+    "closeMechanism": "Self-serve web/app checkout; 'Sign Me Up' CTA on pricing and homepage",
+    "topObjection": "Content library depth vs. mainstream platforms (Netflix, Hulu, Prime); unfamiliarity with brand outside the core community; concern about streaming quality or device compatibility"
+  },
+  "ahaMoment": "Streaming their first show or movie they couldn't find on any mainstream platform — the moment a subscriber discovers culturally resonant content that only BOP TV carries.",
+  "retention": {
+    "recurring": "Monthly ($12.99) and annual ($99.99) subscriptions; new content added weekly; 30+ channels across diverse genres",
+    "expansion": "Upgrade from monthly to annual plan; advertising packages for Black business owners; production services upsell for creators",
+    "churnRisk": "No guided onboarding — subscribers who don't know where to start across 30 channels likely churn before the aha moment; limited mainstream brand awareness (1.09K YouTube subscribers); competition from larger platforms with bigger libraries"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no guided channel-discovery tour for new subscribers; most will churn before finding their niche in 30 channels",
+    "Lead-Magnet Nurture — affiliate and content-creator registrants almost certainly receive no email follow-up sequence",
+    "Trial/Consult Conversion — no free trial means a pre-subscription nurture sequence is critical but likely absent",
+    "Value Newsletter — weekly 'new content spotlight' email to keep active subscribers engaged and reduce passive churn",
+    "Renewal & Expansion — monthly-to-annual upgrade sequence and anniversary milestone emails almost certainly missing",
+    "Win-Back / Re-Engagement — cancelled subscribers have no apparent reactivation sequence"
+  ],
+  "toneVoice": "Bold, proud, unapologetically Black. Empowerment-forward and community-first. Conversational with passion — direct CTAs ('Sign Me Up'), proud declarative statements ('The Largest Black Owned Streaming Television Network in the World'), community rallying language ('Join The BOP TV Family', 'Where we love being Black!'). Avoids corporate polish in favor of authentic cultural voice. Occasional righteous edge when calling out industry racism.",
+  "compliance": "Standard CAN-SPAM / GDPR. Streaming subscription service — no healthcare, finance, or legal vertical constraints. Privacy policy is published on site."
+}
