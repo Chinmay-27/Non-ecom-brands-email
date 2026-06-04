@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "RCA Tax Services",
+    "slug": "rca-tax-services",
+    "url": "https://rcataxservices.com",
+    "vertical": "B2B/professional — year-round tax planning & advisory for high-income earners and business owners",
+    "colors": {
+      "primary": "#1B3C6E",
+      "accent": "#C8A951",
+      "background": "#F8F9FA",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "RCA Tax Services is a Santa Ana, CA firm (serving clients nationwide) that provides proactive, year-round tax planning and strategy — not just filing — for high earners and business owners paying $80K+ a year in taxes. It serves physicians, attorneys, real estate investors, tech executives with equity comp, consultants, and entrepreneurs earning roughly $500K–$5M, using strategies like entity structuring, cost segregation, retirement-plan design, and capital-gains planning to legally lower their effective tax rate. The engagement starts with a free 30-minute consultation with Ray and typically converts into an ongoing advisory retainer.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding — Lead to Booked Consult",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Turn a new lead (blog reader, referral, or ad click) into a booked free 30-minute consultation with Ray — the brand's single activation event.",
+      "trigger": "New contact captured — email opt-in, referral intro, or consultation-page form start.",
+      "segment": "All new contacts; branch by stated persona where known (business owner, physician, real estate investor, tech/equity comp).",
+      "rationale": "RCA's entire 'aha' depends on a booked, attended consult where Ray quantifies the dollars left on the table. With no existing welcome flow, this is the highest-leverage build — it converts anonymous interest into the firm's one revenue-starting action.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instant warm welcome that lands the 'you're almost certainly overpaying' hook and drives to book the free consult with one clear CTA.",
+          "subject": "If you pay $80K+ in taxes, you're likely overpaying — let's find out by how much",
+          "preview": "A free 30 minutes with Ray shows you the exact strategies your CPA isn't using.",
+          "cta": "Book your free 30-minute consultation with Ray",
+          "keyPoints": [
+            "Lead with the core promise: a CPA files your return; RCA plans around you to legally cut your effective rate 10–40%.",
+            "Make the cost of inaction tangible — high earners routinely overpay five and six figures on strategies they were never told about.",
+            "Single CTA to the consultation; set the expectation that Ray will name specific, dollar-quantified savings on the call.",
+            "Human, advisor-first close (reply goes to a real person) plus required results-vary / Circular 230 disclaimer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Maximize the attended-consult rate and rebook the ones that slip — every no-show on a $500K–$5M prospect is a major revenue leak.",
+      "trigger": "Consultation booked (confirmation), 24h before appointment (reminder), and no-show event (recovery).",
+      "segment": "Anyone with a scheduled consultation with Ray.",
+      "rationale": "Because the consult IS the activation moment and it's a synchronous 30-min call, show-up rate directly gates revenue. Reminders cut no-shows ~35%, making this the fastest revenue-protecting flow to ship after Welcome.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "The 24-hours-before reminder that locks in attendance, primes value, and gives a friction-free reschedule path.",
+          "subject": "Tomorrow with Ray — bring last year's return and we'll find your savings",
+          "preview": "A quick prep list so your 30 minutes turns straight into real, named tax savings.",
+          "cta": "Confirm your time (or reschedule in one click)",
+          "keyPoints": [
+            "Confirm the exact date/time and restate what Ray will deliver: specific strategies and dollar figures tailored to their situation.",
+            "Short prep list (most recent return, rough income/entity setup, top tax worry) so the call produces concrete savings, not generalities.",
+            "One-click reschedule link to recover would-be no-shows instead of losing them entirely.",
+            "Reassure: no obligation, 30 minutes, and they leave knowing what they're currently overpaying."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consult-to-Client Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert prospects who took the free consultation but didn't immediately sign into a paying advisory retainer.",
+      "trigger": "Consultation completed without a signed engagement; behavioral nudges plus a year-end-planning urgency window run in parallel.",
+      "segment": "Post-consult prospects not yet engaged; branch by quantified savings size and persona surfaced on the call.",
+      "rationale": "The consult creates a clear, dollar-specific value gap; the moment to close is right after, with their own numbers in front of them. This sequence directly serves RCA's stated primary goal — more consult-to-client conversions.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day recap that mirrors back the specific savings Ray identified and presents the engagement as the obvious next step.",
+          "subject": "Your recap, [First Name] — here's what you're currently leaving on the table",
+          "preview": "The strategies we discussed, the estimated savings, and how to lock them in for this tax year.",
+          "cta": "Review your proposal & start your plan",
+          "keyPoints": [
+            "Personalized recap of the exact strategies Ray surfaced (e.g., S-Corp election, cost segregation, defined benefit plan) with the estimated dollar savings.",
+            "Reframe the #1 objection — your CPA files; we plan — so 'I already have a CPA' becomes a reason to add, not decline.",
+            "Year-end urgency: many strategies must be implemented before Dec 31, so waiting costs a full tax year of savings.",
+            "Clear path to engage plus an open line to Ray for questions; include results-vary / Circular 230 disclaimer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture — Blog & Guide Readers",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold, top-of-funnel readers (blog and gated guide) toward booking a consult over a longer consideration cycle.",
+      "trigger": "Downloaded a gated tax-savings guide or opted in from blog content.",
+      "segment": "Leads not yet sales-ready; branch by the topic that drew them (real estate / cost seg, equity comp, business-owner entity structuring, physician planning).",
+      "rationale": "RCA's blog drives SEO traffic but captures no email — a major leak. A nurture turns that traffic into an owned audience and warms long-cycle high earners until they're ready for the consult.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the requested guide and frame the real problem behind it — that overpaying is the default unless someone plans proactively.",
+          "subject": "Your tax-savings guide is inside — plus the $58,000 most high earners miss",
+          "preview": "Real case: the deductions a $320K earner's CPA never mentioned, and why.",
+          "cta": "See if these strategies apply to you (free 30-min consult)",
+          "keyPoints": [
+            "Deliver the asset immediately and tie it to a concrete, documented win (e.g., $58K in deductions, $14K saved) to establish credibility.",
+            "Frame the underlying problem: filing-only CPAs leave proactive strategies on the table — the reader is likely affected right now.",
+            "Set expectations for the nurture: a few short, plain-English emails on strategies for their situation, no jargon, no fear-mongering.",
+            "Soft bridge to the consult as the way to make it personal and quantified; include standard disclaimer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter — Stay Top of Mind",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Build authority and stay top-of-mind with unconverted leads and clients between tax seasons, without discounting.",
+      "trigger": "Scheduled monthly cadence.",
+      "segment": "All engaged contacts; suppress active onboarding/booking flows and route dormant contacts to a future win-back.",
+      "rationale": "The sales cycle is long and seasonal, and leads often go quiet between tax events. A monthly value send keeps RCA present so that when a tax bill or equity event hits, RCA is the firm they call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Flagship monthly issue delivering one specific, actionable strategy with a soft CTA to go deeper via consult.",
+          "subject": "The deduction most $500K+ earners never claim (and how to fix it)",
+          "preview": "One strategy, real numbers, five-minute read — this month's tax-planning brief from Ray.",
+          "cta": "Have a question about your situation? Reply or book 30 minutes",
+          "keyPoints": [
+            "One useful idea per issue — this month, a single high-impact strategy (e.g., pairing a defined benefit plan with an S-Corp) explained in plain English with real dollar figures.",
+            "80% value / 20% soft offer; teach first, invite a consult second.",
+            "Recurring habit-building section (e.g., 'Ray's strategy of the month' / a timely year-end or quarterly-estimate reminder).",
+            "Single primary CTA (reply or book); include results-vary / Circular 230 disclaimer and easy unsubscribe for CAN-SPAM."
+          ]
+        }
+      ]
+    }
+  ]
+}

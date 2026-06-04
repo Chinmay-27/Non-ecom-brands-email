@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "RCA Tax Services",
+    "url": "https://rcataxservices.com",
+    "slug": "rca-tax-services",
+    "vertical": "B2B/professional — tax planning & advisory for high earners",
+    "tagline": "Expert Tax Planning Built on Trust",
+    "colors": {
+      "primary": "#1B3C6E",
+      "accent": "#C8A951",
+      "background": "#F8F9FA",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Year-round proactive tax planning and strategy for high-income earners and business owners — covering entity structuring, depreciation & cost segregation, retirement plan optimization, capital gains planning, QBI maximization, and tax credit identification",
+    "coreOutcome": "Legally reduce effective tax rate by 10–40%, keeping six-figure sums the client currently overpays to the IRS",
+    "pricePoint": "Unknown — no public pricing; engagement begins with a free 30-minute consultation; likely retainer or project-based at a premium ticket size given the $500K–$5M income target audience",
+    "commitment": "Ongoing / year-round advisory (recurring retainer implied by 'lifelong partner' positioning and 98% retention claim)",
+    "leadMagnets": [
+      "Free 30-minute consultation with Ray",
+      "Tax-strategy blog posts with specific dollar-savings case studies (S-Corp election, depreciation, stock-gain harvesting)"
+    ]
+  },
+  "audience": {
+    "icp": "Business owners, self-employed professionals, and high-income W-2 earners paying $80K+ per year in taxes — specifically physicians, attorneys, real estate investors, tech executives, consultants, and entrepreneurs earning $500K–$5M annually, primarily in Southern California but served nationwide",
+    "painPoints": [
+      "Paying more in taxes than legally required because their CPA only files rather than plans",
+      "Unaware of advanced strategies (S-Corp elections, cost segregation, defined benefit plans) their current advisor never mentioned",
+      "Feeling overlooked — sophisticated planning used to be reserved for the ultra-wealthy",
+      "Scattered financial professionals with no coordinated strategy",
+      "Year-end tax surprises instead of proactive minimization"
+    ],
+    "segments": [
+      "Business owners / self-employed ($500K–$5M revenue)",
+      "Physicians and medical practice owners",
+      "Real estate investors (rental income, capital gains exposure)",
+      "Tech employees and executives with equity compensation (RSUs, stock options)",
+      "Attorneys and consultants on retainer income"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — free consult qualifies the lead, followed by a proposal/engagement agreement",
+    "trial": "Yes — free 30-minute consultation ('Schedule a Free Consultation' / 'Book a Complimentary 30-Minute Consultation') is the primary top-of-funnel offer",
+    "closeMechanism": "Booked consultation with Ray → personalized strategy overview → proposal/retainer agreement",
+    "topObjection": "'My current CPA already handles this' — the brand directly addresses this by showing specific strategies CPAs typically miss and quantifying the cost of inaction"
+  },
+  "ahaMoment": "The free consultation itself: Ray identifies specific, dollar-quantified savings the prospect is currently missing — making the cost of NOT hiring RCA immediately tangible",
+  "retention": {
+    "recurring": "Year-round advisory retainer (implied); 98% client retention rate claimed; clients described as 'lifelong partners'",
+    "expansion": "Additional services as income grows: more complex entity structures, defined benefit plans, cost segregation studies, multi-year capital gains strategies",
+    "churnRisk": "Client no longer meets income threshold; CPA relationship reversion after tax season; perceived lack of ROI if savings aren't tracked and communicated"
+  },
+  "lifecycleGaps": [
+    "No visible welcome/onboarding sequence to move free-consult bookers to paying clients",
+    "No lead-magnet nurture — blog readers have no email capture or follow-up sequence",
+    "No booking reminder or no-show recovery flow (high-value consults are left to chance)",
+    "No newsletter or value-drip to stay top-of-mind with unconverted leads between tax seasons",
+    "No annual renewal / anniversary touchpoint to proactively re-engage retained clients",
+    "No win-back sequence for lapsed or one-off clients who didn't convert to retainer",
+    "No referral/advocacy program visible despite 98% retention — untapped word-of-mouth channel"
+  ],
+  "toneVoice": "Professional but accessible — authoritative without jargon. Uses specific dollar figures to build credibility ('$2B+ in documented savings', '$14,000 saved'). Empathetic framing: client-first, long-term partnership. Avoids fear-mongering; instead emphasizes reclaiming what's legally theirs.",
+  "compliance": "Financial services / tax advisory — must include standard tax disclaimer ('results vary, consult a qualified professional'), CAN-SPAM compliance on all email. Not HIPAA-regulated but serves physicians — avoid any patient-data references. IRS Circular 230 disclosure may be warranted in advisory content."
+}
