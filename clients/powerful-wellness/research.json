@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Powerful Wellness",
+    "url": "https://www.powerful-wellness.com",
+    "slug": "powerful-wellness",
+    "vertical": "Health coaching — women's midlife wellness (telehealth-adjacent)",
+    "tagline": "Feel vibrant again — at every age",
+    "colors": {
+      "primary": "#7C6B55",
+      "accent": "#C4614A",
+      "background": "#FAF7F2",
+      "text": "#1E1E1E"
+    }
+  },
+  "offer": {
+    "what": "Health coaching for women 35+ by Dr. Melissa Lockhart, NP. Three tiers: (1) free 15-min discovery call — no-pressure entry point; (2) 1-on-1 personalized ongoing coaching — individualized plan, direct messaging between sessions, NP-informed (labeled 'MOST POPULAR'); (3) 6-Week Coaching Program — structured reset across 5 Pillars of Health: Medications/Medical (GLP-1, LIPOLEAN, Peptides), Fitness, Nutrition, Hormonal Balance, and Community Support. Wellness store also sells ebooks and digital products.",
+    "coreOutcome": "Lose weight, reclaim energy, and balance hormones — through a clinically grounded, personalized plan built for how a woman's body actually works after 35.",
+    "pricePoint": "Unknown/custom — no public pricing. Discovery call is free. Coaching packages require a consultation; comparable NP-led programs typically $500–$3,000+ per package.",
+    "commitment": "Short-term (6-week program) or ongoing (1-on-1 recurring coaching); self-serve for digital products",
+    "leadMagnets": [
+      "Free 15-minute discovery call",
+      "Free checklist — 'important information before starting any health/fitness/nutrition program'",
+      "Free wellness & health email newsletter / content access"
+    ]
+  },
+  "audience": {
+    "icp": "Women 35–55 experiencing midlife energy drain, hormonal shifts (perimenopause/menopause), unexplained weight gain, or poor sleep — who are skeptical of generic wellness advice and want clinical credibility behind their plan.",
+    "painPoints": [
+      "Persistent fatigue despite sleeping enough",
+      "Unexplained weight gain, especially midsection",
+      "Perimenopause/menopause symptoms with no clear guidance",
+      "Tried diets and gym — didn't stick or work at this life stage",
+      "Spent decades caring for others; health deprioritized",
+      "Skepticism that another wellness program will actually work"
+    ],
+    "segments": [
+      "Medical weight loss seekers — interested in GLP-1/peptides track (higher urgency, higher ticket)",
+      "Lifestyle-only coaching — fitness + nutrition pillar, no Rx",
+      "Actively peri/menopausal women — hormonal education resonates most",
+      "Content consumers — blog/newsletter readers not yet ready to book"
+    ]
+  },
+  "salesCycle": {
+    "length": "1–4 weeks — free content/checklist → email nurture → discovery call booking → enrollment",
+    "trial": "Yes — free 15-minute discovery call; the primary conversion event the entire email funnel drives toward",
+    "closeMechanism": "Discovery call with Dr. Lockhart (human-closed); email's job is to get the call booked and ensure the prospect shows up pre-sold",
+    "topObjection": "\"Is this just another wellness program? Will it actually work for someone my age/situation?\" — counter with NP credibility, clinical approach, personalization, and peer social proof"
+  },
+  "ahaMoment": "Completing the free 15-min discovery call and leaving with one actionable step + a clear picture of what coaching looks like. For new clients: receiving their personalized plan after the first coaching session — the moment it feels built for them, not generic.",
+  "retention": {
+    "recurring": "1-on-1 ongoing coaching (repeat/monthly bookings); newsletter for passive audience retention",
+    "expansion": "Checklist/newsletter subscriber → digital product → 6-week program → 1-on-1 ongoing coaching (ascending value ladder); medical track upsell (GLP-1, peptides consultations)",
+    "churnRisk": "Coaching dropout around weeks 3–4 of the 6-week program; 6-week grads not transitioned into ongoing 1-on-1; newsletter subscribers who never book a discovery call"
+  },
+  "lifecycleGaps": [
+    "No branded welcome/onboarding sequence for new email subscribers (basic ESP auto-welcome at most)",
+    "No structured nurture sequence from checklist download → discovery call booking",
+    "No pre-call warm-up or post-call follow-up sequence around the discovery call",
+    "No in-program re-engagement emails to prevent coaching dropout at weeks 3–4",
+    "No post-6-week program retention or upsell to ongoing 1-on-1 coaching",
+    "No win-back campaign for inactive subscribers or past clients",
+    "No referral/advocacy campaign for satisfied clients"
+  ],
+  "toneVoice": "Warm, direct, and empowering — woman-to-woman. Medically credible but never clinical/cold. Permission-based ('when you're ready') not pushy. Key phrases to echo: 'years caring for others / now care for YOU,' 'better version of yourself,' 'vibrant aging.' Avoids shame-based language and fad-forward hype.",
+  "compliance": "Healthcare-adjacent: Dr. Lockhart is an NP; site displays a Medical Earnings Disclaimer. Offer includes clinical interventions (GLP-1, peptides, LIPOLEAN) — emails must use outcomes framing, not diagnostic claims. Include health disclaimer in footers for the medical track. Review against FTC health-claim guidelines and state NP scope-of-practice rules. Standard CAN-SPAM compliance required."
+}

@@ -1,0 +1,57 @@
+{
+  "brand": {
+    "name": "The Ballot Beacon",
+    "url": "https://www.theballotbeacon.com",
+    "slug": "the-ballot-beacon",
+    "vertical": "Education/nonprofit/membership — civic news newsletter",
+    "tagline": "No Slant. No Spin. Just what passed, why it matters, and how it impacts your wallet, rights.",
+    "colors": {
+      "primary": "#1B3A6B",
+      "accent": "#E8A020",
+      "background": "#F8F9FA",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Subscriber-supported political newsletter that breaks down new state and federal laws in plain English — a 3-9 minute read delivered weekly to bi-weekly.",
+    "coreOutcome": "Understand how new laws actually affect your wallet, rights, and daily life — without partisan spin or legal jargon.",
+    "pricePoint": "Free tier available ('unlock free access'); paid subscription tier implied but specific price unknown.",
+    "commitment": "Recurring subscription (weekly/bi-weekly email cadence); self-serve signup.",
+    "leadMagnets": ["Free newsletter access (no paywall on entry)"]
+  },
+  "audience": {
+    "icp": "Civically engaged adults (approx. 30-60) who are frustrated with partisan media and want factual, plain-language coverage of legislation — non-attorneys who feel shut out by legalese and exhausted by political drama.",
+    "painPoints": [
+      "Can't understand how new laws actually affect their daily life until it's too late",
+      "Distrust mainstream media due to perceived partisan bias",
+      "Legal texts and legislative summaries are too technical and time-consuming",
+      "Feel uninformed and powerless about government decisions that affect them"
+    ],
+    "segments": [
+      "State-specific readers (TX, GA, CA, NY coverage confirmed)",
+      "Political moderates and independents who distrust both partisan sides",
+      "Working professionals who want to stay informed in 5 minutes or less",
+      "Local-news-desert readers who lack credible civic journalism in their area"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day — impulse/low-friction subscription",
+    "trial": "Yes — free tier with no credit card required; entire entry is free access.",
+    "closeMechanism": "Self-serve email signup; conversion to paid happens inside the newsletter or via upgrade prompt.",
+    "topObjection": "'Just another biased political newsletter' — credibility and partisan neutrality concern."
+  },
+  "ahaMoment": "Reading the first issue and having a real, recently passed law explained clearly in plain English, in under 5 minutes, with direct relevance to their state — without any spin.",
+  "retention": {
+    "recurring": "Yes — recurring newsletter subscription (weekly/bi-weekly).",
+    "expansion": "Upgrade from free reader to paid subscriber.",
+    "churnRisk": "Disengagement during slow news cycles; readers who feel coverage doesn't match their state; subscribers who lose trust if content is perceived as slanted."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely only a basic platform welcome email; no onboarding sequence to confirm the value promise and drive first-issue engagement.",
+    "Free-to-Paid Conversion — no known nurture sequence converting free readers to paid subscribers.",
+    "Renewal / Expansion — no known anniversary or upgrade nudge flow.",
+    "Win-Back / Re-Engagement — no known re-engagement campaign for lapsed or inactive subscribers."
+  ],
+  "toneVoice": "Plain-spoken, direct, and trustworthy. Conversational but credible — like a knowledgeable friend explaining the news, not a pundit or professor. Nonpartisan is a core identity claim. Tagline mantra: 'No Slant. No Spin. No BS.'",
+  "compliance": "CAN-SPAM compliant (email newsletter). Political content — copy must avoid any language that implies partisan endorsement or could undermine the nonpartisan brand claim. No HIPAA, finance, or legal-professional-services constraints."
+}

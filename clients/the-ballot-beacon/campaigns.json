@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "The Ballot Beacon",
+    "slug": "the-ballot-beacon",
+    "url": "https://www.theballotbeacon.com",
+    "vertical": "Education/nonprofit/membership — civic news newsletter",
+    "colors": {
+      "primary": "#1B3A6B",
+      "accent": "#E8A020",
+      "background": "#F8F9FA",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "The Ballot Beacon is a subscriber-supported civic newsletter that translates newly passed state and federal laws into plain English, explaining how each one affects readers' wallets, rights, and daily life without partisan spin. It serves civically engaged adults (roughly 30-60) who distrust partisan media and don't have time to read 40-page bills, with a free tier and a paid subscriber-supported upgrade delivered weekly to bi-weekly on beehiiv.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — set the nonpartisan value promise and get the new subscriber to read and get value from their first issue (the 'aha').",
+      "trigger": "Free signup / list join — send instantly on subscribe.",
+      "segment": "New free subscribers; branch by state if captured at signup (TX, GA, CA, NY), otherwise default to federal + 'tell us your state' prompt.",
+      "rationale": "A beehiiv default welcome is likely all that exists today, so there is no sequence pre-selling the 'no slant, no spin' promise before issue #1 lands — the single biggest lever on whether a new signup ever builds a reading habit.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the nonpartisan expectation, tell them exactly when their first issue lands and what to look for, and deliver one quick win (a recent plain-English law breakdown).",
+          "subject": "You're in — here's what to expect (no slant, no spin)",
+          "preview": "Your first issue lands soon. Here's a recent law, decoded, to prove it.",
+          "cta": "Read a recent issue now",
+          "keyPoints": [
+            "Restate the promise in their words: what passed, why it matters, how it hits your wallet and rights — in under 5 minutes, with zero partisan spin",
+            "Tell them the day their first issue arrives and what to look for so the habit starts",
+            "Link one recent plain-English law breakdown as an instant first win, ideally for their state",
+            "Invite a reply with their state so coverage feels personally relevant, and note a real person reads every reply"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-to-paid-conversion",
+      "name": "Free-to-Paid Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert engaged free readers into paid, subscriber-supported members.",
+      "trigger": "Free subscriber crosses an engagement threshold (e.g., opened/clicked 3+ issues) or after a fixed number of issues delivered; expiry/urgency replaced by a 'reader-funded' value ask.",
+      "segment": "Active free subscribers showing engagement; branch high-engagement (lead with mission/support ask) vs. light-engagement (lead with value recap).",
+      "rationale": "The subscriber-supported model lives or dies on free→paid conversion, and there's no known nurture doing it — engaged readers are the warmest, cheapest revenue this brand has.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Make the support ask at peak value: recap what they've gotten free, name the threat (independent, nonpartisan coverage only survives if readers fund it), and give a frictionless upgrade path.",
+          "subject": "We read the bill so you don't have to. Here's how to keep it coming.",
+          "preview": "No ads, no donors, no slant — that only works if readers chip in.",
+          "cta": "Become a paid subscriber",
+          "keyPoints": [
+            "Quantify the free value already delivered — issues read, laws decoded, hours of bill-reading saved",
+            "Tie the upgrade to the nonpartisan promise: reader-funded means no advertiser or donor pressure to spin coverage",
+            "Address the credibility objection head-on by pointing to the consistent no-spin track record they've already seen",
+            "Keep the upgrade one click, self-serve, with a clear sense of what paid unlocks"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 3,
+      "stage": "Re-engagement",
+      "objective": "Reactivate subscribers who've gone quiet during a slow news cycle before they churn off the list, and protect deliverability.",
+      "trigger": "60-90 days with no opens or clicks.",
+      "segment": "Dormant free subscribers; churned/downgraded paid members handled on a separate message.",
+      "rationale": "Disengagement during slow legislative stretches is a named churn driver, and a dormant list quietly erodes deliverability for every send — winning back even 5-15% is the cheapest list growth available.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt that reminds them of the core value and surfaces the most consequential law they missed while away — make returning feel urgent and relevant.",
+          "subject": "A law that affects you just passed — and you missed it",
+          "preview": "Two minutes to catch up on what changed in your state.",
+          "cta": "Catch up in 2 minutes",
+          "keyPoints": [
+            "Lead with one concrete, recently passed law that touches their wallet or rights to prove the cost of being out of the loop",
+            "Acknowledge slow news cycles honestly — we only email when something actually matters, no filler",
+            "Offer to tailor coverage to their state so 'didn't cover my state' stops being a reason to tune out",
+            "Make the one-click return effortless and warm, no guilt"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 4,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind, reinforce the nonpartisan authority, and build a durable reading habit across the long cycle.",
+      "trigger": "Scheduled cadence — weekly to bi-weekly, sent when there's a real law to break down.",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route 60-90 day dormants to Win-Back instead.",
+      "rationale": "The newsletter is the product and the primary retention engine — a repeatable, habit-forming template is what keeps free readers engaged enough to eventually convert and keeps paid members renewing.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "recurring",
+          "purpose": "The flagship issue template: one recently passed law decoded in plain English, structured so readers can scan it in under 5 minutes and walk away knowing exactly how it affects them.",
+          "subject": "What [Bill/Law name] actually means for your [wallet/rights]",
+          "preview": "What passed, why it matters, and how it hits you — in under 5 minutes.",
+          "cta": "Read the full breakdown",
+          "keyPoints": [
+            "Open with the single law that matters most this cycle, named plainly, with a state tag where relevant",
+            "Use the recurring three-part structure — what passed, why it matters, how it impacts your wallet/rights — so the habit is predictable",
+            "Hold the nonpartisan line: facts and direct impact only, no commentary that could read as left or right",
+            "Single primary CTA to the full breakdown, with a soft 80/20 nudge toward paid support at the foot"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal, Anniversary & Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect recurring paid revenue and reinforce the value of continued support around the subscription anniversary.",
+      "trigger": "Paid subscriber anniversary / renewal date − 30-45 days; usage milestone signaling a happy, high-engagement member.",
+      "segment": "Active paid subscribers approaching renewal; branch high-engagement (thank-you + impact recap) vs. low-engagement (save / re-onboard before renewal).",
+      "rationale": "With auto-renewing subscriber support, the anniversary is the moment to reaffirm value so members don't cancel on autopilot during a quiet stretch — and to convert satisfaction into referrals and continued funding.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "anniversary",
+          "purpose": "Quantify their year of support — laws decoded, hours saved, coverage funded — and celebrate that their dollars kept independent, nonpartisan journalism alive, then reaffirm renewal.",
+          "subject": "Your year with The Ballot Beacon, by the numbers",
+          "preview": "The laws we decoded together — and what your support made possible.",
+          "cta": "See your year (and keep it going)",
+          "keyPoints": [
+            "Recap concrete outcomes: issues delivered, laws broken down, slow-cycle weeks they trusted us to stay quiet",
+            "Frame their support as the reason coverage stayed independent and spin-free for the past year",
+            "Reaffirm the renewal warmly and remove any friction or doubt about what continued support funds",
+            "Invite them to extend their impact — share with a friend or refer a fellow reader who's tired of the spin"
+          ]
+        }
+      ]
+    }
+  ]
+}

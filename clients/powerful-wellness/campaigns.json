@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Powerful Wellness",
+    "slug": "powerful-wellness",
+    "url": "https://www.powerful-wellness.com",
+    "vertical": "Health coaching — women's midlife wellness (telehealth-adjacent)",
+    "colors": {
+      "primary": "#7C6B55",
+      "accent": "#C4614A",
+      "background": "#FAF7F2",
+      "text": "#1E1E1E"
+    }
+  },
+  "summary": "Powerful Wellness is a health-coaching practice led by Dr. Melissa Lockhart, a nurse practitioner, serving women 35+ who are navigating midlife energy loss, unexplained weight gain, and hormonal shifts (perimenopause/menopause). It offers a free 15-minute discovery call, ongoing 1-on-1 coaching, a structured 6-week program across five health pillars (including medical/metabolic options like GLP-1, LIPOLEAN, and peptides), and digital products. Every paid offer is closed through a human discovery call, which the email program exists to book and protect.",
+  "campaigns": [
+    {
+      "id": "booking-reminders-no-show-recovery",
+      "name": "Discovery Call Booking, Reminders & No-Show Recovery",
+      "priority": 1,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended free 15-minute discovery calls and recover the ones that slip, since the call is the single revenue event the whole funnel drives toward.",
+      "trigger": "Discovery call booked (via Calendly or similar); upcoming-appointment timer; no-show event.",
+      "segment": "Anyone with a scheduled 15-minute discovery call with Dr. Lockhart.",
+      "rationale": "Powerful Wellness has no cart and no self-serve checkout — the free discovery call IS the conversion event, and reminders cut no-shows ~35%. This is the fastest, most measurable win and protects every dollar the rest of the funnel works to generate.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-1",
+          "purpose": "Day-before reminder that also pre-sells the call — confirms the time, sets warm low-pressure expectations, and gets her to arrive with her #1 challenge in mind so 15 minutes goes further.",
+          "subject": "Your call with Dr. Lockhart is tomorrow — let's make these 15 minutes count",
+          "preview": "No pressure, no sales pitch — just a real first step for your energy and hormones.",
+          "cta": "Confirm or reschedule your time",
+          "keyPoints": [
+            "Confirm the date/time with an add-to-calendar link, and a no-friction reschedule link so a conflict becomes a new time, not a no-show",
+            "Set expectations: 15 minutes, woman-to-woman, no pressure — you'll leave with one actionable step and a clear picture of what coaching looks like",
+            "Prompt her to jot down her biggest challenge — energy, weight, hormones, or sleep — so Dr. Lockhart can make the most of the call",
+            "Reassure on credibility and the #1 objection: this is an NP-led, clinical approach built for how a woman's body actually works after 35 — not another generic program"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "welcome-onboarding-list-subscriber",
+      "name": "Welcome & Onboarding (List Subscriber → Book the Call)",
+      "priority": 2,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a new email subscriber to first value fast — booking the free 15-minute discovery call, which is the 'aha' moment for a lead.",
+      "trigger": "Email list signup / free-content opt-in. Send email 1 within seconds — welcome opens drop ~50% if delayed.",
+      "segment": "New list subscribers; branch on the optional intake question (biggest challenge: energy / weight / hormones / sleep) to lead with the right hook.",
+      "rationale": "The email list is the brand's primary owned asset and there's no branded onboarding today. The welcome email is the most-opened send a brand makes — the right moment to convert a fresh subscriber's intent into a booked call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome that delivers an immediate sense of being understood and drives the single most important first action: booking the free 15-minute discovery call.",
+          "subject": "You've spent years caring for everyone else. Let's care for you now.",
+          "preview": "Your free 15-minute call with Dr. Lockhart is the fastest first step.",
+          "cta": "Book your free 15-minute discovery call",
+          "keyPoints": [
+            "Open woman-to-woman: name the midlife reality — fatigue, weight that won't budge, hormones shifting — and that what worked before stopped working after 35",
+            "Position the free 15-minute discovery call as the no-pressure first step where she leaves with one actionable thing, framed around her stated challenge if known",
+            "Foreground the differentiator: Dr. Lockhart is a nurse practitioner — a clinical, personalized approach, not generic wellness advice",
+            "Set expectations for the next couple of weeks of short, useful emails, invite a real reply, and close with the brand's 'vibrant again, at every age' promise"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist-nurture-to-discovery-call",
+      "name": "Lead-Magnet Nurture (Checklist → Discovery Call)",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a passive checklist downloader toward booking the discovery call over a multi-week cycle by building trust and dismantling the core objection.",
+      "trigger": "Free checklist download ('important information before starting any health/fitness/nutrition program').",
+      "segment": "Checklist downloaders who haven't yet booked a call; branch by stated challenge (metabolic/GLP-1 interest vs. lifestyle-only vs. active peri/menopause).",
+      "rationale": "The checklist already pulls leads in, but nothing connects that download to a sales conversation. The hero send is the proof/evaluation email — it answers the exact objection ('will this work for someone my age?') that decides whether a skeptical midlife woman books.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "The evaluation-stage proof email: tackle the #1 objection head-on with peer social proof and the clinical, personalized approach, then offer the low-friction next step.",
+          "subject": "\"Will this actually work for someone my age?\" — fair question. Here's the honest answer.",
+          "preview": "Why a plan built for a post-35 body works when diets and the gym didn't.",
+          "cta": "Book your free 15-minute discovery call",
+          "keyPoints": [
+            "Validate the skepticism — most clients tried diets and the gym and were let down — then explain why a post-35 body needs a different, hormone-aware approach",
+            "Show the clinical structure: an NP-led plan across the 5 Pillars (medical, fitness, nutrition, hormonal balance, community) personalized to her, not a template",
+            "Include outcomes-framed peer social proof from women in the same life stage (compliant: 'women who work with Dr. Lockhart report…', no diagnostic claims)",
+            "Permission-based close — 'when you're ready' — pointing to the free, no-pressure 15-minute call; include the medical-track health disclaimer in the footer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-call-consult-conversion",
+      "name": "Discovery Call → Coaching Conversion",
+      "priority": 4,
+      "stage": "Conversion",
+      "objective": "Convert an attended free discovery call into an enrolled coaching client (6-week program, ongoing 1-on-1, or medical/metabolic track).",
+      "trigger": "Discovery call attended; branch by the track Dr. Lockhart recommended on the call (medical/GLP-1, 6-week program, or ongoing 1-on-1).",
+      "segment": "Prospects who completed a discovery call but haven't yet enrolled.",
+      "rationale": "Today nothing follows the call, so warm, pre-sold prospects go cold. The same-day recap-and-offer email captures peak intent — it restates her goal in her words and turns the conversation into a concrete, personalized enrollment path.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day post-call recap and offer — reflect back her goal, present the recommended plan as built-for-her, and make enrolling the easy next step while the conversation is fresh.",
+          "subject": "Your personalized next step after our call today",
+          "preview": "The plan we talked through — built for your body, not a generic template.",
+          "cta": "Review your plan & get started",
+          "keyPoints": [
+            "Recap her stated goal in her own words from the call (energy, weight, hormones) so it feels heard and specific to her",
+            "Lay out the recommended track and what's included — 6-week 5-Pillar reset, ongoing 1-on-1 with between-session messaging, or the medical/metabolic option (GLP-1/LIPOLEAN/peptides) if discussed",
+            "Reinforce trust with NP credibility and one relevant client outcome, framed compliantly; include the health disclaimer for the medical track",
+            "Make the next step low-friction and human — a single enroll/booking link plus 'just reply with any question, a real person reads every one'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-reengagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant subscribers and past prospects who never booked, recover a slice of the list, and protect deliverability by surfacing who's still interested.",
+      "trigger": "Inactivity threshold — 60–90 days with no opens/clicks and never booked a call; separately, past clients who lapsed after the 6-week program.",
+      "segment": "Dormant subscribers and never-booked checklist leads; branch churned past clients into a separate 'what's changed since' message.",
+      "rationale": "A from-scratch list will accumulate non-bookers and lapsed contacts; win-back recovers 5–15% and cleans the list to protect sender reputation. The first 'did we lose you?' send is the highest-yield re-engagement touch.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm 'we miss you' re-engagement — remind her of the core outcome she came for and offer the easiest possible re-entry, the free 15-minute call.",
+          "subject": "Still want your energy back?",
+          "preview": "It's not too late to feel vibrant again — here's a fresh place to start.",
+          "cta": "Book a free 15-minute call",
+          "keyPoints": [
+            "Lead with empathy, not guilt — life with everyone else's needs gets busy; the door to caring for herself is still open",
+            "Reconnect to the core outcome: reclaiming energy, balancing hormones, and feeling like a better version of herself after 35",
+            "Offer the lowest-friction re-entry — the free, no-pressure 15-minute discovery call — and hint at what's new since she last engaged",
+            "Keep it short with a single CTA and a real reply-to; set up the later sunset email by signaling we'll stop emailing if she's no longer interested"
+          ]
+        }
+      ]
+    }
+  ]
+}

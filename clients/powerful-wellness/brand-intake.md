@@ -1,5 +1,13 @@
 # Brand Intake — Powerful Wellness
-*Completed: June 2, 2026 | Source: site research (powerful-wellness.com)*
+*Completed: June 2, 2026 | Updated: June 4, 2026 | Source: site research (powerful-wellness.com)*
+
+**Brand colors (confirmed via screenshot):**
+| Role | Hex | Usage |
+|---|---|---|
+| Primary | `#7C6B55` | Warm taupe/brown — hero overlay, dominant tone |
+| Accent | `#C4614A` | Coral/terracotta — CTA buttons |
+| Background | `#FAF7F2` | Warm off-white/cream — page sections |
+| Text | `#1E1E1E` | Near-black — body copy |
 
 ---
 
