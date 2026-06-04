@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Think+ (Think Energy Plus)",
+    "url": "https://office2.thinkenergy.plus",
+    "slug": "think-energy",
+    "vertical": "Network marketing / clean energy retail (B2C & MLM channel)",
+    "tagline": "Turning energy into income",
+    "colors": {
+      "primary": "#1B1F42",
+      "accent": "#3DC970",
+      "background": "#FFFFFF",
+      "text": "#1B1F42"
+    }
+  },
+  "offer": {
+    "what": "Network marketing opportunity (Think+ Energy Advisor program) built on top of Think Energy's retail clean electricity and community solar products. Advisors earn acquisition bonuses and monthly residuals by referring customers to electricity or community solar plans across 13 deregulated US states + DC.",
+    "coreOutcome": "For Energy Advisors: recurring residual income from a growing customer downline while helping people switch to clean energy. For end customers: 100% clean electricity on competitive fixed-rate plans with potential bill savings.",
+    "pricePoint": "$99/year annual Energy Advisor membership (no monthly fee). Electricity plans from ~14.3¢/kWh (12-month fixed); community solar saves customers ≥5% annually for up to 20 years.",
+    "commitment": "Annual membership renewal for advisors. 12-, 24-, or 36-month fixed-rate contracts for end customers.",
+    "leadMagnets": [
+      "Free Energy Club — refer 3 customers and earn up to 100% monthly bill credit",
+      "Rate quote tool by zip code (no obligation)",
+      "'Earn back your $99 enrollment by switching your own home' hook"
+    ]
+  },
+  "audience": {
+    "icp": "Entrepreneurial side-hustlers and relationship-driven networkers (US adults) who want flexible income without a traditional second job — particularly those already passionate about sustainability or who trust word-of-mouth channels over advertising.",
+    "painPoints": [
+      "Unpredictable variable energy bills with no pricing certainty",
+      "Want supplemental income but can't commit to a franchise or full business",
+      "Skeptical of MLM stigma — need credibility signals before sharing with friends",
+      "Difficulty explaining energy deregulation and why switching matters",
+      "Advisor inertia after enrolling family/friends — don't know how to grow beyond their inner circle"
+    ],
+    "segments": [
+      "Prospective Energy Advisors (recruiting / top-of-funnel)",
+      "New Energy Advisors (onboarding / first 30–90 days)",
+      "Active advisors building a team (rank advancement)",
+      "Dormant/inactive advisors (win-back)",
+      "End customers referred via advisor links (separate nurture)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same-day to a few days — self-serve online signup via referral link",
+    "trial": "No formal trial, but the 'enroll your own home and earn back your $99' offer functions as a near-zero-risk entry point for advisors. Free Energy Club is the customer-side risk-reversal.",
+    "closeMechanism": "Self-serve signup through a personalized Energy Advisor referral link; supported by advisor-to-prospect conversations (phone/text/social DMs).",
+    "topObjection": "'Is this an MLM / pyramid scheme?' — plus trust concerns given founder Michael Fallquist's history with Viridian Energy (FTC settlement) and Griddy (bankruptcy)."
+  },
+  "ahaMoment": "Advisors: receiving their first acquisition bonus (e.g., the $20 electricity referral or the offset on their own home bill) — proof the model works. Customers: first bill showing a lower locked-in rate with 100% renewable sourcing.",
+  "retention": {
+    "recurring": "Annual $99 EA membership renewal; end-customer fixed-rate contracts auto-renew or expire at term end.",
+    "expansion": "Rank advancement (8 tiers: Regional Energy Advisor → Senior Partner) triggered by growing personally-referred customers and total downline. Adding community solar customers unlocks $60/referral bonuses vs $20 for electricity.",
+    "churnRisk": "Advisors who exhaust their immediate circle and stall at early ranks; annual renewal drop-off for passive advisors; end customers switching providers when fixed-rate contracts expire; general MLM attrition curve (~70–80% in year 1)."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — new advisor likely receives no structured email sequence walking them through first steps (enroll home, make first referral, access Web Office)",
+    "Lead-Magnet Nurture — prospects who request a rate quote or learn about the opportunity but haven't joined need a multi-touch email follow-up",
+    "Trial/Consult Conversion — prospects who attended a webinar or info call need a conversion sequence",
+    "Booking & Reminders — advisor-to-prospect demo/info call scheduling and show-up reminders",
+    "Value Newsletter — ongoing training, success stories, leaderboard, and product updates to keep advisors motivated",
+    "Renewal & Expansion — annual membership renewal reminder + rank-advancement coaching sequence",
+    "Win-Back / Re-Engagement — inactive advisors who haven't referred a customer in 60–90 days"
+  ],
+  "toneVoice": "Optimistic, entrepreneurial, community-first, and conversational. Speaks peer-to-peer ('we're all in this together'), leans into local impact and sustainability without being preachy. Avoids jargon-heavy MLM language; prefers 'Energy Advisor' and 'community' over 'downline' or 'recruit'.",
+  "compliance": "Energy retail regulations apply in 13 deregulated states (variable by state — TX, CT, DE, IL, ME, MD, MA, NH, NJ, NY, OH, PA, RI + DC). FTC MLM disclosure rules require income-claim disclaimers in any promotional email referencing earnings. CAN-SPAM / CASL compliance required. Avoid specific earnings projections without FTC-compliant typical-results disclosure."
+}

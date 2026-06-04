@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Think+ (Think Energy Plus)",
+    "slug": "think-energy",
+    "url": "https://office2.thinkenergy.plus",
+    "vertical": "Network marketing / clean energy retail (B2C & MLM advisor channel)",
+    "colors": {
+      "primary": "#1B1F42",
+      "accent": "#3DC970",
+      "background": "#FFFFFF",
+      "text": "#1B1F42"
+    }
+  },
+  "summary": "Think+ is the network-marketing channel of Think Energy, a licensed retail clean-electricity provider. People join for $99/year as Energy Advisors and earn acquisition bonuses plus monthly residuals by referring residential and small-business customers to fixed-rate clean electricity and community-solar plans across 13 deregulated US states plus DC. It serves entrepreneurial, relationship-driven side-hustlers who want flexible income, alongside the end customers they refer for cleaner, price-certain energy.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "New Advisor Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive new Energy Advisors to their first 'aha' — enroll their own home and make their first customer referral within 7 days.",
+      "trigger": "Energy Advisor enrollment / $99 membership purchased (account created). Email 1 fires within seconds.",
+      "segment": "New Energy Advisors, days 0–90; branch on whether they have enrolled their own home yet.",
+      "rationale": "New advisors get no structured onboarding today and ~70–80% churn in year one; the fastest path to retention is getting them to their first bonus, which proves the model actually works.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and give one clear first action: enroll your own home to earn back the $99 and start the 7-day first-referral clock.",
+          "subject": "You're in, [First name] — here's how to earn your $99 back this month",
+          "preview": "Two minutes to switch your own home to clean energy — your first move as an Advisor.",
+          "cta": "Switch my home to clean energy",
+          "keyPoints": [
+            "Single first action: open your Web Office and enroll your own home — the offset on your own bill is the fastest proof the model works",
+            "Set the goal plainly: enroll your home today, make your first customer referral within 7 days",
+            "Human, peer-to-peer voice — set expectations for a short onboarding series and invite a real reply for help",
+            "Include FTC typical-results disclosure on any reference to earning the $99 back; no income guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prospect-conversion",
+      "name": "Opportunity Conversion (Webinar & Info-Call → Enrolled Advisor)",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert opportunity-curious prospects (webinar attendees, info-call takers) into enrolled Energy Advisors using the near-zero-risk 'earn back your $99' entry.",
+      "trigger": "Webinar attended / info-call completed / 'learn more' requested — with a short follow-up urgency window running in parallel.",
+      "segment": "Prospects who engaged with the opportunity but have not enrolled; branch by warm (attended live) vs. passive (registered/no-show).",
+      "rationale": "The sales cycle is same-day self-serve, so a timely, objection-aware nudge right after a webinar or info-call is the single biggest lever on enrollment — and the 'enroll your own home, earn it back' framing removes the financial risk.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Convert the warm prospect — restate the opportunity, dismantle the cost risk with 'earn back your $99,' and hand them the referral link to enroll now.",
+          "subject": "About that $99 — here's how most Advisors earn it back in month one",
+          "preview": "You don't have to sell a thing to start. Switch your own home first.",
+          "cta": "Start as an Energy Advisor",
+          "keyPoints": [
+            "Lead with risk reversal: enroll your own home and the bill offset can earn back the $99 membership in your first month (typical-results disclosure)",
+            "Pre-empt 'is this a pyramid scheme?' — you earn on real households switching to clean electricity, no inventory, no quotas, no monthly fee",
+            "One clear CTA: enroll today through your advisor's referral link",
+            "Light, honest urgency (founding-community / current bonus framing) — no false scarcity or earnings guarantees"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-nurture",
+      "name": "Lead-Magnet Nurture (Rate-Quote & Opportunity Leads)",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold leads (rate-quote requesters, opportunity-curious) toward enrollment over a ~50-day cycle while defusing the MLM-credibility objection.",
+      "trigger": "Rate-quote tool submission (zip code) or opportunity info request; lead below the sales-ready score threshold.",
+      "segment": "Unconverted leads; branch by intent — customer-leaning (wants clean energy / savings) vs. advisor-leaning (wants income).",
+      "rationale": "The #1 conversion blocker is MLM skepticism, amplified by the founder's history; in this trust-driven channel a nurture that leads with transparency and proof is what earns the credibility to convert.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Tackle the MLM / credibility objection head-on with transparency and proof, reframing Think+ as a legitimate clean-energy referral model.",
+          "subject": "\"Isn't this just an MLM?\" — a straight answer",
+          "preview": "No inventory, no monthly fees, real electricity customers. Here's exactly how it works.",
+          "cta": "See how Advisors actually get paid",
+          "keyPoints": [
+            "Name the objection directly and answer with transparency — you refer real households to a licensed clean-electricity provider, not stockpile product",
+            "Differentiate from MLM stigma: $99/year, no monthly fee, no inventory, no quotas; residuals only while referred customers stay on plan",
+            "Proof: community/clean-energy impact plus a real advisor story, with FTC typical-results disclosure and no income guarantees",
+            "Low-friction next step: run a no-obligation rate quote or book a 15-minute opportunity call"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advisor-win-back",
+      "name": "Advisor Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate Energy Advisors who have stalled — no referral in 60–90 days — before their annual membership lapses.",
+      "trigger": "Inactivity threshold: no referral and/or no Web Office login in 60–90 days.",
+      "segment": "Dormant advisors; branch by never-referred vs. lapsed-active (previously earning, now quiet).",
+      "rationale": "With ~70–80% year-one MLM attrition, most advisors stall after exhausting their inner circle; a focused win-back recovers 5–15% and protects renewal revenue before the $99 lapses.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reconnect with the stalled advisor, dissolve the 'I ran out of people to ask' wall, and hand them one concrete next referral move.",
+          "subject": "Still sitting on your $99, [First name]?",
+          "preview": "You're one referral away from proof this works. Here's the easiest one.",
+          "cta": "Get my next referral idea",
+          "keyPoints": [
+            "Empathize with the stall ('ran out of friends to ask') — almost every advisor hits this; it isn't the end of the road",
+            "Give one easy, specific move: a community-solar referral (higher bonus) or share the rate-quote tool with a neighbor",
+            "Remind them the membership is still active and what they'd forfeit if it lapses",
+            "Offer real human help (reply or book a coaching call); typical-results disclosure on any earning reference"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal, Anniversary & Rank Expansion",
+      "priority": 5,
+      "stage": "Retention",
+      "objective": "Protect the annual $99 membership renewal and drive rank advancement and community-solar expansion among active advisors.",
+      "trigger": "Membership renewal date − 90 days; rank-advancement readiness signal (referral / downline growth).",
+      "segment": "Active advisors approaching renewal; branch by health — high-referral (expansion offer) vs. low (save / re-onboard).",
+      "rationale": "The annual renewal is the recurring-revenue backbone; quantifying the residuals and clean-energy impact an advisor earned this year is the strongest case to renew and to nudge them toward the next rank or solar upsell.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "Renewal − 90d",
+          "purpose": "Quantify the advisor's past-year results — referrals, residuals, clean-energy impact — to justify the renewal and tee up the next rank.",
+          "subject": "Your year with Think+, [First name] — by the numbers",
+          "preview": "The customers you switched, the residuals you earned, and what's one rank away.",
+          "cta": "See my year + renew",
+          "keyPoints": [
+            "Show their real numbers: customers referred, residuals earned, and clean-energy/community impact — pulled from actual data, not estimates",
+            "Tie renewal to continuity — residuals keep paying only while the membership stays active",
+            "Expansion hook: how close they are to the next of 8 ranks, plus the community-solar upsell ($60 vs. $20 bonus)",
+            "FTC typical-results disclosure; renew CTA plus a rank-coaching call offer for low-health accounts"
+          ]
+        }
+      ]
+    }
+  ]
+}
