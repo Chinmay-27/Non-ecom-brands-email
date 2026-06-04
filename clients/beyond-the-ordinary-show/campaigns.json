@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Beyond The Ordinary Show",
+    "slug": "beyond-the-ordinary-show",
+    "url": "https://www.beyondtheordinaryshow.com",
+    "vertical": "Education / membership / spiritual media",
+    "colors": {
+      "primary": "#1B2A4A",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "summary": "Beyond The Ordinary Show is a free live webinar series hosted by John Burgos featuring 30+ spiritual thought leaders per season, used as the top-of-funnel lead engine for a paid community. Its core paid product is 'Living in the Extraordinary,' a $39/month month-to-month membership offering weekly live transmissions, Q&As, and direct access to John, with added revenue from a marketplace of speaker courses, audio pocket guides, and 1:1 mentorship. It serves spiritually curious adults (skewing women, 35–65) who feel stuck or unseen and are seeking clarity, transformation, and a community of kindred seekers.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation by getting a new free opt-in to show up to their first LIVE transmission — the felt 'aha' moment where content becomes transformation.",
+      "trigger": "Email opt-in for show replay access / free meditation download (send email 1 within seconds).",
+      "segment": "New free subscribers who have not yet attended a live call.",
+      "rationale": "The brand's entire conversion path depends on one event: getting a new subscriber to attend live, where John's presence does the closing. A replay link alone never delivers the aha, so onboarding must bridge 'I signed up for replays' to 'I showed up live and felt it.'",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and deliver the one action that creates the aha: claiming a seat on the next live transmission.",
+          "subject": "Welcome — your seat at the next live transmission is open",
+          "preview": "The replays are yours forever. But the shift happens live. Here's how to be in the room.",
+          "cta": "Save my seat for the next live call",
+          "keyPoints": [
+            "Welcome them by name and honor why they came — clarity, connection, and a community that actually sees them",
+            "Reframe: replays are a gift, but the real shift happens live, in the room with John and the speakers",
+            "One single action — reserve a seat at the next live transmission, with the date/time and add-to-calendar",
+            "Set the rhythm: a few short heart-centered notes over the next two weeks, and a real human reply-to",
+            "Standard personal-results disclaimer kept light and on-brand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture (Free → Membership)",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Warm the large pool of under-monetized free subscribers toward 'Living in the Extraordinary' membership by building trust and resolving the free-vs-paid objection.",
+      "trigger": "Replay opt-in / meditation download with no membership purchase; lead below sales-ready threshold.",
+      "segment": "Engaged free subscribers (opened/attended at least once) who are not yet members; branch by the speaker or topic they engaged with.",
+      "rationale": "The free list is the brand's biggest under-tapped asset, and the #1 blocker to revenue is the question 'why pay $39 when so much is free?' This sequence's hero send answers that head-on without breaking the generous, non-salesy voice.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "35",
+          "purpose": "Objection handling — make the honest case for why members pay $39/month when the show is free, framed as the difference between consuming and being held.",
+          "subject": "Why we pay $39 a month when the show is free",
+          "preview": "It's an honest question. Here's the real difference between watching and being held.",
+          "cta": "See what's inside Living in the Extraordinary",
+          "keyPoints": [
+            "Name the objection openly and without defensiveness — it's the right question to ask",
+            "Draw the distinction: the free show is where you discover; the membership is where you're held weekly and pressured (lovingly) to actually change",
+            "Concrete contrast — weekly live transmissions, direct Q&A with John, on-demand library, and a community that holds you accountable",
+            "Member voice that mirrors success language: 'I finally feel like I belong somewhere' / 'I went from knowing to doing'",
+            "Lower the risk: $39/month, no contract, no catch — leave anytime"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders-no-show",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 3,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize live attendance — the activation and revenue-proximate event — by pre-framing and reminding registered attendees so they actually show up.",
+      "trigger": "Seat reserved for an upcoming live transmission; upcoming-call cadence; no-show event.",
+      "segment": "Anyone registered for an upcoming live show or member transmission.",
+      "rationale": "Live attendance is both the aha and the closer for this brand, yet show-up rates are likely low without a pre-frame sequence; reminders cut no-shows ~35% on average, recovering attendance (and conversions) immediately.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Day-of 'starting soon' reminder that builds anticipation and removes every barrier to clicking in live.",
+          "subject": "We're live today at {time} — your link is inside",
+          "preview": "Today's transmission with {speaker}. Come as you are — just bring an open heart.",
+          "cta": "Join the live transmission",
+          "keyPoints": [
+            "Direct join link front and center — one tap to be in the room",
+            "Pre-frame the experience: today's speaker, the theme, and the felt shift to expect",
+            "Lower the bar to show up — no prep, no camera required, just be present for 60–90 minutes",
+            "Gentle urgency: this one is live and won't feel the same on replay",
+            "Reassure that a replay follows, but the energy and Q&A only happen live"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-to-paid-conversion",
+      "name": "Free → Paid Membership Conversion",
+      "priority": 4,
+      "stage": "Conversion",
+      "objective": "Convert a warm free attendee who has felt the live aha into a paying 'Living in the Extraordinary' member.",
+      "trigger": "Subscriber attended a live transmission (activation event) and is not yet a member.",
+      "segment": "Free subscribers who have attended at least one live call; branch by engagement depth.",
+      "rationale": "Once someone has felt the shift live, that resonance fades fast without a clear, low-friction path to make it a weekly practice — this is the moment of peak intent to convert free trust into recurring revenue.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Strike while the resonance is fresh — invite the recent live attendee to make the experience their weekly practice inside the membership.",
+          "subject": "You felt something on that call. Let's make it weekly.",
+          "preview": "That shift you felt isn't a one-time thing. It's a practice — and it has a home.",
+          "cta": "Join Living in the Extraordinary — $39/mo, no contract",
+          "keyPoints": [
+            "Reflect back the felt experience of the live call they just attended — name the resonance and shift",
+            "Position membership as the way to keep that feeling alive every week rather than chasing it season to season",
+            "What they get: weekly live transmissions, direct Q&A and access to John, the full replay library, and the community container",
+            "Address the lingering doubt — real, lasting change comes from consistency and accountability, not more free content",
+            "Low-friction close: $39/month, month-to-month, cancel anytime, plus a human reply-to for questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back-re-engagement",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate dormant free subscribers and churned members, and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no opens/clicks/live attendance, or membership cancellation.",
+      "segment": "Dormant free subscribers; separately, churned members (different, warmer message referencing what they had).",
+      "rationale": "Lapsed free opt-ins and quietly-cancelled members are not being reactivated, and re-engagement recovers 5–15% of inactive contacts while sunsetting the rest keeps sender reputation healthy.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Heart-centered 'we miss you' that reconnects them to the core longing that brought them in and invites them back to one live call.",
+          "subject": "Did the noise pull you back under?",
+          "preview": "No guilt, no pitch. Just an open door back to the room whenever you're ready.",
+          "cta": "Come back to the next live transmission",
+          "keyPoints": [
+            "Open with empathy, not guilt — life and noise pull all of us away from the deeper work",
+            "Remind them of why they came: clarity over confusion, connection over feeling unseen",
+            "A warm, no-pressure invitation back to a single upcoming live transmission",
+            "For the churned-member branch, reference what they valued most and what's new since they left",
+            "Sets up the later sunset email — if this re-opens nothing, ask whether to stop emailing to protect their inbox and our deliverability"
+          ]
+        }
+      ]
+    }
+  ]
+}

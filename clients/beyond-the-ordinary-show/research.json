@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Beyond The Ordinary Show",
+    "url": "https://www.beyondtheordinaryshow.com",
+    "slug": "beyond-the-ordinary-show",
+    "vertical": "Education/nonprofit/membership",
+    "tagline": "Personal Transformation. Global Change. One Conversation at a Time.",
+    "colors": {
+      "primary": "#1B2A4A",
+      "accent": "#C9A84C",
+      "background": "#FFFFFF",
+      "text": "#1A1A2E"
+    }
+  },
+  "offer": {
+    "what": "Free live webinar series (Beyond The Ordinary Show) featuring 30+ spiritual thought leaders per season, used as the top-of-funnel lead engine. Core paid product is 'Living in the Extraordinary' — a $39/month community membership with weekly live transmissions, Q&As, and direct access to host John Burgos. Additional revenue from a marketplace of speaker courses and programs, audio pocket guides, and personal mentorship (pricing not publicly listed).",
+    "coreOutcome": "Move from confusion, anxiety, and fear to clarity, ease, and love — spiritual awakening and decisive personal transformation, supported by a community of kindred spirits.",
+    "pricePoint": "$39/month (no contract) for core membership; free entry via show opt-in; marketplace items variable (estimated $97–$500+); mentorship pricing unknown",
+    "commitment": "Month-to-month, no contracts for membership; free tier has no commitment",
+    "leadMagnets": [
+      "Free access to live webinar replays (email opt-in)",
+      "Free guided meditation download (via johnburgos.co)"
+    ]
+  },
+  "audience": {
+    "icp": "Spiritually curious adults (skewing women, ages 35–65) who feel stuck, unseen, or unfulfilled by mainstream culture and are actively exploring consciousness expansion, energy work, and personal transformation. They know what they want but struggle to take consistent action.",
+    "painPoints": [
+      "Feeling confused, anxious, or spiritually lost",
+      "Wanting deeper meaning that mainstream media doesn't offer",
+      "Feeling unseen or misunderstood in everyday life",
+      "Knowing their direction but unable to move forward",
+      "Seeking authentic community of like-minded spiritual seekers"
+    ],
+    "segments": [
+      "Free show attendees (top of funnel — replay opt-ins, podcast listeners)",
+      "Living in the Extraordinary members (paying $39/month)",
+      "Marketplace buyers (one-off course or program purchasers)",
+      "Mentorship clients (high-ticket, direct access to John)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — free content builds trust before paid conversion",
+    "trial": "Yes — free live calls and replays serve as the trial experience; no time-limited free trial for the paid membership",
+    "closeMechanism": "Email nurture from replay opt-in → repeated webinar attendance → organic upsell to Living in the Extraordinary membership or marketplace offer",
+    "topObjection": "Is this worth paying for when so much is free? / Skepticism about whether a spiritual community will create real, lasting change"
+  },
+  "ahaMoment": "Attending a first live webinar transmission and experiencing a felt sense of connection, resonance with a speaker, and a tangible insight or energetic shift — the moment the community feels 'real' and transformative rather than just content consumption.",
+  "retention": {
+    "recurring": "Yes — $39/month membership with weekly live sessions and on-demand replays",
+    "expansion": "Marketplace program purchases from featured speakers, personal mentorship with John, live events attendance",
+    "churnRisk": "Members who don't show up to live calls lose the sense of community and connection that justifies the subscription; content fatigue if transmissions feel repetitive; no accountability structure built in"
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — free opt-ins likely receive minimal structured onboarding beyond a replay link",
+    "Lead-Magnet Nurture — large pool of free replay opt-ins almost certainly under-nurtured toward the $39/month membership",
+    "Trial/Consult Conversion — no formal conversion sequence from free → paid identified",
+    "Booking & Reminders — live webinar show-up rates likely low without reminder/pre-frame sequences",
+    "Renewal & Anniversary — month-to-month members have no retention touchpoints or milestone celebrations",
+    "Win-Back / Re-Engagement — lapsed free subscribers and churned members not being reactivated"
+  ],
+  "toneVoice": "Inspirational, warm, and mystical — uses spiritual language naturally (transmissions, consciousness, activation, awakening) without being preachy. Inclusive and community-first. Copy leans emotional and heart-centered rather than logical or feature-driven. Not overtly salesy; trust is built through generosity (free content) before any ask.",
+  "compliance": "Standard CAN-SPAM / GDPR applicable. No HIPAA, financial, or legal-sector constraints. Spiritual wellness content — standard disclaimer language around personal results advisable but no regulated-industry restrictions."
+}
