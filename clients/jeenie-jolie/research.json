@@ -1,0 +1,62 @@
+{
+  "brand": {
+    "name": "Jeenie Jolie",
+    "url": "https://jeeniejolie.com",
+    "slug": "jeenie-jolie",
+    "vertical": "E-commerce — organic/artisanal skincare & body care (wellness/beauty)",
+    "tagline": "Organic Beauty, and Mindful Living, Wrapped In Art",
+    "colors": {
+      "primary": "#1C1A17",
+      "accent": "#C9A84C",
+      "background": "#0F0E0C",
+      "text": "#F5F0E8"
+    }
+  },
+  "offer": {
+    "what": "Organic, artisanal skincare and body care products — tallow-based face cream, whipped body butters, body oils, African black soap, shea butter, sugar scrubs, and natural loofahs. Bundles available. Lunar ceremony ritual content/kits referenced but not a structured paid service.",
+    "coreOutcome": "Glowing, nourished skin through clean, intentional beauty rituals — feeling confident and aligned through slow, mindful self-care.",
+    "pricePoint": "$12.99–$44.99 individual products; ~$80.94 bundles. One-time purchases. No subscription tier found.",
+    "commitment": "One-off purchase; no recurring billing observed.",
+    "leadMagnets": [
+      "30% off first order via email signup (code HAPPY30)",
+      "Free guided ritual kit download for lunar ceremonies (referenced on homepage)"
+    ]
+  },
+  "audience": {
+    "icp": "Women aged 25–45 interested in clean/organic beauty, spiritual self-care, and intentional slow-living. Values natural ingredients, mystical aesthetics, and products that feel like rituals rather than routines.",
+    "painPoints": [
+      "Frustrated by synthetic chemicals and harsh ingredients in mainstream skincare",
+      "Seeking beauty products that align with a spiritual or wellness lifestyle",
+      "Wants skincare that actually delivers results without compromising on clean ingredients",
+      "Desires a sense of ritual and meaning in daily self-care — not just function"
+    ],
+    "segments": [
+      "Clean-beauty first-timers — curious about natural/organic but haven't fully switched",
+      "Spiritual/wellness devotees — moon ritual practitioners, intentional living community",
+      "Gift buyers — purchasing artisanal bundles as gifts for wellness-oriented friends/family"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days (e-commerce impulse + consideration cycle)",
+    "trial": "No free trial. 30% off first order is the primary conversion incentive.",
+    "closeMechanism": "Self-serve add-to-cart on Shopify storefront. Email discount code drives first purchase.",
+    "topObjection": "Skepticism about tallow-based or natural formulas vs. familiar drugstore products; price comparison to mass-market alternatives."
+  },
+  "ahaMoment": "First use of the product — experiencing the texture, scent, and skin-feel of a tallow cream or whipped body butter and noticing it performs better than conventional alternatives.",
+  "retention": {
+    "recurring": "No subscription or membership model detected. Repeat purchase is the only revenue recurrence.",
+    "expansion": "Buying additional SKUs (e.g., adding body butter after trying face cream); purchasing bundles; gifting.",
+    "churnRisk": "One-and-done buyers who don't receive a post-purchase nurture sequence encouraging a second order or cross-sell."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — likely only a Shopify order confirmation; no brand story or ritual-use education sequence",
+    "Lead-Magnet Nurture — 30% code likely delivered in one email with no follow-up if not redeemed",
+    "Trial/Consult Conversion — N/A (no trial product), but no browse-abandonment or cart-abandonment flow evident",
+    "Value Newsletter — no regular educational or community-building content cadence observed",
+    "Repeat-Purchase / Expansion — no cross-sell or replenishment email flow detected",
+    "Win-Back / Re-Engagement — no lapsed-customer reactivation sequence evident",
+    "Referral / Advocacy — no referral program or UGC encouragement flow found"
+  ],
+  "toneVoice": "Mystical, poetic, and aspirational. Blends wellness vocabulary ('vibration,' 'intention,' 'ritual') with empowering self-sovereignty language. Warm and introspective, never salesy or clinical. Reads like a journal entry from a confident, spiritual woman.",
+  "compliance": "Standard e-commerce (CAN-SPAM / GDPR). No HIPAA, financial, or legal constraints. Skincare claims should avoid drug-claim language (FDA cosmetic rules)."
+}

@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Jeenie Jolie",
+    "slug": "jeenie-jolie",
+    "url": "https://jeeniejolie.com",
+    "vertical": "DTC organic / artisanal skincare & body care (wellness & beauty)",
+    "colors": {
+      "primary": "#1C1A17",
+      "accent": "#C9A84C",
+      "background": "#0F0E0C",
+      "text": "#F5F0E8"
+    }
+  },
+  "summary": "Jeenie Jolie is a direct-to-consumer brand selling organic, artisanal skincare and body care — tallow-based face cream, whipped body butters, body oils, African black soap, shea butter, sugar scrubs, and natural loofahs, plus bundles. It serves women aged 25–45 who want clean, natural products and frame self-care as intentional, spiritual ritual rather than routine. All revenue comes from one-time purchases; there is no subscription or membership tier.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Bridge the gap between purchase and first use so the customer reaches the 'aha' moment — the texture, scent, and skin-feel of their first product — and trusts the brand enough to reorder.",
+      "trigger": "First purchase completed (Shopify order created) / new account or list join.",
+      "segment": "First-time buyers; branch by product purchased (face cream vs. body butter/scrub vs. bundle) to tailor the ritual guidance.",
+      "rationale": "There is no guided onboarding today — likely just a Shopify order confirmation — so new buyers are left to figure out the product alone, and a clean tallow/natural formula needs expectation-setting to overcome the brand's #1 objection. A warm, ritual-led welcome converts skepticism into a confident first use and seeds the repeat purchase.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the moment the order is placed: set expectations for the natural texture and scent, frame the product as a ritual, and give one simple first action so the first use lands as an 'aha' rather than a surprise.",
+          "subject": "Welcome to the ritual, beautiful — your glow is on its way",
+          "preview": "A few words to prepare your skin (and your senses) before it arrives.",
+          "cta": "Read your ritual guide",
+          "keyPoints": [
+            "Set honest expectations: tallow cream and whipped butters feel and smell different from synthetic drugstore products — that's the clean formula at work",
+            "Frame first use as a ritual: warm a small amount between palms, breathe, apply with intention rather than rushing",
+            "One simple first action — open the ritual guide and choose a moment (morning light or evening wind-down) for the first application",
+            "Reassure with the brand promise (organic, intentional, made in small batches) and invite a real reply if they have questions — using 'nourishes/soothes' language, never drug claims"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "30% Welcome Offer Nurture",
+      "priority": 2,
+      "stage": "Nurture / Consideration",
+      "objective": "Convert an email signup into a first purchase by delivering the 30% code (HAPPY30) and nurturing undecided subscribers past the natural-vs-mainstream skepticism objection.",
+      "trigger": "Email signup via the 30%-off pop-up / ritual-kit opt-in; lead has not yet purchased.",
+      "segment": "Newly subscribed non-buyers; branch by entry interest (skincare-curious vs. spiritual/ritual community) and suppress anyone who has already bought.",
+      "rationale": "With no free trial, the 30% code is the brand's core conversion mechanism, yet it is likely sent once with no follow-up if unredeemed. A short nurture that re-presents the offer with ingredient education and ritual framing is the single highest-leverage way to lift first-purchase rate from existing signups.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the 30% code instantly, frame the discount as an invitation into a clean-beauty ritual rather than a transaction, and point to the bestselling hero product to remove choice paralysis.",
+          "subject": "Here's your 30% — and the ritual it unlocks",
+          "preview": "Code HAPPY30 inside. Your glow starts with one mindful choice.",
+          "cta": "Shop with HAPPY30",
+          "keyPoints": [
+            "Deliver code HAPPY30 prominently with the 30%-off-first-order terms clear",
+            "Lead with the hero tallow face cream and a best-for-beginners body butter so the first choice is easy",
+            "Address the top objection up front: why organic tallow and whipped shea nourish skin better than silicone-heavy mainstream formulas (no drug claims)",
+            "Reinforce the ritual identity — clean ingredients, small-batch, intentional self-care — and signal gentle urgency that the welcome offer is for the first order"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "replenishment-expansion",
+      "name": "Replenishment & Cross-Sell",
+      "priority": 3,
+      "stage": "Retention / Expansion",
+      "objective": "Drive the second order by reminding buyers to replenish before they run out and introducing a complementary SKU or bundle to grow order value.",
+      "trigger": "Post-purchase replenishment window (≈45–60 days after first order, tuned to product type); usage-milestone signaling reorder readiness.",
+      "segment": "Past buyers approaching their refill window; branch on what they bought — face cream → add body butter/oil; single SKU → bundle upgrade.",
+      "rationale": "Revenue depends entirely on repeat purchase but no replenishment or cross-sell flow exists, leaving the brand reliant on customers remembering to reorder. A timed 'running low' + pairing nudge is the biggest second revenue lever for a product brand with no subscription.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "50",
+          "purpose": "Catch the buyer right as their product runs low, make reordering one click, and introduce the one complementary product that completes their ritual to lift basket size.",
+          "subject": "Running low? Don't let the ritual fade",
+          "preview": "Your jar is nearly empty — refill the glow and meet its perfect pairing.",
+          "cta": "Reorder + complete your ritual",
+          "keyPoints": [
+            "Assume the product is near-empty at the replenishment window and make the exact reorder one tap",
+            "Cross-sell the natural pairing for what they bought (e.g., face cream → body oil; body butter → sugar scrub for prep)",
+            "Frame the second product as deepening the ritual, not upselling — layering for head-to-toe nourishment",
+            "Offer a small bundle-the-two incentive or free-shipping threshold to nudge the larger order"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed buyers and dormant subscribers who have gone quiet, and clean the list to protect deliverability.",
+      "trigger": "No purchase in ~90+ days and/or no email engagement in 60–90 days; or a past buyer who never reordered.",
+      "segment": "Dormant subscribers vs. lapsed past buyers (different message — the latter references what they bought and loved).",
+      "rationale": "No lapsed-buyer reactivation exists, so one-and-done customers simply disappear. A win-back is quick to ship, recovers 5–15% of inactive contacts, and protects sender reputation by sunsetting non-responders.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm, low-pressure 'we miss you' that reconnects the lapsed customer to the feeling of their ritual and the core value, with one easy path back.",
+          "subject": "Did your ritual go quiet?",
+          "preview": "Your skin still remembers the glow. Come back to it.",
+          "cta": "Return to your ritual",
+          "keyPoints": [
+            "Warm, no-guilt reopening that reconnects them to the feeling of soft, nourished skin and intentional self-care",
+            "For past buyers, reference the product they bought and what's new (fresh seasonal scents, new releases) since they left",
+            "Give one frictionless path back — a single best-seller or a small welcome-back incentive to restart the habit",
+            "Keep it short and human, signed in the brand's introspective journal voice, with a real reply invitation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter (Ritual Letter)",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority and community across the long repurchase cycle without leaning on discounts.",
+      "trigger": "Scheduled cadence (biweekly or aligned to lunar phases / seasons).",
+      "segment": "All engaged contacts; suppress active onboarding and route recently-dormant contacts to win-back instead.",
+      "rationale": "A blog exists but there's no regular email content cadence, so engagement decays between purchases. An always-on ritual letter keeps the spiritual/wellness community warm, builds the brand's authority, and assists repeat sales without eroding margin.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the recurring 'Ritual Letter' template — one useful idea tied to the current moon phase or season, an 80/20 value-to-offer balance, and a single CTA that builds the habit of opening.",
+          "subject": "3 ways to glow under this month's full moon",
+          "preview": "One ritual, one ingredient, one intention for softer skin.",
+          "cta": "Read this month's ritual",
+          "keyPoints": [
+            "Lead with genuine value: a seasonal/lunar skin ritual and an ingredient spotlight (e.g., why African black soap or raw shea earns its place)",
+            "Keep an 80% value / 20% soft offer balance — a single product nod woven into the ritual, not a hard sell",
+            "Build habit with a recurring section (e.g., 'This moon's intention') so subscribers learn to expect and open it",
+            "One clear primary CTA — read the full ritual on the blog — with the brand's poetic, introspective voice throughout"
+          ]
+        }
+      ]
+    }
+  ]
+}
