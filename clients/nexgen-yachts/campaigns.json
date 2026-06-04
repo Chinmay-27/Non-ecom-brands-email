@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "NexGen Yachting",
+    "slug": "nexgen-yachts",
+    "url": "https://nexgen.yachts",
+    "vertical": "Luxury / High-ticket B2C (fractional yacht co-ownership)",
+    "colors": {
+      "primary": "#0D1E3E",
+      "accent": "#C4A052",
+      "background": "#FFFFFF",
+      "text": "#1A2340"
+    }
+  },
+  "summary": "NexGen Yachting sells fractional co-ownership shares in luxury sailing catamarans (typically a 1/6 share for up to 5 weeks a year, up to 1/4 for premium vessels), with a fleet of 8+ boats that rotates between the Mediterranean in summer and the Caribbean in winter. Crew, management, maintenance, and charter brokerage are bundled, and a separate charter business lets prospects experience the fleet before buying. It serves affluent US-based buyers (roughly 40-65, $500K+ net worth) who want the private-yacht lifestyle without the full cost or operational burden of sole ownership.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Get a newly signed co-owner from contract to their first booked ownership week - the visceral 'aha' of stepping aboard - as fast as possible, while reinforcing a high-ticket buying decision.",
+      "trigger": "Co-ownership contract signed / new owner account created. Send within minutes of signing.",
+      "segment": "Newly signed co-owners; branch by vessel and first season (Mediterranean summer vs Caribbean winter).",
+      "rationale": "A $250K-$4M+ decision carries real buyer's-remorse risk; an instant, white-glove welcome that turns the abstract purchase into a concrete first sailing week locks in confidence and drives the only activation that matters here.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations for the white-glove handoff, and drive the single first action: schedule the first ownership week.",
+          "subject": "Welcome aboard, [First name] - let's choose your first week",
+          "preview": "Your crew, your calendar, your first sail. Here's exactly what happens next.",
+          "cta": "Schedule your first ownership week",
+          "keyPoints": [
+            "Congratulate and reaffirm the decision; name their specific vessel and first season",
+            "Introduce their dedicated onboarding coordinator with a real reply-to name",
+            "Lay out the simple path: pick your weeks, meet your crew, step aboard",
+            "Single CTA to book the first ownership week before the season fills up",
+            "Set the tone - zero logistics, fully managed; reply to this email anytime"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert a post-discovery-call prospect into a signed co-owner by delivering a concrete, personalized proposal and dissolving the trust and scheduling objections.",
+      "trigger": "Discovery/sales call completed with no signed contract within ~48 hours. Proposal email sent same/next day, with a stalled-deal nudge branch.",
+      "segment": "Inbound inquiries who took a sales call; branch by vessel of interest and buyer type (lifestyle vs investment-minded).",
+      "rationale": "Ghosted post-call prospects are a top revenue leak; for this brand the proposal that shows 'this boat, these weeks, this price, this projected charter income' is the pre-purchase aha and the single biggest conversion lever.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "1",
+          "purpose": "Deliver the personalized ownership proposal - the concrete aha - and make moving forward frictionless.",
+          "subject": "[First name], your personalized ownership proposal is inside",
+          "preview": "Your boat, your weeks, and projected charter income - the full picture.",
+          "cta": "Review your proposal",
+          "keyPoints": [
+            "Recap the call and reference their chosen vessel and share size",
+            "Show their specific weeks across Med summer and Caribbean winter to defuse the co-owner scheduling fear",
+            "Present charter income with hedged language ('projected', 'up to') and a clear disclaimer",
+            "Outline financing (up to 80% LTV, ~20% down, ~$50K entry) to reframe affordability",
+            "Note limited shares remaining on that vessel and offer a direct line to their advisor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold brochure downloaders and inventory subscribers toward a booked consultation by proving the co-ownership model is legitimate and the economics are real.",
+      "trigger": "Ownership brochure download or inventory-alert signup; lead below the sales-ready threshold.",
+      "segment": "Brochure downloaders and newsletter subscribers; branch by stated interest (lifestyle vs charter-income / financing).",
+      "rationale": "These are the largest cold segment and they go dark after the first touch; with trust the category's #1 objection, a proof-led email with a real owner's numbers is what earns the sales call.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Handle the #1 objection ('is this a real deal or a gimmick?') with a real owner's numbers and convert interest into a booked call.",
+          "subject": "The co-ownership math, with nothing left out",
+          "preview": "A real Lagoon 65 owner's weeks, costs, and charter income - no spin.",
+          "cta": "Book a 20-minute ownership call",
+          "keyPoints": [
+            "Open by naming the skepticism directly - is this real or a gimmick?",
+            "Walk through one real vessel's share price, annual costs, and projected charter offset (hedged language + disclaimer)",
+            "Address the scheduling fear: how usage weeks are allocated fairly among co-owners",
+            "Contrast owning equity against spending $20K-$80K a year chartering with no upside",
+            "Soft, low-friction CTA to a short call with an ownership advisor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate leads who inquired or downloaded the brochure but never booked a call or signed, and sunset truly disengaged contacts to protect deliverability.",
+      "trigger": "60-90 days of no opens/clicks/replies since last engagement, with no call booked.",
+      "segment": "Dormant brochure downloaders and stalled inquiries; suppress active onboarding and recent owners.",
+      "rationale": "A niche, high-intent list with no win-back leaves recoverable demand on the table; a fresh, truthful reason to return - new vessels and shares filling up - pattern-interrupts dormant dreamers without discounting.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Re-open the relationship with a 'still dreaming?' hook plus a concrete, timely reason to come back.",
+          "subject": "Still picturing yourself in the Med, [First name]?",
+          "preview": "Two new catamarans just joined the fleet - and a few shares are nearly gone.",
+          "cta": "See what's new in the fleet",
+          "keyPoints": [
+            "Warm, no-pressure open that restates the core dream they came for",
+            "Pattern-interrupt with genuinely new inventory added since they went quiet",
+            "Scarcity grounded in truth: limited shares remaining on the most popular vessels",
+            "One-click path back to the fleet or a no-obligation call",
+            "Set up the sunset - make it easy to stay subscribed or opt out"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind across the long sales cycle and build authority on yacht-ownership economics and destinations - without discounting.",
+      "trigger": "Scheduled cadence (every two weeks to monthly).",
+      "segment": "All engaged leads and owners; suppress active onboarding and route dormant contacts into Win-Back instead.",
+      "rationale": "With a 4-12 week (often longer) decision cycle, a value-first cadence keeps NexGen present while prospects deliberate and reinforces the financial logic that turns lifestyle dreamers into buyers.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish authority with the signature ownership-economics story and a single soft CTA into the fleet.",
+          "subject": "Why owning 1/6 of a yacht beats owning the whole thing",
+          "preview": "The real cost of 47 idle weeks - and the math that fixes it.",
+          "cta": "Explore the fleet",
+          "keyPoints": [
+            "Lead with one useful idea: the idle-weeks problem and how fractional ownership solves it",
+            "Ground it in numbers - total cost of sole ownership vs a 1/6 share (hedged claims)",
+            "Recurring habit section, e.g. 'This season's anchorage' destination spotlight",
+            "80% value / 20% soft offer with a single primary CTA",
+            "Knowledgeable-friend voice; invite replies to a real person"
+          ]
+        }
+      ]
+    }
+  ]
+}

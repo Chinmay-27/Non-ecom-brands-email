@@ -1,0 +1,64 @@
+{
+  "brand": {
+    "name": "NexGen Yachting",
+    "url": "https://nexgen.yachts",
+    "slug": "nexgen-yachts",
+    "vertical": "Luxury / High-ticket B2C (fractional yacht co-ownership)",
+    "tagline": "Own a Luxurious Private Yacht at a Fraction of the Cost",
+    "colors": {
+      "primary": "#0D1E3E",
+      "accent": "#C4A052",
+      "background": "#FFFFFF",
+      "text": "#1A2340"
+    }
+  },
+  "offer": {
+    "what": "Fractional co-ownership of luxury sailing catamarans (1/6 shares, up to 5 weeks/year; 1/4 shares up to 8 weeks/year). Fleet of 8+ catamarans (55–100 ft) rotating Mediterranean summers / Caribbean winters. Full management, crew, and charter brokerage included. Separate yacht charter service also offered.",
+    "coreOutcome": "Live the private-yacht lifestyle — Mediterranean and Caribbean sailings with crew — without the full cost, management burden, or idle-boat waste of sole ownership, while charter income offsets or covers mortgage payments.",
+    "pricePoint": "$250K–$4.25M per 1/6 share depending on vessel; financing up to 80% LTV available (20% down minimum, ~$50K entry). Example: Lagoon 65 at $575K/share; Bali 5.2 at $250K/share; Sunreef 100 Power at $4.25M/share for 1/4.",
+    "commitment": "Long-term co-ownership contract; recurring management fee (amount not publicly disclosed); annual usage windows scheduled in advance.",
+    "leadMagnets": [
+      "Glossy ownership brochure (request via contact form)",
+      "Email subscription for new inventory / yacht updates",
+      "Financing information request form"
+    ]
+  },
+  "audience": {
+    "icp": "Affluent US-based individuals (HNW, $500K+ net worth) who love sailing/yachting, travel the Mediterranean and Caribbean, and want the lifestyle without the full $3M–$10M outlay or year-round operational headaches. Often 40–65, business owners, executives, or retirees.",
+    "painPoints": [
+      "Full yacht ownership is prohibitively expensive (purchase + crew + maintenance + marina)",
+      "A personally-owned yacht sits idle 47+ weeks per year — capital destruction",
+      "Managing a yacht remotely is operationally overwhelming",
+      "Chartering feels like renting rather than owning; no personalization or investment upside",
+      "Fear that fractional/co-ownership schemes are gimmicks or financially risky"
+    ],
+    "segments": [
+      "Lifestyle buyers: want the experience and bragging rights, ROI secondary",
+      "Investment-minded buyers: focused on charter income covering carrying costs",
+      "First-time yacht aspirants: dream of owning but never thought it was possible",
+      "Current charter clients: already booking weeks, want equity instead of rental spend"
+    ]
+  },
+  "salesCycle": {
+    "length": "Weeks to months — high-ticket, complex due diligence; typically 4–12 weeks from first contact to signed agreement",
+    "trial": "No trial; free consultation / brochure download as entry point. Prospects can charter before committing to ownership (separate charter service acts as a soft trial).",
+    "closeMechanism": "Inbound inquiry (web form / phone) → sales call → custom proposal with vessel options → contract signing. Fully sales-assisted; no self-serve checkout.",
+    "topObjection": "Trust / legitimacy: 'Is this a real investment or a gimmick?' — mixed online reviews and niche category mean skepticism is high. Secondary: 'Will I actually get the weeks I want?' (scheduling conflicts among co-owners)."
+  },
+  "ahaMoment": "The first time the new co-owner steps aboard their yacht for their first ownership week — validated by a seamless booking experience and professional crew. Pre-purchase proxy aha: receiving the personalized brochure or seeing their chosen vessel's specs and charter income projections for the first time.",
+  "retention": {
+    "recurring": "Annual management fee; seasonal booking cycle (Mediterranean summer / Caribbean winter) locks owners into recurring engagement. Charter income distribution keeps them financially connected.",
+    "expansion": "Upgrading to a larger or newer vessel; purchasing a second share on a different yacht; referring family or friends who co-own alongside them.",
+    "churnRisk": "Charter income underperforms projections; scheduling friction with co-owners; yacht condition or crew quality disappointments; competitor or resale exit if resale market develops."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding: no evident automated post-purchase sequence to orient new co-owners on booking process, crew contacts, and what to expect on board",
+    "Lead-Magnet Nurture: brochure downloaders and inventory subscribers likely receive no structured nurture — cold leads go dark after initial interest",
+    "Trial/Consult Conversion: phone/form inquiries likely drop off after initial sales call with no follow-up sequence to re-engage ghosted prospects",
+    "Value Newsletter: no visible content cadence educating leads/owners on destinations, market trends, charter ROI, or lifestyle content to maintain top-of-mind",
+    "Renewal & Expansion: no visible mechanism to prompt existing co-owners to upgrade vessel, add a second share, or refer peers",
+    "Win-Back / Re-Engagement: no evident campaign for leads who inquired, downloaded the brochure, but never booked a call or signed"
+  ],
+  "toneVoice": "Aspirational yet accessible — luxury without aloofness. Confident and sophisticated but conversationally warm ('Cheers to you'). Speaks to the dream first, then grounds it in financial logic. Avoid stuffy nautical jargon; write like a knowledgeable friend who owns a yacht and wants to share the secret.",
+  "compliance": "Standard CAN-SPAM / GDPR compliance required. Investment return claims (charter income, cash-on-cash returns) must be framed carefully — use 'projected,' 'historically,' or 'up to' language and include appropriate disclaimers. No HIPAA or specific financial-services licensing constraints identified, but return projections require careful copy review."
+}
