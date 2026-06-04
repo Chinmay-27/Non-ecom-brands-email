@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "Pain Relief Products / Healed by Farm",
+    "url": "https://www.painreliefproducts.net",
+    "slug": "pain-relief-products",
+    "vertical": "Health & Wellness — DTC CBD / Natural Supplement",
+    "tagline": "Wellness in a Bottle — Get fast & easy pain relief delivered to your door",
+    "colors": {
+      "primary": "#3B6E1E",
+      "accent": "#C18A2F",
+      "background": "#F9F6F2",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Full-spectrum CBD tincture ('Wellness in a Bottle') — 163 mL jar, 3,300 mg CBD blended with organic extra-virgin olive oil. Also sells founder John Rankin's book 'Healed by Farm' (available on Amazon). No subscriptions or bundles currently.",
+    "coreOutcome": "Natural, drug-free relief from chronic pain, inflammation, and poor sleep — through a farm-sourced, additive-free CBD formula.",
+    "pricePoint": "$99.95 per bottle with free shipping. One-time purchase; no subscription option found.",
+    "commitment": "One-off purchase (no contract or recurring billing detected)",
+    "leadMagnets": [
+      "Book: 'Healed by Farm' by John Rankin (educational content / brand authority builder)",
+      "Podcast featuring founder's ancestral nutrition and wellness philosophy",
+      "Blog content on farm-fresh nutrition and CBD benefits"
+    ]
+  },
+  "audience": {
+    "icp": "Health-conscious adults (35–65+) dealing with chronic pain, joint discomfort, inflammation, or poor sleep who prefer natural, pharmaceutical-free solutions. Drawn to ancestral/farm-to-table wellness philosophies. Primarily US-based.",
+    "painPoints": [
+      "Chronic joint or back pain limiting daily activity",
+      "Poor sleep quality due to pain or stress",
+      "Skepticism about prescription painkillers or side-effect concerns",
+      "Distrust of CBD market quality / hidden additives",
+      "Unsure if CBD actually works — need social proof"
+    ],
+    "segments": [
+      "Chronic pain sufferers (arthritis, back pain, joint discomfort)",
+      "Sleep-deprived wellness seekers",
+      "Natural health advocates interested in ancestral nutrition",
+      "Wholesale / retail buyers (brand has a wholesale inquiry form)"
+    ]
+  },
+  "salesCycle": {
+    "length": "Days to weeks — research-driven consideration; customer needs trust-building before a ~$100 one-time purchase",
+    "trial": "No free trial. Book and podcast serve as soft entry points for top-of-funnel trust building.",
+    "closeMechanism": "Self-serve add-to-cart on Shopify-style storefront. Social proof (testimonials) and FDA-compliant claims do the closing.",
+    "topObjection": "Does it actually work? Is this quality CBD or another snake-oil product? (quality and efficacy skepticism is the #1 barrier in the CBD category)"
+  },
+  "ahaMoment": "Noticeable reduction in pain or improvement in sleep quality within the first 1–2 weeks of consistent daily use of the tincture.",
+  "retention": {
+    "recurring": "No subscription model detected — revenue is transactional (repeat purchase only). High churn risk without a structured re-order flow.",
+    "expansion": "Potential upsell to larger quantities, bundles, or a future subscription/auto-ship. Book purchase is a secondary product. Wholesale partnership is a B2B expansion path.",
+    "churnRisk": "High — single SKU, no subscription, no loyalty program detected. Buyers who don't get immediate results or forget to reorder will churn silently."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — almost certainly missing; new buyers need dosing guidance and expectation-setting to prevent early dropout",
+    "Lead-Magnet Nurture — podcast/book audience likely not funneled into email sequences",
+    "Trial/Consult Conversion — N/A (no trial offer)",
+    "Booking & Reminders — N/A (no service booking)",
+    "Value Newsletter — unknown; likely absent or ad hoc",
+    "Renewal / Re-order Nudge — critical gap given no subscription; ~30-day re-order window needs email trigger",
+    "Win-Back / Re-Engagement — almost certainly missing",
+    "Referral / Advocacy — missing; word-of-mouth is huge in CBD/wellness but not structured"
+  ],
+  "toneVoice": "Warm, plain-spoken, and grounded — rooted in John Rankin's personal health journey. Avoids medical jargon. Leans into farm authenticity, ancestral nutrition, and 'no chemicals' simplicity. Educational but approachable. Not hype-driven.",
+  "compliance": "CBD / health supplement: FDA disclaimer required ('not intended to diagnose, treat, cure, or prevent any disease'). Products contain <0.3% THC. Buyers responsible for local/state legal compliance. CAN-SPAM applies. No HIPAA exposure (no medical records). Avoid explicit disease-treatment claims in email copy."
+}

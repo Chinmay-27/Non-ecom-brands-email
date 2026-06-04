@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Pain Relief Products / Healed by Farm",
+    "slug": "pain-relief-products",
+    "url": "https://www.painreliefproducts.net",
+    "vertical": "Health & Wellness — DTC CBD / Natural Supplement",
+    "colors": {
+      "primary": "#3B6E1E",
+      "accent": "#C18A2F",
+      "background": "#F9F6F2",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Pain Relief Products, founder John Rankin's 'Healed by Farm' brand out of Knoxville TN, sells a single hero product: a full-spectrum CBD tincture ('Wellness in a Bottle,' 163 mL / 3,300 mg CBD in organic olive oil) for $99.95 as a one-time purchase. It serves health-conscious adults 35-65+ with chronic pain, joint discomfort, inflammation, or poor sleep who prefer natural, drug-free alternatives to pharmaceuticals. Revenue is purely transactional with no subscription, so re-order cadence and post-purchase activation are the core retention levers.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get the new buyer to consistent daily dosing and their first noticeable relief or sleep improvement within 7-14 days, before they give up.",
+      "trigger": "First purchase / order confirmed. Send email 1 immediately after the order confirmation.",
+      "segment": "All first-time tincture buyers; branch later by primary goal (pain relief vs. sleep) if captured.",
+      "rationale": "This brand is entirely self-serve with no dosing guidance — buyers who don't know how much to take, when, or how long it takes to work will churn before the aha moment ever arrives. Setting the 7-14 day expectation is the single highest-leverage fix for a single-SKU, no-subscription model.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome from John, set the dosing routine and the 7-14 day timeline, and deliver one quick win: take your first dose tonight.",
+          "subject": "Your Wellness in a Bottle is on its way — start here",
+          "preview": "How much to take, when to take it, and what the first two weeks feel like.",
+          "cta": "Read the 2-minute dosing guide",
+          "keyPoints": [
+            "Personal welcome from John Rankin tying back to his own farm-to-health story so the buyer trusts the source",
+            "Simple daily dosing routine: how many drops, taken with food, same time each day for consistency",
+            "Set the honest expectation — most people notice less pain or better sleep within 7-14 days of daily use, so don't stop after a few days",
+            "One first action tonight: take your first dose and note how you slept",
+            "Real-person reply-to invitation, plus required FDA disclaimer ('not intended to diagnose, treat, cure, or prevent any disease')"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reorder-renewal",
+      "name": "Re-Order Nudge & Expansion",
+      "priority": 2,
+      "stage": "Retention",
+      "objective": "Protect repeat revenue by prompting a refill before the bottle runs out, and seed multi-bottle / future auto-ship as the expansion path.",
+      "trigger": "Day 25-28 after the prior order ships (a 163 mL bottle is a ~30-45 day supply; the re-order window is day 25-35).",
+      "segment": "Buyers ~25-28 days post-purchase with no second order yet; branch healthy (felt results) vs. unsure.",
+      "rationale": "With no subscription and a single SKU, revenue bleeds silently at day 30-35 when buyers simply forget to reorder. A well-timed refill nudge — substituting for a renewal flow — is the most direct retention play this brand has.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "26",
+          "purpose": "Check in on how they're feeling, remind them not to break the daily streak they've built, and make refilling a one-tap action before they run dry.",
+          "subject": "Running low? Don't lose the progress you've made",
+          "preview": "Most people feel the difference by week 4 — keep it going with a fresh bottle.",
+          "cta": "Reorder your bottle",
+          "keyPoints": [
+            "'How are you feeling?' check-in that reframes the refill around the relief and sleep they've started to notice",
+            "Remind them consistency is what makes CBD work — stopping at week 4 undoes the routine they built",
+            "Social proof from customers who reported their best results around the 30-day mark",
+            "Low-friction one-click reorder with free shipping, plus a soft mention of buying two bottles to never run out",
+            "FDA disclaimer and a real reply-to for dosing questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lead-magnet-nurture",
+      "name": "Lead-Magnet Nurture (Book & Podcast Audience)",
+      "priority": 3,
+      "stage": "Nurture / Consideration",
+      "objective": "Move a cold lead from the book/podcast/blog audience toward their first tincture purchase by building trust and answering the 'does it actually work?' question over a multi-week cycle.",
+      "trigger": "Email opt-in from a content asset — downloading a chapter of 'Healed by Farm,' subscribing after the podcast, or a blog newsletter signup.",
+      "segment": "Non-buyers who entered via content; branch by topic interest (chronic pain vs. sleep vs. ancestral wellness).",
+      "rationale": "The book and podcast pull in exactly the natural-health audience this brand needs, but they aren't visibly funneled into email — so warm, high-intent leads leak out of the top of the funnel. Nurturing them addresses the category's #1 barrier (quality/efficacy skepticism) before the $100 ask.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the asset they signed up for and frame the real problem — being stuck choosing between side-effect-heavy painkillers and overhyped CBD — through John's story.",
+          "subject": "Why John walked away from the pill bottle",
+          "preview": "The farm-sourced approach behind Healed by Farm — and what makes CBD actually work.",
+          "cta": "Read John's story",
+          "keyPoints": [
+            "Deliver the promised content (book chapter / podcast episode / guide) right up top",
+            "Frame the problem: the gap between prescription side effects and the flood of low-quality, additive-filled CBD on the market",
+            "Establish trust through farm-sourced, full-spectrum, no-fillers positioning — the brand's answer to quality skepticism",
+            "No hard sell yet — invite them to explore how the tincture is made, setting up later evaluation and offer emails",
+            "FDA disclaimer; warm, plain-spoken ancestral-wellness tone, not hype"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "win-back",
+      "name": "Win-Back / Re-Engagement",
+      "priority": 4,
+      "stage": "Re-engagement",
+      "objective": "Reactivate lapsed buyers and dormant subscribers who fell off the re-order cadence or never made it to the aha moment, and clean the list to protect deliverability.",
+      "trigger": "60-90 days of no purchase and no email engagement (clicks/opens), or a first-time buyer who never reordered past the refill window.",
+      "segment": "Lapsed buyers (lead on what they were missing) vs. never-purchased dormant leads (lead on fresh value).",
+      "rationale": "Given the high silent-churn risk of a no-subscription single SKU, many buyers simply drift away — a win-back recovers 5-15% of them and sunsets the rest so the sender reputation stays clean for the flows above.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Open the win-back with a warm 'we miss you,' reconnect them to the core outcome, and lower the barrier to coming back for another bottle.",
+          "subject": "Still reaching for the Advil every morning?",
+          "preview": "It's been a while — here's what's worth coming back for.",
+          "cta": "Come back to natural relief",
+          "keyPoints": [
+            "Empathetic 'did we lose you?' open that reconnects to the pain-and-sleep outcome they originally wanted",
+            "Remind them what's different about Healed by Farm vs. drugstore options — farm-sourced, no chemicals, John's story",
+            "Address the lapse honestly: maybe the timing wasn't right, or they ran out and forgot — make returning effortless",
+            "Single clear path back to a reorder; later emails in the flow add an incentive then a sunset 'should we stop emailing you?'",
+            "FDA disclaimer and an easy reply-to for anyone with lingering doubts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long consideration and re-order cycle without discounting — keeping both leads and past buyers engaged.",
+      "trigger": "Scheduled cadence (every 2-4 weeks).",
+      "segment": "All engaged contacts; suppress active onboarding (Campaign 1) and route the recently-dormant into Win-Back instead.",
+      "rationale": "Because the buying cycle is research-driven and there's no subscription to create natural touchpoints, an always-on value newsletter is what keeps Healed by Farm in front of skeptical, slow-deciding wellness buyers between purchases.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the recurring 'one useful idea per send' template with a flagship issue on natural sleep — the brand's most relatable secondary outcome.",
+          "subject": "3 farm-simple habits for sleeping through the night",
+          "preview": "Small daily routines that help your body wind down — naturally.",
+          "cta": "Read this week's tip",
+          "keyPoints": [
+            "One useful, genuinely educational idea per issue — here, natural habits that support better sleep, with CBD as one supporting piece",
+            "80% value / 20% soft offer — the tincture is mentioned as a tool, not the headline pitch",
+            "A recurring section ('This week from the farm') that builds reading habit and reinforces ancestral-wellness authority",
+            "Single primary CTA to read/reply; warm, plain-spoken, no-hype voice consistent with John's brand",
+            "FDA disclaimer and easy unsubscribe for CAN-SPAM compliance"
+          ]
+        }
+      ]
+    }
+  ]
+}
