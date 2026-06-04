@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "The Varnado Group LLC",
+    "slug": "the-varnado-group",
+    "url": "https://www.thevarnadogroup.com",
+    "vertical": "B2B/professional",
+    "colors": {
+      "primary": "#1B4F8A",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "summary": "The Varnado Group is an employee-benefits consulting and brokerage firm in Baton Rouge, Louisiana that helps small businesses (roughly 1-50 employees) build affordable, competitive benefits packages — group health, dental, vision, disability, cancer, and hospital indemnity coverage. The model is commission-based (carriers pay the broker, so consulting is cost-neutral to the employer), and the engagement is a relationship sale led personally by John Varnado, anchored on the annual open-enrollment and renewal cycle.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Bridge a newly signed client from 'agreement signed' to 'enrollment complete' — set expectations, reduce drop-off, and reinforce the decision so benefits actually go live.",
+      "trigger": "New client agreement signed / first contact-form inquiry that converts to an engagement.",
+      "segment": "Newly onboarded small-business clients; branch by whether they're a first-time-benefits employer or layering voluntary lines onto an existing plan.",
+      "rationale": "Varnado has no onboarding sequence today, so the high-stakes gap between signing and the first completed enrollment runs on ad-hoc outreach — exactly where a relationship-driven brokerage loses momentum and trust.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome the moment the agreement is signed: confirm the decision, lay out the enrollment roadmap, and give one clear first action so the process starts moving immediately.",
+          "subject": "Welcome aboard — here's exactly what happens next",
+          "preview": "Your enrollment roadmap (and the one thing we need from you first).",
+          "cta": "Send us your employee census",
+          "keyPoints": [
+            "Reaffirm the choice: you're now set up to offer benefits that compete with the big employers — leveling the playing field",
+            "Lay out the simple step-by-step path from today to live coverage so nothing feels overwhelming",
+            "Single first action: return the employee census/roster so plan design and quoting can begin",
+            "Personal, human close from John — reply directly with any question, a real person reads every one"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consult-conversion",
+      "name": "Consultation-to-Client Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Turn an inbound contact-form inquiry into a booked needs-assessment consultation and then a signed client, without letting leads go cold.",
+      "trigger": "Contact-form submission / phone inquiry expressing interest.",
+      "segment": "Active prospects who inquired but haven't yet booked or signed; branch by no-benefits vs. has-basic-benefits.",
+      "rationale": "With no lead magnet feeding the funnel, the inbound inquiry IS the top of funnel — and inquiries currently go cold without follow-up. This is the core revenue play and the most direct lever on Varnado's stated goal of more conversions.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Respond instantly to an inquiry, dismantle the #1 'we're too small / can't afford it' objection, and drive a booked free needs-assessment call.",
+          "subject": "You're not too small for real employee benefits",
+          "preview": "A 20-minute call shows you what's actually within reach — at no cost to you.",
+          "cta": "Book your free needs assessment",
+          "keyPoints": [
+            "Lead by naming the objection head-on: most owners assume good benefits are only for big companies — they're not",
+            "Explain the cost-neutral model: our consulting is paid by the carriers, not out of your budget",
+            "Lower the friction: the first step is a free 20-minute needs assessment, not a commitment",
+            "Local trust signal: a Baton Rouge advisor who guides the whole process personally"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renewal-expansion",
+      "name": "Renewal, Open Enrollment & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Protect recurring revenue by proactively owning the annual open-enrollment window and grow accounts by adding voluntary benefit lines.",
+      "trigger": "Renewal date / plan-year end minus 90 days (open enrollment typically Oct-Jan for calendar-year plans).",
+      "segment": "Active clients approaching renewal; branch by account health (healthy = expansion offer, at-risk/low-engagement = save-and-re-onboard).",
+      "rationale": "The annual enrollment cycle is the single highest-lifetime-value lever and is currently completely unaddressed — clients switch brokers at renewal when they feel underserved, so proactive outreach here both defends and expands the book.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "-90",
+          "purpose": "Open the renewal conversation 90 days out with a value recap of the past plan year and a prompt to review options before the enrollment window closes.",
+          "subject": "Your benefits renewal is coming — let's get ahead of it",
+          "preview": "A quick recap of this year's coverage, plus what's worth revisiting for next year.",
+          "cta": "Schedule your renewal review",
+          "keyPoints": [
+            "Recap the year: what coverage your team has, enrollment participation, and the value delivered",
+            "Frame why early matters: starting now means better options and no scramble before open enrollment",
+            "Plant the expansion seed: lines worth adding (dental, vision, disability, cancer) as the business grows",
+            "Reassure continuity: same personal advisor, proactively in your corner at renewal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-reminders",
+      "name": "Booking, Reminders & No-Show Recovery",
+      "priority": 4,
+      "stage": "Conversion / Retention",
+      "objective": "Maximize attended consultations and enrollment meetings, and recover the ones that slip.",
+      "trigger": "Consultation or enrollment meeting booked; upcoming appointment; no-show event.",
+      "segment": "Any prospect or client with a scheduled needs assessment, proposal review, or enrollment meeting.",
+      "rationale": "The entire Varnado sales motion runs on personally led calls (discovery, proposal, enrollment), so every missed meeting directly stalls revenue — reminders cut no-shows ~35% and protect the calls Campaign 2 works to book.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Instantly confirm a booked consultation, set the calendar hold, and tell the prospect what to bring so the call is productive.",
+          "subject": "You're booked with John — here's what to have ready",
+          "preview": "Add it to your calendar and bring two quick things to make the call count.",
+          "cta": "Add to calendar",
+          "keyPoints": [
+            "Confirm date, time, and how the call happens (phone/video), with a one-click add-to-calendar",
+            "Set the prep: rough employee headcount and any current coverage details to bring",
+            "Set expectations: what we'll cover in the needs assessment and that it's no-obligation",
+            "Easy reschedule link so a conflict becomes a new time, not a no-show"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "value-newsletter",
+      "name": "Value Newsletter",
+      "priority": 5,
+      "stage": "Nurture / Retention",
+      "objective": "Stay top-of-mind and build authority across the long relationship cycle without discounting — keeping cold inquiries warm and existing clients loyal between renewals.",
+      "trigger": "Scheduled cadence (monthly).",
+      "segment": "All engaged contacts — prospects and clients; suppress those in active onboarding and route the dormant to win-back.",
+      "rationale": "In a trust-driven, months-long benefits sale with a once-a-year decision point, an always-on educational newsletter is the engine that keeps Varnado present in owners' minds between the rare moments they're ready to act.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Establish the recurring value habit with a practical, jargon-free piece that positions Varnado as the small-business owner's benefits advisor.",
+          "subject": "The benefit small employers overlook (and your competitors offer)",
+          "preview": "One low-cost coverage that punches above its weight for hiring and retention.",
+          "cta": "Read the 2-minute breakdown",
+          "keyPoints": [
+            "One useful idea per send: a plain-English explainer on a high-impact voluntary benefit (e.g., disability or hospital indemnity)",
+            "Tie it to the owner's real stakes — attracting and keeping talent against bigger competitors",
+            "80% value, 20% soft offer: a single low-friction CTA, no hard sell",
+            "Establish a recurring 'small-business benefits tip' section that builds the open habit"
+          ]
+        }
+      ]
+    }
+  ]
+}

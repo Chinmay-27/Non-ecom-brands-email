@@ -1,0 +1,59 @@
+{
+  "brand": {
+    "name": "The Varnado Group LLC",
+    "url": "https://www.thevarnadogroup.com",
+    "slug": "the-varnado-group",
+    "vertical": "B2B/professional",
+    "tagline": "Empowering Employee Benefits Solutions",
+    "colors": {
+      "primary": "#1B4F8A",
+      "accent": "#F5A623",
+      "background": "#FFFFFF",
+      "text": "#2C2C2C"
+    }
+  },
+  "offer": {
+    "what": "Employee benefits consulting and brokerage for small businesses — voluntary benefits including short & long-term disability, cancer, hospital indemnity, group health insurance, dental, and vision coverage",
+    "coreOutcome": "Small businesses get competitive, affordable benefits packages that help them attract and retain talent on par with larger employers",
+    "pricePoint": "unknown — likely carrier-commission model (no direct fee to employer) with possible consulting arrangements; no pricing published",
+    "commitment": "Annual benefits plan enrollment/renewal cycle; ongoing consulting relationship",
+    "leadMagnets": []
+  },
+  "audience": {
+    "icp": "Small business owners and HR decision-makers across industries in Louisiana (primarily Baton Rouge area) who are losing talent or struggling to compete on benefits",
+    "painPoints": [
+      "Cannot afford or navigate comprehensive benefits packages that large employers offer",
+      "Losing employees or failing to attract talent due to weak benefits",
+      "Overwhelmed by the complexity of insurance options and compliance",
+      "Feel locked out of voluntary and group benefit products due to company size"
+    ],
+    "segments": [
+      "Small business owners (1–50 employees) with no current benefits",
+      "Small businesses with basic benefits looking to add voluntary/supplemental coverage",
+      "HR managers at growing SMBs needing a benefits refresh"
+    ]
+  },
+  "salesCycle": {
+    "length": "weeks to months — B2B relationship sale requiring discovery, proposal, and enrollment",
+    "trial": "unknown — likely a free consultation/needs assessment",
+    "closeMechanism": "Direct outreach to John Varnado via contact form or phone; proposal and enrollment managed personally",
+    "topObjection": "Cost concerns — small business owners assume comprehensive benefits are too expensive or only accessible to large companies"
+  },
+  "ahaMoment": "First enrollment completed — employees actively using their new benefits and the owner seeing tangible recruitment/retention lift",
+  "retention": {
+    "recurring": "Yes — annual open enrollment and plan renewal cycle creates a natural recurring touchpoint",
+    "expansion": "Adding voluntary benefit lines (e.g., adding dental/vision on top of health, or adding disability coverage), increasing covered employee headcount as business grows",
+    "churnRisk": "Client switches carriers or brokers at annual renewal; relationship-driven so risk is low if value/communication is maintained"
+  },
+  "lifecycleGaps": [
+    "No visible lead magnet or content offer to capture top-of-funnel leads",
+    "No welcome or onboarding sequence for new clients",
+    "No nurture sequence for prospects who inquire but don't convert immediately",
+    "No reminder/check-in sequence around annual enrollment windows",
+    "No referral or advocacy program visible",
+    "No re-engagement sequence for cold leads",
+    "No value newsletter or educational content program"
+  ],
+  "toneVoice": "Professional but approachable — positions as a trusted advisor helping the 'little guy' compete; warm, knowledgeable, not corporate-cold; conversational with authority",
+  "compliance": "Insurance/benefits brokerage — must comply with state insurance licensing disclosures (Louisiana DOI), CAN-SPAM, and any applicable ACA/ERISA disclosures in communications. Not HIPAA-covered entity directly but handles benefit plan data — exercise care with health-related messaging."
+}
