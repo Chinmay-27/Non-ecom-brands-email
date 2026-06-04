@@ -1,0 +1,61 @@
+{
+  "brand": {
+    "name": "Affiliate Mentor",
+    "url": "https://www.affiliatementor.com",
+    "slug": "affiliate-mentor",
+    "vertical": "Education / Membership — online affiliate marketing training + commissionable list-building platform",
+    "tagline": "At the intersection of digital entrepreneurship and the demand for remote income opportunities",
+    "colors": {
+      "primary": "#1A3A6B",
+      "accent": "#F5821F",
+      "background": "#FFFFFF",
+      "text": "#1F1F1F"
+    }
+  },
+  "offer": {
+    "what": "A tiered membership platform that combines a done-for-you email list-building system, affiliate marketing training/certifications, and a built-in compensation plan. Products: Spark ($25 one-time entry), CORE ($49.50/mo or $397/yr), VIP ($297 one-time add-on to CORE).",
+    "coreOutcome": "Build a large, monetizable email list and earn recurring affiliate commissions — without needing to build funnels or write emails from scratch.",
+    "pricePoint": "$25 one-time (Spark) · $49.50/month or $397/year (CORE) · $297 one-time (VIP add-on). Mid-to-low ticket; recurring revenue at CORE level.",
+    "commitment": "Ongoing monthly or annual subscription at CORE tier; one-time entry options (Spark, VIP) for lower commitment",
+    "leadMagnets": [
+      "Free reseller/affiliate participation — no product purchase required to join the compensation plan",
+      "$25 Spark entry product as low-barrier paid trial"
+    ]
+  },
+  "audience": {
+    "icp": "Aspiring online entrepreneurs and beginner-to-intermediate affiliate marketers seeking a structured, done-for-you system to generate remote income — often frustrated by inconsistent traffic and low commissions despite significant time investment.",
+    "painPoints": [
+      "Generating consistent, high-quality traffic is technically complex and expensive",
+      "Earning minimal commissions despite real effort (low-conversion problem)",
+      "Overwhelmed by the technical setup of email marketing and funnels",
+      "No clear guidance or system — learning in isolation without a framework",
+      "Skepticism toward online income programs after bad experiences"
+    ],
+    "segments": [
+      "Beginners / curious — drawn in by $25 Spark, want to test without commitment",
+      "Active affiliate marketers — want done-for-you tools and training (CORE target)",
+      "Serious earners / recruiters — scaling with traffic packages and VIP commission tiers"
+    ]
+  },
+  "salesCycle": {
+    "length": "Same day to a few days — low price point and referral-driven self-serve entry",
+    "trial": "No free trial. Free reseller participation (no product buy required) serves as the soft entry. $25 Spark is the paid trial equivalent.",
+    "closeMechanism": "Self-serve signup via referral link (referrer username required). No sales call; momentum is referral- and social-proof-driven.",
+    "topObjection": "Is this legitimate or just another MLM / pyramid scheme? Skepticism about income claims and hidden costs despite 'done-for-you' simplicity promises."
+  },
+  "ahaMoment": "Getting their first lead opt-in through the configured landing page, or earning their first ClickCash™ email click payout — the moment the system visibly 'works' and trust is established.",
+  "retention": {
+    "recurring": "CORE membership ($49.50/month or $397/year) is the recurring revenue engine. VIP is a one-time annual add-on.",
+    "expansion": "Spark → CORE upgrade; CORE monthly → CORE annual; add VIP tier; purchase wholesale traffic packages from the Elite Affiliate Traffic Store.",
+    "churnRisk": "Members who don't recruit fast enough see no income and lose motivation to keep paying. Also: members who joined primarily for commissions (not list-building) and find the work harder than expected."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — critical: members must connect GetResponse, configure landing pages, and activate ClickCash™; without hand-holding many stall before first win",
+    "Lead-Magnet Nurture — free resellers (non-buyers) need a nurture sequence to convert to CORE",
+    "Trial/Consult Conversion — Spark buyers need a clear upgrade path to CORE with proof of earnings potential",
+    "Renewal & Anniversary — CORE monthly subscribers need value reminders before billing date to reduce involuntary churn",
+    "Win-Back / Re-Engagement — lapsed members who cancelled or went inactive after not seeing results quickly enough"
+  ],
+  "toneVoice": "Motivational and results-focused — uses specific dollar amounts and income milestones to build aspiration. Friendly and accessible (not corporate), with done-for-you simplicity as a recurring reassurance. Occasional urgency framing ('breaking records'). Needs to balance excitement with credibility to overcome MLM skepticism.",
+  "compliance": "CAN-SPAM (Florida-based, physical address on site). FTC income disclosure required on all emails referencing earnings or commissions — standard for MLM/affiliate compensation plans. No healthcare/financial-services constraints."
+}

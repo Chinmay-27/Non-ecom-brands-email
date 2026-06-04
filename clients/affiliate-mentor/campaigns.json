@@ -1,0 +1,157 @@
+{
+  "brand": {
+    "name": "Affiliate Mentor",
+    "slug": "affiliate-mentor",
+    "url": "https://www.affiliatementor.com",
+    "vertical": "Education / Membership — affiliate marketing training + done-for-you list-building platform",
+    "colors": {
+      "primary": "#1A3A6B",
+      "accent": "#F5821F",
+      "background": "#FFFFFF",
+      "text": "#1F1F1F"
+    }
+  },
+  "summary": "Affiliate Mentor is a tiered membership platform that pairs a done-for-you email list-building system with affiliate marketing training and a built-in commission plan. It sells a $25 Spark entry product, a $49.50/month or $397/year CORE membership (pre-built landing pages, GetResponse integration, ClickCash email monetization, workshops), and a $297/year VIP add-on. It serves aspiring online entrepreneurs and beginner-to-intermediate affiliate marketers who want a structured system to build a monetizable list and earn recurring commissions without building funnels or writing emails from scratch.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get a new member to their first opt-in lead or first ClickCash payout before they stall on setup.",
+      "trigger": "New member signup / account created (Spark or CORE), fired within seconds of join.",
+      "segment": "All new members; branch by tier (Spark explorer vs CORE buyer) and by whether they have connected GetResponse yet.",
+      "rationale": "The single biggest gap: members must connect GetResponse, configure a landing page, and activate ClickCash before the system 'works'. Without hand-holding most stall here and never reach first value — the root cause of early churn.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set expectations, and drive the single first setup action that leads to a first captured lead.",
+          "subject": "You're in — let's get your first lead this week",
+          "preview": "3 steps to a live landing page (we built it for you). Start here.",
+          "cta": "Connect GetResponse & activate your landing page",
+          "keyPoints": [
+            "Welcome by name; reassure that the system is done-for-you — they don't write emails or build funnels",
+            "One clear first action: connect GetResponse and switch on the pre-built lead-capture page so opt-ins can start flowing",
+            "Set the activation goal explicitly: your first opt-in lead (and first $0.10 ClickCash payout) is the moment it clicks",
+            "Real human reply-to offered for anyone who gets stuck on setup",
+            "FTC disclosure: results are not typical; income depends on individual effort and is not guaranteed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spark-to-core-conversion",
+      "name": "Spark-to-CORE Conversion",
+      "priority": 2,
+      "stage": "Conversion",
+      "objective": "Convert $25 Spark buyers (and free resellers who upgraded) into recurring CORE members.",
+      "trigger": "Spark purchase completed; behavioral milestones (first lead captured) and a proof-led upgrade nudge run in parallel.",
+      "segment": "Active Spark buyers; branch by activation depth (captured a lead = lead with proof, stalled = lead with help).",
+      "rationale": "Spark is the paid trial; CORE is the recurring revenue engine. Buyers need a structured upgrade path that proves earnings potential AND defuses the #1 hesitation — 'is this legit or just another MLM?'",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "3",
+          "purpose": "Show exactly what CORE unlocks beyond Spark, back it with member proof, and answer the legitimacy objection head-on.",
+          "subject": "Spark got you started — here's what CORE actually unlocks",
+          "preview": "Done-for-you pages, ClickCash, monthly workshops — and why it's not what you think.",
+          "cta": "Upgrade to CORE membership",
+          "keyPoints": [
+            "Contrast Spark's one-time $50 cycle with CORE's recurring engine: pre-built pages, GetResponse automation, $0.10/click ClickCash, monthly Platinum Workshops, training vault",
+            "Address the MLM/legitimacy objection directly — real product, real list you own, transparent pricing, no hidden costs",
+            "Concrete income framing with member milestones to build aspiration without overpromising",
+            "Offer both $49.50/month and $397/year, noting the annual saves ~$200",
+            "FTC disclosure: results are not typical; earnings depend on individual effort and are not guaranteed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "core-renewal-save",
+      "name": "CORE Renewal & Expansion",
+      "priority": 3,
+      "stage": "Retention",
+      "objective": "Protect recurring CORE revenue by reinforcing value before the billing date and steering monthly members to annual or VIP.",
+      "trigger": "Billing/renewal date − 3 to 7 days; account anniversary; usage milestone signaling upsell readiness.",
+      "segment": "Active CORE members approaching renewal; branch by health (high-activity = expansion to annual/VIP, low-activity = re-onboarding save).",
+      "rationale": "Monthly CORE churn is the biggest revenue leak — members who don't see income fast enough quietly cancel. A pre-billing value recap plus an annual-upgrade nudge is the highest-leverage retention play.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "renewal-3",
+          "purpose": "Quantify the value the member got this month, remove friction before billing, and present the annual upgrade as the smarter path.",
+          "subject": "Your month with Affiliate Mentor — and a way to save $200",
+          "preview": "Leads captured, ClickCash earned, workshops you can still catch.",
+          "cta": "Switch to annual & lock in your spot",
+          "keyPoints": [
+            "Recap their actual month: leads captured, ClickCash payouts, workshops attended/available, training unlocked",
+            "Remind them renewal keeps their list, landing pages, and commission eligibility live — losing access resets momentum",
+            "Position annual ($397) as saving ~$200 vs monthly and removing the monthly decision",
+            "For active earners, tease VIP ($297/yr): doubled ClickCash to $0.20/click and up to $2,500 in complimentary traffic",
+            "FTC disclosure: results are not typical; income depends on individual effort and is not guaranteed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "free-reseller-nurture",
+      "name": "Free Reseller-to-CORE Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move free resellers (joined the comp plan without buying) toward a paid CORE membership over a longer cycle.",
+      "trigger": "Free reseller participation joined; lead score below the sales-ready threshold.",
+      "segment": "Free resellers and non-buyers; branch by engagement (opened training vs cold) and by stated income goal where known.",
+      "rationale": "Free resellers can join the compensation plan without buying anything — a large, untapped pool sitting at a capped earning ceiling. The nurture's job is to show the gap between free participation and what a real done-for-you CORE list earns.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "20",
+          "purpose": "Evaluation-stage proof email — show how a member like them broke past the free-reseller ceiling with the CORE system.",
+          "subject": "Why free resellers hit a wall (and how members get past it)",
+          "preview": "Same effort, very different ceiling. Here's the difference CORE makes.",
+          "cta": "See what CORE unlocks",
+          "keyPoints": [
+            "Name the ceiling: free participation has limited earning ability — effort without the done-for-you list-building engine behind it",
+            "Show a relatable member story moving from cold traffic to a list they own with consistent opt-ins",
+            "Tie the upgrade to their pain: inconsistent traffic, low commissions, technical overwhelm — all handled by CORE's pre-built system",
+            "Low-friction next step framed as exploring, not a hard pitch, given the long consideration cycle",
+            "FTC disclosure: results are not typical; earnings depend on individual effort and are not guaranteed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapsed-member-winback",
+      "name": "Lapsed Member Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate cancelled or dormant members — especially those who stalled before their first win — and clean the list.",
+      "trigger": "Cancellation event, or inactivity threshold (60–90 days with no logins/clicks).",
+      "segment": "Churned CORE members and dormant resellers; branch churned ('what's changed since you left') vs never-activated ('let's get your first win').",
+      "rationale": "The core churn story is 'joined for income, stalled on setup, saw no results in 60–90 days, cancelled.' These contacts already wanted the outcome — a 'we'll get you to first value this time' reactivation recovers 5–15% and protects deliverability.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Reopen the relationship by acknowledging the stall and offering a fast, guided path to the first win they never reached.",
+          "subject": "Still want a list that earns while you sleep?",
+          "preview": "Most who left stalled on setup. Let's fix that in one sitting.",
+          "cta": "Reactivate & finish your setup",
+          "keyPoints": [
+            "Empathetic open: many members stall before the system clicks — no judgment, the door's still open",
+            "Remind them of the core value they signed up for: a monetizable list they own and ClickCash payouts",
+            "Lead with help, not guilt — offer a guided setup so they reach their first opt-in lead this time",
+            "Note what's new/improved since they left to give a concrete reason to return",
+            "FTC disclosure: results are not typical; income depends on individual effort and is not guaranteed"
+          ]
+        }
+      ]
+    }
+  ]
+}
