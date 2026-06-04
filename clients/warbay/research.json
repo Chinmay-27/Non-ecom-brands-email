@@ -1,0 +1,63 @@
+{
+  "brand": {
+    "name": "Warbay",
+    "url": "https://warbay.com",
+    "slug": "warbay",
+    "vertical": "B2B / Agency — email marketing services",
+    "tagline": "The #1 Full Service Email Marketing Agency",
+    "colors": {
+      "primary": "#1E5DB3",
+      "accent": "#3D9BE9",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "offer": {
+    "what": "Done-for-you full-service email marketing: Email Data Monetization, Email List Management, Email Marketing Automation, and Email Deliverability — packaged as an agency retainer with AI-enhanced execution.",
+    "coreOutcome": "Grow revenue from an existing email list (or build one) without doing the work in-house.",
+    "pricePoint": "Unknown — no pricing published; likely monthly agency retainer ($2k–$10k/mo range is typical for full-service email agencies at this positioning).",
+    "commitment": "Unknown — retainer or contract assumed; self-serve signup and demo qualifier suggest tiered onboarding.",
+    "leadMagnets": [
+      "Qualify for Demo (gated demo call)"
+    ]
+  },
+  "audience": {
+    "icp": "SMB-to-mid-market business owner or marketing lead who has an email list (or wants one) but lacks the in-house expertise, bandwidth, or deliverability infrastructure to monetize it properly.",
+    "painPoints": [
+      "Emails landing in spam / poor deliverability",
+      "Email list sitting idle and not generating revenue",
+      "No automation — manual sends only",
+      "Agency or in-house team can't keep up with campaigns",
+      "No strategy for monetizing or growing the list"
+    ],
+    "segments": [
+      "E-commerce / DTC brands with large but underutilised lists",
+      "Publishers and media companies with data-monetization goals",
+      "B2B SaaS or services companies needing nurture automation",
+      "Lead-gen businesses needing deliverability + list hygiene"
+    ]
+  },
+  "salesCycle": {
+    "length": "weeks",
+    "trial": "No free trial; primary entry point is a qualifying demo call ('Qualify for Demo' CTA).",
+    "closeMechanism": "Demo/discovery call → proposal → retainer agreement (likely a salesperson or founder-led close).",
+    "topObjection": "'We already handle email in-house' or 'We're not sure the ROI justifies the retainer cost.'"
+  },
+  "ahaMoment": "First live campaign sent on their behalf that hits the inbox and drives measurable revenue — typically within the first 2–4 weeks of onboarding.",
+  "retention": {
+    "recurring": "Yes — monthly agency retainer assumed as primary revenue model.",
+    "expansion": "Upsell to additional service tiers (add deliverability, add data monetization, increase send volume or number of campaigns per month).",
+    "churnRisk": "Client sees slow early results and decides to bring email back in-house or switch to a cheaper tool."
+  },
+  "lifecycleGaps": [
+    "Welcome & Onboarding — no sequence exists (site is early-stage)",
+    "Lead-Magnet Nurture — no lead magnet beyond demo qualifier",
+    "Trial/Consult Conversion — no post-demo nurture sequence",
+    "Booking, Reminders & No-Show — no demo reminder / no-show flow",
+    "Value Newsletter — no ongoing content email program",
+    "Renewal, Anniversary & Expansion — no retention email program",
+    "Win-Back / Re-Engagement — no lapsed-prospect or churn-recovery flow"
+  ],
+  "toneVoice": "Bold and confident (self-proclaimed '#1'); results-focused; forward-looking (AI integration messaging); professional but not stuffy — B2B with a performance-marketing edge.",
+  "compliance": "Standard CAN-SPAM / GDPR compliance expected for an email marketing agency; no HIPAA or financial-services constraints evident."
+}

@@ -1,0 +1,152 @@
+{
+  "brand": {
+    "name": "Warbay",
+    "slug": "warbay",
+    "url": "https://warbay.com",
+    "vertical": "B2B / Agency — full-service email marketing",
+    "colors": {
+      "primary": "#1E5DB3",
+      "accent": "#3D9BE9",
+      "background": "#FFFFFF",
+      "text": "#1A1A1A"
+    }
+  },
+  "summary": "Warbay is a done-for-you, AI-enhanced email marketing agency that grows revenue from a client's email list across four service pillars: data monetization, list management, marketing automation, and deliverability. It sells a monthly retainer to SMB-to-mid-market business owners and marketing leads who have (or want to build) an email list but lack the in-house expertise, bandwidth, or deliverability infrastructure to monetize it. The entire sales funnel gates on a single qualifying demo call.",
+  "campaigns": [
+    {
+      "id": "welcome-onboarding",
+      "name": "Welcome & Onboarding",
+      "priority": 1,
+      "stage": "Onboarding / Activation",
+      "objective": "Drive activation — get a newly-signed client from contract to their first live campaign (the 'aha' moment) fast, before slow-start doubt sets in.",
+      "trigger": "Retainer agreement signed / client account created. Send instantly.",
+      "segment": "New signed clients; branch by the lead service pillar they bought (deliverability, automation, list management, or data monetization).",
+      "rationale": "Warbay's #1 churn risk is clients who never fully onboard — they don't send their list assets, never reach the first-campaign aha, and cancel. A fast, asset-collecting welcome directly attacks that and sets up the 2–4 week path to first measurable revenue.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Warm welcome, set the launch timeline expectation, and drive the single onboarding action that unblocks the first campaign send.",
+          "subject": "Welcome to Warbay — let's get your first campaign live in 2 weeks",
+          "preview": "One quick step today and we'll start auditing your list this week.",
+          "cta": "Complete your onboarding kit",
+          "keyPoints": [
+            "Reassure: we handle everything — your only job today is the 5-minute onboarding kit (ESP access + list + brand assets)",
+            "Set the timeline: list audit this week, strategy next, first live campaign within 2–4 weeks",
+            "Name the dedicated point of contact and invite a real reply — a human reads every one",
+            "Frame the aha: the moment your first Warbay campaign hits the inbox and beats your prior baseline"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demo-booking-reminders",
+      "name": "Demo Booking, Reminders & No-Show Recovery",
+      "priority": 2,
+      "stage": "Conversion / Booking",
+      "objective": "Maximize attended qualifying demo calls and recover the ones that slip, since every retainer starts with one booked call.",
+      "trigger": "Demo booked (confirmation + prep instant); 24h-before and morning-of reminders; no-show event.",
+      "segment": "Anyone who books a qualifying demo via the 'Qualify for Demo' flow.",
+      "rationale": "Warbay's entire funnel gates on a single demo call with no self-serve fallback — every no-show is a lost retainer. Reminders cut no-shows ~35% on average, making this the fastest revenue-protecting flow to ship.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Confirm the demo, lock it into the calendar, and prime the call's value so the prospect shows up ready to talk numbers.",
+          "subject": "You're booked — here's how to get the most from your Warbay demo",
+          "preview": "Add it to your calendar + bring these 3 numbers so we can map your ROI live.",
+          "cta": "Add demo to your calendar",
+          "keyPoints": [
+            "Confirm date/time with one-click add-to-calendar and a no-friction reschedule link",
+            "Set expectations: a 30-minute working session, not a pitch — we'll diagnose your deliverability and list revenue gaps",
+            "Prep ask: bring your current list size, monthly email revenue, and biggest email frustration so we can map projected ROI on the call",
+            "Tease the payoff: leave with a clear read on what your list could be earning"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-demo-conversion",
+      "name": "Post-Demo Consult-to-Retainer Conversion",
+      "priority": 3,
+      "stage": "Conversion",
+      "objective": "Convert a qualified demo into a signed retainer by handling the ROI objection with a concrete, personalized plan.",
+      "trigger": "Demo call completed; runs in parallel with a soft expiry/urgency nudge if no decision within ~7 days.",
+      "segment": "Prospects who attended a demo but haven't signed; branch by company type (DTC/ecom, publisher, B2B SaaS, lead-gen).",
+      "rationale": "The #1 objection is 'I can't justify the retainer until I see the ROI' — so the email that turns a demo into a deal is a tailored proposal that quantifies the upside for THEIR list, not a generic follow-up.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Same-day recap that delivers a custom revenue plan and projected ROI, directly answering 'is this worth the retainer?'",
+          "subject": "Your custom email revenue plan from today's call",
+          "preview": "Here's the inbox + revenue projection we mapped for your list.",
+          "cta": "Review your plan & book the kickoff",
+          "keyPoints": [
+            "Recap the specific deliverability and list-monetization gaps surfaced on the call",
+            "Quantify the opportunity: projected revenue lift for their list size, framed against the retainer cost",
+            "Disarm the in-house objection: show the work and infrastructure their team would otherwise own",
+            "Low-friction close: one link to review the plan and lock a kickoff date this week"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deliverability-audit-nurture",
+      "name": "Free Deliverability Audit Nurture",
+      "priority": 4,
+      "stage": "Nurture / Consideration",
+      "objective": "Move cold leads toward demo-readiness by giving them a real, gated value asset and nurturing on the deliverability pain.",
+      "trigger": "Download of a new lead magnet — a free email deliverability audit / 'spam-to-inbox' scorecard.",
+      "segment": "Leads who downloaded the audit but are below the demo-ready threshold; branch by their top stated pain (spam, idle list, no automation).",
+      "rationale": "Warbay has no top-of-funnel asset beyond the demo gate, so cold traffic has nowhere to go but a high-commitment call. A deliverability audit magnet captures earlier-stage interest and nurtures it toward the demo.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Deliver the audit instantly and frame the real revenue problem hiding behind a deliverability score.",
+          "subject": "Your deliverability audit is here — and it explains the missing revenue",
+          "preview": "Most of your list never sees your emails. Here's what that's costing you.",
+          "cta": "Get your deliverability score",
+          "keyPoints": [
+            "Deliver the audit/scorecard immediately, no extra steps",
+            "Reframe the problem: poor inbox placement isn't a tech issue, it's lost revenue from a list you already paid to build",
+            "Give one quick win they can act on today (e.g., a single authentication or list-hygiene fix)",
+            "Plant the next step: when they want the full fix done for them, a qualifying demo is one click away"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lapsed-prospect-winback",
+      "name": "Lapsed-Prospect Win-Back",
+      "priority": 5,
+      "stage": "Re-engagement",
+      "objective": "Reactivate cold prospects — demo no-shows and audit downloaders who went quiet — and clean the list to protect deliverability.",
+      "trigger": "60–90 days of no clicks/replies after a demo no-show or audit download.",
+      "segment": "Dormant prospects who never booked or never returned; keep separate from churned former clients.",
+      "rationale": "An early-stage agency can't afford to let hard-won leads go cold, and as an email agency Warbay's own list hygiene is part of the pitch — a clean win-back flow both recovers 5–15% of dead leads and walks the talk.",
+      "emails": [
+        {
+          "id": "email-1",
+          "order": 1,
+          "day": "0",
+          "purpose": "Pattern-interrupt re-engagement that reminds the lapsed prospect of the core value and gives one low-friction reason to come back.",
+          "subject": "Still leaving money in your email list?",
+          "preview": "Your list is probably still underperforming. Two minutes to change that.",
+          "cta": "See what your list could earn",
+          "keyPoints": [
+            "Acknowledge the gap without guilt — 'we never finished the conversation'",
+            "Restate the core value: more inbox placement, more revenue, none of the in-house lift",
+            "Offer a fresh, lower-commitment entry point (re-run the free audit or grab a short call)",
+            "Single clear CTA; non-responders route to a final sunset email before suppression"
+          ]
+        }
+      ]
+    }
+  ]
+}
